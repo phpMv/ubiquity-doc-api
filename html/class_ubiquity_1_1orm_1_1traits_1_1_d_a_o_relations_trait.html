@@ -99,11 +99,16 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1traits_1_1_d_
   <img src="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.png" usemap="#DAORelationsTrait_map" alt=""/>
   <map id="DAORelationsTrait_map" name="DAORelationsTrait_map">
 <area href="class_ubiquity_1_1orm_1_1_d_a_o.html" title="Gateway class between database and object model. " alt="DAO" shape="rect" coords="0,56,116,80"/>
+<area href="class_ubiquity_1_1orm_1_1_s_d_a_o.html" title="Ubiquity$SDAO This class is part of Ubiquity. " alt="SDAO" shape="rect" coords="0,112,116,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a01f57281fc12ad53cefdecd173b9f1dc"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a01f57281fc12ad53cefdecd173b9f1dc">_getIncludedForStep</a> ($included)</td></tr>
+<tr class="separator:a01f57281fc12ad53cefdecd173b9f1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439ab82faaf19dab0d39ee2dfbeded5a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a439ab82faaf19dab0d39ee2dfbeded5a">_initRelationFields</a> ($included, $metaDatas, &amp;$invertedJoinColumns, &amp;$oneToManyFields, &amp;$manyToManyFields)</td></tr>
+<tr class="separator:a439ab82faaf19dab0d39ee2dfbeded5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2932683a0376280f1bbd4d67e686d223"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a2932683a0376280f1bbd4d67e686d223">getManyToOne</a> ($instance, $member, $included=false, $useCache=NULL)</td></tr>
 <tr class="memdesc:a2932683a0376280f1bbd4d67e686d223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads member associated with $instance by a ManyToOne relationship.  <a href="#a2932683a0376280f1bbd4d67e686d223">More...</a><br /></td></tr>
 <tr class="separator:a2932683a0376280f1bbd4d67e686d223"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,10 +125,6 @@ Static Public Member Functions</h2></td></tr>
 Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa364a3a5afe1895370937ede8a104f03"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#aa364a3a5afe1895370937ede8a104f03">_getAll</a> (<a class="el" href="class_ubiquity_1_1db_1_1_database.html">Database</a> $db, $className, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html">ConditionParser</a> $conditionParser, $included=true, $useCache=NULL)</td></tr>
 <tr class="separator:aa364a3a5afe1895370937ede8a104f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9983b36b8f795fde9f2ee72ce8924c24"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a9983b36b8f795fde9f2ee72ce8924c24">getIncludedForStep</a> ($included)</td></tr>
-<tr class="separator:a9983b36b8f795fde9f2ee72ce8924c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439ab82faaf19dab0d39ee2dfbeded5a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a439ab82faaf19dab0d39ee2dfbeded5a">_initRelationFields</a> ($included, $metaDatas, &amp;$invertedJoinColumns, &amp;$oneToManyFields, &amp;$manyToManyFields)</td></tr>
-<tr class="separator:a439ab82faaf19dab0d39ee2dfbeded5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -194,6 +195,34 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a01f57281fc12ad53cefdecd173b9f1dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f57281fc12ad53cefdecd173b9f1dc">&#9670;&nbsp;</a></span>_getIncludedForStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static _getIncludedForStep </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$included</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_trait_8php_source.html#l00022">22</a> of file <a class="el" href="_d_a_o_relations_trait_8php_source.html">DAORelationsTrait.php</a>.</p>
+
+</div>
+</div>
 <a id="a439ab82faaf19dab0d39ee2dfbeded5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a439ab82faaf19dab0d39ee2dfbeded5a">&#9670;&nbsp;</a></span>_initRelationFields()</h2>
 
@@ -241,7 +270,7 @@ Static Private Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -299,34 +328,6 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="_d_a_o_relations_trait_8php_source.html#l00232">232</a> of file <a class="el" href="_d_a_o_relations_trait_8php_source.html">DAORelationsTrait.php</a>.</p>
-
-</div>
-</div>
-<a id="a9983b36b8f795fde9f2ee72ce8924c24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9983b36b8f795fde9f2ee72ce8924c24">&#9670;&nbsp;</a></span>getIncludedForStep()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static getIncludedForStep </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$included</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_trait_8php_source.html#l00022">22</a> of file <a class="el" href="_d_a_o_relations_trait_8php_source.html">DAORelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -702,7 +703,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html">DAORelationsTrait</a></li>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:30:01 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:49 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

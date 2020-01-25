@@ -3,6 +3,7 @@ var namespace_ubiquity_1_1orm_1_1traits =
     [ "DAOBulkUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait" ],
     [ "DAOCoreTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait" ],
     [ "DAOPooling", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling" ],
+    [ "DAOPreparedTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_prepared_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_prepared_trait" ],
     [ "DAORelationsAssignmentsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait" ],
     [ "DAORelationsPrepareTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait" ],
     [ "DAORelationsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait" ],

@@ -18,6 +18,6 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait =
     [ "models", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#aaede950e31c49610ddbc5686563590d7", null ],
     [ "reloadConfig", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#a57d9220debd2f24efb5320d39e9e73f4", null ],
     [ "showConfMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#a4b79eb8dc929a4fca7da4c8e2f17dd1b", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "submitConfig", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#ad935faf6f246deb21748834459d388e3", null ]
 ];

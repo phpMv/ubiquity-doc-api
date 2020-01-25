@@ -23,5 +23,6 @@ var class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait =
     [ "setRouteCache", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a518ddd58c101eb404dc800d1d3ad9510", null ],
     [ "sortByPriority", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a5de6da2b88d6fdfac8b14d70f3442227", null ],
     [ "storeDynamicRoutes", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#af1bcf4593c50127d7b45cc7ea91ef7a5", null ],
-    [ "storeRouteResponse", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a90633aff7ba9f5e89368db85ad6ae632", null ]
+    [ "storeRouteResponse", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a90633aff7ba9f5e89368db85ad6ae632", null ],
+    [ "warmUpControllers", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#aee3663e8a71ea4823078de82ec649c47", null ]
 ];

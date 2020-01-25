@@ -21,6 +21,6 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait =
     [ "refreshCommits", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#afeec671257c202d504deef2d7e2e0505", null ],
     [ "refreshFiles", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#aa3893229298e4b453b0649b4765f262f", null ],
     [ "showConfMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a65fffa67c9172bd4fc7c2cff6e893ae8", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "updateGitParams", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a600a3e17afcb6ceb940d878934db9ff0", null ]
 ];

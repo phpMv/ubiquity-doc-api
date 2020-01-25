@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['mailer',['mailer',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a657f9ef1120c191e02b2f61cc42488f8',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
+  ['mailertrait',['MailerTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html',1,'Ubiquity::controllers::admin::traits']]],
+  ['mailertrait_2ephp',['MailerTrait.php',['../_mailer_trait_8php.html',1,'']]],
   ['maintenance',['maintenance',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ab797bfa59b6c857b94205b32c9b26e8f',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
   ['maintenancemode',['MaintenanceMode',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html',1,'Ubiquity::controllers::admin::popo']]],
   ['maintenancemode_2ephp',['MaintenanceMode.php',['../_maintenance_mode_8php.html',1,'']]],
@@ -39,6 +42,7 @@ var searchData=
   ['microtemplateengine',['MicroTemplateEngine',['../class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html',1,'Ubiquity::views::engine::micro']]],
   ['microtemplateengine_2ephp',['MicroTemplateEngine.php',['../_micro_template_engine_8php.html',1,'']]],
   ['missingkeyinconfigmessage',['missingKeyInConfigMessage',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html#a8418763dee37247e87d45e792b324a76',1,'Ubiquity::controllers::admin::traits::CheckTrait']]],
+  ['mixdefaultmailerconfig',['mixDefaultMailerConfig',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a57e2555c882a227c5cdf590a5feb60b0',1,'Ubiquity::controllers::admin::traits::MailerTrait']]],
   ['model',['Model',['../class_ubiquity_1_1orm_1_1creator_1_1_model.html',1,'Ubiquity::orm::creator']]],
   ['model_2ephp',['Model.php',['../_model_8php.html',1,'']]],
   ['modelcacheexists',['modelCacheExists',['../class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a797667407bf479387d343060b1d196c8',1,'Ubiquity::cache::traits::ModelsCacheTrait']]],
@@ -56,6 +60,7 @@ var searchData=
   ['modelstrait_2ephp',['ModelsTrait.php',['../_models_trait_8php.html',1,'']]],
   ['modelviewer',['ModelViewer',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html',1,'Ubiquity::controllers::crud::viewers']]],
   ['modelviewer_2ephp',['ModelViewer.php',['../_model_viewer_8php.html',1,'']]],
+  ['multiplerecipientfield',['multipleRecipientField',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a006d1fa7d629f04fc30ba48a57d4c58a',1,'Ubiquity::controllers::admin::UbiquityMyAdminViewer']]],
   ['multisitesession',['MultisiteSession',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html',1,'Ubiquity::utils::http::session']]],
   ['multisitesession_2ephp',['MultisiteSession.php',['../_multisite_session_8php.html',1,'']]],
   ['mysql_5fdate_5fformat',['MYSQL_DATE_FORMAT',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#a0ad7735303bceb894772d4cbc01b09de',1,'Ubiquity::utils::base::UDateTime']]],

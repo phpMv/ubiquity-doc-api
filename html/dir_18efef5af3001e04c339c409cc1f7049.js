@@ -16,7 +16,16 @@ var dir_18efef5af3001e04c339c409cc1f7049 =
     [ "Router.php", "_router_8php.html", [
       [ "Router", "class_ubiquity_1_1controllers_1_1_router.html", "class_ubiquity_1_1controllers_1_1_router" ]
     ] ],
+    [ "SimpleViewAsyncController.php", "_simple_view_async_controller_8php.html", [
+      [ "SimpleViewAsyncController", "class_ubiquity_1_1controllers_1_1_simple_view_async_controller.html", "class_ubiquity_1_1controllers_1_1_simple_view_async_controller" ]
+    ] ],
+    [ "SimpleViewController.php", "_simple_view_controller_8php.html", [
+      [ "SimpleViewController", "class_ubiquity_1_1controllers_1_1_simple_view_controller.html", "class_ubiquity_1_1controllers_1_1_simple_view_controller" ]
+    ] ],
     [ "Startup.php", "_startup_8php.html", [
       [ "Startup", "class_ubiquity_1_1controllers_1_1_startup.html", "class_ubiquity_1_1controllers_1_1_startup" ]
+    ] ],
+    [ "StartupAsync.php", "_startup_async_8php.html", [
+      [ "StartupAsync", "class_ubiquity_1_1controllers_1_1_startup_async.html", "class_ubiquity_1_1controllers_1_1_startup_async" ]
     ] ]
 ];

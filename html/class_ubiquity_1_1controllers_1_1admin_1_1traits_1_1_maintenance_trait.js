@@ -23,6 +23,6 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait =
     [ "hasMaintenance", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#acc9c1d62c9305de5c4a839a950d689c6", null ],
     [ "loadView", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a80a71e60aa536de9b98b7b773fb54bec", null ],
     [ "showConfMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a4b79eb8dc929a4fca7da4c8e2f17dd1b", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "$maintenanceControllers", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a2cfc11f19a12b416e7ea52a3457dc21c", null ]
 ];

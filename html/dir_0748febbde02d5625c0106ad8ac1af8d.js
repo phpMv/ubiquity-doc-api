@@ -9,5 +9,8 @@ var dir_0748febbde02d5625c0106ad8ac1af8d =
     ] ],
     [ "OrmUtils.php", "_orm_utils_8php.html", [
       [ "OrmUtils", "class_ubiquity_1_1orm_1_1_orm_utils.html", "class_ubiquity_1_1orm_1_1_orm_utils" ]
+    ] ],
+    [ "SDAO.php", "_s_d_a_o_8php.html", [
+      [ "SDAO", "class_ubiquity_1_1orm_1_1_s_d_a_o.html", "class_ubiquity_1_1orm_1_1_s_d_a_o" ]
     ] ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mailertrait',['MailerTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['maintenancemode',['MaintenanceMode',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html',1,'Ubiquity::controllers::admin::popo']]],
   ['maintenancetrait',['MaintenanceTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['maker',['Maker',['../class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_maker.html',1,'Ubiquity::controllers::admin::utils']]],

@@ -24,7 +24,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait =
     [ "showDetail", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aaf28d5ac1cb666403b89871949c97a67", null ],
     [ "showModel", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a2c44d1e493d284e0d307ba7da786a3d3", null ],
     [ "showModelClick", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a1e721f96dc13dd0136afc0325c0b4325", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "update", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a842e4774e3b3601a005b995c02f7e883", null ],
     [ "updateMember", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#adc9a635e10bc35ad531c68b8bc9d2f3c", null ],
     [ "validateInstances", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a6c1a36cf79d81906ada78fc11a751970", null ],

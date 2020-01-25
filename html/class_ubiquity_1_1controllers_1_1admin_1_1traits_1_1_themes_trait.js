@@ -11,5 +11,5 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait =
     [ "setDevtoolsPath", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a92efbe3615e286b8bf148ba57b5b8cf9", null ],
     [ "setTheme", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a6906f08a07318b6027d663f5ddba58bb", null ],
     [ "showConsoleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a18d8e62c692a4f1f9c8f7f164cbf105d", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ]
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ]
 ];

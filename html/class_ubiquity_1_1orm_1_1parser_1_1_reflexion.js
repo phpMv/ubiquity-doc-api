@@ -17,5 +17,6 @@ var class_ubiquity_1_1orm_1_1parser_1_1_reflexion =
     [ "getPropertiesAndValues", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a7bc78a1b440422d38e602403031b12aa", null ],
     [ "getPropValue", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a157964b1df34ca41b727fd4ceb2cbf83", null ],
     [ "getTableName", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a2bee06da346de815972e178d0f643ee4", null ],
-    [ "setMemberValue", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a2b5e65028928900602b3d9c80dd49dab", null ]
+    [ "setMemberValue", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a2b5e65028928900602b3d9c80dd49dab", null ],
+    [ "$classProperties", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#aa32a113a97c11d77a8ca659eb51b5b03", null ]
 ];

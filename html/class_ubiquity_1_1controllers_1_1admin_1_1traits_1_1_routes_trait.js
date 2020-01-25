@@ -6,5 +6,5 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait =
     [ "addNavigationTesting", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#ae4b6adec4234db44a2a460069fa2fc78", null ],
     [ "filterRoutes", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#a066681141b81838af780b8226338ae2c", null ],
     [ "initCacheRouter", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#ab4486fdd09026c543353e241aff5247e", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ]
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ]
 ];

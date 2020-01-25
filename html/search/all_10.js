@@ -1,6 +1,8 @@
 var searchData=
 [
   ['objectasjson',['objectAsJSON',['../class_ubiquity_1_1orm_1_1_orm_utils.html#a779a8d46e4609b2decb968b7283173f0',1,'Ubiquity::orm::OrmUtils']]],
+  ['objectcache',['ObjectCache',['../class_ubiquity_1_1cache_1_1system_1_1_object_cache.html',1,'Ubiquity::cache::system']]],
+  ['objectcache_2ephp',['ObjectCache.php',['../_object_cache_8php.html',1,'']]],
   ['objectsconditionparser',['ObjectsConditionParser',['../class_ubiquity_1_1orm_1_1core_1_1_objects_condition_parser.html',1,'Ubiquity::orm::core']]],
   ['objectsconditionparser_2ephp',['ObjectsConditionParser.php',['../_objects_condition_parser_8php.html',1,'']]],
   ['on',['on',['../interface_ubiquity_1_1events_1_1_event_listener_interface.html#a03e3c10e9a563369ab5fd6ccdd49dd42',1,'Ubiquity::events::EventListenerInterface']]],

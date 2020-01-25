@@ -11,6 +11,7 @@ var hierarchy =
         [ "ArrayApcCache", "class_ubiquity_1_1cache_1_1system_1_1_array_apc_cache.html", null ]
       ] ],
       [ "MemCachedDriver", "class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html", null ],
+      [ "ObjectCache", "class_ubiquity_1_1cache_1_1system_1_1_object_cache.html", null ],
       [ "PhpFastCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html", null ]
     ] ],
     [ "AbstractDbWrapper", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html", [
@@ -39,7 +40,7 @@ var hierarchy =
     [ "AuthControllerVariablesTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
-    [ "AuthFiles", "class_ubiquity_1_1controllers_1_1_auth_1_1_auth_files.html", null ],
+    [ "AuthFiles", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html", null ],
     [ "BaseControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html", [
       [ "AuthControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html", null ],
       [ "CrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html", null ],
@@ -80,7 +81,10 @@ var hierarchy =
         [ "RestController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller.html", null ],
         [ "SimpleRestController", "class_ubiquity_1_1controllers_1_1rest_1_1_simple_rest_controller.html", null ]
       ] ],
-      [ "SeoController", "class_ubiquity_1_1controllers_1_1seo_1_1_seo_controller.html", null ]
+      [ "SeoController", "class_ubiquity_1_1controllers_1_1seo_1_1_seo_controller.html", null ],
+      [ "SimpleViewController", "class_ubiquity_1_1controllers_1_1_simple_view_controller.html", [
+        [ "SimpleViewAsyncController", "class_ubiquity_1_1controllers_1_1_simple_view_async_controller.html", null ]
+      ] ]
     ] ],
     [ "ControllerAction", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html", null ],
     [ "ControllerParserPathTrait", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser_path_trait.html", [
@@ -101,13 +105,24 @@ var hierarchy =
     [ "CRUDHelper", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html", null ],
     [ "CRUDMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html", null ],
     [ "DAOBulkUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html", [
-      [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", null ]
+      [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", [
+        [ "SDAO", "class_ubiquity_1_1orm_1_1_s_d_a_o.html", null ]
+      ] ]
     ] ],
     [ "DAOCoreTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html", [
       [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", null ]
     ] ],
     [ "DAOEvents", "class_ubiquity_1_1events_1_1_d_a_o_events.html", null ],
     [ "DAOPooling", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling.html", [
+      [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", null ]
+    ] ],
+    [ "DAOPreparedQuery", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html", [
+      [ "DAOPreparedQueryAll", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query_all.html", null ],
+      [ "DAOPreparedQueryById", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query_by_id.html", [
+        [ "DAOPreparedQueryOne", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query_one.html", null ]
+      ] ]
+    ] ],
+    [ "DAOPreparedTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_prepared_trait.html", [
       [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", null ]
     ] ],
     [ "DAORelationsAssignmentsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait.html", [
@@ -246,6 +261,9 @@ var hierarchy =
     [ "LogsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
+    [ "MailerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
     [ "MaintenanceMode", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html", null ],
     [ "MaintenanceTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
@@ -282,6 +300,10 @@ var hierarchy =
       [ "OrmUtils", "class_ubiquity_1_1orm_1_1_orm_utils.html", null ]
     ] ],
     [ "PendingRelationsRequest", "class_ubiquity_1_1orm_1_1core_1_1_pending_relations_request.html", null ],
+    [ "PreloaderCacheInfo", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html", null ],
+    [ "PreloaderInternalTrait", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html", [
+      [ "Preloader", "class_ubiquity_1_1cache_1_1_preloader.html", null ]
+    ] ],
     [ "Psr7", "class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_psr7.html", null ],
     [ "ReflexionFieldsTrait", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html", [
       [ "Reflexion", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html", null ]
@@ -330,7 +352,9 @@ var hierarchy =
     [ "SessionObject", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html", null ],
     [ "SqlUtils", "class_ubiquity_1_1db_1_1_sql_utils.html", null ],
     [ "StartupConfigTrait", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html", [
-      [ "Startup", "class_ubiquity_1_1controllers_1_1_startup.html", null ]
+      [ "Startup", "class_ubiquity_1_1controllers_1_1_startup.html", [
+        [ "StartupAsync", "class_ubiquity_1_1controllers_1_1_startup_async.html", null ]
+      ] ]
     ] ],
     [ "TableReversor", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html", null ],
     [ "TemplateEngine", "class_ubiquity_1_1views_1_1engine_1_1_template_engine.html", [

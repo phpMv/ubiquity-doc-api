@@ -9,6 +9,9 @@ var dir_99bdf869c958feda79f1448ba8ed8179 =
     [ "DAOPooling.php", "_d_a_o_pooling_8php.html", [
       [ "DAOPooling", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling" ]
     ] ],
+    [ "DAOPreparedTrait.php", "_d_a_o_prepared_trait_8php.html", [
+      [ "DAOPreparedTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_prepared_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_prepared_trait" ]
+    ] ],
     [ "DAORelationsAssignmentsTrait.php", "_d_a_o_relations_assignments_trait_8php.html", [
       [ "DAORelationsAssignmentsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait" ]
     ] ],

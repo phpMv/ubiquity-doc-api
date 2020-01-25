@@ -31,31 +31,31 @@
         },
         {
             "name": "phpmv/php-mv-ui",
-            "version": "2.2.19",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/phpMv-UI.git",
-                "reference": "9f979c78cbf9be4cbf707da26bc20be1b5a0e6b3"
+                "reference": "2672cd2b21829009b7f0b41073050c28ae9bc405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/9f979c78cbf9be4cbf707da26bc20be1b5a0e6b3",
-                "reference": "9f979c78cbf9be4cbf707da26bc20be1b5a0e6b3",
+                "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/2672cd2b21829009b7f0b41073050c28ae9bc405",
+                "reference": "2672cd2b21829009b7f0b41073050c28ae9bc405",
                 "shasum": ""
             },
             "require": {
                 "frameworks/jquery": "~2.1",
-                "php": ">5.3.9"
+                "php": ">7.0"
             },
             "suggest": {
                 "components/jqueryui": "~1.11",
-                "semantic/ui": "~2.2.1",
+                "fomantic/ui": "~2.7.8",
                 "twitter/bootstrap": "~3.3"
             },
-            "type": "phpmv-ui",
+            "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "2.4.x-dev"
                 }
             },
             "autoload": {
@@ -71,7 +71,7 @@
                 {
                     "name": "Jean-Christophe HERON",
                     "email": "myaddressmail@gmail.com",
-                    "role": "Developer"
+                    "role": "Lead developer"
                 }
             ],
             "description": "A JQuery and UI library for php and php MVC frameworks",
@@ -86,9 +86,10 @@
                 "semantic ui",
                 "symfony",
                 "twitter bootstrap",
+                "ubiquity",
                 "yii"
             ],
-            "time": "2019-09-09T16:56:26+00:00"
+            "time": "2020-01-02T22:36:10+00:00"
         },
         {
             "name": "phpmv/ubiquity",
@@ -96,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity.git",
-                "reference": "3195185e5e92e8b6294c3cbdf29466008bec582f"
+                "reference": "cd317cf7ff5afb755c15d5c642f765f478c0f1dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/3195185e5e92e8b6294c3cbdf29466008bec582f",
-                "reference": "3195185e5e92e8b6294c3cbdf29466008bec582f",
+                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/cd317cf7ff5afb755c15d5c642f765f478c0f1dd",
+                "reference": "cd317cf7ff5afb755c15d5c642f765f478c0f1dd",
                 "shasum": ""
             },
             "require": {
@@ -142,7 +143,7 @@
                 "orm",
                 "php"
             ],
-            "time": "2019-10-28T15:07:54+00:00"
+            "time": "2020-01-25T00:43:41+00:00"
         },
         {
             "name": "phpmv/ubiquity-dev",
@@ -150,12 +151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity-dev.git",
-                "reference": "bff16a2ea7a64bbcc011a05627e3b3e0b0544a18"
+                "reference": "ea2d91ed9e21295f3408decd9c9a0abf5d137d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/bff16a2ea7a64bbcc011a05627e3b3e0b0544a18",
-                "reference": "bff16a2ea7a64bbcc011a05627e3b3e0b0544a18",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/ea2d91ed9e21295f3408decd9c9a0abf5d137d25",
+                "reference": "ea2d91ed9e21295f3408decd9c9a0abf5d137d25",
                 "shasum": ""
             },
             "require": {
@@ -186,13 +187,13 @@
             "description": "dev classes for Ubiquity framework",
             "keywords": [
                 "framework",
+                "mailer",
                 "mvc",
-                "orm",
                 "php",
                 "php-framework",
                 "tools"
             ],
-            "time": "2019-10-28T15:29:14+00:00"
+            "time": "2019-12-04T02:27:58+00:00"
         },
         {
             "name": "phpmv/ubiquity-webtools",
@@ -200,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity-webtools.git",
-                "reference": "391aef4f9f431d84553e8de6de3e6b796bf24f35"
+                "reference": "2782865c8e73813f7fc55bb74585da937a238758"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/391aef4f9f431d84553e8de6de3e6b796bf24f35",
-                "reference": "391aef4f9f431d84553e8de6de3e6b796bf24f35",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/2782865c8e73813f7fc55bb74585da937a238758",
+                "reference": "2782865c8e73813f7fc55bb74585da937a238758",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +245,7 @@
                 "php-framework",
                 "tools"
             ],
-            "time": "2019-10-28T15:28:45+00:00"
+            "time": "2020-01-24T23:50:42+00:00"
         }
     ],
     "packages-dev": [],

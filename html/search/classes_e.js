@@ -8,5 +8,8 @@ var searchData=
   ['phphttp',['PhpHttp',['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_php_http.html',1,'Ubiquity::utils::http::foundation']]],
   ['phpsession',['PhpSession',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html',1,'Ubiquity::utils::http::session']]],
   ['postannotation',['PostAnnotation',['../class_ubiquity_1_1annotations_1_1router_1_1_post_annotation.html',1,'Ubiquity::annotations::router']]],
+  ['preloader',['Preloader',['../class_ubiquity_1_1cache_1_1_preloader.html',1,'Ubiquity::cache']]],
+  ['preloadercacheinfo',['PreloaderCacheInfo',['../class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html',1,'Ubiquity::cache::preloading']]],
+  ['preloaderinternaltrait',['PreloaderInternalTrait',['../class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html',1,'Ubiquity::cache::preloading']]],
   ['psr7',['Psr7',['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_psr7.html',1,'Ubiquity::utils::http::foundation']]]
 ];

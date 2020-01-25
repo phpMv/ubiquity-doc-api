@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mailer',['mailer',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a657f9ef1120c191e02b2f61cc42488f8',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
   ['maintenance',['maintenance',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ab797bfa59b6c857b94205b32c9b26e8f',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
   ['manyfromarray',['manyFromArray',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html#a4a34ec7ef258b7d64ec9f3c341f1d7a0',1,'Ubiquity::controllers::admin::popo::MaintenanceMode']]],
   ['manytomanyformfield',['manyToManyFormField',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#aa5596da2b634c3c1511590e534eb5d33',1,'Ubiquity::controllers::crud::viewers::traits::FormModelViewerTrait']]],
@@ -11,9 +12,11 @@ var searchData=
   ['mergeroutearray',['mergeRouteArray',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#ad07919e0580216d1895e015788917f5b',1,'Ubiquity::controllers::admin::popo::Route']]],
   ['message',['message',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a0d5395c75e330f52a914cb9a37a9af80',1,'Ubiquity::controllers::auth::AuthControllerCoreTrait']]],
   ['missingkeyinconfigmessage',['missingKeyInConfigMessage',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html#a8418763dee37247e87d45e792b324a76',1,'Ubiquity::controllers::admin::traits::CheckTrait']]],
+  ['mixdefaultmailerconfig',['mixDefaultMailerConfig',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a57e2555c882a227c5cdf590a5feb60b0',1,'Ubiquity::controllers::admin::traits::MailerTrait']]],
   ['modelcacheexists',['modelCacheExists',['../class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a797667407bf479387d343060b1d196c8',1,'Ubiquity::cache::traits::ModelsCacheTrait']]],
   ['models',['models',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#aaede950e31c49610ddbc5686563590d7',1,'Ubiquity\controllers\admin\traits\ConfigTrait\models()'],['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#aaede950e31c49610ddbc5686563590d7',1,'Ubiquity\controllers\admin\UbiquityMyAdminBaseController\models()']]],
   ['modelscacheupdated',['modelsCacheUpdated',['../class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a9bbf9c87ebcabc679f00a6c59eb672cb',1,'Ubiquity::cache::traits::ModelsCacheTrait']]],
+  ['multiplerecipientfield',['multipleRecipientField',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a006d1fa7d629f04fc30ba48a57d4c58a',1,'Ubiquity::controllers::admin::UbiquityMyAdminViewer']]],
   ['mysqlcreate',['mysqlCreate',['../class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#a74cfef4171140e6565a5e35c1e9012c6',1,'Ubiquity::orm::bulk::BulkUpdates']]],
   ['mysqldate',['mysqlDate',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#aa72fbb86352805c73e8d770951f5ec30',1,'Ubiquity::utils::base::UDateTime']]],
   ['mysqldatetime',['mysqlDateTime',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#a20cc1c31467a551bb1ea549ec0f1b458',1,'Ubiquity::utils::base::UDateTime']]]

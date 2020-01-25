@@ -7,5 +7,5 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait =
     [ "exportDatasScript", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#a6a44716f1cf94408b08a61196a7955bd", null ],
     [ "getModels", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#a85257a6026e75945f9e50ece1077c10c", null ],
     [ "loadView", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#a80a71e60aa536de9b98b7b773fb54bec", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ]
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ]
 ];

@@ -2,6 +2,7 @@ var class_ubiquity_1_1utils_1_1base_1_1_u_array =
 [
     [ "asJSON", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#a69507b0a7cdbf04c416618ad5e440176", null ],
     [ "asPhpArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#a2890c6c1adb3203241d2fac52d8fce68", null ],
+    [ "asPhpClass", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#adbd59f1c096547a7cc951d944b9fb7b7", null ],
     [ "doubleBackSlashes", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#ab01657c1786d64178a8a7887cc58411c", null ],
     [ "extractKeys", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#a8b92ebec4c13335ebed0ca78f142f72d", null ],
     [ "getDefaultValue", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html#aabc14c3dce3e17bb7931eb3e6b0d37ed", null ],

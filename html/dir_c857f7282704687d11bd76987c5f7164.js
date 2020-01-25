@@ -24,6 +24,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     [ "LogsTrait.php", "_logs_trait_8php.html", [
       [ "LogsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait" ]
     ] ],
+    [ "MailerTrait.php", "_mailer_trait_8php.html", [
+      [ "MailerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait" ]
+    ] ],
     [ "MaintenanceTrait.php", "_maintenance_trait_8php.html", [
       [ "MaintenanceTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait" ]
     ] ],

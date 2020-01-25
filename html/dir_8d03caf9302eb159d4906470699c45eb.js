@@ -13,7 +13,7 @@ var dir_8d03caf9302eb159d4906470699c45eb =
       [ "AuthControllerVariablesTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait" ]
     ] ],
     [ "AuthFiles.php", "_auth_files_8php.html", [
-      [ "AuthFiles", "class_ubiquity_1_1controllers_1_1_auth_1_1_auth_files.html", "class_ubiquity_1_1controllers_1_1_auth_1_1_auth_files" ]
+      [ "AuthFiles", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_files" ]
     ] ],
     [ "WithAuthTrait.php", "_with_auth_trait_8php.html", [
       [ "WithAuthTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html", "class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait" ]

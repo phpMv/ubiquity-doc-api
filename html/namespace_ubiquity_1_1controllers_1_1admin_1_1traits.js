@@ -8,6 +8,7 @@ var namespace_ubiquity_1_1controllers_1_1admin_1_1traits =
     [ "DatabaseTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait" ],
     [ "GitTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait" ],
     [ "LogsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait" ],
+    [ "MailerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait" ],
     [ "MaintenanceTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait" ],
     [ "ModelsConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait" ],
     [ "ModelsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait" ],

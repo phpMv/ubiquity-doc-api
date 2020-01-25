@@ -9,5 +9,6 @@ var class_ubiquity_1_1cache_1_1_class_utils =
     [ "getClassNameWithNS", "class_ubiquity_1_1cache_1_1_class_utils.html#addc8818c244d8f748f780f800178b1b7", null ],
     [ "getClassObjectFromFile", "class_ubiquity_1_1cache_1_1_class_utils.html#a09b269b3d9e4b22de7351526f1b8a585", null ],
     [ "getClassSimpleName", "class_ubiquity_1_1cache_1_1_class_utils.html#aecffee0418529ac2e44d1b748f832a77", null ],
+    [ "getNamespaceFromCompleteClassname", "class_ubiquity_1_1cache_1_1_class_utils.html#a3f5ba962eab9c1a0e5d81a47b27f45c4", null ],
     [ "getNamespaceFromParts", "class_ubiquity_1_1cache_1_1_class_utils.html#ab60b7fb8f306ce371532369115cbeda6", null ]
 ];

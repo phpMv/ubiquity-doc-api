@@ -20,5 +20,5 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait =
     [ "createController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#aad03d2b544dccdf06d138d86af6de103", null ],
     [ "filterControllers", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a6383a50f66a8924567f25f17469947a6", null ],
     [ "frmFilterControllers", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a8dca6363bcea2df8d6958053af8793c5", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ]
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ]
 ];

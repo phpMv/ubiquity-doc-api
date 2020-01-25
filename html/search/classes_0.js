@@ -19,7 +19,7 @@ var searchData=
   ['authcontrollercreator',['AuthControllerCreator',['../class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html',1,'Ubiquity::scaffolding::creators']]],
   ['authcontrolleroverridetrait',['AuthControllerOverrideTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html',1,'Ubiquity::controllers::auth']]],
   ['authcontrollervariablestrait',['AuthControllerVariablesTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html',1,'Ubiquity::controllers::auth']]],
-  ['authfiles',['AuthFiles',['../class_ubiquity_1_1controllers_1_1_auth_1_1_auth_files.html',1,'Ubiquity::controllers::Auth']]],
+  ['authfiles',['AuthFiles',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html',1,'Ubiquity::controllers::auth']]],
   ['authorizationannotation',['AuthorizationAnnotation',['../class_ubiquity_1_1annotations_1_1rest_1_1_authorization_annotation.html',1,'Ubiquity::annotations::rest']]],
   ['autowiredannotation',['AutowiredAnnotation',['../class_ubiquity_1_1annotations_1_1di_1_1_autowired_annotation.html',1,'Ubiquity::annotations::di']]]
 ];

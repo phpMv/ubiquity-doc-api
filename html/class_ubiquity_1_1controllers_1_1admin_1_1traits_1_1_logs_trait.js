@@ -11,6 +11,6 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait =
     [ "logsRefresh", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#adeefbf18061f7098f29ec2e0ad910855", null ],
     [ "reloadConfig", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a57d9220debd2f24efb5320d39e9e73f4", null ],
     [ "showConfMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a4b79eb8dc929a4fca7da4c8e2f17dd1b", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "startStopLogging", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#aa07929c271db089e37be18775def2841", null ]
 ];

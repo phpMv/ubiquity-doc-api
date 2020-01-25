@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['mailertrait_2ephp',['MailerTrait.php',['../_mailer_trait_8php.html',1,'']]],
   ['maintenancemode_2ephp',['MaintenanceMode.php',['../_maintenance_mode_8php.html',1,'']]],
   ['maintenancetrait_2ephp',['MaintenanceTrait.php',['../_maintenance_trait_8php.html',1,'']]],
   ['maker_2ephp',['Maker.php',['../_maker_8php.html',1,'']]],

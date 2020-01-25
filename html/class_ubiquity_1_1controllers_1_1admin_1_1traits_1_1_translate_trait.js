@@ -25,7 +25,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait =
     [ "refreshDomain", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a10801e700787de79ef380729f16cfbcb", null ],
     [ "refreshDomainAll", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a5511e965472669118a951bd0330d1d8a", null ],
     [ "saveTranslationsUpdates", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a5939272613feaac4147a831ee9916e89", null ],
-    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#aa2f037d4775b36c0d95fdb73a97bb583", null ],
+    [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "updateTranslation", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a187a425edf7fd980494f386137795ced", null ],
     [ "$newTransRowId", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#aab6f0af989e5595622bcd23cb4dd5eb8", null ]
 ];

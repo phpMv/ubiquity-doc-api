@@ -15,6 +15,9 @@ var dir_0911a2ebff674288e01d61e23dd21f9f =
     [ "MemCachedDriver.php", "_mem_cached_driver_8php.html", [
       [ "MemCachedDriver", "class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html", "class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver" ]
     ] ],
+    [ "ObjectCache.php", "_object_cache_8php.html", [
+      [ "ObjectCache", "class_ubiquity_1_1cache_1_1system_1_1_object_cache.html", "class_ubiquity_1_1cache_1_1system_1_1_object_cache" ]
+    ] ],
     [ "PhpFastCacheDriver.php", "_php_fast_cache_driver_8php.html", [
       [ "PhpFastCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver" ]
     ] ]

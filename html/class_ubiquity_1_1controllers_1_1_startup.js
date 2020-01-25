@@ -1,5 +1,6 @@
 var class_ubiquity_1_1controllers_1_1_startup =
 [
+    [ "_getControllerInstance", "class_ubiquity_1_1controllers_1_1_startup.html#a61bbeec19b0640331aa0cc99ef641ce7", null ],
     [ "errorHandler", "class_ubiquity_1_1controllers_1_1_startup.html#a27ebddb24bb1d38671731a31e7d5d877", null ],
     [ "forward", "class_ubiquity_1_1controllers_1_1_startup.html#a9b46641b37bafe372aee9e3d9b9ec059", null ],
     [ "getAction", "class_ubiquity_1_1controllers_1_1_startup.html#af8b331d3ac442a1071aa9f7db3b60637", null ],
@@ -7,7 +8,6 @@ var class_ubiquity_1_1controllers_1_1_startup =
     [ "getApplicationDir", "class_ubiquity_1_1controllers_1_1_startup.html#ac84bdec7d359bb13678e13addf9f66b0", null ],
     [ "getApplicationName", "class_ubiquity_1_1controllers_1_1_startup.html#ab62e7f52cb3527b3b268fb11f217f891", null ],
     [ "getController", "class_ubiquity_1_1controllers_1_1_startup.html#a0c5216068060ca9253dbad31e5895a2b", null ],
-    [ "getControllerInstance", "class_ubiquity_1_1controllers_1_1_startup.html#a12a975fb016771071f7cbea9581aeeff", null ],
     [ "getControllerSimpleName", "class_ubiquity_1_1controllers_1_1_startup.html#a22e067a1ccc62011b6262a6945d474d0", null ],
     [ "getFrameworkDir", "class_ubiquity_1_1controllers_1_1_startup.html#aed04b12fd6e0cccdf365d9030e470218", null ],
     [ "getTempateEngineInstance", "class_ubiquity_1_1controllers_1_1_startup.html#aaadd5b8954fdceecfea80183306d0163", null ],
@@ -23,7 +23,6 @@ var class_ubiquity_1_1controllers_1_1_startup =
     [ "$action", "class_ubiquity_1_1controllers_1_1_startup.html#aa698a3e72116e8e778be0e95d908ee30", null ],
     [ "$actionParams", "class_ubiquity_1_1controllers_1_1_startup.html#acfa39f85a05a6dba1443751b261f4624", null ],
     [ "$controller", "class_ubiquity_1_1controllers_1_1_startup.html#a388ef7b1db5e6f728e63cee704ce6e23", null ],
-    [ "$controllers", "class_ubiquity_1_1controllers_1_1_startup.html#a08663f6ed9bbc9798229d7f4546cc9c8", null ],
     [ "$templateEngine", "class_ubiquity_1_1controllers_1_1_startup.html#a7d78f65b2b389dcfcb5ddcc7a5ac5f5b", null ],
     [ "$urlParts", "class_ubiquity_1_1controllers_1_1_startup.html#a3dc01718a1727415f550288ab7afba74", null ]
 ];

@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_array_apc_cache.html#a968e57d6786a8c6cadfa52951a9ed768">ArrayApcCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_array_cache.html#a968e57d6786a8c6cadfa52951a9ed768">ArrayCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html#a968e57d6786a8c6cadfa52951a9ed768">MemCachedDriver</a>
+, <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_object_cache.html#a968e57d6786a8c6cadfa52951a9ed768">ObjectCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a968e57d6786a8c6cadfa52951a9ed768">PhpFastCacheDriver</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html#ade0d6a933cbeda77f5ee35c4ba41949c">ValidatorsManager</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html#aefe17d165258f08cf8a7b70e7445b6c3">DiManager</a>
@@ -121,6 +122,7 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#a0d104de0ffa0a4ab9132923a03144099">ApcuCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_array_cache.html#a0d104de0ffa0a4ab9132923a03144099">ArrayCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html#a0d104de0ffa0a4ab9132923a03144099">MemCachedDriver</a>
+, <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_object_cache.html#a0d104de0ffa0a4ab9132923a03144099">ObjectCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a0d104de0ffa0a4ab9132923a03144099">PhpFastCacheDriver</a>
 </li>
 <li>filled()
@@ -140,6 +142,9 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 , <a class="el" href="class_ubiquity_1_1controllers_1_1_controller.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">Controller</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1_controller_base.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">ControllerBase</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">RestBaseController</a>
+</li>
+<li>FINALIZE
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_startup_async.html#a53bf31f2fc99e17738cd5b68ef3e9965">StartupAsync</a>
 </li>
 <li>finalizeTokens()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#accd77242ede69b631796507e265c6ede">RestServer</a>
@@ -220,12 +225,16 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a66363b5e076d7767acd36cbdecaae230">GitTrait</a>
 </li>
 <li>fromArray()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html#ad4f6720dc4b9710ab4a80a44583f9c48">MaintenanceMode</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1_preloader.html#a6da3588bd23ece41eb579964a09881ff">Preloader</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html#ad4f6720dc4b9710ab4a80a44583f9c48">MaintenanceMode</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a66a6c502659b138934bf1b3aa629a3ca">Route</a>
 , <a class="el" href="class_ubiquity_1_1seo_1_1_url.html#a0c5d91946fd0cf263e30b551de02f16a">Url</a>
 </li>
 <li>fromCookie()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html#aa7200c987ff86bf5577e1e692a635a59">AuthControllerOverrideTrait</a>
+</li>
+<li>fromFile()
+: <a class="el" href="class_ubiquity_1_1cache_1_1_preloader.html#a8ac3b86afa92f5372682532e0e9f03f5">Preloader</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -234,7 +243,7 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:30:05 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:53 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>
