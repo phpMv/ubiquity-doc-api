@@ -1,0 +1,14 @@
+var namespace_ubiquity_1_1orm_1_1traits =
+[
+    [ "DAOBulkUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait" ],
+    [ "DAOCoreTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait" ],
+    [ "DAOPooling", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_pooling" ],
+    [ "DAORelationsAssignmentsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_assignments_trait" ],
+    [ "DAORelationsPrepareTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait" ],
+    [ "DAORelationsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait" ],
+    [ "DAOTransactionsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait" ],
+    [ "DAOUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait" ],
+    [ "DAOUQueries", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_u_queries.html", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_u_queries" ],
+    [ "OrmUtilsFieldsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait" ],
+    [ "OrmUtilsRelationsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait" ]
+];
