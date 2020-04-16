@@ -16,6 +16,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer =
     [ "getArrayDataForm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#ab089bfea512926b97268f9972809cfc7", null ],
     [ "getCacheDataTable", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a67c6c960449e393f8d9c9227c0905c8f", null ],
     [ "getCaptionToggleButton", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a5ad398ec6cd6f85a1747c0e2ddec1897", null ],
+    [ "getComposerDataTable", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a0a593e32d9c5cac64e1afb43f67122f8", null ],
     [ "getConfigDataElement", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a685714c24ec41aea540d1236db0bacf2", null ],
     [ "getConfigDataForm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#ab795b6ec01a6358f83ff29a6912b13d2", null ],
     [ "getConfigMailerDataForm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a59fea1c923fdbbd9a429d4d0c7db6510", null ],

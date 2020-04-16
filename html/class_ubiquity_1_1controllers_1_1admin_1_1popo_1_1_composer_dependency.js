@@ -1,0 +1,26 @@
+var class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency =
+[
+    [ "__construct", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ad569cdbc78e1cba221e709d451adaa7d", null ],
+    [ "addComposerPart", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#aced41121f5e1ad1948fbbb38c95fb3ba", null ],
+    [ "getCategory", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ada0bf69887885f455ebdfbe878e14543", null ],
+    [ "getComposer", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a182025bb44786898e31d2e85010d046a", null ],
+    [ "getLoaded", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ae75c5892422534b51e33a88890f11db3", null ],
+    [ "getName", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a3d0963e68bb313b163a73f2803c64600", null ],
+    [ "getOptional", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a4857a8221c8bb4d12137c05e491f94ef", null ],
+    [ "getPart", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ab2dc5aefd4f1b8e48f51f50a691a6081", null ],
+    [ "getVersion", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#afa8e7a3a646144eab50188b7a805a389", null ],
+    [ "load", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a75757cf288f3558a363be42aef81848f", null ],
+    [ "setCategory", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a309475f82c8fca1a84f96f802f05a5fb", null ],
+    [ "setLoaded", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a88f91daa2c3962590e783c174df0f521", null ],
+    [ "setName", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a2fe666694997d047711d7653eca2f132", null ],
+    [ "setOptional", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#acdba8d1bc1ed24849ab12bf81f0ab697", null ],
+    [ "setPart", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a933d4dd6d4ee89541e93dd7828d25e5e", null ],
+    [ "setVersion", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a6a2f870d59df617e76c79a9996646832", null ],
+    [ "$category", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a18b2a8d133fa7733bf34abcc6ca2ef5b", null ],
+    [ "$composerContent", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a883eaf6ef97d33ff3ebc963b9c0c0fe1", null ],
+    [ "$loaded", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a3b5a1179b24abbc9be2a18eeda5ba297", null ],
+    [ "$name", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ab2fc40d43824ea3e1ce5d86dee0d763b", null ],
+    [ "$optional", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a8d50efd090a3dbb81de883567a422a5f", null ],
+    [ "$part", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a9926d99c406076259bb8aded88ac85ce", null ],
+    [ "$version", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a17c8948c68aa44fa9961ae169b6a8961", null ]
+];

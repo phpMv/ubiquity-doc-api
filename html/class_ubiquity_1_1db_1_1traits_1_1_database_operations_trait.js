@@ -10,7 +10,7 @@ var class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait =
     [ "getStatement", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a774f7234370bd21f8c5d1b7405feabc5", null ],
     [ "getUpdateStatement", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a35a3bb8c96f90c28ce932058f67b8991", null ],
     [ "isConnected", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#af160f7fbbf281d018ae3162521b8267d", null ],
-    [ "lastInserId", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#ab2df1dd095fc0c1beffba99320193a59", null ],
+    [ "lastInserId", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a017d6ec1c4d7dc64ab16d7a824f938e5", null ],
     [ "ping", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a6dad377f74b0ce6f21b485ba11052746", null ],
     [ "prepareAndExecute", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a27882382eb16752775efb38323e99d2c", null ],
     [ "prepareAndExecuteUpdate", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a251d7235c1947ea39bc3ec9154179897", null ],

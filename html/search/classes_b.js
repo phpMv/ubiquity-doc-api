@@ -22,5 +22,6 @@ var searchData=
   ['modelscreator',['ModelsCreator',['../class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html',1,'Ubiquity::orm::creator']]],
   ['modelstrait',['ModelsTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['modelviewer',['ModelViewer',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html',1,'Ubiquity::controllers::crud::viewers']]],
-  ['multisitesession',['MultisiteSession',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html',1,'Ubiquity::utils::http::session']]]
+  ['multisitesession',['MultisiteSession',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html',1,'Ubiquity::utils::http::session']]],
+  ['mysqldrivermetas',['MysqlDriverMetas',['../class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_mysql_driver_metas.html',1,'Ubiquity::db::providers::pdo::drivers']]]
 ];

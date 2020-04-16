@@ -10,6 +10,7 @@ var searchData=
   ['simpleviewasynccontroller',['SimpleViewAsyncController',['../class_ubiquity_1_1controllers_1_1_simple_view_async_controller.html',1,'Ubiquity::controllers']]],
   ['simpleviewcontroller',['SimpleViewController',['../class_ubiquity_1_1controllers_1_1_simple_view_controller.html',1,'Ubiquity::controllers']]],
   ['sqlexport',['SqlExport',['../class_ubiquity_1_1db_1_1export_1_1_sql_export.html',1,'Ubiquity::db::export']]],
+  ['sqlitedrivermetas',['SqliteDriverMetas',['../class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_sqlite_driver_metas.html',1,'Ubiquity::db::providers::pdo::drivers']]],
   ['sqlutils',['SqlUtils',['../class_ubiquity_1_1db_1_1_sql_utils.html',1,'Ubiquity::db']]],
   ['startup',['Startup',['../class_ubiquity_1_1controllers_1_1_startup.html',1,'Ubiquity::controllers']]],
   ['startupasync',['StartupAsync',['../class_ubiquity_1_1controllers_1_1_startup_async.html',1,'Ubiquity::controllers']]],

@@ -1,6 +1,9 @@
 var class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query =
 [
     [ "__construct", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#abdd632de2502c869e293e15adcbfce0e", null ],
+    [ "addAditionnalMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#ad11cd36894f8b837fc34da0fa3c520fd", null ],
+    [ "addMember", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aa1a5d9953616b21f144447724a11d11c", null ],
+    [ "addMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a1fd770a02504521f7b84be0fa406a8f9", null ],
     [ "execute", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a295c89e7dfee65247a216b73c2e58a24", null ],
     [ "getAccessors", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a0983134fad1d3281a471fd1cdeb252be", null ],
     [ "getClassName", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#ab8f8ee56588ebf5091c288e44ebdfaf4", null ],
@@ -18,8 +21,11 @@ var class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query =
     [ "getTableName", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a93566f2c8d709d410ae8ec46b813999b", null ],
     [ "getTransformers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#adfdcb5c13937ce1e553ab6a3292d52c7", null ],
     [ "getUseCache", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a85a52367fb087a5426930d9acdc0e114", null ],
+    [ "parseExpressions", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#abaa0b60a5b790d40bb10d3a42ec771d3", null ],
     [ "prepare", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a9596f1635d3c078fa06ab0166bcbb11b", null ],
+    [ "updateSqlAdditionalMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a8e6113b4fac90c4fea7151c03f113eb8", null ],
     [ "$accessors", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#af2a5c7931f51c95db786937292c398ab", null ],
+    [ "$additionalMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#af6339e5cdd5b3be1398ac65bef9ee439", null ],
     [ "$className", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#acd6a475a6eeb092f4eea3e19e502d67d", null ],
     [ "$condition", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a16bc4b377f5da473f62957e96700bc8f", null ],
     [ "$conditionParser", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#ac4468489f8ad4103615c40e26a3ec45f", null ],
@@ -32,7 +38,9 @@ var class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query =
     [ "$invertedJoinColumns", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#abe13f1dc288dd4e1e60de0d77beab2f6", null ],
     [ "$manyToManyFields", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#adb95e568164ddaab0827cca8bcb19a94", null ],
     [ "$oneToManyFields", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a059a21044a1ef23e7396733f52cc7a92", null ],
+    [ "$preparedCondition", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aa21f842058986af44cfba6b317ec047c", null ],
     [ "$propsKeys", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aa674f9e5ccaba48e695a66215738117c", null ],
+    [ "$sqlAdditionalMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a1687dabc772b3a7e58657aee0d1fb1fb", null ],
     [ "$tableName", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aea06aaf672e3fe5fbf45958ae2782244", null ],
     [ "$transformers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a4f8449c25b3a04780dc51ea4a64cce9a", null ],
     [ "$useCache", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a7cb5cb22a518ff1f7f3760c52852eea4", null ]

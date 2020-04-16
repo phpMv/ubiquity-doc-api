@@ -1,6 +1,6 @@
 var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait =
 [
-    [ "_deleteMultiple", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ace8d55637e04198854efb135b49a437e", null ],
+    [ "_deleteMultiple", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a7c8d6ee0f0df5bc7b7a6996d65ae6a9b", null ],
     [ "_edit", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a35d37f23b5935befaf63966aee282ccc", null ],
     [ "_getAdminData", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a1728d8b515816623b042eeb85e48f77f", null ],
     [ "_getBaseRoute", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#afabd88e26b52cfdbcf65ddd5f7c3fef8", null ],

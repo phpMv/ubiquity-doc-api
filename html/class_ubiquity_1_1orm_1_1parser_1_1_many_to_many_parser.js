@@ -1,6 +1,6 @@
 var class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser =
 [
-    [ "__construct", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a79838ed776ddbed42d251c2f4f505b54", null ],
+    [ "__construct", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#abfe0a96cfe1e74cb7be39174dfdf5f06", null ],
     [ "_init", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a7919ada452553b4ea00792c10170b4cc", null ],
     [ "addValue", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a683dee921785b9d556a05641e944a8bd", null ],
     [ "generateConcatSQL", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#adf5f4a885446c4613a79f645e3c7e0f9", null ],
@@ -33,6 +33,7 @@ var class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser =
     [ "setTargetEntity", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#ac4e60e0ce193b4615c988b3f558e5166", null ],
     [ "setTargetEntityClass", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a6ada9842bf584db436f03b731dbc75f3", null ],
     [ "setTargetEntityTable", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a65c64e5c66abcc8ccf7fb0ba39cc38a7", null ],
+    [ "$db", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a1fa3127fc82f96b1436d871ef02be319", null ],
     [ "$fkField", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a54139349441f9432a28364bba0ff55ea", null ],
     [ "$instance", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#ad9d7ce33ebb142b70e58b68052ca0ea8", null ],
     [ "$inversedBy", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#affdd9d27a393d5b0e4a5efc03d488ea5", null ],

@@ -12,6 +12,8 @@ var searchData=
   ['classutils_2ephp',['ClassUtils.php',['../_class_utils_8php.html',1,'']]],
   ['codeutils_2ephp',['CodeUtils.php',['../_code_utils_8php.html',1,'']]],
   ['columnannotation_2ephp',['ColumnAnnotation.php',['../_column_annotation_8php.html',1,'']]],
+  ['composerdependency_2ephp',['ComposerDependency.php',['../_composer_dependency_8php.html',1,'']]],
+  ['composertrait_2ephp',['ComposerTrait.php',['../_composer_trait_8php.html',1,'']]],
   ['conditionparser_2ephp',['ConditionParser.php',['../_condition_parser_8php.html',1,'']]],
   ['configtrait_2ephp',['ConfigTrait.php',['../_config_trait_8php.html',1,'']]],
   ['constants_2ephp',['Constants.php',['../_constants_8php.html',1,'']]],

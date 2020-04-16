@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.3</span>
+   &#160;<span id="projectnumber">2.3.6</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -132,8 +132,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa84ae98adb221b36872dfcb9e87546a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c6896c3c75b18ef32df01874ac4bb31"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a8c6896c3c75b18ef32df01874ac4bb31">getAnnotFieldsInRelations</a> ($class)</td></tr>
 <tr class="separator:a8c6896c3c75b18ef32df01874ac4bb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb73cdd30ad7c152133dab4f97dabc9"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a1fb73cdd30ad7c152133dab4f97dabc9">getUJoinSQL</a> ($model, $arrayAnnot, $field, &amp;$aliases, $quote)</td></tr>
-<tr class="separator:a1fb73cdd30ad7c152133dab4f97dabc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491a87a84c1874510b032fa02a2f0a61"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a491a87a84c1874510b032fa02a2f0a61">getUJoinSQL</a> ($db, $model, $arrayAnnot, $field, &amp;$aliases, $quote)</td></tr>
+<tr class="separator:a491a87a84c1874510b032fa02a2f0a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cfe396c496a5d58f74e452c34ff1404"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a4cfe396c496a5d58f74e452c34ff1404">getOneToManyFields</a> ($class)</td></tr>
 <tr class="separator:a4cfe396c496a5d58f74e452c34ff1404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad11094559136954f76b8a7c675fe543c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#ad11094559136954f76b8a7c675fe543c">getManyToOneFields</a> ($class)</td></tr>
@@ -158,7 +158,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="textblock"><p>Trait for <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html" title="Gateway class between database and object model. ">DAO</a> relations. </p>
 <p><a class="el" href="namespace_ubiquity.html">Ubiquity</a>$OrmUtilsRelationsTrait This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a></p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0.4 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.5 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00016">16</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -807,8 +807,8 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1fb73cdd30ad7c152133dab4f97dabc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fb73cdd30ad7c152133dab4f97dabc9">&#9670;&nbsp;</a></span>getUJoinSQL()</h2>
+<a id="a491a87a84c1874510b032fa02a2f0a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491a87a84c1874510b032fa02a2f0a61">&#9670;&nbsp;</a></span>getUJoinSQL()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -819,6 +819,12 @@ Static Private Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static getUJoinSQL </td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$db</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$model</em>, </td>
         </tr>
@@ -873,7 +879,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html">OrmUtilsRelationsTrait</a></li>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:49 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Thu Apr 16 2020 18:38:26 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

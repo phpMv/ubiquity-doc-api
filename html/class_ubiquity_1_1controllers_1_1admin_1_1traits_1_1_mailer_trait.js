@@ -29,6 +29,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait =
     [ "_sendMailNow", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a872bffe1be696e9299e84742c618e8b1", null ],
     [ "_sendMailQueue", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a3e8e5441ecdcd3951f099330492fa39c", null ],
     [ "_sendQueue", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a65b211db9977f9a7ec574dd6d8c17ac5", null ],
+    [ "_submitMailerConfig", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a56ea3152cab5b2afce7ea525eee545ef", null ],
     [ "activateQueueMenu", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a8806effc2df95a1dc1c0972c11d54cc5", null ],
     [ "addConfigBehavior", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a0176588e236e72d7d82559527f60a51e", null ],
     [ "addDequeueBehavior", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#aa58e2c7d57c7afdc77a26ef66fcd9e63", null ],
@@ -50,6 +51,5 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait =
     [ "removeEmpty", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a530da4c0faf9e1885539780eb16623d5", null ],
     [ "showConfMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a4b79eb8dc929a4fca7da4c8e2f17dd1b", null ],
     [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
-    [ "submitMailerConfig", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a04931ead9b2bd0d868a4777b777346fd", null ],
     [ "$defaultMailerConfigs", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a3063623f0bf7d631782f89098233b1f3", null ]
 ];

@@ -8,12 +8,12 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait =
     [ "_getAdminViewer", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a8ea5b67955e5d461bbd70274d6ae7b98", null ],
     [ "_getFiles", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a3f2a055258adc245af3d808a9b7c9edf", null ],
     [ "_getParamsForJSON", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a4244a105cbe6b525708c6bb7ef5c6e0d", null ],
+    [ "_initRestCache", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#ac6acf62724939ea811982cfd206965cf", null ],
     [ "_refreshRest", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a5154019cfdbb46e1cc4486242cb30c2d", null ],
     [ "_runRestMethod", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a7e66f02ca468de4afae1910ae4786dcf", null ],
     [ "_saveRequestParams", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#aaf2266fb893ff9436804e1ddd221b00e", null ],
     [ "_saveToken", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#ad5ae60530d5efc1127787deb3f906508", null ],
     [ "getRestRequestHeaders", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#aad92de345400007a24f397fd619d04c1", null ],
     [ "getRestRequestParams", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a7656fe4675efc9b1519831119a9ffe3f", null ],
-    [ "initRestCache", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a18334470dee3cb89eb8e8c00a5fc4577", null ],
     [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ]
 ];

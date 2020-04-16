@@ -6,6 +6,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     [ "CheckTrait.php", "_check_trait_8php.html", [
       [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait" ]
     ] ],
+    [ "ComposerTrait.php", "_composer_trait_8php.html", [
+      [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait" ]
+    ] ],
     [ "ConfigTrait.php", "_config_trait_8php.html", [
       [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait" ]
     ] ],

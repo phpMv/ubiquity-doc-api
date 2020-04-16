@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.3</span>
+   &#160;<span id="projectnumber">2.3.6</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -100,15 +100,15 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1traits_1_1_d_
   <img src="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.png" usemap="#DAORelationsPrepareTrait_map" alt=""/>
   <map id="DAORelationsPrepareTrait_map" name="DAORelationsPrepareTrait_map">
 <area href="class_ubiquity_1_1orm_1_1_d_a_o.html" title="Gateway class between database and object model. " alt="DAO" shape="rect" coords="0,56,162,80"/>
-<area href="class_ubiquity_1_1orm_1_1_s_d_a_o.html" title="Ubiquity$SDAO This class is part of Ubiquity. " alt="SDAO" shape="rect" coords="0,112,162,136"/>
+<area href="class_ubiquity_1_1orm_1_1_s_d_a_o.html" title="DAO class for models without relationships Model classes must declare public members only Ubiquity$SD..." alt="SDAO" shape="rect" coords="0,112,162,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a386e6b385c44379c9d7455065b03b80b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html#a386e6b385c44379c9d7455065b03b80b">prepareManyToMany</a> (&amp;$ret, $instance, $member, $annot=null)</td></tr>
-<tr class="memdesc:a386e6b385c44379c9d7455065b03b80b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares members associated with $instance with a ManyToMany type relationship.  <a href="#a386e6b385c44379c9d7455065b03b80b">More...</a><br /></td></tr>
-<tr class="separator:a386e6b385c44379c9d7455065b03b80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a297c6ddc88bb9e2904aba55f3b189614"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html#a297c6ddc88bb9e2904aba55f3b189614">prepareManyToMany</a> ($db, &amp;$ret, $instance, $member, $annot=null)</td></tr>
+<tr class="memdesc:a297c6ddc88bb9e2904aba55f3b189614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares members associated with $instance with a ManyToMany type relationship.  <a href="#a297c6ddc88bb9e2904aba55f3b189614">More...</a><br /></td></tr>
+<tr class="separator:a297c6ddc88bb9e2904aba55f3b189614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f442ed999d049a452de9c147df39e65"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html#a0f442ed999d049a452de9c147df39e65">prepareOneToMany</a> (&amp;$ret, $instance, $member, $annot=null)</td></tr>
 <tr class="memdesc:a0f442ed999d049a452de9c147df39e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepares members associated with $instance with a oneToMany type relationship.  <a href="#a0f442ed999d049a452de9c147df39e65">More...</a><br /></td></tr>
 <tr class="separator:a0f442ed999d049a452de9c147df39e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,12 +120,12 @@ Static Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>Used by <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html" title="Gateway class between database and object model. ">DAO</a> class, prepare relations for loading. </p>
 <p><a class="el" href="namespace_ubiquity.html">Ubiquity</a>$DAORelationsPrepareTrait This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a></p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.3 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00019">19</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a386e6b385c44379c9d7455065b03b80b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a386e6b385c44379c9d7455065b03b80b">&#9670;&nbsp;</a></span>prepareManyToMany()</h2>
+<a id="a297c6ddc88bb9e2904aba55f3b189614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a297c6ddc88bb9e2904aba55f3b189614">&#9670;&nbsp;</a></span>prepareManyToMany()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,6 +136,12 @@ Static Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static prepareManyToMany </td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$db</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&amp;&#160;</td>
           <td class="paramname"><em>$ret</em>, </td>
         </tr>
@@ -173,6 +179,7 @@ Static Protected Member Functions</h2></td></tr>
 <p>Prepares members associated with $instance with a ManyToMany type relationship. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramtype"></td><td class="paramname">$db</td><td></td></tr>
     <tr><td class="paramtype"></td><td class="paramname">$ret</td><td>array of sql conditions </td></tr>
     <tr><td class="paramtype">object</td><td class="paramname">$instance</td><td></td></tr>
     <tr><td class="paramtype">string</td><td class="paramname">$member</td><td>Member on which a ManyToMany annotation must be present </td></tr>
@@ -181,7 +188,7 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00029">29</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00030">30</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
 
 </div>
 </div>
@@ -249,7 +256,7 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00085">85</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00086">86</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
 
 </div>
 </div>
@@ -310,7 +317,7 @@ Static Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00058">58</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html#l00059">59</a> of file <a class="el" href="_d_a_o_relations_prepare_trait_8php_source.html">DAORelationsPrepareTrait.php</a>.</p>
 
 </div>
 </div>
@@ -324,7 +331,7 @@ Static Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_prepare_trait.html">DAORelationsPrepareTrait</a></li>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:49 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Thu Apr 16 2020 18:38:26 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

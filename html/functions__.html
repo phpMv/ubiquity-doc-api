@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.3</span>
+   &#160;<span id="projectnumber">2.3.6</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -126,6 +126,7 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_regex_validator.html#a095c5d389db211932136b53f25f39685">RegexValidator</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_url_validator.html#a095c5d389db211932136b53f25f39685">UrlValidator</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_default_maintenance.html#a095c5d389db211932136b53f25f39685">DefaultMaintenance</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ad569cdbc78e1cba221e709d451adaa7d">ComposerDependency</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html#ab48b735730d529f7d1ead554b29eb04d">ControllerAction</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message.html#a5cf3c14c0b693840012fbf015196f4c6">InfoMessage</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#ab9e67f99b7c460b813757b79b5ee2aef">RepositoryGit</a>
@@ -154,6 +155,7 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 , <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_db_export.html#a095c5d389db211932136b53f25f39685">DbExport</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_sql_export.html#a0cce975a374b80a01843c4c07678cdca">SqlExport</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_table_export.html#ad10dfd84ef977628e8128206ae6b4d4e">TableExport</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_abstract_driver_meta_datas.html#a513e473710605770013ee908fdf864c0">AbstractDriverMetaDatas</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#abad41d9199ddb0c2ca3677f1f04c24fe">PDOWrapper</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a095c5d389db211932136b53f25f39685">DbGenerator</a>
 , <a class="el" href="class_ubiquity_1_1exceptions_1_1_cache_exception.html#ab18bf0eb6d60fc92d87bd32e04068637">CacheException</a>
@@ -181,7 +183,7 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ace4c8cb4bb8ff6c30f71e76cb134d79d">Model</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a037fed781b60afd2c4a60ba20eaa76c6">YumlParser</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#a32b5a527a5674c79a1e83630def086d7">ConditionParser</a>
-, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a79838ed776ddbed42d251c2f4f505b54">ManyToManyParser</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#abfe0a96cfe1e74cb7be39174dfdf5f06">ManyToManyParser</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_database_reversor.html#ad99ca9db234aa8c404313ba7b2915dc1">DatabaseReversor</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#abed760b5f74d028115314a3fa7b4a9d6">TableReversor</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html#a232331342ce3790629e11bfae7743365">AdminScaffoldController</a>
@@ -228,20 +230,38 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 , <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a7516ca30af0db3cdbf9a7739b48ce91d">ClassToYuml</a>
 , <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_template_parser.html#a7516ca30af0db3cdbf9a7739b48ce91d">TemplateParser</a>
 </li>
+<li>_activateLog()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a3615f09f98ce8534fffdb3c6e2f95af5">LogsTrait</a>
+</li>
 <li>_activateMaintenance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a5256c9940b381e79833d5da895925b74">MaintenanceTrait</a>
 </li>
 <li>_add()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#ad18d0ebdfa9622d2e2dbae22b2fb8b98">RestBaseController</a>
 </li>
+<li>_addAuthController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a7f9f12396219c5bfb5ad9fa6d7202385">CreateControllersTrait</a>
+</li>
 <li>_addCallableRoute()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_router_modifier_trait.html#ab1acc0a871e5059488b60e96e36a2e0b">RouterModifierTrait</a>
+</li>
+<li>_addCrudController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a7748c59b0cc5a1008803851b36767d9f">CreateControllersTrait</a>
 </li>
 <li>_addCtrlRoute()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a4bf0a9f19638f8240af21134d4a7a413">CreateControllersTrait</a>
 </li>
 <li>_addDbConnection()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a6ae162bb9382435150f4cb834e97eac6">ModelsConfigTrait</a>
+</li>
+<li>_addDependency()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#ad23ca941e431f77afa402c4e7913c9d0">ComposerTrait</a>
+</li>
+<li>_addDependencyFrm()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#aa3aadb06c97775b440d01f363dca59e1">ComposerTrait</a>
+</li>
+<li>_addDomain()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a120503164261c7d8eec37418050a4701">TranslateTrait</a>
 </li>
 <li>_addErrorMessage()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html#a3b987fe8f27aa9b82aee48d6832cefc3">CheckTrait</a>
@@ -263,6 +283,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a57439dde2ed96ea560cd0dd516bfcc6e">UbiquityMyAdminBaseController</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html#a57439dde2ed96ea560cd0dd516bfcc6e">AdminScaffoldController</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a57439dde2ed96ea560cd0dd516bfcc6e">ScaffoldController</a>
+</li>
+<li>_addMultipleMessages()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#ae581a9c0377bc9298f649041d6de5a45">TranslateTrait</a>
 </li>
 <li>_addNameValueParamFields()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a2a3ffb109e1b25440316dff202b5779e">UbiquityMyAdminBaseController</a>
@@ -311,6 +334,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_autoConnect()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a3ff2812e47cfe576c37affa5f1849410">AuthController</a>
+</li>
+<li>_cancelTranslationsUpdates()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a829e3db4b01519d919f72f8af7be8f49">TranslateTrait</a>
 </li>
 <li>_changeEngineering()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a145321b40f65f2a2cad2ffd8a76c6575">ModelsConfigTrait</a>
@@ -379,6 +405,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_closeMessage()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a57b306ed144e74072263ac9a67a17173">UbiquityMyAdminBaseController</a>
 </li>
+<li>_compareToLocale()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a7ea93ba995167d4cade0011b9e7c5b5a">TranslateTrait</a>
+</li>
 <li>_config()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#a653a93a337af6d9d7e0a0a2a4688a87b">ConfigTrait</a>
 </li>
@@ -404,17 +433,32 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_createFrmMaintenance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a1de1fe08b967b3ea576e3227047c6df6">MaintenanceTrait</a>
 </li>
+<li>_createLocale()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a8752835c5cc9815bdd69882ba8f937b5">TranslateTrait</a>
+</li>
 <li>_createMaintenanceController()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a4f5a40059288513a3d70674b9a297af1">MaintenanceTrait</a>
 </li>
 <li>_createMethod()
 : <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a905cc03e9750db303a074a73fedbd7d4">ScaffoldController</a>
 </li>
+<li>_createModels()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html#adfe7afadf6197ab6368c1729fbcb6616">CheckTrait</a>
+</li>
 <li>_createNewResource()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a02b4015db8854aba624da9a555960ac1">RestTrait</a>
 </li>
+<li>_createNewTheme()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a278568749fc6eafe046fe7ab58c9e60c">ThemesTrait</a>
+</li>
 <li>_createNonExistingMaintenanceController()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#af89294febb4ea3880dee839da1a17113">MaintenanceTrait</a>
+</li>
+<li>_createSeoController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#ad5b55337ebea984b4b9bd81e734a6510">SeoTrait</a>
+</li>
+<li>_createSQLScript()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#a0af066f428ba3c19845dbf514e46e05b">DatabaseTrait</a>
 </li>
 <li>_createView()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a3149cc366b235e391497f5bfb4f5ecd5">ControllersTrait</a>
@@ -427,6 +471,12 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a38104adbfb93d7ea63699e329b1482af">UMonolog</a>
 , <a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a38104adbfb93d7ea63699e329b1482af">Logger</a>
 </li>
+<li>_curlJson()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_packagist_api.html#a5094bf827975b279a7ae2513023584f0">PackagistApi</a>
+</li>
+<li>_deActivateLog()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a78cfe9c7fe2ee5195e0f05f1be15c4a9">LogsTrait</a>
+</li>
 <li>_definePeriod()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a67ce962b1026ec550d10eeed38b6d361">MailerTrait</a>
 </li>
@@ -435,6 +485,15 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_delete()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a1dc0aa466bce5274dbc2954b6e70d001">RestBaseController</a>
+</li>
+<li>_deleteAllCacheFiles()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#a2545399401127c4896b62367df77168f">CacheTrait</a>
+</li>
+<li>_deleteAllLogs()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#ad57ccb1e7e484f2479d494dc11916a0c">LogsTrait</a>
+</li>
+<li>_deleteCacheFile()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#ad083699e437229b3ee902bed11507b24">CacheTrait</a>
 </li>
 <li>_deleteController()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#aa539478c1249eabd58576a510c870e10">SeoTrait</a>
@@ -445,8 +504,32 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_deleteMaintenanceById()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#acde1eace441883ab33fd4523870c11c4">MaintenanceTrait</a>
 </li>
+<li>_deleteModel()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a6fd01a5b5f0a55171c56d210f77c2f28">ModelsTrait</a>
+</li>
 <li>_deleteMultiple()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ace8d55637e04198854efb135b49a437e">CRUDControllerUtilitiesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a7c8d6ee0f0df5bc7b7a6996d65ae6a9b">CRUDControllerUtilitiesTrait</a>
+</li>
+<li>_deleteSeoController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#afd9e1a32786ec3ea51362d051aba9157">SeoTrait</a>
+</li>
+<li>_deleteTranslation()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a18ec4bf3ec40fb66cd52704b4dcd03b8">TranslateTrait</a>
+</li>
+<li>_deleteTranslationCache()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a81e6247346439cbb9d232e016509c950">TranslateTrait</a>
+</li>
+<li>_deleteTranslationLocaleCache()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a899dffb360ac798a26634045e719781a">TranslateTrait</a>
+</li>
+<li>_dependencyPackagesAlone()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a8787adcac2fd07f0affae1d5eb7e2c13">ComposerTrait</a>
+</li>
+<li>_dependencyVersions()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a6cb713bfb9559be1c6f73af45825042b">ComposerTrait</a>
+</li>
+<li>_dependencyVersionsAlone()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#aab754026f1c6744b35cc86b0773655b9">ComposerTrait</a>
 </li>
 <li>_diagramMenu()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a9861be50b730dde4c82e81f040a23182">UbiquityMyAdminBaseController</a>
@@ -469,6 +552,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_displayRestFormTester()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a4d30a87910163e9d17a5ea5d37527941">RestTrait</a>
 </li>
+<li>_displaySiteMap()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#aea2287f0ecbf88dd244d722770596121">SeoTrait</a>
+</li>
 <li>_dtAction()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#a2b2859427c891c096bd88f8cf4609415">UbiquityMyAdminViewer</a>
 </li>
@@ -482,11 +568,13 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html#ac93ad031d610b4acd70bd408bd1b81b1">UbiquityMyAdminViewer</a>
 </li>
 <li>_edit()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a35d37f23b5935befaf63966aee282ccc">ModelsTrait</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a35d37f23b5935befaf63966aee282ccc">CRUDControllerUtilitiesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a35d37f23b5935befaf63966aee282ccc">CRUDControllerUtilitiesTrait</a>
 </li>
 <li>_editMail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a57d55146ecf4a704f9daa955b88c5476">MailerTrait</a>
+</li>
+<li>_editModel()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a086c576fc68052c5a037e3e27a505667">ModelsTrait</a>
 </li>
 <li>_editSentMail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a2cc5bb564236e29d26ad6f0a5be6584e">MailerTrait</a>
@@ -501,17 +589,47 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_errorHandler()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#adcfb798f65600cdb25b1aa751cd42203">RestBaseController</a>
 </li>
+<li>_execComposer()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a66d7b1ea41614fdc51eeb45051accd29">ComposerTrait</a>
+</li>
+<li>_exportDatasScript()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html#af3955c6c16d9d07f387fcc972da01e52">DatabaseTrait</a>
+</li>
+<li>_filterControllers()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#afc266639bf0b493b58972703ff29576a">ControllersTrait</a>
+</li>
+<li>_filterRoutes()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#ad004ec3b5bd69c383374f821dc5a670c">RoutesTrait</a>
+</li>
 <li>_format()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a3528e7425138dfe52bc7d447d8c21d4e">RestBaseController</a>
+</li>
+<li>_formConfig()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#ab334be3c2570e916899eca0ebab9638b">ConfigTrait</a>
 </li>
 <li>_forward()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a86eef4e99644783bc5e2467a74e0f68e">AuthController</a>
 </li>
+<li>_frmAddAuthController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#afaaf6f12cf8034099210d3efda011ad1">CreateControllersTrait</a>
+</li>
+<li>_frmAddCrudController()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a24a0ae2330cb6741abbce5c124a879c4">CreateControllersTrait</a>
+</li>
 <li>_frmAddNewDbConnection()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a3695148f117cc71f3e712792dff15d9a">ModelsConfigTrait</a>
 </li>
+<li>_frmFilterControllers()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a0964c706e011599f9292700ad03bf8a0">ControllersTrait</a>
+</li>
+<li>_frmImportMessages()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a90028c4ebeb63a43750bf7bd1ddc862c">TranslateTrait</a>
+</li>
 <li>_frmMaintenance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#af5c03aec592ccd883b60dc9bfa117f83">MaintenanceTrait</a>
+</li>
+<li>_frmMultipleMessages()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a432485b4e1fddfb567b09c06d21e9f73">TranslateTrait</a>
 </li>
 <li>_frmNewResource()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#afd0c7c7a79b25f4f252fa182375b6a57">RestTrait</a>
@@ -521,6 +639,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_generateFromYuml()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#ac55a441ea10f0ff43d0a2ab3fa46c544">ModelsConfigTrait</a>
+</li>
+<li>_generateRobots()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#a4da48ef71bc23f95558c5d00dd1a051f">SeoTrait</a>
 </li>
 <li>_get()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a1bc5195ea8aa60241cb874807ef29b6e">RestBaseController</a>
@@ -602,6 +723,13 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_getClassToYuml()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a80b82d4c506e35303bff2eab016796dc">UbiquityMyAdminBaseController</a>
+</li>
+<li>_getConfig()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html#a917e9740347ed6bce90daefc016f123d">CheckTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a917e9740347ed6bce90daefc016f123d">UbiquityMyAdminBaseController</a>
+</li>
+<li>_getConfigFile()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#af291aa595d41d377eace83aae448517e">UbiquityMyAdminBaseController</a>
 </li>
 <li>_getControllerInstance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a61bbeec19b0640331aa0cc99ef641ce7">Startup</a>
@@ -768,8 +896,32 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_getYumlRelationsType()
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#aa28496016c833b6edc21f564d9591f3c">ClassToYumlRelationsTrait</a>
 </li>
-<li>_git()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a30723835043eb23057ea2dad80bd29d0">GitTrait</a>
+<li>_gitChangesInCommit()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a4dc95918838854cf027487f081b24c9a">GitTrait</a>
+</li>
+<li>_gitChangesInfiles()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a8b232f9bf47851d321fcd7c2d74703f2">GitTrait</a>
+</li>
+<li>_gitCommit()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#ac8d51ef109dc481f169f0cb1e295f265">GitTrait</a>
+</li>
+<li>_gitFrmSettings()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a55f5d3dae44b7c7357af13a1f4d8b145">GitTrait</a>
+</li>
+<li>_gitIgnoreEdit()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a071c2d11d525c1369e5375b7d4f82a59">GitTrait</a>
+</li>
+<li>_gitIgnoreValidate()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a9e8e791b869bdf66c9ee1e836928fc26">GitTrait</a>
+</li>
+<li>_gitInit()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a8ac59167500195bb031ccdd7f2bfc60a">GitTrait</a>
+</li>
+<li>_gitPull()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#abe6ea792c4a7f02faa4c2a12b515b82a">GitTrait</a>
+</li>
+<li>_gitPush()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a8857a639b0a023cc650a0e434496cb2b">GitTrait</a>
 </li>
 <li>_header()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a23d71dfc419d9f8f70f6ca2bbbaa67c0">RestServer</a>
@@ -783,12 +935,21 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_importSQL()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#ae21558bac57b0b062748ecc86fc5081c">ModelsConfigTrait</a>
 </li>
+<li>_importTranslationFile()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#af4393fe298b70cff7dbea197757ba74d">TranslateTrait</a>
+</li>
 <li>_includeFileAsString()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_simple_view_async_controller.html#a71a0d6662a5a0cecb0118a3220c0161f">SimpleViewAsyncController</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1_simple_view_controller.html#a71a0d6662a5a0cecb0118a3220c0161f">SimpleViewController</a>
 </li>
 <li>_index()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller.html#abc6a29a73251b60abd115d5d727e3297">RestController</a>
+</li>
+<li>_indexCustomizing()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#aee7d15e89fe907ab7a74b8a4d156c2d7">UbiquityMyAdminBaseController</a>
+</li>
+<li>_indexCustomizingSubmit()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a7da58bace083ef370967f9ef64885062">UbiquityMyAdminBaseController</a>
 </li>
 <li>_info()
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a2bf6fed0ee5f444d7090d6bdb0299cb7">UMonolog</a>
@@ -800,12 +961,24 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_initCache()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#a41373b4cbb1302ec6548ec96162bddbb">CacheTrait</a>
 </li>
+<li>_initCacheRouter()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html#a8830844a667f0633872f12f301d97c79">RoutesTrait</a>
+</li>
+<li>_initCacheType()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#a443cb008cc4c209ab1c463db184b293a">CacheTrait</a>
+</li>
 <li>_initMaintenanceController()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a46e4aab5c9ced8813382763085a792d5">MaintenanceTrait</a>
 </li>
 <li>_initRelationFields()
 : <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a439ab82faaf19dab0d39ee2dfbeded5a">DAOCoreTrait</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a439ab82faaf19dab0d39ee2dfbeded5a">DAORelationsTrait</a>
+</li>
+<li>_initRestCache()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#ac6acf62724939ea811982cfd206965cf">RestTrait</a>
+</li>
+<li>_installTheme()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#ad74fd0779247a156725903eae2d4e027">ThemesTrait</a>
 </li>
 <li>_is()
 : <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#ae7b054adf61ebb13802d62ffba5652fb">OrmUtils</a>
@@ -827,14 +1000,23 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a2f1699c223987efe87e1b018f6c910f5">ModelsConfigTrait</a>
 </li>
 <li>_loadObjectFromRow()
-: <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a4481ee4e526ea419ab83cd68360d9a6e">DAOCoreTrait</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a4259aa395603cdacace4c520f6c20c97">DAOCoreTrait</a>
 </li>
 <li>_loadSqlFromFile()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a1b2ae8f9ae83adf6d0fc5e08b7b2b50b">ModelsConfigTrait</a>
 </li>
+<li>_loadTranslationCache()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a9cf6923e65074254e76f407563d5ce5d">TranslateTrait</a>
+</li>
+<li>_loadTranslationLocaleCache()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a90206c19b8c14ac7c174317691b5da64">TranslateTrait</a>
+</li>
 <li>_log()
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a327ef136ea5477c67089c021ddcfc3c8">UMonolog</a>
 , <a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a327ef136ea5477c67089c021ddcfc3c8">Logger</a>
+</li>
+<li>_logsRefresh()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_logs_trait.html#a087306ae258389688d0962092d0826e6">LogsTrait</a>
 </li>
 <li>_mailerConfigFrm()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a2177e2426df715ff0d4f8c03e0758f37">MailerTrait</a>
@@ -858,6 +1040,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_newActionFrm()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#ab61723c1cb7346618a900294d591499d">ControllersTrait</a>
 </li>
+<li>_newModel()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a1941dc8aea1429cbce898f445ccd3ab4">ModelsTrait</a>
+</li>
 <li>_newSeoController()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#a752b88dc21a6991c176c90ae47bb58a5">SeoTrait</a>
 </li>
@@ -880,8 +1065,14 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_refresh()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1seo_1_1_seo_controller.html#afd84c2657855131a311e0c78cf9a1a48">SeoController</a>
 </li>
+<li>_refresh_()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a78ab4ccdd145eaa5b824d8fe71bcd794">ModelsTrait</a>
+</li>
 <li>_refreshCacheControllers()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html#a553c669eef267a1cba0faaaec069bc92">ControllersTrait</a>
+</li>
+<li>_refreshComposer()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a38565ebd0e4f8d1ee86b93cc7cf0222b">ComposerTrait</a>
 </li>
 <li>_refreshConfigFrm()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a9f0d812a033dfa4907eff5f301a3875d">MailerTrait</a>
@@ -892,6 +1083,18 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_refreshDequeue()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#ab98b62519877a05d0fd7e67f4225191c">MailerTrait</a>
+</li>
+<li>_refreshDomain()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a7990eb9f2e8ea9d6d82fcde268f2e15a">TranslateTrait</a>
+</li>
+<li>_refreshDomainAll()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#ab1d2596d62295a3c7527223905ec0ab0">TranslateTrait</a>
+</li>
+<li>_refreshGitCommits()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a1e8fad4fe05f270f07ed08f76489010a">GitTrait</a>
+</li>
+<li>_refreshGitFiles()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#a7d0c15fd4f767f33a716321548b39f1c">GitTrait</a>
 </li>
 <li>_refreshMailer()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#af36d65b6a16950adc0c219442fc42214">MailerTrait</a>
@@ -906,6 +1109,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#a5154019cfdbb46e1cc4486242cb30c2d">RestTrait</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html#a5154019cfdbb46e1cc4486242cb30c2d">AdminScaffoldController</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a5154019cfdbb46e1cc4486242cb30c2d">ScaffoldController</a>
+</li>
+<li>_refreshTable()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aeac19648aaa2aaca319449e0c1e47853">ModelsTrait</a>
 </li>
 <li>_registerError()
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#aa7d543528439fe4f8e3c8b094dc58674">UMonolog</a>
@@ -941,17 +1147,31 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_save()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1seo_1_1_seo_controller.html#af15f0a6cc34ab48b0ef485a9fcea1d0c">SeoController</a>
 </li>
+<li>_saveConfig()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#a2ee0274ef515e45fed87ae519313f710">CacheTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a2ee0274ef515e45fed87ae519313f710">ThemesTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a2ee0274ef515e45fed87ae519313f710">UbiquityMyAdminBaseController</a>
+</li>
 <li>_saveRequestParams()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#aaf2266fb893ff9436804e1ddd221b00e">RestTrait</a>
 </li>
 <li>_saveToken()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html#ad5ae60530d5efc1127787deb3f906508">RestTrait</a>
 </li>
+<li>_saveTranslationsUpdates()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#afdaf4788252138feab25846965a1c202">TranslateTrait</a>
+</li>
+<li>_saveUrls()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#ad746d95c4c3a36c8152107eb91a4e0c7">SeoTrait</a>
+</li>
 <li>_seeMail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#ae5e03be65f9739527923a6769826b58f">MailerTrait</a>
 </li>
 <li>_seeSentMail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a7cce106fd7df5a92eccc14ec8f03c15e">MailerTrait</a>
+</li>
+<li>_seeSeoUrl()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#ac3cc52a08ec557fedd6ab526fa94a411">SeoTrait</a>
 </li>
 <li>_sendEditMail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a9dae18d6fb53c43302fefb09d55f197b">MailerTrait</a>
@@ -972,8 +1192,17 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#a1315ad4a8500eb1514c36b7ae8e5c531">SeoTrait</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a1315ad4a8500eb1514c36b7ae8e5c531">UbiquityMyAdminBaseController</a>
 </li>
+<li>_seoRefresh()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html#aa04dc35b79f93480bbd5b1e00c291c7d">SeoTrait</a>
+</li>
+<li>_setCacheTypes()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html#a73e6ba000d2126966e38ed67364aedda">CacheTrait</a>
+</li>
 <li>_setContentType()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#aa5abffad75db388859a9107ae67c8968">RestServer</a>
+</li>
+<li>_setDevtoolsPath()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a8c726ea3599138f3041b6149b7ee11dd">ThemesTrait</a>
 </li>
 <li>_setGetCookie()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a84d3f3b48a9ddb772a7c5095fbe1e6ff">UbiquityMyAdminBaseController</a>
@@ -994,6 +1223,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a72aea31052d8af79752d5afe4af98065">RestBaseController</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller_utilities_trait.html#a72aea31052d8af79752d5afe4af98065">RestControllerUtilitiesTrait</a>
 </li>
+<li>_setTheme()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html#a5d9cdfaa968c7b137d01c7f6fbf1ef63">ThemesTrait</a>
+</li>
 <li>_setValuesToObject()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller_utilities_trait.html#abfca367ab3bb3b8ab5a5e0f0975403c9">RestControllerUtilitiesTrait</a>
 </li>
@@ -1004,6 +1236,9 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a94259800d8f88f3a277c2302d8573d8e">CRUDControllerUtilitiesTrait</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html#a94259800d8f88f3a277c2302d8573d8e">MessagesTrait</a>
 </li>
+<li>_showDatabaseCreation()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ad685e6238e89b64b3e8790ef7e31baee">UbiquityMyAdminBaseController</a>
+</li>
 <li>_showDiagram()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#aec1ae2beaa25e525d44d7647fded9776">UbiquityMyAdminBaseController</a>
 </li>
@@ -1013,6 +1248,12 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_showModel()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a9aec2745adb45c3006c24de1ea547a28">ModelsTrait</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#acc72a1b1ffe7037729ff188472b4946b">CRUDControllerUtilitiesTrait</a>
+</li>
+<li>_showModelClick()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a2be253f69ca829ae2c95a2aa8057d02c">ModelsTrait</a>
+</li>
+<li>_showModelDetails()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aa7faf4a26830a8982b1b0bcad66e631c">ModelsTrait</a>
 </li>
 <li>_showSimpleMessage()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ab205202d5e6be605abe8774d3b24da73">CRUDControllerUtilitiesTrait</a>
@@ -1026,6 +1267,12 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 </li>
 <li>_stopMaintenance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#ac47e7cc2a0adddb73452d449b3c5c62f">MaintenanceTrait</a>
+</li>
+<li>_submitConfig()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html#a0cf37c55ed870d07d6e660bdf1c5cfc0">ConfigTrait</a>
+</li>
+<li>_submitMailerConfig()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_mailer_trait.html#a56ea3152cab5b2afce7ea525eee545ef">MailerTrait</a>
 </li>
 <li>_submitMaintenanceForm()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html#a690a46b73477a10c826f0aa7a61630ad">MaintenanceTrait</a>
@@ -1042,14 +1289,34 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <li>_updateAllClassesDiagram()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a72172a570d7a43dba7b4b386b2bc071e">UbiquityMyAdminBaseController</a>
 </li>
+<li>_updateComposer()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#ad02163557064234a30f87a8d175404f7">ComposerTrait</a>
+</li>
 <li>_updateDiagram()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a871886c0bb1c45c13e5d933d1aff2904">UbiquityMyAdminBaseController</a>
+</li>
+<li>_updateGitParams()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_git_trait.html#affede9c4f6d03f82868104020e3fb87d">GitTrait</a>
+</li>
+<li>_updateMember()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#a04ba13ec1d614f4f9f25688a0fd4bd1c">ModelsTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a04ba13ec1d614f4f9f25688a0fd4bd1c">CRUDController</a>
+</li>
+<li>_updateModel()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aa4995dffd9ed81b4e12799ba8783e2d5">ModelsTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa4995dffd9ed81b4e12799ba8783e2d5">CRUDController</a>
+</li>
+<li>_updateTranslation()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html#a45dacaa8d644630de12fc06b7b7afb9f">TranslateTrait</a>
 </li>
 <li>_updateYumlDiagram()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a0cd933585875a6bbe3416fb6104c9a5c">ModelsConfigTrait</a>
 </li>
 <li>_validateInstance()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller_utilities_trait.html#a63f3298667dd1d2bd79c0e34c3282031">RestControllerUtilitiesTrait</a>
+</li>
+<li>_validateInstances()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aa2a3dca7285e6fbf518069602f2a00de">ModelsTrait</a>
 </li>
 <li>_warn()
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a11332896940452a5815c87ba8a2c49c9">UMonolog</a>
@@ -1068,7 +1335,7 @@ $(document).ready(function(){initNavTree('functions__.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:53 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Thu Apr 16 2020 18:38:31 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

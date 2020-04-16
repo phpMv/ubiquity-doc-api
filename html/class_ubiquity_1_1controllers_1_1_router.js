@@ -6,6 +6,7 @@ var class_ubiquity_1_1controllers_1_1_router =
     [ "getRoute", "class_ubiquity_1_1controllers_1_1_router.html#a377f7d2df57503ca8c07668a08c3cfdc", null ],
     [ "getRoute_", "class_ubiquity_1_1controllers_1_1_router.html#af9e338839e85e10ce9a6f3795d3db025", null ],
     [ "getRouteByName", "class_ubiquity_1_1controllers_1_1_router.html#a97a6be67a3be78d02bbc1f47fdc1ee39", null ],
+    [ "getRouteInfoByName", "class_ubiquity_1_1controllers_1_1_router.html#a573a3185d7a60c5241ca35cb8bad96ae", null ],
     [ "getRoutes", "class_ubiquity_1_1controllers_1_1_router.html#a5ee75c365fa519c6bf61c9ae28672a7d", null ],
     [ "getRouteUrlParts", "class_ubiquity_1_1controllers_1_1_router.html#ad239727e844c3a4f2f1d5cb102b91dd6", null ],
     [ "path", "class_ubiquity_1_1controllers_1_1_router.html#a5e67f063c95cd06fdf6d461cb602f14e", null ],

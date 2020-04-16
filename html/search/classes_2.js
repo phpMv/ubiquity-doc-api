@@ -12,6 +12,8 @@ var searchData=
   ['classutils',['ClassUtils',['../class_ubiquity_1_1cache_1_1_class_utils.html',1,'Ubiquity::cache']]],
   ['codeutils',['CodeUtils',['../class_ubiquity_1_1utils_1_1base_1_1_code_utils.html',1,'Ubiquity::utils::base']]],
   ['columnannotation',['ColumnAnnotation',['../class_ubiquity_1_1annotations_1_1_column_annotation.html',1,'Ubiquity::annotations']]],
+  ['composerdependency',['ComposerDependency',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html',1,'Ubiquity::controllers::admin::popo']]],
+  ['composertrait',['ComposerTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['conditionparser',['ConditionParser',['../class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html',1,'Ubiquity::orm::parser']]],
   ['configtrait',['ConfigTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['constants',['Constants',['../class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_constants.html',1,'Ubiquity::controllers::admin::utils']]],

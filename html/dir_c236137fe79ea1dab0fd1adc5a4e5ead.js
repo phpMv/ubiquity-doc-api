@@ -1,5 +1,8 @@
 var dir_c236137fe79ea1dab0fd1adc5a4e5ead =
 [
+    [ "ComposerDependency.php", "_composer_dependency_8php.html", [
+      [ "ComposerDependency", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency" ]
+    ] ],
     [ "ControllerAction.php", "_controller_action_8php.html", [
       [ "ControllerAction", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action" ]
     ] ],

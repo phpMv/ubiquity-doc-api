@@ -2,6 +2,7 @@ var namespace_ubiquity_1_1controllers_1_1admin_1_1traits =
 [
     [ "CacheTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait" ],
     [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait" ],
+    [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait" ],
     [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait" ],
     [ "ControllersTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_controllers_trait" ],
     [ "CreateControllersTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait" ],

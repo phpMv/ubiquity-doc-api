@@ -4,6 +4,7 @@ var class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks =
     [ "addInstance", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a553eb411578f97d6a38ebe5fdefde4b1", null ],
     [ "addInstances", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a797e20e501ad050947a0e2dd7415ebc0", null ],
     [ "createSQL", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a20d73521959cbe16a08b2e974df61361", null ],
+    [ "execGroupTrans", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a5e3c38cc6c2e45f9482a96fb80bd9528", null ],
     [ "flush", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a7751f77b5263bcf940ece6e824a05b38", null ],
     [ "getQuotedKeys", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#ae67746e4aa2b3b78d432a55c5f94bdc8", null ],
     [ "updateInstanceRest", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a3ccf652496eacec25b28aa6f4e4869cf", null ],
@@ -14,5 +15,6 @@ var class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks =
     [ "$insertFields", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a33a3a10c4a10b51220f11d5c49a0ce43", null ],
     [ "$instances", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a1a63b63bdad280ed9a89dfed1fadc771", null ],
     [ "$parameters", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#ab79d246480c4ac3a0db6bbceca92ad32", null ],
-    [ "$pkName", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a03ca565d63b49def8eed2558be72ae1c", null ]
+    [ "$pkName", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a03ca565d63b49def8eed2558be72ae1c", null ],
+    [ "$tableName", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#aea06aaf672e3fe5fbf45958ae2782244", null ]
 ];

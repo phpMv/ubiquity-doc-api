@@ -21,5 +21,5 @@ var class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait =
     [ "getOneToManyFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a4cfe396c496a5d58f74e452c34ff1404", null ],
     [ "getRelationInfos", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a87d7303355db05288c39c49b95f797ec", null ],
     [ "getTableName", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a2bee06da346de815972e178d0f643ee4", null ],
-    [ "getUJoinSQL", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a1fb73cdd30ad7c152133dab4f97dabc9", null ]
+    [ "getUJoinSQL", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a491a87a84c1874510b032fa02a2f0a61", null ]
 ];

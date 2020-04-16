@@ -1,9 +1,9 @@
 var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait =
 [
+    [ "_addAuthController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a7f9f12396219c5bfb5ad9fa6d7202385", null ],
+    [ "_addCrudController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a7748c59b0cc5a1008803851b36767d9f", null ],
     [ "_addCtrlRoute", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a4bf0a9f19638f8240af21134d4a7a413", null ],
-    [ "_getFiles", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a3f2a055258adc245af3d808a9b7c9edf", null ],
-    [ "addAuthController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a1788350669a05aa0fde7e3e768bfc5b2", null ],
-    [ "addCrudController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a7cb4a8dd0b4210a314df432f285d75ea", null ],
-    [ "frmAddAuthController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a05e588e868df91956b7da432be61d100", null ],
-    [ "frmAddCrudController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a6d8edb00ab90fd3425eed25420daa3d2", null ]
+    [ "_frmAddAuthController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#afaaf6f12cf8034099210d3efda011ad1", null ],
+    [ "_frmAddCrudController", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a24a0ae2330cb6741abbce5c124a879c4", null ],
+    [ "_getFiles", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_create_controllers_trait.html#a3f2a055258adc245af3d808a9b7c9edf", null ]
 ];

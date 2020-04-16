@@ -1,7 +1,7 @@
 var class_ubiquity_1_1core_1_1_framework =
 [
-    [ "diBootstrap", "class_ubiquity_1_1core_1_1_framework.html#a56abecfb78d597c3484ee2e53c903707", null ],
-    [ "diSemantic", "class_ubiquity_1_1core_1_1_framework.html#a3ee320eac4473b3ebe4352620ea86273", null ],
+    [ "diBootstrap", "class_ubiquity_1_1core_1_1_framework.html#a6b753139f0da14e04d60d281b3786674", null ],
+    [ "diSemantic", "class_ubiquity_1_1core_1_1_framework.html#ae393350ee50aea011c638c8e95660d9b", null ],
     [ "getAction", "class_ubiquity_1_1core_1_1_framework.html#af8b331d3ac442a1071aa9f7db3b60637", null ],
     [ "getAssets", "class_ubiquity_1_1core_1_1_framework.html#a6b309673ee86ee4bfc87bdd2b84fcdaf", null ],
     [ "getController", "class_ubiquity_1_1core_1_1_framework.html#a0c5216068060ca9253dbad31e5895a2b", null ],

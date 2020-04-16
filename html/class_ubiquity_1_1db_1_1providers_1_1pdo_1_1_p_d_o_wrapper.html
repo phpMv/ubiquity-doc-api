@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.3</span>
+   &#160;<span id="projectnumber">2.3.6</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -85,6 +85,7 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1db_1_1providers_1_1p
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a>  </div>
@@ -110,8 +111,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abad41d9199ddb0c2ca3677f1f04c24fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaec1d41ceebc8487ba603b1de072d342"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#aaec1d41ceebc8487ba603b1de072d342">fetchAllColumn</a> ($statement, array $values=null, string $column=null)</td></tr>
 <tr class="separator:aaec1d41ceebc8487ba603b1de072d342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6384591ddfa09e979deb8a695bca0f67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a6384591ddfa09e979deb8a695bca0f67">lastInsertId</a> ()</td></tr>
-<tr class="separator:a6384591ddfa09e979deb8a695bca0f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9cb8ca720d7bbcb03869def521336e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a9f9cb8ca720d7bbcb03869def521336e">lastInsertId</a> ($name=null)</td></tr>
+<tr class="separator:a9f9cb8ca720d7bbcb03869def521336e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8409b55f743d44f1e947bd9de536b8cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a8409b55f743d44f1e947bd9de536b8cb">fetchAll</a> ($statement, array $values=null, $mode=null)</td></tr>
 <tr class="separator:a8409b55f743d44f1e947bd9de536b8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb695bc26b2e6e597bbde81c8bc1981"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#aebb695bc26b2e6e597bbde81c8bc1981">fetchOne</a> ($statement, array $values=null, $mode=null)</td></tr>
@@ -168,6 +169,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a917b5cf6a9fe21878b312f137f1bd8ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaec5ef789034e8346eba5f93018b939"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#adaec5ef789034e8346eba5f93018b939">_optPrepareAndExecute</a> ($sql, array $values=null)</td></tr>
 <tr class="separator:adaec5ef789034e8346eba5f93018b939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7ed4d79085316c55afb6a81016fd6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a9d7ed4d79085316c55afb6a81016fd6a">quoteValue</a> ($value, $type=2)</td></tr>
+<tr class="separator:a9d7ed4d79085316c55afb6a81016fd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915dc9c4c3511eefe0a2f8558126fbf8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a915dc9c4c3511eefe0a2f8558126fbf8">getRowNum</a> (string $tableName, string $pkName, string $condition)</td></tr>
+<tr class="separator:a915dc9c4c3511eefe0a2f8558126fbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60af46f4f1b3e29cda5fc82eb0c46a83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a60af46f4f1b3e29cda5fc82eb0c46a83">groupConcat</a> (string $fields, string $separator)</td></tr>
+<tr class="separator:a60af46f4f1b3e29cda5fc82eb0c46a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57588deb83f8e534222f2d65c6709a25"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a57588deb83f8e534222f2d65c6709a25">toStringOperator</a> ()</td></tr>
+<tr class="separator:a57588deb83f8e534222f2d65c6709a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html">AbstractDbWrapper</a></td></tr>
 <tr class="memitem:aa2abfe403c1c4c09147743788d76d1ae inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#aa2abfe403c1c4c09147743788d76d1ae">query</a> (string $sql)</td></tr>
 <tr class="separator:aa2abfe403c1c4c09147743788d76d1ae inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,8 +200,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06e2c20f78d09f0e4551ada8757ba99d inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95752df0e77406431f820af617a3e583 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a95752df0e77406431f820af617a3e583">statementRowCount</a> ($statement)</td></tr>
 <tr class="separator:a95752df0e77406431f820af617a3e583 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6384591ddfa09e979deb8a695bca0f67 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a6384591ddfa09e979deb8a695bca0f67">lastInsertId</a> ()</td></tr>
-<tr class="separator:a6384591ddfa09e979deb8a695bca0f67 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f9cb8ca720d7bbcb03869def521336e inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a9f9cb8ca720d7bbcb03869def521336e">lastInsertId</a> ($name=null)</td></tr>
+<tr class="separator:a9f9cb8ca720d7bbcb03869def521336e inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71f78375781dcc684694cb77cc1fa385 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a71f78375781dcc684694cb77cc1fa385">bindValueFromStatement</a> ($statement, $parameter, $value)</td></tr>
 <tr class="memdesc:a71f78375781dcc684694cb77cc1fa385 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by DAO.  <a href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a71f78375781dcc684694cb77cc1fa385">More...</a><br /></td></tr>
 <tr class="separator:a71f78375781dcc684694cb77cc1fa385 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,12 +241,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5227618d69384c490d4cd385adcba6ce inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaec5ef789034e8346eba5f93018b939 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#adaec5ef789034e8346eba5f93018b939">_optPrepareAndExecute</a> ($sql, array $values=null)</td></tr>
 <tr class="separator:adaec5ef789034e8346eba5f93018b939 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915dc9c4c3511eefe0a2f8558126fbf8 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a915dc9c4c3511eefe0a2f8558126fbf8">getRowNum</a> (string $tableName, string $pkName, string $condition)</td></tr>
+<tr class="separator:a915dc9c4c3511eefe0a2f8558126fbf8 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60af46f4f1b3e29cda5fc82eb0c46a83 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a60af46f4f1b3e29cda5fc82eb0c46a83">groupConcat</a> (string $fields, string $separator)</td></tr>
+<tr class="separator:a60af46f4f1b3e29cda5fc82eb0c46a83 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57588deb83f8e534222f2d65c6709a25 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a57588deb83f8e534222f2d65c6709a25">toStringOperator</a> ()</td></tr>
+<tr class="separator:a57588deb83f8e534222f2d65c6709a25 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa69c8bf1f1dcf4e72552efff1fe3e87e inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#aa69c8bf1f1dcf4e72552efff1fe3e87e">close</a> ()</td></tr>
 <tr class="separator:aa69c8bf1f1dcf4e72552efff1fe3e87e inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9915199523af82d817a0fdd6c846f38 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ac9915199523af82d817a0fdd6c846f38">getDbInstance</a> ()</td></tr>
 <tr class="separator:ac9915199523af82d817a0fdd6c846f38 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b69cee468fe1b470403c168c516e9f3 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a1b69cee468fe1b470403c168c516e9f3">setDbInstance</a> ($dbInstance)</td></tr>
 <tr class="separator:a1b69cee468fe1b470403c168c516e9f3 inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d7ed4d79085316c55afb6a81016fd6a inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a9d7ed4d79085316c55afb6a81016fd6a">quoteValue</a> ($value, $type=2)</td></tr>
+<tr class="separator:a9d7ed4d79085316c55afb6a81016fd6a inherit pub_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -247,12 +264,21 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9bdac1c5dfa2d96210795e7711b8b93 inherit pub_static_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ad9bdac1c5dfa2d96210795e7711b8b93">getAvailableDrivers</a> ()</td></tr>
 <tr class="separator:ad9bdac1c5dfa2d96210795e7711b8b93 inherit pub_static_methods_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a8f3ef7ab4111671d2c6dd23fce0942eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a8f3ef7ab4111671d2c6dd23fce0942eb">getDriverMetaDatas</a> ()</td></tr>
+<tr class="separator:a8f3ef7ab4111671d2c6dd23fce0942eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:abc43d8b1fdd601f7dcacac1fd0b0b0bf"><td class="memItemLeft" align="right" valign="top">static static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#abc43d8b1fdd601f7dcacac1fd0b0b0bf">$driversMetasClasses</a> = [ 'mysql' =&gt; '\\Ubiquity\\db\\providers\\pdo\\drivers\\MysqlDriverMetas'</td></tr>
+<tr class="separator:abc43d8b1fdd601f7dcacac1fd0b0b0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cc29dd355e144cf9587c829ff65f265"><td class="memItemLeft" align="right" valign="top">static static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a6cc29dd355e144cf9587c829ff65f265">$transactionLevel</a> = 0</td></tr>
 <tr class="separator:a6cc29dd355e144cf9587c829ff65f265"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63b68daf124fa00e6bcfce64fabbdbe1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a63b68daf124fa00e6bcfce64fabbdbe1">$dbType</a></td></tr>
 <tr class="separator:a63b68daf124fa00e6bcfce64fabbdbe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cd2a2f4ef2f0a5ed44cdb8e0572ed57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a5cd2a2f4ef2f0a5ed44cdb8e0572ed57">$driverMetaDatas</a></td></tr>
+<tr class="separator:a5cd2a2f4ef2f0a5ed44cdb8e0572ed57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html">AbstractDbWrapper</a></td></tr>
 <tr class="memitem:a8f58322db30fdc9ba21dc7b120e5e6b3 inherit pro_attribs_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8f58322db30fdc9ba21dc7b120e5e6b3">$dbInstance</a></td></tr>
 <tr class="separator:a8f58322db30fdc9ba21dc7b120e5e6b3 inherit pro_attribs_class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,7 +303,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00016">16</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00017">17</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abad41d9199ddb0c2ca3677f1f04c24fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abad41d9199ddb0c2ca3677f1f04c24fe">&#9670;&nbsp;</a></span>__construct()</h2>
@@ -295,7 +321,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00022">22</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00042">42</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -345,7 +371,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00137">137</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00156">156</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -381,7 +407,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00096">96</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00116">116</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -400,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00129">129</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00148">148</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -460,7 +486,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00083">83</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00103">103</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -480,7 +506,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00079">79</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00099">99</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -510,7 +536,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00112">112</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00132">132</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -546,7 +572,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00040">40</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00060">60</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -582,7 +608,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00027">27</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00047">47</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -618,7 +644,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00066">66</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00086">86</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -654,7 +680,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00049">49</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00069">69</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -681,7 +707,41 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00058">58</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00078">78</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a8f3ef7ab4111671d2c6dd23fce0942eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3ef7ab4111671d2c6dd23fce0942eb">&#9670;&nbsp;</a></span>getDriverMetaDatas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">getDriverMetaDatas </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">DBException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00030">30</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -723,7 +783,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00088">88</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00108">108</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -743,7 +803,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00182">182</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00188">188</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -779,7 +839,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00171">171</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00184">184</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -799,7 +859,43 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00161">161</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00180">180</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a915dc9c4c3511eefe0a2f8558126fbf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915dc9c4c3511eefe0a2f8558126fbf8">&#9670;&nbsp;</a></span>getRowNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getRowNum </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$tableName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$pkName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$condition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00206">206</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -819,7 +915,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00073">73</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00093">93</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -838,7 +934,37 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00116">116</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00136">136</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a60af46f4f1b3e29cda5fc82eb0c46a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60af46f4f1b3e29cda5fc82eb0c46a83">&#9670;&nbsp;</a></span>groupConcat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">groupConcat </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$fields</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$separator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00210">210</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -857,12 +983,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00125">125</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00144">144</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
-<a id="a6384591ddfa09e979deb8a695bca0f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6384591ddfa09e979deb8a695bca0f67">&#9670;&nbsp;</a></span>lastInsertId()</h2>
+<a id="a9f9cb8ca720d7bbcb03869def521336e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f9cb8ca720d7bbcb03869def521336e">&#9670;&nbsp;</a></span>lastInsertId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -870,13 +996,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">lastInsertId </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$name</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00036">36</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00056">56</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -895,7 +1022,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00153">153</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00172">172</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -914,7 +1041,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00157">157</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00176">176</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -934,7 +1061,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00062">62</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00082">82</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -954,7 +1081,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00100">100</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00120">120</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -984,7 +1111,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00104">104</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00124">124</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1014,7 +1141,37 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00108">108</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00128">128</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a9d7ed4d79085316c55afb6a81016fd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d7ed4d79085316c55afb6a81016fd6a">&#9670;&nbsp;</a></span>quoteValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">quoteValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$type</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00202">202</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1034,7 +1191,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00145">145</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00164">164</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1053,7 +1210,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00133">133</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00152">152</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1073,7 +1230,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00149">149</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00168">168</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1093,7 +1250,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00141">141</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00160">160</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1270,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00121">121</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00140">140</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a57588deb83f8e534222f2d65c6709a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57588deb83f8e534222f2d65c6709a25">&#9670;&nbsp;</a></span>toStringOperator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">toStringOperator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00214">214</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1129,6 +1305,54 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">$dbType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00022">22</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="a5cd2a2f4ef2f0a5ed44cdb8e0572ed57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cd2a2f4ef2f0a5ed44cdb8e0572ed57">&#9670;&nbsp;</a></span>$driverMetaDatas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$driverMetaDatas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00023">23</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+
+</div>
+</div>
+<a id="abc43d8b1fdd601f7dcacac1fd0b0b0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc43d8b1fdd601f7dcacac1fd0b0b0bf">&#9670;&nbsp;</a></span>$driversMetasClasses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static $driversMetasClasses = [ 'mysql' =&gt; '\\Ubiquity\\db\\providers\\pdo\\drivers\\MysqlDriverMetas'</td>
         </tr>
       </table>
   </td>
@@ -1162,7 +1386,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00018">18</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00019">19</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1186,7 +1410,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00017">17</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00018">18</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1210,7 +1434,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00019">19</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_d_o_wrapper_8php_source.html#l00021">21</a> of file <a class="el" href="_p_d_o_wrapper_8php_source.html">PDOWrapper.php</a>.</p>
 
 </div>
 </div>
@@ -1224,7 +1448,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1db.html">db</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1db_1_1providers.html">providers</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1db_1_1providers_1_1pdo.html">pdo</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html">PDOWrapper</a></li>
-    <li class="footer"><small>Generated on Sat Jan 25 2020 01:47:47 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Thu Apr 16 2020 18:38:24 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

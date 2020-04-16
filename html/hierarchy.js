@@ -17,6 +17,11 @@ var hierarchy =
     [ "AbstractDbWrapper", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html", [
       [ "PDOWrapper", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html", null ]
     ] ],
+    [ "AbstractDriverMetaDatas", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_abstract_driver_meta_datas.html", [
+      [ "MysqlDriverMetas", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_mysql_driver_metas.html", null ],
+      [ "PgsqlDriverMetas", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas.html", null ],
+      [ "SqliteDriverMetas", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_sqlite_driver_metas.html", null ]
+    ] ],
     [ "AbstractHttp", "class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_abstract_http.html", [
       [ "PhpHttp", "class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_php_http.html", null ]
     ] ],
@@ -62,6 +67,10 @@ var hierarchy =
     ] ],
     [ "ClassUtils", "class_ubiquity_1_1cache_1_1_class_utils.html", null ],
     [ "CodeUtils", "class_ubiquity_1_1utils_1_1base_1_1_code_utils.html", null ],
+    [ "ComposerDependency", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html", null ],
+    [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
     [ "ConditionParser", "class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html", null ],
     [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
@@ -299,6 +308,7 @@ var hierarchy =
     [ "OrmUtilsRelationsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html", [
       [ "OrmUtils", "class_ubiquity_1_1orm_1_1_orm_utils.html", null ]
     ] ],
+    [ "PackagistApi", "class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_packagist_api.html", null ],
     [ "PendingRelationsRequest", "class_ubiquity_1_1orm_1_1core_1_1_pending_relations_request.html", null ],
     [ "PreloaderCacheInfo", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html", null ],
     [ "PreloaderInternalTrait", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html", [
@@ -402,10 +412,11 @@ var hierarchy =
     [ "Url", "class_ubiquity_1_1seo_1_1_url.html", null ],
     [ "UrlParser", "class_ubiquity_1_1seo_1_1_url_parser.html", null ],
     [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1crud_1_1traits_1_1_urls_trait.html", [
-      [ "UbiquityMyAdminFiles", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html", null ],
       [ "CRUDFiles", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html", null ]
     ] ],
-    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_urls_trait.html", null ],
+    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_urls_trait.html", [
+      [ "UbiquityMyAdminFiles", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html", null ]
+    ] ],
     [ "USession", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html", null ],
     [ "UString", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html", null ],
     [ "ValidationModelGenerator", "class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html", null ],
