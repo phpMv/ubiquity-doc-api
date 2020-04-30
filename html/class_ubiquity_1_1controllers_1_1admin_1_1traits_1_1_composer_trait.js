@@ -9,7 +9,6 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait =
     [ "_refreshComposer", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a38565ebd0e4f8d1ee86b93cc7cf0222b", null ],
     [ "_updateComposer", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#ad02163557064234a30f87a8d175404f7", null ],
     [ "getComposerDataTable", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a78195e22dcdf72b1438f3a9a48c21109", null ],
-    [ "liveExecuteCommand", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#aef32227c57c9450ab2a1bb9a52231671", null ],
     [ "showSimpleMessage", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a2222f35d5e8cda505ca556e5c1108fd4", null ],
     [ "$libraries", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html#a1db7a94c994d49c3453daf7fdc5da1d3", null ]
 ];

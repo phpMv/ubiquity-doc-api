@@ -15,6 +15,9 @@ var dir_c236137fe79ea1dab0fd1adc5a4e5ead =
     [ "MaintenanceMode.php", "_maintenance_mode_8php.html", [
       [ "MaintenanceMode", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode" ]
     ] ],
+    [ "OAuthProvider.php", "_o_auth_provider_8php.html", [
+      [ "OAuthProvider", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider" ]
+    ] ],
     [ "RepositoryGit.php", "_repository_git_8php.html", [
       [ "RepositoryGit", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git" ]
     ] ],

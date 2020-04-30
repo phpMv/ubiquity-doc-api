@@ -72,6 +72,9 @@ var hierarchy =
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "ConditionParser", "class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html", null ],
+    [ "ConfigPartTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
     [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
@@ -80,9 +83,9 @@ var hierarchy =
     [ "ConstraintViolationViewer", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation_viewer.html", null ],
     [ "Controller", "class_ubiquity_1_1controllers_1_1_controller.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ],
+      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ],
       [ "ControllerBase", "class_ubiquity_1_1controllers_1_1_controller_base.html", [
         [ "DefaultMaintenance", "class_ubiquity_1_1controllers_1_1admin_1_1_default_maintenance.html", null ],
-        [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ],
         [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
       ] ],
       [ "RestBaseController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html", [
@@ -113,6 +116,7 @@ var hierarchy =
     [ "CRUDEvents", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html", null ],
     [ "CRUDHelper", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html", null ],
     [ "CRUDMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html", null ],
+    [ "CsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html", null ],
     [ "DAOBulkUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html", [
       [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", [
         [ "SDAO", "class_ubiquity_1_1orm_1_1_s_d_a_o.html", null ]
@@ -301,6 +305,10 @@ var hierarchy =
     ] ],
     [ "NormalizerInterface", "interface_ubiquity_1_1contents_1_1normalizers_1_1_normalizer_interface.html", null ],
     [ "NormalizersManager", "class_ubiquity_1_1contents_1_1normalizers_1_1_normalizers_manager.html", null ],
+    [ "OAuthProvider", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider.html", null ],
+    [ "OAuthTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
     [ "ObjectsConditionParser", "class_ubiquity_1_1orm_1_1core_1_1_objects_condition_parser.html", null ],
     [ "OrmUtilsFieldsTrait", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html", [
       [ "OrmUtils", "class_ubiquity_1_1orm_1_1_orm_utils.html", null ]
@@ -411,11 +419,11 @@ var hierarchy =
     [ "UResponse", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html", null ],
     [ "Url", "class_ubiquity_1_1seo_1_1_url.html", null ],
     [ "UrlParser", "class_ubiquity_1_1seo_1_1_url_parser.html", null ],
-    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1crud_1_1traits_1_1_urls_trait.html", [
-      [ "CRUDFiles", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html", null ]
-    ] ],
     [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_urls_trait.html", [
       [ "UbiquityMyAdminFiles", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html", null ]
+    ] ],
+    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1crud_1_1traits_1_1_urls_trait.html", [
+      [ "CRUDFiles", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html", null ]
     ] ],
     [ "USession", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html", null ],
     [ "UString", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html", null ],
@@ -433,6 +441,9 @@ var hierarchy =
     ] ],
     [ "ValidatorsManagerInitTrait", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager_init_trait.html", [
       [ "ValidatorsManager", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html", null ]
+    ] ],
+    [ "VerifySessionCsrfInterface", "interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html", [
+      [ "VerifyCsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_csrf_token.html", null ]
     ] ],
     [ "View", "class_ubiquity_1_1views_1_1_view.html", null ],
     [ "ViewEvents", "class_ubiquity_1_1events_1_1_view_events.html", null ],

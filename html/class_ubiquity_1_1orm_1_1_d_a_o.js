@@ -3,6 +3,7 @@ var class_ubiquity_1_1orm_1_1_d_a_o =
     [ "closeDb", "class_ubiquity_1_1orm_1_1_d_a_o.html#a44fa3948bb0f5dc4475a4be61abc7d8b", null ],
     [ "connect", "class_ubiquity_1_1orm_1_1_d_a_o.html#a2607efac19f82b140bf2a590d584a7f1", null ],
     [ "count", "class_ubiquity_1_1orm_1_1_d_a_o.html#a1eab6a63d6d9d1a0b526179756adb34b", null ],
+    [ "exists", "class_ubiquity_1_1orm_1_1_d_a_o.html#a9f307e3f0be046963ab4f4344ce87092", null ],
     [ "getAll", "class_ubiquity_1_1orm_1_1_d_a_o.html#af87c07e78e13e9f1d5ddaf11245fd029", null ],
     [ "getById", "class_ubiquity_1_1orm_1_1_d_a_o.html#a8b016f0dc89d73fc569bf2318e384b2d", null ],
     [ "getConditionParser", "class_ubiquity_1_1orm_1_1_d_a_o.html#a1188ef1824c74fe4060e050c08fe4327", null ],

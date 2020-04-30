@@ -1,5 +1,6 @@
 var dir_5035d086ea5290c526003c7152bb0254 =
 [
+    [ "protection", "dir_4d1608f154d06da686ca10c984dc0f6c.html", "dir_4d1608f154d06da686ca10c984dc0f6c" ],
     [ "AbstractSession.php", "_abstract_session_8php.html", [
       [ "AbstractSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session" ]
     ] ],

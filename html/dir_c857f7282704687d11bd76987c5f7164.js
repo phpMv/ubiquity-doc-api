@@ -9,6 +9,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     [ "ComposerTrait.php", "_composer_trait_8php.html", [
       [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait" ]
     ] ],
+    [ "ConfigPartTrait.php", "_config_part_trait_8php.html", [
+      [ "ConfigPartTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait" ]
+    ] ],
     [ "ConfigTrait.php", "_config_trait_8php.html", [
       [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait" ]
     ] ],
@@ -38,6 +41,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     ] ],
     [ "ModelsTrait.php", "_models_trait_8php.html", [
       [ "ModelsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait" ]
+    ] ],
+    [ "OAuthTrait.php", "_o_auth_trait_8php.html", [
+      [ "OAuthTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait" ]
     ] ],
     [ "RestTrait.php", "_rest_trait_8php.html", [
       [ "RestTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait" ]

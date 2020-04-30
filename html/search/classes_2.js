@@ -15,6 +15,7 @@ var searchData=
   ['composerdependency',['ComposerDependency',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html',1,'Ubiquity::controllers::admin::popo']]],
   ['composertrait',['ComposerTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['conditionparser',['ConditionParser',['../class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html',1,'Ubiquity::orm::parser']]],
+  ['configparttrait',['ConfigPartTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['configtrait',['ConfigTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['constants',['Constants',['../class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_constants.html',1,'Ubiquity::controllers::admin::utils']]],
   ['constraintviolation',['ConstraintViolation',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html',1,'Ubiquity::contents::validation::validators']]],
@@ -34,5 +35,6 @@ var searchData=
   ['crudevents',['CRUDEvents',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html',1,'Ubiquity::controllers::crud']]],
   ['crudfiles',['CRUDFiles',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html',1,'Ubiquity::controllers::crud']]],
   ['crudhelper',['CRUDHelper',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html',1,'Ubiquity::controllers::crud']]],
-  ['crudmessage',['CRUDMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html',1,'Ubiquity::controllers::crud']]]
+  ['crudmessage',['CRUDMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html',1,'Ubiquity::controllers::crud']]],
+  ['csrftoken',['CsrfToken',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html',1,'Ubiquity::utils::http::session::protection']]]
 ];

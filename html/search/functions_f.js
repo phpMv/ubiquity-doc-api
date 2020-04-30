@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['oauth',['oauth',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ac213ca4f98322c427d08cb96dccef363',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
   ['objectasjson',['objectAsJSON',['../class_ubiquity_1_1orm_1_1_orm_utils.html#a779a8d46e4609b2decb968b7283173f0',1,'Ubiquity::orm::OrmUtils']]],
   ['on',['on',['../interface_ubiquity_1_1events_1_1_event_listener_interface.html#a03e3c10e9a563369ab5fd6ccdd49dd42',1,'Ubiquity::events::EventListenerInterface']]],
   ['onafterrender',['onAfterRender',['../class_ubiquity_1_1themes_1_1_themes_manager.html#aae1a8a4b848187b099d8b4a300ca5a13',1,'Ubiquity::themes::ThemesManager']]],

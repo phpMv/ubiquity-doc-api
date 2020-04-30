@@ -47,6 +47,7 @@ var searchData=
   ['postinstall',['postinstall',['../namespace_ubiquity_1_1core_1_1postinstall.html',1,'Ubiquity::core']]],
   ['preloading',['preloading',['../namespace_ubiquity_1_1cache_1_1preloading.html',1,'Ubiquity::cache']]],
   ['prepared',['prepared',['../namespace_ubiquity_1_1orm_1_1core_1_1prepared.html',1,'Ubiquity::orm::core']]],
+  ['protection',['protection',['../namespace_ubiquity_1_1utils_1_1http_1_1session_1_1protection.html',1,'Ubiquity::utils::http::session']]],
   ['providers',['providers',['../namespace_ubiquity_1_1db_1_1providers.html',1,'Ubiquity::db']]],
   ['rest',['rest',['../namespace_ubiquity_1_1annotations_1_1rest.html',1,'Ubiquity\annotations\rest'],['../namespace_ubiquity_1_1controllers_1_1rest.html',1,'Ubiquity\controllers\rest']]],
   ['reverse',['reverse',['../namespace_ubiquity_1_1db_1_1reverse.html',1,'Ubiquity\db\reverse'],['../namespace_ubiquity_1_1orm_1_1reverse.html',1,'Ubiquity\orm\reverse']]],

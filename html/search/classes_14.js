@@ -10,6 +10,8 @@ var searchData=
   ['validatormultiple',['ValidatorMultiple',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_validator_multiple.html',1,'Ubiquity::contents::validation::validators::multiples']]],
   ['validatorsmanager',['ValidatorsManager',['../class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html',1,'Ubiquity::contents::validation']]],
   ['validatorsmanagerinittrait',['ValidatorsManagerInitTrait',['../class_ubiquity_1_1contents_1_1validation_1_1_validators_manager_init_trait.html',1,'Ubiquity::contents::validation']]],
+  ['verifycsrftoken',['VerifyCsrfToken',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_csrf_token.html',1,'Ubiquity::utils::http::session::protection']]],
+  ['verifysessioncsrfinterface',['VerifySessionCsrfInterface',['../interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html',1,'Ubiquity::utils::http::session::protection']]],
   ['view',['View',['../class_ubiquity_1_1views_1_1_view.html',1,'Ubiquity::views']]],
   ['viewevents',['ViewEvents',['../class_ubiquity_1_1events_1_1_view_events.html',1,'Ubiquity::events']]]
 ];
