@@ -7,5 +7,6 @@ var class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session =
     [ "isStarted", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#a1ffe0e26cd53b764f58c5bbed489c278", null ],
     [ "set", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#aab787bd83f84f4215dceb35f7c305eee", null ],
     [ "start", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#a129ab02dfc81348f64958c63a2af583f", null ],
-    [ "terminate", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#aae6d2f0ed43d77087c71ffd4919dcf5d", null ]
+    [ "terminate", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#aae6d2f0ed43d77087c71ffd4919dcf5d", null ],
+    [ "visitorCount", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#a1f11df1273ee964b6d717f8fb984770b", null ]
 ];

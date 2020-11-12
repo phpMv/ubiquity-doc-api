@@ -20,6 +20,7 @@ var class_ubiquity_1_1orm_1_1_orm_utils =
     [ "getPropKeyValues", "class_ubiquity_1_1orm_1_1_orm_utils.html#a6c91db1c0a6ffec20c0e922371dc1f75", null ],
     [ "getTableName", "class_ubiquity_1_1orm_1_1_orm_utils.html#a2bee06da346de815972e178d0f643ee4", null ],
     [ "getTransformers", "class_ubiquity_1_1orm_1_1_orm_utils.html#a6ddf7039934c76a1e5adcdfdd3a91cde", null ],
+    [ "hasAllMembersPublic", "class_ubiquity_1_1orm_1_1_orm_utils.html#a3600b85d95db3fc3889aaafd4756eca2", null ],
     [ "isNotNullOrNullAccepted", "class_ubiquity_1_1orm_1_1_orm_utils.html#a62392d8d3c6d77b9ab062d94e4851dc4", null ],
     [ "isNullable", "class_ubiquity_1_1orm_1_1_orm_utils.html#ace35022879b6011e5c6fce4e0f7b1d26", null ],
     [ "isSerializable", "class_ubiquity_1_1orm_1_1_orm_utils.html#a226f09d5c5d64cf36340328f5c4edc3a", null ],

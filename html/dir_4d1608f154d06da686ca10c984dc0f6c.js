@@ -3,6 +3,9 @@ var dir_4d1608f154d06da686ca10c984dc0f6c =
     [ "CsrfToken.php", "_csrf_token_8php.html", [
       [ "CsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token" ]
     ] ],
+    [ "NoCsrfProtection.php", "_no_csrf_protection_8php.html", [
+      [ "NoCsrfProtection", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection" ]
+    ] ],
     [ "VerifyCsrfToken.php", "_verify_csrf_token_8php.html", [
       [ "VerifyCsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_csrf_token.html", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_csrf_token" ]
     ] ],

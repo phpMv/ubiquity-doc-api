@@ -5,6 +5,11 @@ var hierarchy =
       [ "BulkInserts", "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_inserts.html", null ],
       [ "BulkUpdates", "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html", null ]
     ] ],
+    [ "AbstractDAOCache", "class_ubiquity_1_1cache_1_1dao_1_1_abstract_d_a_o_cache.html", [
+      [ "DAOCache", "class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_cache.html", null ],
+      [ "DAOMemoryCache", "class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_memory_cache.html", null ],
+      [ "DAOSerialCache", "class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_serial_cache.html", null ]
+    ] ],
     [ "AbstractDataCache", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html", [
       [ "ApcuCache", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html", null ],
       [ "ArrayCache", "class_ubiquity_1_1cache_1_1system_1_1_array_cache.html", [
@@ -12,7 +17,8 @@ var hierarchy =
       ] ],
       [ "MemCachedDriver", "class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html", null ],
       [ "ObjectCache", "class_ubiquity_1_1cache_1_1system_1_1_object_cache.html", null ],
-      [ "PhpFastCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html", null ]
+      [ "PhpFastCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html", null ],
+      [ "RedisCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver.html", null ]
     ] ],
     [ "AbstractDbWrapper", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html", [
       [ "PDOWrapper", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html", null ]
@@ -35,6 +41,7 @@ var hierarchy =
       [ "PhpSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html", null ]
     ] ],
     [ "ApiTokens", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html", null ],
+    [ "ApplicationStorage", "class_ubiquity_1_1utils_1_1store_1_1_application_storage.html", null ],
     [ "AssetsManager", "class_ubiquity_1_1assets_1_1_assets_manager.html", null ],
     [ "AuthControllerCoreTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
@@ -56,6 +63,7 @@ var hierarchy =
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "CallableParser", "class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html", null ],
+    [ "CategoryCommands", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_category_commands.html", null ],
     [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", [
       [ "ModelsConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html", [
         [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
@@ -67,6 +75,11 @@ var hierarchy =
     ] ],
     [ "ClassUtils", "class_ubiquity_1_1cache_1_1_class_utils.html", null ],
     [ "CodeUtils", "class_ubiquity_1_1utils_1_1base_1_1_code_utils.html", null ],
+    [ "CommandList", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_list.html", null ],
+    [ "CommandsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
+    [ "CommandValues", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_values.html", null ],
     [ "ComposerDependency", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html", null ],
     [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
@@ -174,8 +187,8 @@ var hierarchy =
       [ "TableExport", "class_ubiquity_1_1db_1_1export_1_1_table_export.html", null ]
     ] ],
     [ "DbCache", "class_ubiquity_1_1cache_1_1database_1_1_db_cache.html", [
-      [ "QueryCache", "class_ubiquity_1_1cache_1_1database_1_1_query_cache.html", null ],
-      [ "TableCache", "class_ubiquity_1_1cache_1_1database_1_1_table_cache.html", null ]
+      [ "MemoryCache", "class_ubiquity_1_1cache_1_1database_1_1_memory_cache.html", null ],
+      [ "QueryCache", "class_ubiquity_1_1cache_1_1database_1_1_query_cache.html", null ]
     ] ],
     [ "DbExport", "class_ubiquity_1_1db_1_1export_1_1_db_export.html", null ],
     [ "DbGenerator", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html", null ],
@@ -338,6 +351,7 @@ var hierarchy =
       [ "RestBaseController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html", null ]
     ] ],
     [ "RestError", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html", null ],
+    [ "RestEvents", "class_ubiquity_1_1events_1_1_rest_events.html", null ],
     [ "RestServer", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html", [
       [ "JsonApiRestServer", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_rest_server.html", null ]
     ] ],
@@ -360,12 +374,22 @@ var hierarchy =
     [ "RoutesTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
+    [ "ScaffoldCommand", "class_ubiquity_1_1scaffolding_1_1_scaffold_command.html", null ],
     [ "ScaffoldController", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html", [
       [ "AdminScaffoldController", "class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html", null ]
+    ] ],
+    [ "SecurityTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "SeoTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
+    [ "SerializerInterface", "interface_ubiquity_1_1contents_1_1serializers_1_1_serializer_interface.html", [
+      [ "JsonSerializer", "class_ubiquity_1_1contents_1_1serializers_1_1_json_serializer.html", null ],
+      [ "PhpSerializer", "class_ubiquity_1_1contents_1_1serializers_1_1_php_serializer.html", null ]
+    ] ],
+    [ "ServicesChecker", "class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html", null ],
+    [ "ServiceStarter", "class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html", null ],
     [ "SessionCache", "class_ubiquity_1_1cache_1_1objects_1_1_session_cache.html", null ],
     [ "SessionObject", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html", null ],
     [ "SqlUtils", "class_ubiquity_1_1db_1_1_sql_utils.html", null ],
@@ -404,7 +428,6 @@ var hierarchy =
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "Translator", "class_ubiquity_1_1translation_1_1_translator.html", null ],
-    [ "TranslatorManager", "class_ubiquity_1_1translation_1_1_translator_manager.html", null ],
     [ "UArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html", null ],
     [ "UbiquityMyAdminData", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_data.html", null ],
     [ "UbiquityMyAdminViewer", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html", null ],
@@ -443,6 +466,7 @@ var hierarchy =
       [ "ValidatorsManager", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html", null ]
     ] ],
     [ "VerifySessionCsrfInterface", "interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html", [
+      [ "NoCsrfProtection", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html", null ],
       [ "VerifyCsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_csrf_token.html", null ]
     ] ],
     [ "View", "class_ubiquity_1_1views_1_1_view.html", null ],
@@ -466,8 +490,12 @@ var hierarchy =
         [ "AuthorizationAnnotation", "class_ubiquity_1_1annotations_1_1rest_1_1_authorization_annotation.html", null ],
         [ "RestAnnotation", "class_ubiquity_1_1annotations_1_1rest_1_1_rest_annotation.html", null ],
         [ "RouteAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html", [
+          [ "DeleteAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_delete_annotation.html", null ],
           [ "GetAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_get_annotation.html", null ],
-          [ "PostAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_post_annotation.html", null ]
+          [ "OptionsAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_options_annotation.html", null ],
+          [ "PatchAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_patch_annotation.html", null ],
+          [ "PostAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_post_annotation.html", null ],
+          [ "PutAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_put_annotation.html", null ]
         ] ],
         [ "TableAnnotation", "class_ubiquity_1_1annotations_1_1_table_annotation.html", null ],
         [ "TransformerAnnotation", "class_ubiquity_1_1annotations_1_1_transformer_annotation.html", null ],

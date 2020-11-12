@@ -11,6 +11,7 @@ var class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session =
     [ "set", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#aab787bd83f84f4215dceb35f7c305eee", null ],
     [ "start", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#a8fc034497d192a9001bf85d6bbeee706", null ],
     [ "terminate", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#aae6d2f0ed43d77087c71ffd4919dcf5d", null ],
+    [ "visitorCount", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#a1f11df1273ee964b6d717f8fb984770b", null ],
     [ "$folder", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#a5ade1bb16ee3a241cefc0b84918f1598", null ],
     [ "$id", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#ae97941710d863131c700f069b109991e", null ],
     [ "SESSION_ID", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#ae4af41087b28652699de87e9ab84077c", null ]

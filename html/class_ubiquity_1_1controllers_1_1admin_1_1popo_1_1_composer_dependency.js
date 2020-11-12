@@ -4,6 +4,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency =
     [ "addComposerPart", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#aced41121f5e1ad1948fbbb38c95fb3ba", null ],
     [ "getCategory", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ada0bf69887885f455ebdfbe878e14543", null ],
     [ "getComposer", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a182025bb44786898e31d2e85010d046a", null ],
+    [ "getDependency", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ad7dd456a0d325999fe5854cb748236f9", null ],
     [ "getLoaded", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#ae75c5892422534b51e33a88890f11db3", null ],
     [ "getName", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getOptional", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html#a4857a8221c8bb4d12137c05e491f94ef", null ],

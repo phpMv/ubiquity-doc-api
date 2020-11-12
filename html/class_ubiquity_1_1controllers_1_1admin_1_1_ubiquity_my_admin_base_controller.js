@@ -43,6 +43,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller
     [ "addCloseToMessage", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a0da7579e4319309d95067b043835cd3b", null ],
     [ "addNavigationTesting", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ae4b6adec4234db44a2a460069fa2fc78", null ],
     [ "cache", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ab23554f62408c63d48b826b5f2bf85d1", null ],
+    [ "commands", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#af0afefa0d79d09344a638cf6c532aa39", null ],
     [ "composer", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#aff82407d65054b3e3e23c4ffcf2c214b", null ],
     [ "config", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ad28893a33754ac428b57ad809eedfeb6", null ],
     [ "controllers", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a0e8565a8bd71996272bb2b74a355079e", null ],
@@ -72,6 +73,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller
     [ "reloadConfig", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a57d9220debd2f24efb5320d39e9e73f4", null ],
     [ "rest", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a11343040fb55468085525906f60fa228", null ],
     [ "routes", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a57102936c05e571c397f794a752795a5", null ],
+    [ "security", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a0dec7798781a7dd27972b86e7771675f", null ],
     [ "seo", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#abb091e327dd2c55004991402aed401c9", null ],
     [ "themes", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#aaa789826eabe3211f396caa763cc89a5", null ],
     [ "toast", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a740b21603e7d36e4465900728ffca13c", null ],
@@ -82,6 +84,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller
     [ "$adminViewer", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a1d2c1aa3975fb0a5d1fa81f74382621a", null ],
     [ "$config", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a49c7011be9c979d9174c52a8b83e5d8e", null ],
     [ "$configFile", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a3e265c431ca42bf2f20753540bb64d00", null ],
+    [ "$devtoolsPath", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ab083cbb0febff09758b95f357f88aba7", null ],
     [ "$globalMessage", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ada3b5bf52147ece4ba630d31f11ead33", null ],
     [ "$scaffold", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ad2e5ab0c68fdcd1bf70226f20c5b4456", null ],
     [ "version", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a265a39dcf2f0b7c6b96574362aa01ad9", null ]

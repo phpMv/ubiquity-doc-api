@@ -1,6 +1,7 @@
 var searchData=
 [
   ['abstractbulks',['AbstractBulks',['../class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html',1,'Ubiquity::orm::bulk']]],
+  ['abstractdaocache',['AbstractDAOCache',['../class_ubiquity_1_1cache_1_1dao_1_1_abstract_d_a_o_cache.html',1,'Ubiquity::cache::dao']]],
   ['abstractdatacache',['AbstractDataCache',['../class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html',1,'Ubiquity::cache::system']]],
   ['abstractdatetimevalidator',['AbstractDateTimeValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1dates_1_1_abstract_date_time_validator.html',1,'Ubiquity::contents::validation::validators::dates']]],
   ['abstractdbwrapper',['AbstractDbWrapper',['../class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html',1,'Ubiquity::db::providers']]],
@@ -11,6 +12,7 @@ var searchData=
   ['adminscaffoldcontroller',['AdminScaffoldController',['../class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html',1,'Ubiquity::scaffolding']]],
   ['apcucache',['ApcuCache',['../class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html',1,'Ubiquity::cache::system']]],
   ['apitokens',['ApiTokens',['../class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html',1,'Ubiquity::controllers::rest']]],
+  ['applicationstorage',['ApplicationStorage',['../class_ubiquity_1_1utils_1_1store_1_1_application_storage.html',1,'Ubiquity::utils::store']]],
   ['arrayapccache',['ArrayApcCache',['../class_ubiquity_1_1cache_1_1system_1_1_array_apc_cache.html',1,'Ubiquity::cache::system']]],
   ['arraycache',['ArrayCache',['../class_ubiquity_1_1cache_1_1system_1_1_array_cache.html',1,'Ubiquity::cache::system']]],
   ['arrayloader',['ArrayLoader',['../class_ubiquity_1_1translation_1_1loader_1_1_array_loader.html',1,'Ubiquity::translation::loader']]],

@@ -13,5 +13,7 @@ var searchData=
   ['jsonapirestserver',['JsonApiRestServer',['../class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_rest_server.html',1,'Ubiquity::controllers::rest::api::jsonapi']]],
   ['jsonapirestserver_2ephp',['JsonApiRestServer.php',['../_json_api_rest_server_8php.html',1,'']]],
   ['jsonimportation',['JsonImportation',['../class_ubiquity_1_1translation_1_1import_1_1_json_importation.html',1,'Ubiquity::translation::import']]],
-  ['jsonimportation_2ephp',['JsonImportation.php',['../_json_importation_8php.html',1,'']]]
+  ['jsonimportation_2ephp',['JsonImportation.php',['../_json_importation_8php.html',1,'']]],
+  ['jsonserializer',['JsonSerializer',['../class_ubiquity_1_1contents_1_1serializers_1_1_json_serializer.html',1,'Ubiquity::contents::serializers']]],
+  ['jsonserializer_2ephp',['JsonSerializer.php',['../_json_serializer_8php.html',1,'']]]
 ];

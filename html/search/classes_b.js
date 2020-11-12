@@ -10,6 +10,7 @@ var searchData=
   ['md5',['Md5',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_md5.html',1,'Ubiquity::contents::transformation::transformers']]],
   ['member',['Member',['../class_ubiquity_1_1orm_1_1creator_1_1_member.html',1,'Ubiquity::orm::creator']]],
   ['memcacheddriver',['MemCachedDriver',['../class_ubiquity_1_1cache_1_1system_1_1_mem_cached_driver.html',1,'Ubiquity::cache::system']]],
+  ['memorycache',['MemoryCache',['../class_ubiquity_1_1cache_1_1database_1_1_memory_cache.html',1,'Ubiquity::cache::database']]],
   ['messagescatalog',['MessagesCatalog',['../class_ubiquity_1_1translation_1_1_messages_catalog.html',1,'Ubiquity::translation']]],
   ['messagesdomain',['MessagesDomain',['../class_ubiquity_1_1translation_1_1_messages_domain.html',1,'Ubiquity::translation']]],
   ['messagestrait',['MessagesTrait',['../class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html',1,'Ubiquity::controllers::semantic']]],

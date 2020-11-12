@@ -1,7 +1,8 @@
 var class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper =
 [
     [ "__construct", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#abad41d9199ddb0c2ca3677f1f04c24fe", null ],
-    [ "_optPrepareAndExecute", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#adaec5ef789034e8346eba5f93018b939", null ],
+    [ "_optExecuteAndFetch", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#af3122e00980e8bdd18862b6511364dff", null ],
+    [ "_optPrepareAndExecute", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a533d679cd7cb0fa9115604a223f2f6d7", null ],
     [ "beginTransaction", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#af3380f3b13931d581fa973a382946b32", null ],
     [ "bindValueFromStatement", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a71f78375781dcc684694cb77cc1fa385", null ],
     [ "commit", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#af5674c27d4a92f6228565010eacbb9cb", null ],

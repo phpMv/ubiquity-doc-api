@@ -12,11 +12,10 @@ var class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache =
     [ "getEntryKey", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#ac97e94d37deeb951293028c85dbfb0db", null ],
     [ "getRoot", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#aad5f81bb01a9f12cfb3fc38ca462a90d", null ],
     [ "getTimestamp", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#aff0cbcd61bb5f05632e20fd0baf65714", null ],
+    [ "init", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a4be4055f3361d4800e16bc2e2e38cda6", null ],
     [ "remove", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a95483af4e2c07dc9893fe058b026bd5d", null ],
     [ "setRoot", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a0498fee866c6720c0fde94fcc7664f15", null ],
-    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a42af565dba40b474c39aad09fbd26ac0", null ],
-    [ "storeContent", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a92ecbb1a81e82f7397b6016128b594c6", null ],
+    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#abaf87faa6a1479ae99452899125274f0", null ],
     [ "$_root", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a15ea8c78d28d8d9b6023dedbe622c731", null ],
-    [ "$postfix", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#ad3a977771f7fc8aed9c6ecd5baeeec44", null ],
-    [ "PHP_TAG", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#aaa05fcdb15becd9b40f2d841e0c0e6b1", null ]
+    [ "$postfix", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#ad3a977771f7fc8aed9c6ecd5baeeec44", null ]
 ];

@@ -1,7 +1,8 @@
 {
     "require": {
         "phpmv/ubiquity": "dev-master",
-        "phpmv/ubiquity-webtools": "dev-master"
+        "phpmv/ubiquity-webtools": "dev-master",
+		"phpmv/ubiquity-commands": "dev-master"
     }
 ,
 	"minimum-stability": "dev",

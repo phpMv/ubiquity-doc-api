@@ -11,6 +11,8 @@ var class_ubiquity_1_1utils_1_1http_1_1_u_session =
     [ "getAll", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#aca7ae46d923aa798f1e29657bb767a22", null ],
     [ "getArray", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a5cefdd7868c3b60bd1109d1200ca97ac", null ],
     [ "getBoolean", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a0bf9dd0f7aa34bbebde52536c44b888c", null ],
+    [ "getCsrfProtectionClass", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ac6dff4d99f72912ba7155171f81e2242", null ],
+    [ "getInstanceClass", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ade8c686cf2f44eeb70eebb55111e1986", null ],
     [ "getTimeout", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a0579cc6f9496fb1dc4d70d9c042f2352", null ],
     [ "getTmp", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad7fe55d7821ff6fffe1a6f489fbc9d03", null ],
     [ "inc", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a61d371a13cb5691a3bd2fab50aa1b125", null ],
@@ -24,6 +26,7 @@ var class_ubiquity_1_1utils_1_1http_1_1_u_session =
     [ "setTmp", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a17b9f23b03e534bee408abc5ec753098", null ],
     [ "start", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad380f42cbce7f41eb07e250656c048c0", null ],
     [ "terminate", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a191e26bc789af7f3dc38b138fb7bef12", null ],
+    [ "visitorCount", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad2d20bba69c0ab7434d3f82bc7c392e5", null ],
     [ "Walk", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a75ebc841e05bf883e13d16b8f32f9c87", null ],
     [ "$sessionInstance", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html#acb64257b549fcdc4cfea7ee2ab0c105f", null ]
 ];

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f84552b8ad57645ba4d5506d122414e",
+    "content-hash": "4045017a4504fa80bbc06509f6079b27",
     "packages": [
         {
             "name": "frameworks/jquery",
@@ -31,16 +31,16 @@
         },
         {
             "name": "phpmv/php-mv-ui",
-            "version": "2.3.4",
+            "version": "2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/phpMv-UI.git",
-                "reference": "6da0828af7096936e63a6915e63a688e75b8fef7"
+                "reference": "87cc87e78c8eb63487db9b3f21fbd1502eb9b18f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/6da0828af7096936e63a6915e63a688e75b8fef7",
-                "reference": "6da0828af7096936e63a6915e63a688e75b8fef7",
+                "url": "https://api.github.com/repos/phpMv/phpMv-UI/zipball/87cc87e78c8eb63487db9b3f21fbd1502eb9b18f",
+                "reference": "87cc87e78c8eb63487db9b3f21fbd1502eb9b18f",
                 "shasum": ""
             },
             "require": {
@@ -89,7 +89,7 @@
                 "ubiquity",
                 "yii"
             ],
-            "time": "2020-04-27T01:21:28+00:00"
+            "time": "2020-07-26T13:14:47+00:00"
         },
         {
             "name": "phpmv/ubiquity",
@@ -97,12 +97,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity.git",
-                "reference": "0e9031a291d8dfd1abab8a853f8d57188a6b495d"
+                "reference": "880e7c7119bb04d7e4450bfe3f2eaf70ad28d832"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/0e9031a291d8dfd1abab8a853f8d57188a6b495d",
-                "reference": "0e9031a291d8dfd1abab8a853f8d57188a6b495d",
+                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/880e7c7119bb04d7e4450bfe3f2eaf70ad28d832",
+                "reference": "880e7c7119bb04d7e4450bfe3f2eaf70ad28d832",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +112,7 @@
                 "phpmv/php-mv-ui": "^2.2",
                 "phpmv/ubiquity-codeception": "dev-master",
                 "phpmv/ubiquity-dev": "^0.0",
-                "phpmv/ubiquity-devtools": "^1.2"
+                "phpmv/ubiquity-devtools": "dev-master"
             },
             "type": "framework",
             "extra": {
@@ -143,20 +143,71 @@
                 "orm",
                 "php"
             ],
-            "time": "2020-04-30T02:20:35+00:00"
+            "time": "2020-10-01T21:38:12+00:00"
         },
         {
-            "name": "phpmv/ubiquity-dev",
-            "version": "0.0.9",
+            "name": "phpmv/ubiquity-commands",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpMv/ubiquity-dev.git",
-                "reference": "25de67d65afd80a106a0334c0f55f3eb87d38015"
+                "url": "https://github.com/phpMv/ubiquity-commands.git",
+                "reference": "1e49bc2bf7182e2e155deed311c7410e720b642f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/25de67d65afd80a106a0334c0f55f3eb87d38015",
-                "reference": "25de67d65afd80a106a0334c0f55f3eb87d38015",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-commands/zipball/1e49bc2bf7182e2e155deed311c7410e720b642f",
+                "reference": "1e49bc2bf7182e2e155deed311c7410e720b642f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4"
+            },
+            "type": "extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ubiquity\\": "src/Ubiquity/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Christophe HERON",
+                    "email": "myaddressmail@gmail.com",
+                    "role": "Lead developer"
+                }
+            ],
+            "description": "Ubiquity commands helper",
+            "keywords": [
+                "Devtools",
+                "cmd",
+                "framework",
+                "mvc",
+                "php",
+                "php-framework",
+                "tools"
+            ],
+            "time": "2020-09-25T18:34:35+00:00"
+        },
+        {
+            "name": "phpmv/ubiquity-dev",
+            "version": "0.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpMv/ubiquity-dev.git",
+                "reference": "311961999050e0850b8a85db508f1502ad3cf1be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/311961999050e0850b8a85db508f1502ad3cf1be",
+                "reference": "311961999050e0850b8a85db508f1502ad3cf1be",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +244,7 @@
                 "php-framework",
                 "tools"
             ],
-            "time": "2020-04-25T01:14:53+00:00"
+            "time": "2020-08-30T13:42:30+00:00"
         },
         {
             "name": "phpmv/ubiquity-webtools",
@@ -201,12 +252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity-webtools.git",
-                "reference": "41aa816735bf184426df3486decd14ecf16cf6e6"
+                "reference": "7f450120cd409760820a82aee477cde09f371631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/41aa816735bf184426df3486decd14ecf16cf6e6",
-                "reference": "41aa816735bf184426df3486decd14ecf16cf6e6",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-webtools/zipball/7f450120cd409760820a82aee477cde09f371631",
+                "reference": "7f450120cd409760820a82aee477cde09f371631",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +296,7 @@
                 "php-framework",
                 "tools"
             ],
-            "time": "2020-04-30T01:57:57+00:00"
+            "time": "2020-09-05T10:54:45+00:00"
         }
     ],
     "packages-dev": [],
@@ -253,7 +304,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "phpmv/ubiquity": 20,
-        "phpmv/ubiquity-webtools": 20
+        "phpmv/ubiquity-webtools": 20,
+        "phpmv/ubiquity-commands": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

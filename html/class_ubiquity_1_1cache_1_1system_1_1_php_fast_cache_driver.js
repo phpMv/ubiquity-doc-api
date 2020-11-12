@@ -13,7 +13,6 @@ var class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver =
     [ "getRealKey", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a68ea5fc5b5b6c1052442726fe76c8cf8", null ],
     [ "getTimestamp", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#aff0cbcd61bb5f05632e20fd0baf65714", null ],
     [ "remove", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a95483af4e2c07dc9893fe058b026bd5d", null ],
-    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a42af565dba40b474c39aad09fbd26ac0", null ],
-    [ "storeContent", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a92ecbb1a81e82f7397b6016128b594c6", null ],
+    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#ad60cb2f5d93c954f425af996ac54323b", null ],
     [ "$cacheInstance", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#a213f5e051e1bed92eddf43068aff9ee8", null ]
 ];

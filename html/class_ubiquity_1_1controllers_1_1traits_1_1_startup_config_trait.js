@@ -8,6 +8,8 @@ var class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait =
     [ "getModelsDir", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a2b53bb4100dd39b06dbc3f63212e5a5b", null ],
     [ "getNS", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ae01d18a3c5242ea5b0b7a8b8205ed07f", null ],
     [ "getSessionInstance", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a2dbfd7fa6e99dac84ebb4bc0cb5625bc", null ],
+    [ "isValidControllerAction", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#aac7b42ec969df29934e47f9b5ada7b84", null ],
+    [ "isValidUrl", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a129d4150f23b3a860cfa56d04663bd1c", null ],
     [ "needsKeyInConfigArray", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ade3d149ffd74f83c46308a62e85999db", null ],
     [ "reloadConfig", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ae55847c2aaa427140ee69f05286914fe", null ],
     [ "reloadServices", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a76678cbf5b8482f13cc78b4819c81d50", null ],

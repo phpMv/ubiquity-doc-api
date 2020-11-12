@@ -4,6 +4,7 @@ var class_ubiquity_1_1log_1_1libraries_1_1_u_monolog =
     [ "_alert", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a1a5148e60ab55273169bee4c2f475034", null ],
     [ "_asObjects", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#aa9007da7bcc17daeb8b3bf36dd36bfab", null ],
     [ "_clearAll", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#aedfada3ba5e8740c57f36a834a931486", null ],
+    [ "_close", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a4d9082658000e5ede8312067c6dda9db", null ],
     [ "_critical", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a38104adbfb93d7ea63699e329b1482af", null ],
     [ "_error", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a22a82ac7b00977668d0601c3347fc28f", null ],
     [ "_info", "class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a2bf6fed0ee5f444d7090d6bdb0299cb7", null ],

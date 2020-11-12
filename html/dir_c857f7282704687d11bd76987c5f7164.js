@@ -6,6 +6,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     [ "CheckTrait.php", "_check_trait_8php.html", [
       [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait" ]
     ] ],
+    [ "CommandsTrait.php", "_commands_trait_8php.html", [
+      [ "CommandsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait" ]
+    ] ],
     [ "ComposerTrait.php", "_composer_trait_8php.html", [
       [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait" ]
     ] ],
@@ -50,6 +53,9 @@ var dir_c857f7282704687d11bd76987c5f7164 =
     ] ],
     [ "RoutesTrait.php", "_routes_trait_8php.html", [
       [ "RoutesTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait" ]
+    ] ],
+    [ "SecurityTrait.php", "_security_trait_8php.html", [
+      [ "SecurityTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait" ]
     ] ],
     [ "SeoTrait.php", "_seo_trait_8php.html", [
       [ "SeoTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait" ]

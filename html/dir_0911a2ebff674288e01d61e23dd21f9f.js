@@ -20,5 +20,8 @@ var dir_0911a2ebff674288e01d61e23dd21f9f =
     ] ],
     [ "PhpFastCacheDriver.php", "_php_fast_cache_driver_8php.html", [
       [ "PhpFastCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html", "class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver" ]
+    ] ],
+    [ "RedisCacheDriver.php", "_redis_cache_driver_8php.html", [
+      [ "RedisCacheDriver", "class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver.html", "class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver" ]
     ] ]
 ];

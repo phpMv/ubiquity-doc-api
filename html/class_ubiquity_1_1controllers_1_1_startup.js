@@ -14,6 +14,7 @@ var class_ubiquity_1_1controllers_1_1_startup =
     [ "getViewNameFileExtension", "class_ubiquity_1_1controllers_1_1_startup.html#ae22575f9314792333e004322ab516566", null ],
     [ "init", "class_ubiquity_1_1controllers_1_1_startup.html#a7096a70770e977b5d39eaf3e7f278474", null ],
     [ "injectDependences", "class_ubiquity_1_1controllers_1_1_startup.html#ab6135f4a6139f3116aaf17744581e430", null ],
+    [ "onError", "class_ubiquity_1_1controllers_1_1_startup.html#ada2e24c69911a8d2a65c989412e83709", null ],
     [ "parseUrl", "class_ubiquity_1_1controllers_1_1_startup.html#a58b3479266333c083ac380b82cb42064", null ],
     [ "run", "class_ubiquity_1_1controllers_1_1_startup.html#a6d55937a791862d84e6078f4c464ed45", null ],
     [ "runAction", "class_ubiquity_1_1controllers_1_1_startup.html#a33e383e8013b9b44e53031b0b173dae5", null ],

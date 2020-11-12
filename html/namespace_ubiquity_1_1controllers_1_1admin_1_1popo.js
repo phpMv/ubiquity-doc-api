@@ -1,5 +1,8 @@
 var namespace_ubiquity_1_1controllers_1_1admin_1_1popo =
 [
+    [ "CategoryCommands", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_category_commands.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_category_commands" ],
+    [ "CommandList", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_list.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_list" ],
+    [ "CommandValues", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_values.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_values" ],
     [ "ComposerDependency", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_composer_dependency" ],
     [ "ControllerAction", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action" ],
     [ "InfoMessage", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message.html", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message" ],

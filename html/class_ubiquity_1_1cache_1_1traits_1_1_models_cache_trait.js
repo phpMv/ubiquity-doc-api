@@ -10,5 +10,6 @@ var class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait =
     [ "initModelsCache", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#ac7904bed5dd968cd2cb46832d23456c7", null ],
     [ "modelCacheExists", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a797667407bf479387d343060b1d196c8", null ],
     [ "modelsCacheUpdated", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a9bbf9c87ebcabc679f00a6c59eb672cb", null ],
-    [ "warmUpModels", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a781be744205f75608cfc640614dd8e3d", null ]
+    [ "warmUpModels", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a781be744205f75608cfc640614dd8e3d", null ],
+    [ "$modelsDatabaseKey", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a4a885a3f6d8c070ded8823f65f4b1fb9", null ]
 ];

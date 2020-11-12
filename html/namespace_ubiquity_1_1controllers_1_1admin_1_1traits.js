@@ -2,6 +2,7 @@ var namespace_ubiquity_1_1controllers_1_1admin_1_1traits =
 [
     [ "CacheTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait" ],
     [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait" ],
+    [ "CommandsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait" ],
     [ "ComposerTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_composer_trait" ],
     [ "ConfigPartTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_part_trait" ],
     [ "ConfigTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_config_trait" ],
@@ -17,6 +18,7 @@ var namespace_ubiquity_1_1controllers_1_1admin_1_1traits =
     [ "OAuthTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait" ],
     [ "RestTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait" ],
     [ "RoutesTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_routes_trait" ],
+    [ "SecurityTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait" ],
     [ "SeoTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_seo_trait" ],
     [ "ThemesTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait" ],
     [ "TranslateTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait" ],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['rangevalidator',['RangeValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator.html',1,'Ubiquity::contents::validation::validators::comparison']]],
+  ['rediscachedriver',['RedisCacheDriver',['../class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver.html',1,'Ubiquity::cache::system']]],
   ['reflexion',['Reflexion',['../class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html',1,'Ubiquity::orm::parser']]],
   ['reflexionfieldstrait',['ReflexionFieldsTrait',['../class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html',1,'Ubiquity::orm::parser']]],
   ['regexvalidator',['RegexValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_regex_validator.html',1,'Ubiquity::contents::validation::validators::strings']]],
@@ -14,6 +15,7 @@ var searchData=
   ['restcontrollerparser',['RestControllerParser',['../class_ubiquity_1_1cache_1_1parser_1_1_rest_controller_parser.html',1,'Ubiquity::cache::parser']]],
   ['restcontrollerutilitiestrait',['RestControllerUtilitiesTrait',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller_utilities_trait.html',1,'Ubiquity::controllers::rest']]],
   ['resterror',['RestError',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html',1,'Ubiquity::controllers::rest']]],
+  ['restevents',['RestEvents',['../class_ubiquity_1_1events_1_1_rest_events.html',1,'Ubiquity::events']]],
   ['restexception',['RestException',['../class_ubiquity_1_1exceptions_1_1_rest_exception.html',1,'Ubiquity::exceptions']]],
   ['restserver',['RestServer',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html',1,'Ubiquity::controllers::rest']]],
   ['resttrait',['RestTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_rest_trait.html',1,'Ubiquity::controllers::admin::traits']]],

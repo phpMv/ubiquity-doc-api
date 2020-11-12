@@ -10,7 +10,7 @@ var class_ubiquity_1_1db_1_1reverse_1_1_db_generator =
     [ "checkConstraintName", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a878593afa60eabcbbcfc972d41521855", null ],
     [ "checkFieldAttributes", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a1295d612c48dddedac58f9c4ac6f7a71", null ],
     [ "createDatabase", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a8b6c245f08e07c1d48622be7fc7ae2c3", null ],
-    [ "createTable", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a66bab8bb35253f9d0a36cae1adeec6e8", null ],
+    [ "createTable", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a55bf504965624b65c2a3e5918f5a844c", null ],
     [ "generateField", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a6d47c797fa80573a32fae8f4be159675", null ],
     [ "generateFields", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a4489049bd3d8a1454c94cbc26843be6f", null ],
     [ "generateManyToMany", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#aefb7293d30644a40a888687ff12c9819", null ],

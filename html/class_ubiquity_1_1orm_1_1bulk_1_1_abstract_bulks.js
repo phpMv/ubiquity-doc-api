@@ -14,6 +14,7 @@ var class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks =
     [ "$fields", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#ab2303c817e3b402b77b7f99627b9c319", null ],
     [ "$insertFields", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a33a3a10c4a10b51220f11d5c49a0ce43", null ],
     [ "$instances", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a1a63b63bdad280ed9a89dfed1fadc771", null ],
+    [ "$memberNames", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a687aeb002ce19c7060a38aa89016754b", null ],
     [ "$parameters", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#ab79d246480c4ac3a0db6bbceca92ad32", null ],
     [ "$pkName", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a03ca565d63b49def8eed2558be72ae1c", null ],
     [ "$tableName", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#aea06aaf672e3fe5fbf45958ae2782244", null ]

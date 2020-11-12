@@ -1,7 +1,8 @@
 var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
 [
     [ "_getStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#af3b6754317f54988e17743b0bcd846ff", null ],
-    [ "_optPrepareAndExecute", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#adaec5ef789034e8346eba5f93018b939", null ],
+    [ "_optExecuteAndFetch", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#af3122e00980e8bdd18862b6511364dff", null ],
+    [ "_optPrepareAndExecute", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a533d679cd7cb0fa9115604a223f2f6d7", null ],
     [ "beginTransaction", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#af3380f3b13931d581fa973a382946b32", null ],
     [ "bindValueFromStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a71f78375781dcc684694cb77cc1fa385", null ],
     [ "close", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#aa69c8bf1f1dcf4e72552efff1fe3e87e", null ],
@@ -18,6 +19,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "getDSN", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a138265ac0b677ee2fdd7c20ac5352e04", null ],
     [ "getFieldsInfos", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a917b5cf6a9fe21878b312f137f1bd8ea", null ],
     [ "getForeignKeys", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a5227618d69384c490d4cd385adcba6ce", null ],
+    [ "getNamedStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ae3c936acfcbaed1f543481c86448cc22", null ],
     [ "getPrimaryKeys", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ac2080ca261ce17f09273586a963b7337", null ],
     [ "getRowNum", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a915dc9c4c3511eefe0a2f8558126fbf8", null ],
     [ "getStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a5295ea6dae89c14cba88d3d6876a1721", null ],
@@ -27,6 +29,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "lastInsertId", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a9f9cb8ca720d7bbcb03869def521336e", null ],
     [ "nestable", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8079e2b820824635195923cf46bc571e", null ],
     [ "ping", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a6dad377f74b0ce6f21b485ba11052746", null ],
+    [ "prepareNamedStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#afecc41da860fd528f9f7b32e954f0eb4", null ],
     [ "prepareStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a787fa278f45e0064ffb55d077c111639", null ],
     [ "query", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#aa2abfe403c1c4c09147743788d76d1ae", null ],
     [ "queryAll", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#af3cc1e03a9f53437bb492972452fb5cc", null ],

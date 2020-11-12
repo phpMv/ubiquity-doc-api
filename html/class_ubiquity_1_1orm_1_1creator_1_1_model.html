@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.7</span>
+   &#160;<span id="projectnumber">2.3.12</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -93,14 +93,16 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1creator_1_1_m
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ace4c8cb4bb8ff6c30f71e76cb134d79d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ace4c8cb4bb8ff6c30f71e76cb134d79d">__construct</a> ($name, $namespace=&quot;models&quot;)</td></tr>
-<tr class="separator:ace4c8cb4bb8ff6c30f71e76cb134d79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da2a91e81761a4bc605f7aeb0ad98eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a5da2a91e81761a4bc605f7aeb0ad98eb">__construct</a> ($name, $namespace=&quot;models&quot;, $memberAccess='private')</td></tr>
+<tr class="separator:a5da2a91e81761a4bc605f7aeb0ad98eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a444942af76b6d7ac63d34ef5d522c253"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a444942af76b6d7ac63d34ef5d522c253">addMember</a> (<a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html">Member</a> $member)</td></tr>
 <tr class="separator:a444942af76b6d7ac63d34ef5d522c253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fcc120fddd82ed0dd0553b7443ff2ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a0fcc120fddd82ed0dd0553b7443ff2ff">addManyToOne</a> ($member, $name, $className, $nullable=false)</td></tr>
 <tr class="separator:a0fcc120fddd82ed0dd0553b7443ff2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76decc4ba2e783a2a47451c662cf2195"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a76decc4ba2e783a2a47451c662cf2195">removeMember</a> ($memberName)</td></tr>
 <tr class="separator:a76decc4ba2e783a2a47451c662cf2195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea61dedfc355d4934870a60419ea97d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#aea61dedfc355d4934870a60419ea97d2">removeOneToManyMemberByClassAssociation</a> ($className)</td></tr>
+<tr class="separator:aea61dedfc355d4934870a60419ea97d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5aa941fc4bf3e17f9e49b9b34cfef39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac5aa941fc4bf3e17f9e49b9b34cfef39">addOneToMany</a> ($member, $mappedBy, $className)</td></tr>
 <tr class="separator:ac5aa941fc4bf3e17f9e49b9b34cfef39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ee77f72733618793fcfac60697ece0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8ee77f72733618793fcfac60697ece0c">addManyToMany</a> ($member, $targetEntity, $inversedBy, $joinTable, $joinColumns=[], $inverseJoinColumns=[])</td></tr>
@@ -123,11 +125,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad6dca9adfbdf73915ac670519a48808f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1f88b85b3dea277cb87b2fd81ff52fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab1f88b85b3dea277cb87b2fd81ff52fa">getManyToOneMembers</a> ()</td></tr>
 <tr class="separator:ab1f88b85b3dea277cb87b2fd81ff52fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8596c2e7b4f9b7b6be64a7fbd20d1505"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8596c2e7b4f9b7b6be64a7fbd20d1505">setSimpleMembers</a> ($members)</td></tr>
+<tr class="separator:a8596c2e7b4f9b7b6be64a7fbd20d1505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac53a05153ee5fbec7e6f5e30dd7222c1">getToString</a> ()</td></tr>
 <tr class="separator:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f">generateUniqName</a> ($member)</td></tr>
+<tr class="separator:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b769382a5a9f4811ac35afc5a3d7c02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a6b769382a5a9f4811ac35afc5a3d7c02">checkForUniqName</a> (&amp;$member)</td></tr>
+<tr class="separator:a6b769382a5a9f4811ac35afc5a3d7c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad73ff864b4d882ae80d4002ca30af921"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad73ff864b4d882ae80d4002ca30af921">getToStringField</a> ()</td></tr>
 <tr class="separator:ad73ff864b4d882ae80d4002ca30af921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1f8e5d9dcb82d20f35a14020dff423"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a2d1f8e5d9dcb82d20f35a14020dff423">getAnnotation</a> ($content)</td></tr>
@@ -135,6 +143,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aef8bfcd33b1e87081bb1811c6c878d4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#aef8bfcd33b1e87081bb1811c6c878d4a">$simpleMembers</a></td></tr>
+<tr class="separator:aef8bfcd33b1e87081bb1811c6c878d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2118b67db555e724032d6b8c057e272"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae2118b67db555e724032d6b8c057e272">$members</a></td></tr>
 <tr class="separator:ae2118b67db555e724032d6b8c057e272"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2fc40d43824ea3e1ce5d86dee0d763b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab2fc40d43824ea3e1ce5d86dee0d763b">$name</a></td></tr>
@@ -145,13 +155,15 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a3825c9b9060c2d6ef594385997cd60aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7691c0162d89de0b6ba47edcd8ba8878"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a7691c0162d89de0b6ba47edcd8ba8878">$database</a></td></tr>
 <tr class="separator:a7691c0162d89de0b6ba47edcd8ba8878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e991d4223a69bb1efdcd47b90dd215"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a26e991d4223a69bb1efdcd47b90dd215">$memberAccess</a></td></tr>
+<tr class="separator:a26e991d4223a69bb1efdcd47b90dd215"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00014">14</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00016">16</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ace4c8cb4bb8ff6c30f71e76cb134d79d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace4c8cb4bb8ff6c30f71e76cb134d79d">&#9670;&nbsp;</a></span>__construct()</h2>
+<a id="a5da2a91e81761a4bc605f7aeb0ad98eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5da2a91e81761a4bc605f7aeb0ad98eb">&#9670;&nbsp;</a></span>__construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +178,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$namespace</em> = <code>&quot;models&quot;</code>&#160;</td>
+          <td class="paramname"><em>$namespace</em> = <code>&quot;models&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$memberAccess</em> = <code>'private'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -176,7 +194,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00026">26</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00047">47</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -196,7 +214,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00065">65</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00109">109</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -250,7 +268,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00058">58</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00100">100</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -292,7 +310,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00038">38</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00060">60</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -312,7 +330,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00033">33</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00055">55</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -348,7 +366,63 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00051">51</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00092">92</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a6b769382a5a9f4811ac35afc5a3d7c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b769382a5a9f4811ac35afc5a3d7c02">&#9670;&nbsp;</a></span>checkForUniqName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">checkForUniqName </td>
+          <td>(</td>
+          <td class="paramtype">&amp;&#160;</td>
+          <td class="paramname"><em>$member</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00041">41</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a9c1508cd0c60fd5df3269cc82ce1537f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c1508cd0c60fd5df3269cc82ce1537f">&#9670;&nbsp;</a></span>generateUniqName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">generateUniqName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$member</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00032">32</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -376,7 +450,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00185">185</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00204">204</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -395,7 +469,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00132">132</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00176">176</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -414,7 +488,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00136">136</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00180">180</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -433,7 +507,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00091">91</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00135">135</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -452,7 +526,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00125">125</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00169">169</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -471,7 +545,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00116">116</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00160">160</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -490,7 +564,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00098">98</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00142">142</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -509,7 +583,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00189">189</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00212">212</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -536,7 +610,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00146">146</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00190">190</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -555,7 +629,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00106">106</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00150">150</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -575,7 +649,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00046">46</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00069">69</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="aea61dedfc355d4934870a60419ea97d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea61dedfc355d4934870a60419ea97d2">&#9670;&nbsp;</a></span>removeOneToManyMemberByClassAssociation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">removeOneToManyMemberByClassAssociation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$className</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00074">74</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -595,7 +689,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00102">102</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00146">146</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a8596c2e7b4f9b7b6be64a7fbd20d1505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8596c2e7b4f9b7b6be64a7fbd20d1505">&#9670;&nbsp;</a></span>setSimpleMembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">setSimpleMembers </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$members</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00208">208</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -620,7 +734,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00024">24</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00028">28</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a26e991d4223a69bb1efdcd47b90dd215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e991d4223a69bb1efdcd47b90dd215">&#9670;&nbsp;</a></span>$memberAccess</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$memberAccess</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00030">30</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -644,7 +782,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00016">16</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00020">20</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -668,7 +806,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00018">18</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00022">22</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -692,7 +830,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00022">22</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00026">26</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="aef8bfcd33b1e87081bb1811c6c878d4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef8bfcd33b1e87081bb1811c6c878d4a">&#9670;&nbsp;</a></span>$simpleMembers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$simpleMembers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00018">18</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -716,7 +878,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00020">20</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00024">24</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -730,7 +892,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1creator.html">creator</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html">Model</a></li>
-    <li class="footer"><small>Generated on Thu Apr 30 2020 04:27:31 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Wed Sep 30 2020 20:20:21 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

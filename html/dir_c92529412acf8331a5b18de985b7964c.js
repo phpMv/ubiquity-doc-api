@@ -14,7 +14,5 @@ var dir_c92529412acf8331a5b18de985b7964c =
     [ "Translator.php", "_translator_8php.html", [
       [ "Translator", "class_ubiquity_1_1translation_1_1_translator.html", "class_ubiquity_1_1translation_1_1_translator" ]
     ] ],
-    [ "TranslatorManager.php", "_translator_manager_8php.html", [
-      [ "TranslatorManager", "class_ubiquity_1_1translation_1_1_translator_manager.html", "class_ubiquity_1_1translation_1_1_translator_manager" ]
-    ] ]
+    [ "TranslatorManager.php", "_translator_manager_8php.html", null ]
 ];

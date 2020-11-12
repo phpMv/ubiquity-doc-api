@@ -21,6 +21,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait =
     [ "displayModelsMessages", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a398068ad40c3b390cc0d6d9e572f3397", null ],
     [ "getActiveModelStep", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a7314417b0f765a7db1aeb17691b6a387", null ],
     [ "getAllJsDatabaseTypes", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#adf777530111197efc67d24e197ab15dc", null ],
+    [ "getDbInstance", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a2cd8df320b7cf925a99241aba29582da", null ],
     [ "getJsDatabaseTypes", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a2b5989fcf4518ef96aa06388fe2ba905", null ],
     [ "getModelSteps", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a0f292265c6b7d78dec732d3b3e7153e6", null ],
     [ "getNextModelStep", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#a64fa6faa07cbf5e4c267e5ae82d2d2cc", null ],

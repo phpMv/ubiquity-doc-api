@@ -1,11 +1,13 @@
 var class_ubiquity_1_1orm_1_1creator_1_1_model =
 [
-    [ "__construct", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ace4c8cb4bb8ff6c30f71e76cb134d79d", null ],
+    [ "__construct", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a5da2a91e81761a4bc605f7aeb0ad98eb", null ],
     [ "__toString", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
     [ "addManyToMany", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8ee77f72733618793fcfac60697ece0c", null ],
     [ "addManyToOne", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a0fcc120fddd82ed0dd0553b7443ff2ff", null ],
     [ "addMember", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a444942af76b6d7ac63d34ef5d522c253", null ],
     [ "addOneToMany", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac5aa941fc4bf3e17f9e49b9b34cfef39", null ],
+    [ "checkForUniqName", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a6b769382a5a9f4811ac35afc5a3d7c02", null ],
+    [ "generateUniqName", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f", null ],
     [ "getAnnotation", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a2d1f8e5d9dcb82d20f35a14020dff423", null ],
     [ "getDefaultFk", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad6dca9adfbdf73915ac670519a48808f", null ],
     [ "getManyToOneMembers", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab1f88b85b3dea277cb87b2fd81ff52fa", null ],
@@ -17,10 +19,14 @@ var class_ubiquity_1_1orm_1_1creator_1_1_model =
     [ "getToStringField", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad73ff864b4d882ae80d4002ca30af921", null ],
     [ "isAssociation", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a63362f1ba83b9706c4e53d717d327b57", null ],
     [ "removeMember", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a76decc4ba2e783a2a47451c662cf2195", null ],
+    [ "removeOneToManyMemberByClassAssociation", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aea61dedfc355d4934870a60419ea97d2", null ],
     [ "setDatabase", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8b1e7e0b28b4e5495060b1119fd2d539", null ],
+    [ "setSimpleMembers", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8596c2e7b4f9b7b6be64a7fbd20d1505", null ],
     [ "$database", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a7691c0162d89de0b6ba47edcd8ba8878", null ],
+    [ "$memberAccess", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a26e991d4223a69bb1efdcd47b90dd215", null ],
     [ "$members", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae2118b67db555e724032d6b8c057e272", null ],
     [ "$name", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab2fc40d43824ea3e1ce5d86dee0d763b", null ],
     [ "$namespace", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a3825c9b9060c2d6ef594385997cd60aa", null ],
+    [ "$simpleMembers", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aef8bfcd33b1e87081bb1811c6c878d4a", null ],
     [ "$table", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae8876a14058f368335baccf35af4a22b", null ]
 ];

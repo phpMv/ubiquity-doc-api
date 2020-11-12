@@ -13,6 +13,5 @@ var class_ubiquity_1_1cache_1_1system_1_1_apcu_cache =
     [ "getRealKey", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#a68ea5fc5b5b6c1052442726fe76c8cf8", null ],
     [ "getTimestamp", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#aff0cbcd61bb5f05632e20fd0baf65714", null ],
     [ "remove", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#a95483af4e2c07dc9893fe058b026bd5d", null ],
-    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#a42af565dba40b474c39aad09fbd26ac0", null ],
-    [ "storeContent", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#a92ecbb1a81e82f7397b6016128b594c6", null ]
+    [ "store", "class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#abaf87faa6a1479ae99452899125274f0", null ]
 ];

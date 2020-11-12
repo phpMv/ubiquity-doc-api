@@ -1,10 +1,12 @@
 var class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait =
 [
+    [ "deleteGroups", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#aa3e5296510b6a7244da074e81650dd20", null ],
     [ "flush", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a13c506fa80a40d0a161b9ee91a5db11c", null ],
     [ "flushDeletes", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a66f605bfaf55054fe842e879e5b0ed6d", null ],
     [ "flushInserts", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a5d289718901e3240b4f68a8aa3626dfa", null ],
     [ "flushUpdates", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a7e539f2b6a74fffb117753e6d1b12a10", null ],
     [ "getBulk", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a0132c1452a17b4350df40a6f90140b17", null ],
+    [ "insertGroups", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a37abde37ff09aba9941db16e42cef38d", null ],
     [ "toDelete", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#abdef3aae8afb39debf0bcbc236a72a07", null ],
     [ "toDeletes", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#af5d0660809a39b732b4a7886e99df975", null ],
     [ "toInsert", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a854c461d1b344ff978cbb1f3ea4e9c21", null ],
