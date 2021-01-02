@@ -6,7 +6,6 @@ var searchData=
   ['reflexion_2ephp',['Reflexion.php',['../_reflexion_8php.html',1,'']]],
   ['reflexionfieldstrait_2ephp',['ReflexionFieldsTrait.php',['../_reflexion_fields_trait_8php.html',1,'']]],
   ['regexvalidator_2ephp',['RegexValidator.php',['../_regex_validator_8php.html',1,'']]],
-  ['repositorygit_2ephp',['RepositoryGit.php',['../_repository_git_8php.html',1,'']]],
   ['resource_2ephp',['Resource.php',['../ubiquity-attributes_2src_2_ubiquity_2attributes_2items_2acl_2_resource_8php.html',1,'(Global Namespace)'],['../ubiquity-acl_2src_2_ubiquity_2security_2acl_2models_2_resource_8php.html',1,'(Global Namespace)']]],
   ['resourceannotation_2ephp',['ResourceAnnotation.php',['../_resource_annotation_8php.html',1,'']]],
   ['responseformatter_2ephp',['ResponseFormatter.php',['../_response_formatter_8php.html',1,'']]],
@@ -22,7 +21,6 @@ var searchData=
   ['restevents_2ephp',['RestEvents.php',['../_rest_events_8php.html',1,'']]],
   ['restexception_2ephp',['RestException.php',['../_rest_exception_8php.html',1,'']]],
   ['restserver_2ephp',['RestServer.php',['../_rest_server_8php.html',1,'']]],
-  ['resttrait_2ephp',['RestTrait.php',['../_rest_trait_8php.html',1,'']]],
   ['role_2ephp',['Role.php',['../_role_8php.html',1,'']]],
   ['route_2ephp',['Route.php',['../ubiquity-dev_2src_2_ubiquity_2controllers_2admin_2popo_2_route_8php.html',1,'(Global Namespace)'],['../ubiquity-attributes_2src_2_ubiquity_2attributes_2items_2router_2_route_8php.html',1,'(Global Namespace)']]],
   ['routeannotation_2ephp',['RouteAnnotation.php',['../_route_annotation_8php.html',1,'']]],
@@ -31,6 +29,5 @@ var searchData=
   ['routercachetrait_2ephp',['RouterCacheTrait.php',['../_router_cache_trait_8php.html',1,'']]],
   ['routerexception_2ephp',['RouterException.php',['../_router_exception_8php.html',1,'']]],
   ['routermodifiertrait_2ephp',['RouterModifierTrait.php',['../_router_modifier_trait_8php.html',1,'']]],
-  ['routertesttrait_2ephp',['RouterTestTrait.php',['../_router_test_trait_8php.html',1,'']]],
-  ['routestrait_2ephp',['RoutesTrait.php',['../_routes_trait_8php.html',1,'']]]
+  ['routertesttrait_2ephp',['RouterTestTrait.php',['../_router_test_trait_8php.html',1,'']]]
 ];

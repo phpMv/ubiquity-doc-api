@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['oauth',['oauth',['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ac213ca4f98322c427d08cb96dccef363',1,'Ubiquity::controllers::admin::UbiquityMyAdminBaseController']]],
-  ['oauthprovider',['OAuthProvider',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider.html',1,'Ubiquity::controllers::admin::popo']]],
-  ['oauthprovider_2ephp',['OAuthProvider.php',['../_o_auth_provider_8php.html',1,'']]],
-  ['oauthtrait',['OAuthTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_o_auth_trait.html',1,'Ubiquity::controllers::admin::traits']]],
-  ['oauthtrait_2ephp',['OAuthTrait.php',['../_o_auth_trait_8php.html',1,'']]],
   ['objectasjson',['objectAsJSON',['../class_ubiquity_1_1orm_1_1_orm_utils.html#a779a8d46e4609b2decb968b7283173f0',1,'Ubiquity::orm::OrmUtils']]],
   ['objectcache',['ObjectCache',['../class_ubiquity_1_1cache_1_1system_1_1_object_cache.html',1,'Ubiquity::cache::system']]],
   ['objectcache_2ephp',['ObjectCache.php',['../_object_cache_8php.html',1,'']]],
@@ -32,7 +27,7 @@ var searchData=
   ['onetomanyformfield',['oneToManyFormField',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#aa5b245d511c36babc236e452ea80d268',1,'Ubiquity::controllers::crud::viewers::traits::FormModelViewerTrait']]],
   ['onetomanytostring',['oneToManyTostring',['../class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a016a3a3264ba20e310e93c15e27374fb',1,'Ubiquity::utils::yuml::ClassToYuml']]],
   ['ongenerateformfield',['onGenerateFormField',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#ac379fd65123791590e708a17b5df6cbc',1,'Ubiquity::controllers::crud::viewers::traits::FormModelViewerTrait']]],
-  ['oninvalidcontrol',['onInvalidControl',['../class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\auth\WithAuthTrait\onInvalidControl()'],['../class_ubiquity_1_1controllers_1_1_controller.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\Controller\onInvalidControl()'],['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\rest\RestBaseController\onInvalidControl()'],['../class_ubiquity_1_1controllers_1_1admin_1_1_default_maintenance.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\admin\DefaultMaintenance\onInvalidControl()']]],
+  ['oninvalidcontrol',['onInvalidControl',['../class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\auth\WithAuthTrait\onInvalidControl()'],['../class_ubiquity_1_1controllers_1_1_controller.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\Controller\onInvalidControl()'],['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#ac2051a426b1e66a8f0124acc49d0d059',1,'Ubiquity\controllers\rest\RestBaseController\onInvalidControl()']]],
   ['onnotfoundmessage',['onNotFoundMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a950bc86464fd483f12f303aae851fd67',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['onsuccessdeletemessage',['onSuccessDeleteMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#aa22f14b8a8abd2234b5c84a6a6dfc945',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['onsuccessdeletemultiplemessage',['onSuccessDeleteMultipleMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#aac12bd52833034412af2eec9b2250ea9',1,'Ubiquity::controllers::crud::CRUDEvents']]],

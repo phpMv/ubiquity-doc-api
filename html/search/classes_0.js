@@ -24,8 +24,6 @@ var searchData=
   ['acllistquerytrait',['AclListQueryTrait',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_query_trait.html',1,'Ubiquity::security::acl::models::traits']]],
   ['aclmanager',['AclManager',['../class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html',1,'Ubiquity::security::acl']]],
   ['aclproviderinterface',['AclProviderInterface',['../interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html',1,'Ubiquity::security::acl::persistence']]],
-  ['aclstrait',['AclsTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait.html',1,'Ubiquity::controllers::admin::traits']]],
-  ['adminscaffoldcontroller',['AdminScaffoldController',['../class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html',1,'Ubiquity::scaffolding']]],
   ['allow',['Allow',['../class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html',1,'Ubiquity::attributes::items::acl']]],
   ['allowannotation',['AllowAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html',1,'Ubiquity::annotations::items::acl']]],
   ['annotationsengine',['AnnotationsEngine',['../class_ubiquity_1_1annotations_1_1_annotations_engine.html',1,'Ubiquity::annotations']]],

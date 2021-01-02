@@ -1,8 +1,7 @@
 var searchData=
 [
   ['edit',['edit',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a649f51672eea883602ee239e5d3a5997',1,'Ubiquity::controllers::crud::CRUDController']]],
-  ['editinstance_5f',['editInstance_',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#af61d0bb76215a418b6f8e63ca14a4a73',1,'Ubiquity::controllers::admin::traits::ModelsTrait']]],
-  ['editmember',['editMember',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa79caf3934e4b7fa0efe087357259e3d',1,'Ubiquity\controllers\crud\CRUDController\editMember()'],['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_trait.html#aa79caf3934e4b7fa0efe087357259e3d',1,'Ubiquity\controllers\admin\traits\ModelsTrait\editMember()']]],
+  ['editmember',['editMember',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa79caf3934e4b7fa0efe087357259e3d',1,'Ubiquity::controllers::crud::CRUDController']]],
   ['editmemberparams',['EditMemberParams',['../class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html',1,'Ubiquity::controllers::crud']]],
   ['editmemberparams_2ephp',['EditMemberParams.php',['../_edit_member_params_8php.html',1,'']]],
   ['elapsed',['elapsed',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#a5e17a0276399e623e9600b183a59eca6',1,'Ubiquity::utils::base::UDateTime']]],

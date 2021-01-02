@@ -792,7 +792,6 @@ WARN_LOGFILE           =
 
 INPUT                  = vendor/phpmv/ubiquity \
                          vendor/phpmv/ubiquity-dev \
-                         vendor/phpmv/ubiquity-webtools \
                          vendor/phpmv/ubiquity-attributes \
                          vendor/phpmv/ubiquity-annotations \
                          documentation/api.md \

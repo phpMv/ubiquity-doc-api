@@ -25,7 +25,6 @@ var searchData=
   ['databasemetadatas_2ephp',['DatabaseMetadatas.php',['../_database_metadatas_8php.html',1,'']]],
   ['databaseoperationstrait_2ephp',['DatabaseOperationsTrait.php',['../_database_operations_trait_8php.html',1,'']]],
   ['databasereversor_2ephp',['DatabaseReversor.php',['../_database_reversor_8php.html',1,'']]],
-  ['databasetrait_2ephp',['DatabaseTrait.php',['../_database_trait_8php.html',1,'']]],
   ['databasetransactionstrait_2ephp',['DatabaseTransactionsTrait.php',['../_database_transactions_trait_8php.html',1,'']]],
   ['dataexport_2ephp',['DataExport.php',['../_data_export_8php.html',1,'']]],
   ['datetime_2ephp',['DateTime.php',['../_date_time_8php.html',1,'']]],
@@ -38,7 +37,6 @@ var searchData=
   ['dbmodelscreator_2ephp',['DbModelsCreator.php',['../_db_models_creator_8php.html',1,'']]],
   ['dbtypes_2ephp',['DbTypes.php',['../_db_types_8php.html',1,'']]],
   ['decryptexception_2ephp',['DecryptException.php',['../_decrypt_exception_8php.html',1,'']]],
-  ['defaultmaintenance_2ephp',['DefaultMaintenance.php',['../_default_maintenance_8php.html',1,'']]],
   ['delete_2ephp',['Delete.php',['../_delete_8php.html',1,'']]],
   ['deleteannotation_2ephp',['DeleteAnnotation.php',['../_delete_annotation_8php.html',1,'']]],
   ['devcachetrait_2ephp',['DevCacheTrait.php',['../_dev_cache_trait_8php.html',1,'']]],
@@ -47,7 +45,6 @@ var searchData=
   ['diexception_2ephp',['DiException.php',['../_di_exception_8php.html',1,'']]],
   ['dimanager_2ephp',['DiManager.php',['../_di_manager_8php.html',1,'']]],
   ['display_2ephp',['Display.php',['../_display_8php.html',1,'']]],
-  ['displayacls_2ephp',['DisplayAcls.php',['../_display_acls_8php.html',1,'']]],
   ['docformater_2ephp',['DocFormater.php',['../_doc_formater_8php.html',1,'']]],
   ['docparser_2ephp',['DocParser.php',['../_doc_parser_8php.html',1,'']]]
 ];

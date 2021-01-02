@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['oauthprovider_2ephp',['OAuthProvider.php',['../_o_auth_provider_8php.html',1,'']]],
-  ['oauthtrait_2ephp',['OAuthTrait.php',['../_o_auth_trait_8php.html',1,'']]],
   ['objectcache_2ephp',['ObjectCache.php',['../_object_cache_8php.html',1,'']]],
   ['objectsconditionparser_2ephp',['ObjectsConditionParser.php',['../_objects_condition_parser_8php.html',1,'']]],
   ['onetomany_2ephp',['OneToMany.php',['../_one_to_many_8php.html',1,'']]],

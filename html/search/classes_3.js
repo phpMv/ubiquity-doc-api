@@ -25,7 +25,6 @@ var searchData=
   ['databasemetadatas',['DatabaseMetadatas',['../class_ubiquity_1_1db_1_1traits_1_1_database_metadatas.html',1,'Ubiquity::db::traits']]],
   ['databaseoperationstrait',['DatabaseOperationsTrait',['../class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html',1,'Ubiquity::db::traits']]],
   ['databasereversor',['DatabaseReversor',['../class_ubiquity_1_1orm_1_1reverse_1_1_database_reversor.html',1,'Ubiquity::orm::reverse']]],
-  ['databasetrait',['DatabaseTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_database_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['databasetransactionstrait',['DatabaseTransactionsTrait',['../class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html',1,'Ubiquity::db::traits']]],
   ['dataexport',['DataExport',['../class_ubiquity_1_1db_1_1export_1_1_data_export.html',1,'Ubiquity::db::export']]],
   ['datetime',['DateTime',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_date_time.html',1,'Ubiquity::contents::transformation::transformers']]],
@@ -38,7 +37,6 @@ var searchData=
   ['dbmodelscreator',['DbModelsCreator',['../class_ubiquity_1_1orm_1_1creator_1_1database_1_1_db_models_creator.html',1,'Ubiquity::orm::creator::database']]],
   ['dbtypes',['DbTypes',['../class_ubiquity_1_1db_1_1utils_1_1_db_types.html',1,'Ubiquity::db::utils']]],
   ['decryptexception',['DecryptException',['../class_ubiquity_1_1exceptions_1_1_decrypt_exception.html',1,'Ubiquity::exceptions']]],
-  ['defaultmaintenance',['DefaultMaintenance',['../class_ubiquity_1_1controllers_1_1admin_1_1_default_maintenance.html',1,'Ubiquity::controllers::admin']]],
   ['delete',['Delete',['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_delete.html',1,'Ubiquity::attributes::items::router']]],
   ['deleteannotation',['DeleteAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1router_1_1_delete_annotation.html',1,'Ubiquity::annotations::items::router']]],
   ['devcachetrait',['DevCacheTrait',['../class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html',1,'Ubiquity::cache::traits']]],
@@ -47,7 +45,6 @@ var searchData=
   ['diexception',['DiException',['../class_ubiquity_1_1exceptions_1_1_di_exception.html',1,'Ubiquity::exceptions']]],
   ['dimanager',['DiManager',['../class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html',1,'Ubiquity::controllers::di']]],
   ['display',['Display',['../class_ubiquity_1_1core_1_1postinstall_1_1_display.html',1,'Ubiquity::core::postinstall']]],
-  ['displayacls',['DisplayAcls',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1acls_1_1_display_acls.html',1,'Ubiquity::controllers::admin::traits::acls']]],
   ['docformater',['DocFormater',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_formater.html',1,'Ubiquity::annotations::parser']]],
   ['docparser',['DocParser',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html',1,'Ubiquity::annotations::parser']]]
 ];

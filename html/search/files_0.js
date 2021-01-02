@@ -24,8 +24,6 @@ var searchData=
   ['acllistquerytrait_2ephp',['AclListQueryTrait.php',['../_acl_list_query_trait_8php.html',1,'']]],
   ['aclmanager_2ephp',['AclManager.php',['../_acl_manager_8php.html',1,'']]],
   ['aclproviderinterface_2ephp',['AclProviderInterface.php',['../_acl_provider_interface_8php.html',1,'']]],
-  ['aclstrait_2ephp',['AclsTrait.php',['../_acls_trait_8php.html',1,'']]],
-  ['adminscaffoldcontroller_2ephp',['AdminScaffoldController.php',['../_admin_scaffold_controller_8php.html',1,'']]],
   ['allow_2ephp',['Allow.php',['../_allow_8php.html',1,'']]],
   ['allowannotation_2ephp',['AllowAnnotation.php',['../_allow_annotation_8php.html',1,'']]],
   ['annotationsengine_2ephp',['AnnotationsEngine.php',['../_annotations_engine_8php.html',1,'']]],

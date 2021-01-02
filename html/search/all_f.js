@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['needsapplication',['needsApplication',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider.html#a6548b9419efae7578f93f2f1e90addbf',1,'Ubiquity::controllers::admin::popo::OAuthProvider']]],
   ['needskeyinconfigarray',['needsKeyInConfigArray',['../class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ade3d149ffd74f83c46308a62e85999db',1,'Ubiquity::controllers::traits::StartupConfigTrait']]],
   ['nestable',['nestable',['../class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8079e2b820824635195923cf46bc571e',1,'Ubiquity\db\providers\AbstractDbWrapper\nestable()'],['../class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a8079e2b820824635195923cf46bc571e',1,'Ubiquity\db\providers\pdo\PDOWrapper\nestable()'],['../class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#a8079e2b820824635195923cf46bc571e',1,'Ubiquity\db\traits\DatabaseTransactionsTrait\nestable()']]],
   ['newapitokens',['newApiTokens',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a26550c4f808428df88786a3d4859d6c0',1,'Ubiquity::controllers::rest::RestServer']]],

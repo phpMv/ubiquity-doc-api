@@ -8,7 +8,6 @@ var searchData=
   ['templateparser',['TemplateParser',['../class_ubiquity_1_1views_1_1engine_1_1micro_1_1_template_parser.html',1,'Ubiquity::views::engine::micro']]],
   ['themesexception',['ThemesException',['../class_ubiquity_1_1exceptions_1_1_themes_exception.html',1,'Ubiquity::exceptions']]],
   ['themesmanager',['ThemesManager',['../class_ubiquity_1_1themes_1_1_themes_manager.html',1,'Ubiquity::themes']]],
-  ['themestrait',['ThemesTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['timevalidator',['TimeValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1dates_1_1_time_validator.html',1,'Ubiquity::contents::validation::validators::dates']]],
   ['tokenstorageinterface',['TokenStorageInterface',['../interface_ubiquity_1_1security_1_1csrf_1_1storages_1_1_token_storage_interface.html',1,'Ubiquity::security::csrf::storages']]],
   ['transformer',['Transformer',['../class_ubiquity_1_1attributes_1_1items_1_1_transformer.html',1,'Ubiquity::attributes::items']]],
@@ -20,8 +19,6 @@ var searchData=
   ['transformerviewinterface',['TransformerViewInterface',['../interface_ubiquity_1_1contents_1_1transformation_1_1_transformer_view_interface.html',1,'Ubiquity::contents::transformation']]],
   ['transient',['Transient',['../class_ubiquity_1_1attributes_1_1items_1_1_transient.html',1,'Ubiquity::attributes::items']]],
   ['transientannotation',['TransientAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_transient_annotation.html',1,'Ubiquity::annotations::items']]],
-  ['translatemessage',['TranslateMessage',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_translate_message.html',1,'Ubiquity::controllers::admin::popo']]],
-  ['translatetrait',['TranslateTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_translate_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['translator',['Translator',['../class_ubiquity_1_1translation_1_1_translator.html',1,'Ubiquity::translation']]],
   ['twig',['Twig',['../class_ubiquity_1_1views_1_1engine_1_1_twig.html',1,'Ubiquity::views::engine']]],
   ['typevalidator',['TypeValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1basic_1_1_type_validator.html',1,'Ubiquity::contents::validation::validators::basic']]]

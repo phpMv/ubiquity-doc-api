@@ -9,5 +9,5 @@ var searchData=
   ['v6_5fno_5fres',['V6_NO_RES',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_ip.html#abcdea15c1db72cb3484634e9c08639cf',1,'Ubiquity::contents::validation::validators::strings::Ip']]],
   ['v6_5fonly_5fpublic',['V6_ONLY_PUBLIC',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_ip.html#ababedc06e29e59f05328a71529be25fc',1,'Ubiquity::contents::validation::validators::strings::Ip']]],
   ['variables',['variables',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_formater.html#a626e63c7be6e71872233832cce1dccc0',1,'Ubiquity::annotations::parser::DocFormater']]],
-  ['version',['version',['../class_ubiquity_1_1core_1_1_framework.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity\core\Framework\version()'],['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity\controllers\admin\UbiquityMyAdminBaseController\version()']]]
+  ['version',['version',['../class_ubiquity_1_1core_1_1_framework.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity::core::Framework']]]
 ];

@@ -40,7 +40,7 @@ var searchData=
   ['verifycsrftoken_2ephp',['VerifyCsrfToken.php',['../_verify_csrf_token_8php.html',1,'']]],
   ['verifysessioncsrfinterface',['VerifySessionCsrfInterface',['../interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html',1,'Ubiquity::utils::http::session::protection']]],
   ['verifysessioncsrfinterface_2ephp',['VerifySessionCsrfInterface.php',['../_verify_session_csrf_interface_8php.html',1,'']]],
-  ['version',['version',['../class_ubiquity_1_1core_1_1_framework.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity\core\Framework\version()'],['../class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity\controllers\admin\UbiquityMyAdminBaseController\version()']]],
+  ['version',['version',['../class_ubiquity_1_1core_1_1_framework.html#a265a39dcf2f0b7c6b96574362aa01ad9',1,'Ubiquity::core::Framework']]],
   ['view',['View',['../class_ubiquity_1_1views_1_1_view.html',1,'Ubiquity::views']]],
   ['view_2ephp',['View.php',['../_view_8php.html',1,'']]],
   ['viewevents',['ViewEvents',['../class_ubiquity_1_1events_1_1_view_events.html',1,'Ubiquity::events']]],

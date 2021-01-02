@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['packagistapi_2ephp',['PackagistApi.php',['../_packagist_api_8php.html',1,'']]],
   ['password_2ephp',['Password.php',['../_password_8php.html',1,'']]],
   ['passwordvalidator_2ephp',['PasswordValidator.php',['../_password_validator_8php.html',1,'']]],
   ['patch_2ephp',['Patch.php',['../_patch_8php.html',1,'']]],

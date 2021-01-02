@@ -1,7 +1,6 @@
 var searchData=
 [
   ['acl',['acl',['../namespace_ubiquity_1_1annotations_1_1items_1_1acl.html',1,'Ubiquity\annotations\items\acl'],['../namespace_ubiquity_1_1attributes_1_1items_1_1acl.html',1,'Ubiquity\attributes\items\acl'],['../namespace_ubiquity_1_1security_1_1acl.html',1,'Ubiquity\security\acl']]],
-  ['acls',['acls',['../namespace_ubiquity_1_1controllers_1_1admin_1_1traits_1_1acls.html',1,'Ubiquity::controllers::admin::traits']]],
   ['admin',['admin',['../namespace_ubiquity_1_1controllers_1_1admin.html',1,'Ubiquity::controllers']]],
   ['annotations',['annotations',['../namespace_ubiquity_1_1annotations.html',1,'Ubiquity']]],
   ['api',['api',['../namespace_ubiquity_1_1controllers_1_1rest_1_1api.html',1,'Ubiquity::controllers::rest']]],
@@ -74,13 +73,13 @@ var searchData=
   ['strings',['strings',['../namespace_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings.html',1,'Ubiquity::contents::validation::validators']]],
   ['system',['system',['../namespace_ubiquity_1_1cache_1_1system.html',1,'Ubiquity::cache']]],
   ['themes',['themes',['../namespace_ubiquity_1_1themes.html',1,'Ubiquity']]],
-  ['traits',['traits',['../namespace_ubiquity_1_1cache_1_1traits.html',1,'Ubiquity\cache\traits'],['../namespace_ubiquity_1_1controllers_1_1admin_1_1traits.html',1,'Ubiquity\controllers\admin\traits'],['../namespace_ubiquity_1_1controllers_1_1crud_1_1traits.html',1,'Ubiquity\controllers\crud\traits'],['../namespace_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits.html',1,'Ubiquity\controllers\crud\viewers\traits'],['../namespace_ubiquity_1_1controllers_1_1traits.html',1,'Ubiquity\controllers\traits'],['../namespace_ubiquity_1_1db_1_1traits.html',1,'Ubiquity\db\traits'],['../namespace_ubiquity_1_1orm_1_1traits.html',1,'Ubiquity\orm\traits'],['../namespace_ubiquity_1_1security_1_1acl_1_1cache_1_1traits.html',1,'Ubiquity\security\acl\cache\traits'],['../namespace_ubiquity_1_1security_1_1acl_1_1models_1_1traits.html',1,'Ubiquity\security\acl\models\traits'],['../namespace_ubiquity_1_1utils_1_1base_1_1traits.html',1,'Ubiquity\utils\base\traits'],['../namespace_ubiquity_1_1utils_1_1http_1_1traits.html',1,'Ubiquity\utils\http\traits'],['../namespace_ubiquity_1_1utils_1_1yuml_1_1traits.html',1,'Ubiquity\utils\yuml\traits']]],
+  ['traits',['traits',['../namespace_ubiquity_1_1cache_1_1traits.html',1,'Ubiquity\cache\traits'],['../namespace_ubiquity_1_1controllers_1_1crud_1_1traits.html',1,'Ubiquity\controllers\crud\traits'],['../namespace_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits.html',1,'Ubiquity\controllers\crud\viewers\traits'],['../namespace_ubiquity_1_1controllers_1_1traits.html',1,'Ubiquity\controllers\traits'],['../namespace_ubiquity_1_1db_1_1traits.html',1,'Ubiquity\db\traits'],['../namespace_ubiquity_1_1orm_1_1traits.html',1,'Ubiquity\orm\traits'],['../namespace_ubiquity_1_1security_1_1acl_1_1cache_1_1traits.html',1,'Ubiquity\security\acl\cache\traits'],['../namespace_ubiquity_1_1security_1_1acl_1_1models_1_1traits.html',1,'Ubiquity\security\acl\models\traits'],['../namespace_ubiquity_1_1utils_1_1base_1_1traits.html',1,'Ubiquity\utils\base\traits'],['../namespace_ubiquity_1_1utils_1_1http_1_1traits.html',1,'Ubiquity\utils\http\traits'],['../namespace_ubiquity_1_1utils_1_1yuml_1_1traits.html',1,'Ubiquity\utils\yuml\traits']]],
   ['transformation',['transformation',['../namespace_ubiquity_1_1contents_1_1transformation.html',1,'Ubiquity::contents']]],
   ['transformers',['transformers',['../namespace_ubiquity_1_1contents_1_1transformation_1_1transformers.html',1,'Ubiquity::contents::transformation']]],
   ['translation',['translation',['../namespace_ubiquity_1_1translation.html',1,'Ubiquity']]],
   ['ubiquity',['Ubiquity',['../namespace_ubiquity.html',1,'']]],
   ['user',['user',['../namespace_ubiquity_1_1security_1_1auth_1_1user.html',1,'Ubiquity::security::auth']]],
-  ['utils',['utils',['../namespace_ubiquity_1_1controllers_1_1admin_1_1utils.html',1,'Ubiquity\controllers\admin\utils'],['../namespace_ubiquity_1_1db_1_1utils.html',1,'Ubiquity\db\utils'],['../namespace_ubiquity_1_1utils.html',1,'Ubiquity\utils']]],
+  ['utils',['utils',['../namespace_ubiquity_1_1db_1_1utils.html',1,'Ubiquity\db\utils'],['../namespace_ubiquity_1_1utils.html',1,'Ubiquity\utils']]],
   ['validation',['validation',['../namespace_ubiquity_1_1contents_1_1validation.html',1,'Ubiquity::contents']]],
   ['validators',['validators',['../namespace_ubiquity_1_1contents_1_1validation_1_1validators.html',1,'Ubiquity::contents::validation']]],
   ['viewers',['viewers',['../namespace_ubiquity_1_1controllers_1_1crud_1_1viewers.html',1,'Ubiquity::controllers::crud']]],
