@@ -1,6 +1,6 @@
 var class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache =
 [
-    [ "__construct", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a2357b71045b70da97ba62b9aa295d777", null ],
+    [ "__construct", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#aed67b9f5244db70c08bf355b703d8739", null ],
     [ "clear", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#aa821bec12eaa7e0f649397c9675ff505", null ],
     [ "clearCache", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a8c49e010e3a98b168f52105500947572", null ],
     [ "exists", "class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#ace1ae5be37bf26c172cc7ea4e1a65e26", null ],

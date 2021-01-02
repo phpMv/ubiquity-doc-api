@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.12</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -125,6 +125,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$_root
 : <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_abstract_data_cache.html#a15ea8c78d28d8d9b6023dedbe622c731">AbstractDataCache</a>
 </li>
+<li>$acceptedCiphers
+: <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption.html#ae6e059fd959d5dba162b1871facb4a51">Encryption</a>
+</li>
 <li>$access
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ad7fd03ae69de40b00cc4758c23a4404e">Member</a>
 </li>
@@ -133,6 +136,18 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#af2a5c7931f51c95db786937292c398ab">ModelParser</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#af2a5c7931f51c95db786937292c398ab">DAOCoreTrait</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#af2a5c7931f51c95db786937292c398ab">OrmUtilsFieldsTrait</a>
+</li>
+<li>$aclClass
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1c29dffbebe945d89da7b236dfcae8be">AclDAOProvider</a>
+</li>
+<li>$aclList
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#ab100f5422278c24c29ee81023499c7de">AclManager</a>
+</li>
+<li>$acls
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#aea4913469ac1a636ec4cbb5e9b82d29c">AclList</a>
+</li>
+<li>$aclsArray
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#ae6ddf7e2a059844b9a8f8ef7ea83e35a">AclArrayProvider</a>
 </li>
 <li>$action
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html#aa698a3e72116e8e778be0e95d908ee30">ControllerAction</a>
@@ -199,11 +214,21 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$annotations
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a5f043879749fe44260353ab573429161">Member</a>
 </li>
+<li>$annotationsEngine
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html#a0aeebdc74476d53860aef2cfc3c0c381">DevCacheTrait</a>
+</li>
 <li>$annotFieldsInRelations
 : <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_u_queries.html#a403d04bc3fa6e3595fbdb748d931d4fa">DAOUQueries</a>
 </li>
 <li>$annots
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html#aa537e13e3036228e1389c11f08422666">ControllerAction</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#aa537e13e3036228e1389c11f08422666">Model</a>
+</li>
+<li>$annotsEngine
+: <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a407eaec40c437b9c314e4489e207dada">ControllerParser</a>
+, <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html#a407eaec40c437b9c314e4489e207dada">ValidationModelGenerator</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a407eaec40c437b9c314e4489e207dada">Member</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a407eaec40c437b9c314e4489e207dada">Model</a>
 </li>
 <li>$apiTokens
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a0c34035157fc218f1f464943f9698865">RestServer</a>
@@ -213,6 +238,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$arrayCache
 : <a class="el" href="class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_memory_cache.html#a11239b91fc640dfe49331b989fd0019a">DAOMemoryCache</a>
+</li>
+<li>$arrayMap
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a8ec7c2e7acbb9896e9c17252e6d21ff7">PermissionsMap</a>
 </li>
 <li>$authController
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html#a87e69fcb2a04409b4b3b5ea174ef00f7">WithAuthTrait</a>
@@ -233,14 +261,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a447798f5a0a0a344f16f88e0fb9c0e07">DbGenerator</a>
 </li>
 <li>$automated
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#af862a7cfea6a55df8e5816f94d822754">RouteAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#af862a7cfea6a55df8e5816f94d822754">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a7f0d66c79e83d94b72131bc7443ca6ce">Route</a>
 </li>
 <li>$baseClass
 : <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html#a190491cf77e760fce1f6a9c9f226a18e">AuthControllerCreator</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#a190491cf77e760fce1f6a9c9f226a18e">RestControllerCreator</a>
-</li>
-<li>$baseDir
-: <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_maker.html#a873fc20cf44ad2f766893e95aab8df78">Maker</a>
 </li>
 <li>$baseFolder
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#acfc120ca52ec7bcedc0c4374dae5342e">RepositoryGit</a>
@@ -255,7 +281,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a570c497a577b45625e844f1143284083">DAOBulkUpdatesTrait</a>
 </li>
 <li>$cache
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#ac2dc76d756ec398393d4b1d23659276c">RouteAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#ac2dc76d756ec398393d4b1d23659276c">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a13d815bac48a5e66c561b9feed6b6a8c">Route</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#ac2dc76d756ec398393d4b1d23659276c">CacheManager</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_cache.html#ac2dc76d756ec398393d4b1d23659276c">DAOCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_serial_cache.html#ac2dc76d756ec398393d4b1d23659276c">DAOSerialCache</a>
@@ -287,9 +314,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$charset
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html#af10158dd74b75f1d337e83102d6b82ce">LengthValidator</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#af10158dd74b75f1d337e83102d6b82ce">PasswordValidator</a>
 </li>
 <li>$cHash
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_commit.html#a52f311bbf0899624e19962a98e165105">GitCommit</a>
+</li>
+<li>$cipher
+: <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption.html#aba0db80576c3a7048ea153316f5d9934">Encryption</a>
 </li>
 <li>$class
 : <a class="el" href="class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a252ba022809910ea710a068fc1bab657">AbstractBulks</a>
@@ -303,8 +334,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a93171e1d94193af66b03f68638684f17">Yuml</a>
 </li>
 <li>$className
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_join_column_annotation.html#acd6a475a6eeb092f4eea3e19e502d67d">JoinColumnAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_one_to_many_annotation.html#acd6a475a6eeb092f4eea3e19e502d67d">OneToManyAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_column_annotation.html#acd6a475a6eeb092f4eea3e19e502d67d">JoinColumnAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_one_to_many_annotation.html#acd6a475a6eeb092f4eea3e19e502d67d">OneToManyAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_join_column.html#a0a45c6f51b410319c7dea0c902ea608d">JoinColumn</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html#a0a45c6f51b410319c7dea0c902ea608d">OneToMany</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#acd6a475a6eeb092f4eea3e19e502d67d">DAOPreparedQuery</a>
 </li>
 <li>$classProperties
@@ -314,11 +347,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a54479fbe576555bd11cf5a4cc2f0cc7a">Yuml</a>
 </li>
 <li>$code
-: <a class="el" href="class_ubiquity_1_1annotations_1_1di_1_1_injected_annotation.html#a7949acdaecc70b9f035c12a7069db132">InjectedAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html#a7949acdaecc70b9f035c12a7069db132">InjectedAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1di_1_1_injected.html#a05ef6e556d51a9cfef84c997023bb380">Injected</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html#a7949acdaecc70b9f035c12a7069db132">RestError</a>
 </li>
 <li>$color
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_yuml_annotation.html#aac3430cb9e46a0a966f9e52fb5b0f2e5">YumlAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_yuml_annotation.html#aac3430cb9e46a0a966f9e52fb5b0f2e5">YumlAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_yuml.html#a9338253668a55c6ca266ac7068b21965">Yuml</a>
 </li>
 <li>$command
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_values.html#a8f120409eb9f635ac30b3f9a6d5becdc">CommandValues</a>
@@ -365,7 +400,11 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a0c01a0f28aee4589c67b66695d326524">DbGenerator</a>
 </li>
 <li>$constraints
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_validator_annotation.html#a9f4fd8838aaef9b57d3fac0dbf9a7929">ValidatorAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#a9f4fd8838aaef9b57d3fac0dbf9a7929">ValidatorAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_validator.html#a40e989e164d07ef419adbc09545d9ff8">Validator</a>
+</li>
+<li>$container
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab97dd40df90f4ce6f0fce9091e7c7872">Member</a>
 </li>
 <li>$content
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message.html#a57b284fe00866494b33afa80ba729bed">InfoMessage</a>
@@ -390,9 +429,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a388ef7b1db5e6f728e63cee704ce6e23">Startup</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html#a388ef7b1db5e6f728e63cee704ce6e23">AdminScaffoldController</a>
 </li>
+<li>$controllerAction
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#affc21a3d1a94709b3233a63d2f0b91ec">PermissionMapObject</a>
+</li>
 <li>$controllerClass
 : <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae59cce8aa29e170d0f225cea7d0a14fd">ControllerParser</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_rest_controller_parser.html#ae59cce8aa29e170d0f225cea7d0a14fd">RestControllerParser</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#ae59cce8aa29e170d0f225cea7d0a14fd">AclControllerParser</a>
 </li>
 <li>$controllerName
 : <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a4845baceacf6ec5e204c54d91caa2f25">BaseControllerCreator</a>
@@ -461,7 +504,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a68f39949e76b64662a06cb56579d91c3">Database</a>
 </li>
 <li>$dbType
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_column_annotation.html#a63b68daf124fa00e6bcfce64fabbdbe1">ColumnAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html#a63b68daf124fa00e6bcfce64fabbdbe1">ColumnAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_column.html#af838fe1628a318f38ea7b9eb4f5e89e8">Column</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a63b68daf124fa00e6bcfce64fabbdbe1">Database</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a63b68daf124fa00e6bcfce64fabbdbe1">PDOWrapper</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a63b68daf124fa00e6bcfce64fabbdbe1">AbstractBulks</a>
@@ -532,16 +576,22 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#abc43d8b1fdd601f7dcacac1fd0b0b0bf">PDOWrapper</a>
 </li>
 <li>$duration
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#acae43950182b63cd06434397298dad7d">RouteAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#acae43950182b63cd06434397298dad7d">Route</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#acae43950182b63cd06434397298dad7d">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a4a0c560b77b7abddb6ba69f9f8ac2193">Route</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#acae43950182b63cd06434397298dad7d">ApiTokens</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html#acae43950182b63cd06434397298dad7d">SessionObject</a>
 </li>
 <li>$dValues
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_controller_action.html#a621a19a15a45a073e3606307514c5674">ControllerAction</a>
 </li>
+<li>$elementsCache
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a4a89271d27133c8851abd9ac6d0fe952">AclList</a>
+</li>
 <li>$enabled
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_o_auth_provider.html#a8d376199cc641e3e7af6e1a0d5c736d9">OAuthProvider</a>
+</li>
+<li>$encryptionInstance
+: <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html#ab59fcae27e161aa399413c4457a6baaa">EncryptionManager</a>
 </li>
 <li>$engineering
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_models_config_trait.html#ac3e20f9386d0723c70ea3fb261b8bd8a">ModelsConfigTrait</a>
@@ -566,6 +616,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$existing
 : <a class="el" href="class_ubiquity_1_1seo_1_1_url.html#a570a6244d0544bbe5cf8c345f83290c3">Url</a>
 </li>
+<li>$expires
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#aa41bb802080b20a3965a21a8cb3d9696">AbstractAuthtokens</a>
+</li>
 <li>$extManyToManys
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a886efb531e1006339e7747d39c3e3dc7">ClassToYumlRelationsTrait</a>
 </li>
@@ -573,7 +626,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1log_1_1_log_message.html#a6bcaf0e2f3a66b7da57696c4e02eac7d">LogMessage</a>
 </li>
 <li>$fetch
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_one_to_many_annotation.html#a94ed3b2f8cc7709070362b3362af35ac">OneToManyAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_one_to_many_annotation.html#a94ed3b2f8cc7709070362b3362af35ac">OneToManyAnnotation</a>
 </li>
 <li>$fieldList
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a999ca88b0e11447fd55ee832413b5652">DAOPreparedQuery</a>
@@ -652,7 +705,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ada3b5bf52147ece4ba630d31f11ead33">UbiquityMyAdminBaseController</a>
 </li>
 <li>$group
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_validator_annotation.html#ad530a85733b0ec1dc321859fd8faa0dc">ValidatorAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#ad530a85733b0ec1dc321859fd8faa0dc">ValidatorAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_validator.html#a9425170950741708d9987e519558e66f">Validator</a>
 </li>
 <li>$groupeSeparator
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a15b4ddc2feadd0b931c20af96d9802e2">Yuml</a>
@@ -662,6 +716,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$hasButtons
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a13e31bc010bd4a1fe9a4b6cc91eb4137">EditMemberParams</a>
+</li>
+<li>$hashedValidator
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#a524b38b35a83c57ac8d4e315cd391e18">AbstractAuthtokens</a>
 </li>
 <li>$hasIncluded
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#acb06bd8ee64a94cb521c21e2ccfe36ef">DAOPreparedQuery</a>
@@ -693,6 +750,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$id
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html#ae97941710d863131c700f069b109991e">MaintenanceMode</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#ae97941710d863131c700f069b109991e">Route</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_abstract_acl_part.html#ae97941710d863131c700f069b109991e">AbstractAclPart</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#ae97941710d863131c700f069b109991e">AclElement</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#ae97941710d863131c700f069b109991e">AbstractAuthtokens</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_u_token.html#ae97941710d863131c700f069b109991e">UToken</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#ae97941710d863131c700f069b109991e">MultisiteSession</a>
 </li>
 <li>$identifierSelector
@@ -702,7 +763,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#afc44ef0981a4c72dfc03aba296639cb4">DAOPreparedQuery</a>
 </li>
 <li>$inherited
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#a943fb255b4b12747347f2b3aae6f72ce">RouteAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#a943fb255b4b12747347f2b3aae6f72ce">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#aa7db82789046a56bd1e10a3c107bcb88">Route</a>
 </li>
 <li>$initialized
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#a533c66c9995bd9f022b5f5b325c12ad4">RepositoryGit</a>
@@ -731,11 +793,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a1ce002311fb756851675195e270cbe20">DbTypes</a>
 </li>
 <li>$inversedBy
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_many_to_many_annotation.html#affdd9d27a393d5b0e4a5efc03d488ea5">ManyToManyAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_many_to_many_annotation.html#affdd9d27a393d5b0e4a5efc03d488ea5">ManyToManyAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_many_to_many.html#a5a305ace8f400b381572c908b326ecd2">ManyToMany</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#affdd9d27a393d5b0e4a5efc03d488ea5">ManyToManyParser</a>
 </li>
 <li>$inverseJoinColumns
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_join_table_annotation.html#ac73df77dff9138e8488d79faddc3b454">JoinTableAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_table_annotation.html#ac73df77dff9138e8488d79faddc3b454">JoinTableAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_join_table.html#abbf7cf1b9dffafe284a3312af1d45d0e">JoinTable</a>
 </li>
 <li>$invertedJoinColumns
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#abe13f1dc288dd4e1e60de0d77beab2f6">DAOPreparedQuery</a>
@@ -750,7 +814,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a5e8ff932f85398884269c179c790b080">ModelParser</a>
 </li>
 <li>$joinColumns
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_join_table_annotation.html#a29ef4e5beb09d8a720180589e0e999a5">JoinTableAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_table_annotation.html#a29ef4e5beb09d8a720180589e0e999a5">JoinTableAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_join_table.html#adec0079cc72ecb2401d558a5de8974e3">JoinTable</a>
 </li>
 <li>$joinTable
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a0d55a423242e4af7ad97c5187511893f">ManyToManyParser</a>
@@ -767,9 +832,16 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$key
 : <a class="el" href="class_ubiquity_1_1contents_1_1normalizers_1_1_normalizers_manager.html#aa60b0284e0dfa2463495481cf11e3cf4">NormalizersManager</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1transformation_1_1_transformers_manager.html#af655ddb1b44c56d95000573c0f30d3dd">TransformersManager</a>
-, <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html#aa60b0284e0dfa2463495481cf11e3cf4">ValidatorsManager</a>
+, <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html#af655ddb1b44c56d95000573c0f30d3dd">ValidatorsManager</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html#aa60b0284e0dfa2463495481cf11e3cf4">DiManager</a>
 , <a class="el" href="class_ubiquity_1_1events_1_1_events_manager.html#aa60b0284e0dfa2463495481cf11e3cf4">EventsManager</a>
+</li>
+<li>$KEY
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1traits_1_1_acl_cache_trait.html#a82995cdbe98c21d1ef1e4e0e01ef4591">AclCacheTrait</a>
+</li>
+<li>$key
+: <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html#aa60b0284e0dfa2463495481cf11e3cf4">SessionTokenStorage</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption.html#aa60b0284e0dfa2463495481cf11e3cf4">Encryption</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1loader_1_1_array_loader.html#aa60b0284e0dfa2463495481cf11e3cf4">ArrayLoader</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1_messages_updates.html#aa60b0284e0dfa2463495481cf11e3cf4">MessagesUpdates</a>
 </li>
@@ -783,7 +855,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#adf14d8e29912c1855022dfa252aa4087">ApiTokens</a>
 </li>
 <li>$level
-: <a class="el" href="class_ubiquity_1_1log_1_1_log_message.html#abd32cc82c6a3f79491987de36ad580ca">LogMessage</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_permission_annotation.html#abd32cc82c6a3f79491987de36ad580ca">PermissionAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_permission.html#a2335f1bf35fde67218197807df51efc4">Permission</a>
+, <a class="el" href="class_ubiquity_1_1log_1_1_log_message.html#abd32cc82c6a3f79491987de36ad580ca">LogMessage</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_permission.html#abd32cc82c6a3f79491987de36ad580ca">Permission</a>
 </li>
 <li>$lHash
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_commit.html#ac9157cb567190cbdb00e1a467e802690">GitCommit</a>
@@ -821,6 +896,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$loggerInstance
 : <a class="el" href="class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html#a0244ed0b2d5ccfd33512407872276f92">UMonolog</a>
 </li>
+<li>$mainPermission
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a0774031be88480d18420b2f11ec36365">AclControllerParser</a>
+</li>
+<li>$mainResource
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a7c8e6a3d9ac1d829a49fcc7b5702ac60">AclControllerParser</a>
+</li>
 <li>$mainRouteClass
 : <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a87bc7051cd7d75fe273dc8b8e8808040">ControllerParser</a>
 </li>
@@ -853,8 +934,10 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#acfaea8c5d0779fbe183766aa79eec095">ModelParser</a>
 </li>
 <li>$mappedBy
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_many_to_many_annotation.html#a1c4bf934691a992fa08cdcb67ed7a945">ManyToManyAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_one_to_many_annotation.html#a1c4bf934691a992fa08cdcb67ed7a945">OneToManyAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_many_to_many_annotation.html#a1c4bf934691a992fa08cdcb67ed7a945">ManyToManyAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_one_to_many_annotation.html#a1c4bf934691a992fa08cdcb67ed7a945">OneToManyAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_many_to_many.html#af21b4781846eacbce79659c610f95f46">ManyToMany</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html#af21b4781846eacbce79659c610f95f46">OneToMany</a>
 </li>
 <li>$match
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_regex_validator.html#a640ddca7cd0457b524948887ff2529e8">RegexValidator</a>
@@ -862,6 +945,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$max
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator.html#a9fb747ef5633c244639185a7fe54f6b0">RangeValidator</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html#a9fb747ef5633c244639185a7fe54f6b0">LengthValidator</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#a9fb747ef5633c244639185a7fe54f6b0">PasswordValidator</a>
 </li>
 <li>$MAX_ROW_COUNT
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1_pending_relations_request.html#a7b757ea20753d392b25773ba03059d81">PendingRelationsRequest</a>
@@ -893,7 +977,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_memory_cache.html#a7dc2621d819a3da733c748af53474ff4">MemoryCache</a>
 </li>
 <li>$message
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_validator_annotation.html#abf17cb2dba2ed17cb28aa5f37deb5293">ValidatorAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#abf17cb2dba2ed17cb28aa5f37deb5293">ValidatorAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_validator.html#a31ebe82aebc8e2c0b23c08108886bf1a">Validator</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#abf17cb2dba2ed17cb28aa5f37deb5293">ConstraintViolation</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator.html#abf17cb2dba2ed17cb28aa5f37deb5293">Validator</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_maintenance_mode.html#abf17cb2dba2ed17cb28aa5f37deb5293">MaintenanceMode</a>
@@ -916,12 +1001,13 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a1ddf4fadd73acc522690feccb67971b7">Yuml</a>
 </li>
 <li>$methods
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#a802753499268a04da139bd6e6ef89b35">RouteAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a802753499268a04da139bd6e6ef89b35">Route</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#a802753499268a04da139bd6e6ef89b35">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a5dcd363a405693e0efb69bbd9cd34ab5">Route</a>
 </li>
 <li>$min
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator.html#a56ba76399d12529c48ecea581ecd08cf">RangeValidator</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html#a56ba76399d12529c48ecea581ecd08cf">LengthValidator</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#a56ba76399d12529c48ecea581ecd08cf">PasswordValidator</a>
 </li>
 <li>$mkey
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_translate_message.html#a9cf27e5f59f4c6a3001a7fa9625bc7ed">TranslateMessage</a>
@@ -931,6 +1017,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a08fdd91bde255dbe3e2d15a22d9663e8">RestBaseController</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_table_export.html#a08fdd91bde255dbe3e2d15a22d9663e8">TableExport</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08fdd91bde255dbe3e2d15a22d9663e8">TableReversor</a>
+</li>
+<li>$modelContainer
+: <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html#a457829d1947202938669466b8fbc0536">ValidationModelGenerator</a>
+</li>
+<li>$models
+: <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_database_reversor.html#a8e864e72d607d890e164a37d03f3f551">DatabaseReversor</a>
 </li>
 <li>$modelsDatabase
 : <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html#a528b00b224933276e5259f95c78a93d0">DAO</a>
@@ -960,13 +1052,24 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a982f1b292f1f9ae7899b152a126f6ab2">ManyToManyParser</a>
 </li>
 <li>$name
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_column_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ColumnAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_database_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">DatabaseAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1di_1_1_injected_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">InjectedAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_join_table_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">JoinTableAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">RouteAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_table_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">TableAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1annotations_1_1_transformer_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">TransformerAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_permission_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">PermissionAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_resource_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ResourceAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ColumnAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_database_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">DatabaseAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">InjectedAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_table_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">JoinTableAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_table_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">TableAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_transformer_annotation.html#ab2fc40d43824ea3e1ce5d86dee0d763b">TransformerAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_permission.html#a58551b63ba97fb35b928f11f36b1fac6">Permission</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_resource.html#a58551b63ba97fb35b928f11f36b1fac6">Resource</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_column.html#a58551b63ba97fb35b928f11f36b1fac6">Column</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_database.html#a58551b63ba97fb35b928f11f36b1fac6">Database</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1di_1_1_injected.html#a58551b63ba97fb35b928f11f36b1fac6">Injected</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_join_table.html#a58551b63ba97fb35b928f11f36b1fac6">JoinTable</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a58551b63ba97fb35b928f11f36b1fac6">Route</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_table.html#a58551b63ba97fb35b928f11f36b1fac6">Table</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_transformer.html#a58551b63ba97fb35b928f11f36b1fac6">Transformer</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1_cache_file.html#ab2fc40d43824ea3e1ce5d86dee0d763b">CacheFile</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ValidationModelGenerator</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_list.html#ab2fc40d43824ea3e1ce5d86dee0d763b">CommandList</a>
@@ -977,6 +1080,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab2fc40d43824ea3e1ce5d86dee0d763b">Member</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab2fc40d43824ea3e1ce5d86dee0d763b">Model</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_command.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ScaffoldCommand</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_abstract_acl_part.html#ab2fc40d43824ea3e1ce5d86dee0d763b">AbstractAclPart</a>
 , <a class="el" href="class_ubiquity_1_1seo_1_1_controller_seo.html#ab2fc40d43824ea3e1ce5d86dee0d763b">ControllerSeo</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_file.html#ab2fc40d43824ea3e1ce5d86dee0d763b">GitFile</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html#ab2fc40d43824ea3e1ce5d86dee0d763b">AbstractSession</a>
@@ -1004,7 +1108,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1contents_1_1normalizers_1_1_normalizers_manager.html#a82effe1aa2bf172f09354ba989e1d56c">NormalizersManager</a>
 </li>
 <li>$note
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_yuml_annotation.html#a94fd1dcedc1bbef06b8a9fd0086526b3">YumlAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_yuml_annotation.html#a94fd1dcedc1bbef06b8a9fd0086526b3">YumlAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_yuml.html#a1bb12e22c961df4f27f2e030bbdc4435">Yuml</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a94fd1dcedc1bbef06b8a9fd0086526b3">ClassToYuml</a>
 </li>
 <li>$notNull
@@ -1016,10 +1121,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a87dd35bdd0ae02b74ec9a6b8a76f52d9">ModelParser</a>
 </li>
 <li>$nullable
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_column_annotation.html#a57b7073e8bc5ba81fb71b49080cbaea6">ColumnAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html#a57b7073e8bc5ba81fb71b49080cbaea6">ColumnAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_column.html#a972c80040ab425d5734b4428cc801f91">Column</a>
 </li>
 <li>$nullableMembers
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a01f2a0242370b43228f1a6dc0ae2cf39">ModelParser</a>
+</li>
+<li>$numeric
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#af896cf20ee616a4589101cacd820b3a4">PasswordValidator</a>
 </li>
 <li>$objects
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1_objects_condition_parser.html#a255f6b6db4c45b1418e9c15cf4e2bcdd">ObjectsConditionParser</a>
@@ -1069,6 +1178,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$params
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#afe68e6fbe7acfbffc0af0c84a1996466">ConditionParser</a>
 </li>
+<li>$parents
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_role.html#aaccf6ab4a29a043ae88aa27a3cc974b4">Role</a>
+</li>
 <li>$parseResult
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a4703a88cfca81bce28e4cb14a9959877">ClassToYuml</a>
 </li>
@@ -1082,14 +1194,31 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$parts
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#aa8dfa90e1feaffe49fc70696cc75c2f3">YumlParser</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#aa8dfa90e1feaffe49fc70696cc75c2f3">ConditionParser</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#aa8dfa90e1feaffe49fc70696cc75c2f3">AclArrayProvider</a>
 </li>
 <li>$password
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#a607686ef9f99ea7c42f4f3dd3dbb2b0d">RepositoryGit</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a607686ef9f99ea7c42f4f3dd3dbb2b0d">Database</a>
 </li>
 <li>$path
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#a0a4baf0b22973c07685c3981f0d17fc4">RouteAnnotation</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a0a4baf0b22973c07685c3981f0d17fc4">Route</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#a0a4baf0b22973c07685c3981f0d17fc4">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a8c653cd058ea0a281f629453441ade47">Route</a>
+</li>
+<li>$permission
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html#aad04b6f3304fe6a13d5be37f7cd28938">AllowAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html#a9fb2956704f676d63655e784a37e4ca2">Allow</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#aad04b6f3304fe6a13d5be37f7cd28938">PermissionMapObject</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#aad04b6f3304fe6a13d5be37f7cd28938">AclElement</a>
+</li>
+<li>$permissionClass
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a6e4bd8b8245b72c0ec4ef44596c85631">AclDAOProvider</a>
+</li>
+<li>$permissionMap
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#a06c51f72c9ddfe475d9dcc2ab1bcac8b">AclManager</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a06c51f72c9ddfe475d9dcc2ab1bcac8b">AclControllerParser</a>
+</li>
+<li>$permissions
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#abbf3a7a4bf2c5133e7bca892a6223c1a">AclList</a>
 </li>
 <li>$pk
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#aac4b875a598158d51d44a2b061265016">ManyToManyParser</a>
@@ -1124,7 +1253,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#afb862c909f6c212baaa9738672214eef">ModelParser</a>
 </li>
 <li>$priority
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#a2677e505e860db863720ac4e216fd3f2">RouteAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#a2677e505e860db863720ac4e216fd3f2">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a1db32954fc2c0afda0c070da35e2b2c3">Route</a>
 , <a class="el" href="class_ubiquity_1_1seo_1_1_url.html#a2677e505e860db863720ac4e216fd3f2">Url</a>
 </li>
 <li>$private
@@ -1150,6 +1280,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$protocols
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_url_validator.html#aad6913654854d83870312e6584b573cf">UrlValidator</a>
+</li>
+<li>$providers
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a8619fb6079fbd79202034b45724fd6ca">AclList</a>
+</li>
+<li>$providersPersistence
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#acbd930e2143c19aeed4843b7134cb939">AclManager</a>
 </li>
 <li>$public
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a425d32f04d26577103408db8c8612814">Yuml</a>
@@ -1177,10 +1313,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_regex_validator.html#af63b439d0c69c1a6e9c2d1b9a4f4af9e">RegexValidator</a>
 </li>
 <li>$referencedColumnName
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_join_column_annotation.html#aaae4d903761aaa6f9bcc0551d74c767f">JoinColumnAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_column_annotation.html#aaae4d903761aaa6f9bcc0551d74c767f">JoinColumnAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_join_column.html#a0463c07e91b9b1822b75ea1248049e02">JoinColumn</a>
 </li>
 <li>$refThemes
 : <a class="el" href="class_ubiquity_1_1themes_1_1_themes_manager.html#ae039e05378db19b4526838cd266a4080">ThemesManager</a>
+</li>
+<li>$registry
+: <a class="el" href="class_ubiquity_1_1annotations_1_1_annotations_engine.html#a531e4a386aaa7f3e06d3642dc38d7e80">AnnotationsEngine</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1_attributes_engine.html#a9b81ef735542224d6e8ed0d869d2008b">AttributesEngine</a>
 </li>
 <li>$relationLink
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_response_formatter.html#a3871879dc2130d82636dcf8d363b490a">JsonApiResponseFormatter</a>
@@ -1198,13 +1339,25 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#a116ab346146cc30fbffb7ffc52cbd1b3">RepositoryGit</a>
 </li>
 <li>$requirements
-: <a class="el" href="class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html#a244d94e62cffe97e11aa1633b809dfa1">RouteAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html#a244d94e62cffe97e11aa1633b809dfa1">RouteAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a619260b7cc59d422c4adb8745be9b292">Route</a>
 </li>
 <li>$resource
-: <a class="el" href="class_ubiquity_1_1annotations_1_1rest_1_1_rest_annotation.html#abd4c7b8b084214b8d2533ba07fce6b83">RestAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html#abd4c7b8b084214b8d2533ba07fce6b83">AllowAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1rest_1_1_rest_annotation.html#abd4c7b8b084214b8d2533ba07fce6b83">RestAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html#a73e0384e2b24af476b45cfdadf475295">Allow</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_rest.html#a73e0384e2b24af476b45cfdadf475295">Rest</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_rest_controller_parser.html#abd4c7b8b084214b8d2533ba07fce6b83">RestControllerParser</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#abd4c7b8b084214b8d2533ba07fce6b83">CrudControllerCreator</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#abd4c7b8b084214b8d2533ba07fce6b83">RestControllerCreator</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#abd4c7b8b084214b8d2533ba07fce6b83">PermissionMapObject</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#abd4c7b8b084214b8d2533ba07fce6b83">AclElement</a>
+</li>
+<li>$resourceClass
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a282e44d4c374c72f8787f07b66ea99b1">AclDAOProvider</a>
+</li>
+<li>$resources
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#ad57e7e99506ffd448d98e036b1a8da50">AclList</a>
 </li>
 <li>$responseFormatter
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a5958f6b8f0c17672446d6eabb40aedb7">RestBaseController</a>
@@ -1215,6 +1368,18 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$restCache
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a3a80472107c9754097ece7b69d77afba">RestBaseController</a>
+</li>
+<li>$role
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html#a1ea903cca285c7c0b4c9203932100309">AllowAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html#a3f4059a3f6acd8da558c68d389f696c7">Allow</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#a1ea903cca285c7c0b4c9203932100309">AclElement</a>
+</li>
+<li>$roleClass
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a92f6108407092347155c702b8e3079be">AclDAOProvider</a>
+</li>
+<li>$roles
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#a24a565772e407805783bcc46deeafeb3">PermissionMapObject</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a24a565772e407805783bcc46deeafeb3">AclList</a>
 </li>
 <li>$rootDir
 : <a class="el" href="class_ubiquity_1_1translation_1_1loader_1_1_array_loader.html#a68ccc223df2708efe11893f675abdacf">ArrayLoader</a>
@@ -1228,6 +1393,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$routes
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#a8f7eb04a54e0f0bfc0cedeb9899ce4a8">Router</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1_startup_async.html#a8f7eb04a54e0f0bfc0cedeb9899ce4a8">StartupAsync</a>
 </li>
 <li>$routesMethods
 : <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a56ea908ec90274a74d32a05fac04b37e">ControllerParser</a>
@@ -1249,6 +1415,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$selector
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a3014d0a3a57985c974251f5e8496ddc1">EditMemberParams</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#a3014d0a3a57985c974251f5e8496ddc1">AbstractAuthtokens</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html#a3014d0a3a57985c974251f5e8496ddc1">CsrfManager</a>
 </li>
 <li>$selfLink
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_response_formatter.html#a5210de128321e7fe086594b8a5210e76">JsonApiResponseFormatter</a>
@@ -1280,7 +1448,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#acb64257b549fcdc4cfea7ee2ab0c105f">USession</a>
 </li>
 <li>$severity
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_validator_annotation.html#a85759894d444d7191251479d87eaf8c6">ValidatorAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#a85759894d444d7191251479d87eaf8c6">ValidatorAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_validator.html#ae87186b53e01857c96a61c41cef4d9c8">Validator</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#a85759894d444d7191251479d87eaf8c6">ConstraintViolation</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator.html#a85759894d444d7191251479d87eaf8c6">Validator</a>
 </li>
@@ -1301,6 +1470,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$source
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html#a99a2b085f0a29bd5d799fdcbb63d261b">RestError</a>
+</li>
+<li>$specialChar
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#a7a1f37c53d340194f0111463d0dc45ff">PasswordValidator</a>
 </li>
 <li>$sqlAdditionalMembers
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a1687dabc772b3a7e58657aee0d1fb1fb">DAOPreparedQuery</a>
@@ -1327,6 +1499,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$stereotypes
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a72107766f07a4cf689c0248ed8001116">YumlParser</a>
 </li>
+<li>$storage
+: <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html#a23658d9b796eebdea4cee5c9f0046894">CsrfManager</a>
+</li>
 <li>$storeDeferred
 : <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_db_cache.html#aa8f168f1f024acf03ae450b919004396">DbCache</a>
 </li>
@@ -1338,6 +1513,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$summary
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_commit.html#acdcf998e93f562b960ce9f3a01989526">GitCommit</a>
+</li>
+<li>$swapClasses
+: <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a6f1bb6637076bf4e360bb1680e00ff8a">ModelParser</a>
 </li>
 <li>$table
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae8876a14058f368335baccf35af4a22b">Model</a>
@@ -1352,7 +1530,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a3d332a3c374a53802495dcb045f6133f">YumlParser</a>
 </li>
 <li>$targetEntity
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_many_to_many_annotation.html#afa99fba34d71439e1f94d883b4663efb">ManyToManyAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_many_to_many_annotation.html#afa99fba34d71439e1f94d883b4663efb">ManyToManyAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_many_to_many.html#a0d900329001b58ed8d2f6f9253c4f93f">ManyToMany</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#afa99fba34d71439e1f94d883b4663efb">ManyToManyParser</a>
 </li>
 <li>$targetEntityClass
@@ -1428,7 +1607,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#a95b22cf97ae99a402854f5f45a9871bf">Twig</a>
 </li>
 <li>$type
-: <a class="el" href="class_ubiquity_1_1annotations_1_1_validator_annotation.html#a9a4a6fba2208984cabb3afacadf33919">ValidatorAnnotation</a>
+: <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#a9a4a6fba2208984cabb3afacadf33919">ValidatorAnnotation</a>
+, <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1_validator.html#aa40cc7876dc0b694eda3c898140a0ac8">Validator</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1_cache_file.html#a9a4a6fba2208984cabb3afacadf33919">CacheFile</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html#a9a4a6fba2208984cabb3afacadf33919">ValidationModelGenerator</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message.html#a9a4a6fba2208984cabb3afacadf33919">InfoMessage</a>
@@ -1451,6 +1631,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$updateCallback
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ab69616f3dbaf1ac627e98b230acb597e">EditMemberParams</a>
 </li>
+<li>$upperCase
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html#a6314ecdde6d242f2705a5021b2844625">PasswordValidator</a>
+</li>
 <li>$urlParts
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a3dc01718a1727415f550288ab7afba74">Startup</a>
 </li>
@@ -1470,8 +1653,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_repository_git.html#a598ca4e71b15a1313ec95f0df1027ca5">RepositoryGit</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a598ca4e71b15a1313ec95f0df1027ca5">Database</a>
 </li>
+<li>$userid
+: <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#ae3f4f74a2aff9863a4767269a47aea11">AbstractAuthtokens</a>
+</li>
 <li>$uses
-: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_command.html#af050f1d6cfed92e5511909eba5754516">ScaffoldCommand</a>
+: <a class="el" href="class_ubiquity_1_1creator_1_1_has_uses_trait.html#af050f1d6cfed92e5511909eba5754516">HasUsesTrait</a>
+, <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_command.html#af050f1d6cfed92e5511909eba5754516">ScaffoldCommand</a>
 </li>
 <li>$useTransformer
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html#a2498c86e046d52088aaf13c0ecc014e2">UCookie</a>
@@ -1482,8 +1669,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$useValidation
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#ae8bc5ac889bfcfdded324ad962659b63">RestBaseController</a>
 </li>
+<li>$useViewInheritance
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#aca55322801479335f0d5aef9fcb6c6dd">BaseControllerCreator</a>
+</li>
 <li>$valid
 : <a class="el" href="class_ubiquity_1_1seo_1_1_url.html#a0587674d27d00ef497e08e53ccf45bbb">Url</a>
+</li>
+<li>$validator
+: <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html#aa4e00b38f53ef571bf77fc9c3e882972">CsrfManager</a>
 </li>
 <li>$validators
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validation_model_parser.html#a92dc1d646f00c393e2ed76a7ec06e76b">ValidationModelParser</a>
@@ -1498,6 +1691,8 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#a0f298096f322952a72a50f98a74c7b60">ConstraintViolation</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator.html#a0f298096f322952a72a50f98a74c7b60">Validator</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_command.html#a0f298096f322952a72a50f98a74c7b60">ScaffoldCommand</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_resource.html#a0f298096f322952a72a50f98a74c7b60">Resource</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_u_token.html#a0f298096f322952a72a50f98a74c7b60">UToken</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html#a0f298096f322952a72a50f98a74c7b60">CsrfToken</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html#a0f298096f322952a72a50f98a74c7b60">SessionObject</a>
 </li>
@@ -1567,7 +1762,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Wed Sep 30 2020 20:20:28 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sat Jan 2 2021 02:28:47 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

@@ -11,6 +11,7 @@ var searchData=
   ['servicestarter',['ServiceStarter',['../class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html',1,'Ubiquity::scaffolding::starter']]],
   ['sessioncache',['SessionCache',['../class_ubiquity_1_1cache_1_1objects_1_1_session_cache.html',1,'Ubiquity::cache::objects']]],
   ['sessionobject',['SessionObject',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html',1,'Ubiquity::utils::http::session']]],
+  ['sessiontokenstorage',['SessionTokenStorage',['../class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html',1,'Ubiquity::security::csrf::storages']]],
   ['simplerestcontroller',['SimpleRestController',['../class_ubiquity_1_1controllers_1_1rest_1_1_simple_rest_controller.html',1,'Ubiquity::controllers::rest']]],
   ['simpleviewasynccontroller',['SimpleViewAsyncController',['../class_ubiquity_1_1controllers_1_1_simple_view_async_controller.html',1,'Ubiquity::controllers']]],
   ['simpleviewcontroller',['SimpleViewController',['../class_ubiquity_1_1controllers_1_1_simple_view_controller.html',1,'Ubiquity::controllers']]],

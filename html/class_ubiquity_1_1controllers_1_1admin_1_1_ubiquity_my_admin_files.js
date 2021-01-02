@@ -3,6 +3,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files =
     [ "getAdminBaseRoute", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#a0a2021eb345af5198d4ee310a5ad531a", null ],
     [ "getOAuthConfigFrm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#a9b152ecd18d9d732f628726efd08bd92", null ],
     [ "getProviderFrm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#a63ce14f62c834d32476d92c7c77ceada", null ],
+    [ "getViewAclsIndex", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#a421a4f08e728b9406a743e44f1b20182", null ],
     [ "getViewAddAuthController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#a44e64ffacbc1cea7a429d5a84e97b3d4", null ],
     [ "getViewAddCrudController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#afb51346ba555a5100008c30f486c88d7", null ],
     [ "getViewAddDependencyFrm", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html#aa4b4ca4e5f5797b1143460739adca974", null ],

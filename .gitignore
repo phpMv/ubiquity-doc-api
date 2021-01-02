@@ -1,2 +1,5 @@
 vendor/
 output/
+.project
+.buildpath
+.settings/

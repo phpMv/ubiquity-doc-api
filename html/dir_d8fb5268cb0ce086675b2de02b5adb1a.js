@@ -2,6 +2,7 @@ var dir_d8fb5268cb0ce086675b2de02b5adb1a =
 [
     [ "foundation", "dir_0f36787b5d9f0fbce6e2b8608d36295b.html", "dir_0f36787b5d9f0fbce6e2b8608d36295b" ],
     [ "session", "dir_5035d086ea5290c526003c7152bb0254.html", "dir_5035d086ea5290c526003c7152bb0254" ],
+    [ "traits", "dir_bc100136492b6c062341de05f59dd28c.html", "dir_bc100136492b6c062341de05f59dd28c" ],
     [ "UCookie.php", "_u_cookie_8php.html", [
       [ "UCookie", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie" ]
     ] ],

@@ -1,5 +1,7 @@
 var namespace_ubiquity_1_1controllers_1_1admin_1_1traits =
 [
+    [ "acls", "namespace_ubiquity_1_1controllers_1_1admin_1_1traits_1_1acls.html", "namespace_ubiquity_1_1controllers_1_1admin_1_1traits_1_1acls" ],
+    [ "AclsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait" ],
     [ "CacheTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait" ],
     [ "CheckTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_check_trait" ],
     [ "CommandsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait" ],

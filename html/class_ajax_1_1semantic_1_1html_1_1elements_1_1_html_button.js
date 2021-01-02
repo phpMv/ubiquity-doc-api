@@ -1,0 +1,26 @@
+var class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button =
+[
+    [ "__construct", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#ade2405c02652f422c91d315cc948f99b", null ],
+    [ "addLabel", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#ac7f28b9f992e91bd25d7cadfab49db95", null ],
+    [ "addPopupConfirmation", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#acee4c0e66d81ad8eeaf38e8f31d5d198", null ],
+    [ "asIcon", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#abf20a73f40b3bad07ef4547bf5078f10", null ],
+    [ "asLink", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a7d283db6b5b0948114949b36ebdf00ee", null ],
+    [ "asSubmit", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a5214b02e0c6ad6e2504e11b6153f7840", null ],
+    [ "dropdown", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a26632e7c5bda3a77eb040a9e3418097c", null ],
+    [ "fromArray", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a66a6c502659b138934bf1b3aa629a3ca", null ],
+    [ "icon", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#aea84c6186d756d29c33ddeb465a10432", null ],
+    [ "labeled", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#ae78bf6d06cec9c76bf18258d65116a9a", null ],
+    [ "setAnimated", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#ae727da5f73ff8009d2046b062df1a675", null ],
+    [ "setBasic", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a431d8498b53ba170391f5a723537f631", null ],
+    [ "setCircular", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a19ba5c5baa2c812ee5cbbb7feb24cd40", null ],
+    [ "setColor", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#aea333af75dc7282a4a9069ce82596ca1", null ],
+    [ "setEmphasis", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#ac73d64a12537931e4018a509951fb3e4", null ],
+    [ "setFocusable", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a407e3f96094e29bf23be625711f60e5e", null ],
+    [ "setLoading", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#aba729d84a628bcf78f0395bcd89079e5", null ],
+    [ "setNegative", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a80450acb5767596a30b7e4751929c667", null ],
+    [ "setPositive", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a46ee7a0ec17ce9b89ac899a72f5de69f", null ],
+    [ "setStyle", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a2ac7f7bc0b3e591b72729ee88d0536d5", null ],
+    [ "setToggle", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a76a18984add6a3fb7e96f4343a752ae1", null ],
+    [ "setValue", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a7494441b6ed08a391704971873f31432", null ],
+    [ "social", "class_ajax_1_1semantic_1_1html_1_1elements_1_1_html_button.html#a8cfa2d5faf87176f782838f7c8a361b9", null ]
+];

@@ -39,6 +39,7 @@ var class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller
     [ "_smallUpdateMessageCache", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a69ab30b11cc965aa253746054a1cfaba", null ],
     [ "_updateAllClassesDiagram", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a72172a570d7a43dba7b4b386b2bc071e", null ],
     [ "_updateDiagram", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a871886c0bb1c45c13e5d933d1aff2904", null ],
+    [ "acls", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a7ee59551b312410cbe38321a3987500a", null ],
     [ "addAdminViewPath", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a27293e1e1a157164e51034579eff1ab3", null ],
     [ "addCloseToMessage", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#a0da7579e4319309d95067b043835cd3b", null ],
     [ "addNavigationTesting", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html#ae4b6adec4234db44a2a460069fa2fc78", null ],

@@ -1,0 +1,26 @@
+var class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait =
+[
+    [ "addAndAllow", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a419132507351b69f6d521294fae1cc70", null ],
+    [ "addPermission", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a34dbb3a7dd991b901034732ea654a99c", null ],
+    [ "addResource", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a1ffb4581e58b5c8dc01f13115e168c54", null ],
+    [ "addRole", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a499316b2a4d41cd073ad9ac7ece47b3a", null ],
+    [ "allow", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a118733ab9aa59a8dffe74bea5dc4d55b", null ],
+    [ "clear", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#aa821bec12eaa7e0f649397c9675ff505", null ],
+    [ "elementExistByName", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a3ad78a727e65f917dbbc89784439b646", null ],
+    [ "getPermissionByName", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a26ffb205d5b99ca00a7d24193e094e51", null ],
+    [ "getResourceByName", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#ae6e106df7d2fb11e221a2bd2a81c54d3", null ],
+    [ "getRoleByName", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#ad5b1578d802fc707a2f06a87d60783f8", null ],
+    [ "init", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a4be4055f3361d4800e16bc2e2e38cda6", null ],
+    [ "removeAcl", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a207c4e47baaccfb6d0198cfcf65754f2", null ],
+    [ "removeAclElement", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#acaca960ded747b5b87ce79d1b853b9a4", null ],
+    [ "removePart", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a2347af2c0c117e6c40644e1b94a1443b", null ],
+    [ "removePermission", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#aa11ddc1e97cd60c1da7aa1b9d84c17bb", null ],
+    [ "removeResource", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a81ca2b8da1414684dd226221eb06c35f", null ],
+    [ "removeRole", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#aec54ab098e28fc246d5da6eedeb89572", null ],
+    [ "saveAclElement", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a37c6447a824f759bc62fc7ddb22dfd77", null ],
+    [ "saveAll", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#ae23aae6b3675fbf40118b23071a12984", null ],
+    [ "savePart", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#af5f8af4c2923c3b1146b1c38c1032063", null ],
+    [ "setPermissionLevel", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#adc553a8d51a33ea4e8caba490565c93d", null ],
+    [ "unsetCache", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#aebca9c3ab4b736edf93eeeddea05ce9e", null ],
+    [ "updatePart", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a8d516f9f7d117a99df3f0dadcf0b7462", null ]
+];

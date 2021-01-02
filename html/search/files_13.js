@@ -1,6 +1,7 @@
 var searchData=
 [
   ['uarray_2ephp',['UArray.php',['../_u_array_8php.html',1,'']]],
+  ['uarrayastrait_2ephp',['UArrayAsTrait.php',['../_u_array_as_trait_8php.html',1,'']]],
   ['ubiquityexception_2ephp',['UbiquityException.php',['../_ubiquity_exception_8php.html',1,'']]],
   ['ubiquitymyadminbasecontroller_2ephp',['UbiquityMyAdminBaseController.php',['../_ubiquity_my_admin_base_controller_8php.html',1,'']]],
   ['ubiquitymyadmindata_2ephp',['UbiquityMyAdminData.php',['../_ubiquity_my_admin_data_8php.html',1,'']]],
@@ -8,6 +9,7 @@ var searchData=
   ['ubiquitymyadminviewer_2ephp',['UbiquityMyAdminViewer.php',['../_ubiquity_my_admin_viewer_8php.html',1,'']]],
   ['ubiquityutils_2ephp',['UbiquityUtils.php',['../_ubiquity_utils_8php.html',1,'']]],
   ['ucookie_2ephp',['UCookie.php',['../_u_cookie_8php.html',1,'']]],
+  ['ucsrfhttp_2ephp',['UCsrfHttp.php',['../_u_csrf_http_8php.html',1,'']]],
   ['udatetime_2ephp',['UDateTime.php',['../_u_date_time_8php.html',1,'']]],
   ['ufilesystem_2ephp',['UFileSystem.php',['../_u_file_system_8php.html',1,'']]],
   ['ufilesystemwriter_2ephp',['UFileSystemWriter.php',['../_u_file_system_writer_8php.html',1,'']]],
@@ -16,11 +18,14 @@ var searchData=
   ['umonolog_2ephp',['UMonolog.php',['../_u_monolog_8php.html',1,'']]],
   ['uppercase_2ephp',['UpperCase.php',['../_upper_case_8php.html',1,'']]],
   ['urequest_2ephp',['URequest.php',['../_u_request_8php.html',1,'']]],
+  ['urequesttestertrait_2ephp',['URequestTesterTrait.php',['../_u_request_tester_trait_8php.html',1,'']]],
   ['uresponse_2ephp',['UResponse.php',['../_u_response_8php.html',1,'']]],
   ['url_2ephp',['Url.php',['../_url_8php.html',1,'']]],
   ['urlparser_2ephp',['UrlParser.php',['../_url_parser_8php.html',1,'']]],
   ['urlstrait_2ephp',['UrlsTrait.php',['../src_2_ubiquity_2controllers_2crud_2traits_2_urls_trait_8php.html',1,'(Global Namespace)'],['../webtools_2src_2_ubiquity_2controllers_2admin_2traits_2_urls_trait_8php.html',1,'(Global Namespace)']]],
   ['urlvalidator_2ephp',['UrlValidator.php',['../_url_validator_8php.html',1,'']]],
   ['usession_2ephp',['USession.php',['../_u_session_8php.html',1,'']]],
-  ['ustring_2ephp',['UString.php',['../_u_string_8php.html',1,'']]]
+  ['ustring_2ephp',['UString.php',['../_u_string_8php.html',1,'']]],
+  ['utoken_2ephp',['UToken.php',['../_u_token_8php.html',1,'']]],
+  ['uuidselector_2ephp',['UuidSelector.php',['../_uuid_selector_8php.html',1,'']]]
 ];

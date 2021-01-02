@@ -2,7 +2,7 @@ var class_ubiquity_1_1controllers_1_1_controller =
 [
     [ "__construct", "class_ubiquity_1_1controllers_1_1_controller.html#a095c5d389db211932136b53f25f39685", null ],
     [ "finalize", "class_ubiquity_1_1controllers_1_1_controller.html#a9caaa1f5ea6177e55f13ebe7dec2bd60", null ],
-    [ "forward", "class_ubiquity_1_1controllers_1_1_controller.html#a41dc0210a4e99cb5d50bd89b800c7b51", null ],
+    [ "forward", "class_ubiquity_1_1controllers_1_1_controller.html#ace7754df5ea62c7c7b59dd68dc24da02", null ],
     [ "getDefaultViewName", "class_ubiquity_1_1controllers_1_1_controller.html#ad34399cc699bb199e879731543fe1e69", null ],
     [ "getView", "class_ubiquity_1_1controllers_1_1_controller.html#a50677812ea3f0258f7d03bbac5265413", null ],
     [ "index", "class_ubiquity_1_1controllers_1_1_controller.html#a149eb92716c1084a935e04a8d95f7347", null ],

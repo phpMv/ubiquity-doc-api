@@ -2,6 +2,7 @@ var class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait =
 [
     [ "getAnnotationColumnMember", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#aa734916772b3eae560a1a4429bb09867", null ],
     [ "getAnnotationMember", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#ad614f5b8496fc76d5a550b38fa599e57", null ],
+    [ "getAnnotsEngine", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#a2df347bd82a7c43e0cb8e7bc3e151cb4", null ],
     [ "getDbType", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#a33e84651941f96bcbe28077fabc9e061", null ],
     [ "getFieldName", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#a95699659593fb841414238574bf4c822", null ],
     [ "getMetadata", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#aae00d7e424969e56e758e89f19cf6817", null ],

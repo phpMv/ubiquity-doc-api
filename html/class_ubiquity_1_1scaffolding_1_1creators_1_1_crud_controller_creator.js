@@ -1,7 +1,7 @@
 var class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator =
 [
-    [ "__construct", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#a78ece83b4a1c89879d073a43438158e5", null ],
-    [ "addViews", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#a8e0849588274bbe6278eacd6a6468796", null ],
+    [ "__construct", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#a4d69dbc877b10de0e427d7e8e0cc6029", null ],
+    [ "addViews", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#aac73270afa439573b2141f1c981e6849", null ],
     [ "create", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#a3944cbc9c17a70438a6c731147ca6f7c", null ],
     [ "createCRUDDatasClass", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#ab0e3d992728d84e6e4556c56a4188fb3", null ],
     [ "createCRUDFilesClass", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html#a3f6acf4131cb8054827b69419eda10ad", null ],

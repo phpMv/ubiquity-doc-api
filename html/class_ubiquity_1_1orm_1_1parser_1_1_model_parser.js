@@ -2,7 +2,11 @@ var class_ubiquity_1_1orm_1_1parser_1_1_model_parser =
 [
     [ "__toString", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
     [ "asArray", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a12b8efb717cb31322bfa4d1d75146979", null ],
+    [ "initSwapClasses", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#adeaba1fa54aae4e10040c5d34a3cb381", null ],
     [ "parse", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a046cffea18732b624abb89bf8501d9ce", null ],
+    [ "swapArrayValues", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#ac21965898f384023236acbf89050ca5d", null ],
+    [ "swapValue", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a225ea342ef4c667b875b80fb775598c9", null ],
+    [ "swapValues", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#aba2ad36bbe14c7b757e038c37edf45bf", null ],
     [ "$accessors", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#af2a5c7931f51c95db786937292c398ab", null ],
     [ "$fieldNames", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#ad42c49dda04bb42ec41e55cba8f8814b", null ],
     [ "$fieldTypes", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a8693c80d1448665a9b26c0b04b9b64db", null ],
@@ -16,6 +20,7 @@ var class_ubiquity_1_1orm_1_1parser_1_1_model_parser =
     [ "$nullableMembers", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a01f2a0242370b43228f1a6dc0ae2cf39", null ],
     [ "$oneToManyMembers", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a390abb0d0feaad9d130e8e5a821e9bee", null ],
     [ "$primaryKeys", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#afb862c909f6c212baaa9738672214eef", null ],
+    [ "$swapClasses", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a6f1bb6637076bf4e360bb1680e00ff8a", null ],
     [ "$transformers", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a4f8449c25b3a04780dc51ea4a64cce9a", null ],
     [ "$yuml", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a959471a7ae864ce6fa9760dacb889f53", null ]
 ];

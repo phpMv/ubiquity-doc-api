@@ -1,5 +1,9 @@
 var dir_c857f7282704687d11bd76987c5f7164 =
 [
+    [ "acls", "dir_5d52193f335383ab977164ca06b12158.html", "dir_5d52193f335383ab977164ca06b12158" ],
+    [ "AclsTrait.php", "_acls_trait_8php.html", [
+      [ "AclsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait" ]
+    ] ],
     [ "CacheTrait.php", "_cache_trait_8php.html", [
       [ "CacheTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait" ]
     ] ],

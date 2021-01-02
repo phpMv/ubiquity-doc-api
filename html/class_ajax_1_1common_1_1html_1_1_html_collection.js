@@ -1,0 +1,28 @@
+var class_ajax_1_1common_1_1html_1_1_html_collection =
+[
+    [ "__construct", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a7bc685a241b8c04091ec69a848f8b8f7", null ],
+    [ "addItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a8dd246975181252a9e2885d83addbad2", null ],
+    [ "addItems", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ac3a4371fdbba188b1545a8e77d222bb1", null ],
+    [ "addPropertyValues", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a054f6248dab8950f3bcd6302b1def055", null ],
+    [ "apply", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a4575b21791c0766ade6e7b488ec5aa9a", null ],
+    [ "asLinks", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a5eefe336e16996c8b788f91f031f257d", null ],
+    [ "compile", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a9afa6017dd163907a73cde63a97e45f1", null ],
+    [ "contentAs", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a275cc4a4d46959b381695687d705304c", null ],
+    [ "count", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ac751e87b3d4c4bf2feb03bee8b092755", null ],
+    [ "createCondition", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a215f63c11dc1531f9df1ba4be5857ca2", null ],
+    [ "createItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a338ad1b4013f4e5dcda6ca85899d7717", null ],
+    [ "fromArray", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a66a6c502659b138934bf1b3aa629a3ca", null ],
+    [ "fromDatabaseObject", "class_ajax_1_1common_1_1html_1_1_html_collection.html#af3c29b16b3f2f46f454ee1185c22a533", null ],
+    [ "getItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a8f43b2a8c87af5df7a283064e020a728", null ],
+    [ "getItemById", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ad41eb801d26e9feb8a1adb239333d879", null ],
+    [ "getItems", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ab20ac3660e2d867b235b004bd3950ec3", null ],
+    [ "getItemToAdd", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a5e79a52afeb9fea9ec95334986c8d22b", null ],
+    [ "insertItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ae64f117044d80623e3075617a35d69eb", null ],
+    [ "removeItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a028c8f156b60dc30f633308b7a840389", null ],
+    [ "setItem", "class_ajax_1_1common_1_1html_1_1_html_collection.html#abc4798b8ebe665c6da3c0f1a728e9640", null ],
+    [ "setItemIdentifier", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ae7549dd7d0fa410d044ce590f39d9860", null ],
+    [ "setItems", "class_ajax_1_1common_1_1html_1_1_html_collection.html#af8667b26ed87be86bb14615e1307894d", null ],
+    [ "setProperties", "class_ajax_1_1common_1_1html_1_1_html_collection.html#ac1b79f5a16bd9e0216a6ac0969ff666e", null ],
+    [ "setPropertyValues", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a9bdcc997440e5f6251f567d2004d74da", null ],
+    [ "splice", "class_ajax_1_1common_1_1html_1_1_html_collection.html#a43e6c8095f897234c0acbafe54c31d9a", null ]
+];

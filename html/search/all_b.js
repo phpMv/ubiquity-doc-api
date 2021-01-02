@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['joincolumnannotation',['JoinColumnAnnotation',['../class_ubiquity_1_1annotations_1_1_join_column_annotation.html',1,'Ubiquity::annotations']]],
+  ['joincolumn',['JoinColumn',['../class_ubiquity_1_1attributes_1_1items_1_1_join_column.html',1,'Ubiquity::attributes::items']]],
+  ['joincolumn_2ephp',['JoinColumn.php',['../_join_column_8php.html',1,'']]],
+  ['joincolumnannotation',['JoinColumnAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_join_column_annotation.html',1,'Ubiquity::annotations::items']]],
   ['joincolumnannotation_2ephp',['JoinColumnAnnotation.php',['../_join_column_annotation_8php.html',1,'']]],
-  ['jointableannotation',['JoinTableAnnotation',['../class_ubiquity_1_1annotations_1_1_join_table_annotation.html',1,'Ubiquity::annotations']]],
+  ['jointable',['JoinTable',['../class_ubiquity_1_1attributes_1_1items_1_1_join_table.html',1,'Ubiquity::attributes::items']]],
+  ['jointable_2ephp',['JoinTable.php',['../_join_table_8php.html',1,'']]],
+  ['jointableannotation',['JoinTableAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_join_table_annotation.html',1,'Ubiquity::annotations::items']]],
   ['jointableannotation_2ephp',['JoinTableAnnotation.php',['../_join_table_annotation_8php.html',1,'']]],
   ['js',['js',['../class_ubiquity_1_1assets_1_1_assets_manager.html#a9ce04097f51cabdf4672ce72c75b17f5',1,'Ubiquity::assets::AssetsManager']]],
   ['js_5f',['js_',['../class_ubiquity_1_1assets_1_1_assets_manager.html#a0544913cac141baa1d5ba70028b69b91',1,'Ubiquity::assets::AssetsManager']]],

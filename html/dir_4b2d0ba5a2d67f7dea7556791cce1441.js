@@ -7,7 +7,7 @@ var dir_4b2d0ba5a2d67f7dea7556791cce1441 =
     [ "ClassToYuml.php", "_class_to_yuml_8php.html", [
       [ "ClassToYuml", "class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html", "class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml" ]
     ] ],
-    [ "Yuml.php", "_yuml_8php.html", [
+    [ "Yuml.php", "src_2_ubiquity_2utils_2yuml_2_yuml_8php.html", [
       [ "Yuml", "class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html", "class_ubiquity_1_1utils_1_1yuml_1_1_yuml" ]
     ] ]
 ];

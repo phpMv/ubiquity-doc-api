@@ -1,0 +1,26 @@
+var class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait =
+[
+    [ "_add_event", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a8c9e7daff18d48e14ee6b223b4403c08", null ],
+    [ "blur", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a3aacb753ebd61030bad68fb877e52699", null ],
+    [ "change", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a40231e4bcb8a06a72080f37eab3cae47", null ],
+    [ "click", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a9959c1be130ff06afa6a564cda96abda", null ],
+    [ "contextmenu", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a45ff625d530cce48d364875892e095d3", null ],
+    [ "dblclick", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a9f2699300751803206016d510d448ea0", null ],
+    [ "error", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#ac6c4977af5ec27a5addbb3b2a28912e2", null ],
+    [ "focus", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#aa00a3db94f50b79b948d90a48e4bc286", null ],
+    [ "hover", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a6f8cfdbca8f6b2c2d68bb9a38a8f96a7", null ],
+    [ "keydown", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#ad707956fd5a0588de445d786396b33ec", null ],
+    [ "keypress", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a2d9f162edbce46c08c86181e71671872", null ],
+    [ "keyup", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a8c6e3a3b521c059cfd6799b3dc73d0d6", null ],
+    [ "load", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a5e0d3ce786a91561730aa9610b811f67", null ],
+    [ "mousedown", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#afa625106ad51c2f80ccfadf94981041d", null ],
+    [ "mouseenter", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a9ee94fe25ab678d12af3cd93ce02817d", null ],
+    [ "mouseleave", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a8857059c3d472ed1560a4b4a2ca80cdf", null ],
+    [ "mouseout", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a753625f428ce05601d346f065eb8c480", null ],
+    [ "mouseover", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#af54e0f954a0bb3983011578c848faf48", null ],
+    [ "mouseup", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a31b2b5c28657895274f5658517a2342a", null ],
+    [ "resize", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#a972b62f88e96fb29b179469e0d49329a", null ],
+    [ "scroll", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#acb749f777082c90c2b46eb1c367522dc", null ],
+    [ "unload", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#abe5e3762033021416ab5c4d0dce993bf", null ],
+    [ "$jquery_events", "class_ajax_1_1common_1_1traits_1_1_js_utils_events_trait.html#ab3f4a2a808a9b4bf0c4423c5d0afe094", null ]
+];

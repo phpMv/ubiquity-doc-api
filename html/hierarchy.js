@@ -1,5 +1,11 @@
 var hierarchy =
 [
+    [ "AbstractAclPart", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_abstract_acl_part.html", [
+      [ "Permission", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_permission.html", null ],
+      [ "Resource", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_resource.html", null ],
+      [ "Role", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_role.html", null ]
+    ] ],
+    [ "AbstractAuthtokens", "class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html", null ],
     [ "AbstractBulks", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html", [
       [ "BulkDeletes", "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_deletes.html", null ],
       [ "BulkInserts", "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_inserts.html", null ],
@@ -40,6 +46,33 @@ var hierarchy =
       [ "MultisiteSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html", null ],
       [ "PhpSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html", null ]
     ] ],
+    [ "AclCacheTrait", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1traits_1_1_acl_cache_trait.html", [
+      [ "PermissionsMap", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html", null ],
+      [ "AclCacheProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html", null ]
+    ] ],
+    [ "AclControllerParser", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html", null ],
+    [ "AclControllerTrait", "class_ubiquity_1_1security_1_1acl_1_1controllers_1_1_acl_controller_trait.html", null ],
+    [ "AclElement", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html", null ],
+    [ "AclListOperationsTrait", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html", [
+      [ "AclList", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html", null ]
+    ] ],
+    [ "AclListQueryTrait", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_query_trait.html", [
+      [ "AclList", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html", null ]
+    ] ],
+    [ "AclManager", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html", null ],
+    [ "AclProviderInterface", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html", [
+      [ "AclArrayProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html", [
+        [ "AclCacheProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html", null ]
+      ] ],
+      [ "AclDAOProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html", null ]
+    ] ],
+    [ "AclsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_acls_trait.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
+    [ "AnnotationsEngineInterface", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html", [
+      [ "AnnotationsEngine", "class_ubiquity_1_1annotations_1_1_annotations_engine.html", null ],
+      [ "AttributesEngine", "class_ubiquity_1_1attributes_1_1_attributes_engine.html", null ]
+    ] ],
     [ "ApiTokens", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html", null ],
     [ "ApplicationStorage", "class_ubiquity_1_1utils_1_1store_1_1_application_storage.html", null ],
     [ "AssetsManager", "class_ubiquity_1_1assets_1_1_assets_manager.html", null ],
@@ -53,10 +86,89 @@ var hierarchy =
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
     [ "AuthFiles", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html", null ],
-    [ "BaseControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html", [
-      [ "AuthControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html", null ],
-      [ "CrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html", null ],
-      [ "RestControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html", null ]
+    [ "BaseAnnotationTrait", "class_ubiquity_1_1annotations_1_1_base_annotation_trait.html", [
+      [ "BaseAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_base_annotation.html", [
+        [ "AllowAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html", null ],
+        [ "PermissionAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_permission_annotation.html", null ],
+        [ "ResourceAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_resource_annotation.html", null ],
+        [ "ColumnAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html", [
+          [ "JoinColumnAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_join_column_annotation.html", null ]
+        ] ],
+        [ "DatabaseAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_database_annotation.html", null ],
+        [ "AutowiredAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1di_1_1_autowired_annotation.html", null ],
+        [ "InjectedAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html", null ],
+        [ "IdAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_id_annotation.html", null ],
+        [ "JoinTableAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_join_table_annotation.html", null ],
+        [ "ManyToManyAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_many_to_many_annotation.html", null ],
+        [ "ManyToOneAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_many_to_one_annotation.html", null ],
+        [ "OneToManyAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_one_to_many_annotation.html", null ],
+        [ "AuthorizationAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1rest_1_1_authorization_annotation.html", null ],
+        [ "RestAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1rest_1_1_rest_annotation.html", null ],
+        [ "RouteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html", [
+          [ "DeleteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_delete_annotation.html", null ],
+          [ "GetAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_get_annotation.html", null ],
+          [ "OptionsAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_options_annotation.html", null ],
+          [ "PatchAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_patch_annotation.html", null ],
+          [ "PostAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_post_annotation.html", null ],
+          [ "PutAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_put_annotation.html", null ]
+        ] ],
+        [ "TableAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_table_annotation.html", null ],
+        [ "TransformerAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_transformer_annotation.html", null ],
+        [ "TransientAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_transient_annotation.html", null ],
+        [ "ValidatorAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html", null ],
+        [ "YumlAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_yuml_annotation.html", null ]
+      ] ],
+      [ "Allow", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html", null ],
+      [ "Permission", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_permission.html", null ],
+      [ "Resource", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_resource.html", null ],
+      [ "BaseAttribute", "class_ubiquity_1_1attributes_1_1items_1_1_base_attribute.html", [
+        [ "Allow", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_allow.html", null ],
+        [ "Permission", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_permission.html", null ],
+        [ "Resource", "class_ubiquity_1_1attributes_1_1items_1_1acl_1_1_resource.html", null ],
+        [ "Column", "class_ubiquity_1_1attributes_1_1items_1_1_column.html", [
+          [ "JoinColumn", "class_ubiquity_1_1attributes_1_1items_1_1_join_column.html", null ]
+        ] ],
+        [ "Database", "class_ubiquity_1_1attributes_1_1items_1_1_database.html", null ],
+        [ "Autowired", "class_ubiquity_1_1attributes_1_1items_1_1di_1_1_autowired.html", null ],
+        [ "Injected", "class_ubiquity_1_1attributes_1_1items_1_1di_1_1_injected.html", null ],
+        [ "Id", "class_ubiquity_1_1attributes_1_1items_1_1_id.html", null ],
+        [ "JoinTable", "class_ubiquity_1_1attributes_1_1items_1_1_join_table.html", null ],
+        [ "ManyToMany", "class_ubiquity_1_1attributes_1_1items_1_1_many_to_many.html", null ],
+        [ "ManyToOne", "class_ubiquity_1_1attributes_1_1items_1_1_many_to_one.html", null ],
+        [ "OneToMany", "class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html", null ],
+        [ "Authorization", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_authorization.html", null ],
+        [ "Rest", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_rest.html", null ],
+        [ "Route", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html", [
+          [ "Delete", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_delete.html", null ],
+          [ "Get", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_get.html", null ],
+          [ "Options", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_options.html", null ],
+          [ "Patch", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_patch.html", null ],
+          [ "Post", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_post.html", null ],
+          [ "Put", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_put.html", null ]
+        ] ],
+        [ "Table", "class_ubiquity_1_1attributes_1_1items_1_1_table.html", null ],
+        [ "Transformer", "class_ubiquity_1_1attributes_1_1items_1_1_transformer.html", null ],
+        [ "Transient", "class_ubiquity_1_1attributes_1_1items_1_1_transient.html", null ],
+        [ "Validator", "class_ubiquity_1_1attributes_1_1items_1_1_validator.html", null ],
+        [ "Yuml", "class_ubiquity_1_1attributes_1_1items_1_1_yuml.html", null ]
+      ] ],
+      [ "Column", "class_ubiquity_1_1attributes_1_1items_1_1_column.html", null ],
+      [ "Database", "class_ubiquity_1_1attributes_1_1items_1_1_database.html", null ],
+      [ "Autowired", "class_ubiquity_1_1attributes_1_1items_1_1di_1_1_autowired.html", null ],
+      [ "Injected", "class_ubiquity_1_1attributes_1_1items_1_1di_1_1_injected.html", null ],
+      [ "Id", "class_ubiquity_1_1attributes_1_1items_1_1_id.html", null ],
+      [ "JoinTable", "class_ubiquity_1_1attributes_1_1items_1_1_join_table.html", null ],
+      [ "ManyToMany", "class_ubiquity_1_1attributes_1_1items_1_1_many_to_many.html", null ],
+      [ "ManyToOne", "class_ubiquity_1_1attributes_1_1items_1_1_many_to_one.html", null ],
+      [ "OneToMany", "class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html", null ],
+      [ "Authorization", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_authorization.html", null ],
+      [ "Rest", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_rest.html", null ],
+      [ "Route", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html", null ],
+      [ "Table", "class_ubiquity_1_1attributes_1_1items_1_1_table.html", null ],
+      [ "Transformer", "class_ubiquity_1_1attributes_1_1items_1_1_transformer.html", null ],
+      [ "Transient", "class_ubiquity_1_1attributes_1_1items_1_1_transient.html", null ],
+      [ "Validator", "class_ubiquity_1_1attributes_1_1items_1_1_validator.html", null ],
+      [ "Yuml", "class_ubiquity_1_1attributes_1_1items_1_1_yuml.html", null ]
     ] ],
     [ "CacheFile", "class_ubiquity_1_1cache_1_1_cache_file.html", null ],
     [ "CacheTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_cache_trait.html", [
@@ -129,6 +241,7 @@ var hierarchy =
     [ "CRUDEvents", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html", null ],
     [ "CRUDHelper", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html", null ],
     [ "CRUDMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html", null ],
+    [ "CsrfManager", "class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html", null ],
     [ "CsrfToken", "class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html", null ],
     [ "DAOBulkUpdatesTrait", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html", [
       [ "DAO", "class_ubiquity_1_1orm_1_1_d_a_o.html", [
@@ -193,20 +306,35 @@ var hierarchy =
     [ "DbExport", "class_ubiquity_1_1db_1_1export_1_1_db_export.html", null ],
     [ "DbGenerator", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html", null ],
     [ "DbTypes", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html", null ],
+    [ "DevCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html", [
+      [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
+    ] ],
+    [ "DevRouterCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html", [
+      [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
+    ] ],
     [ "DiControllerParser", "class_ubiquity_1_1controllers_1_1di_1_1_di_controller_parser.html", null ],
     [ "DiManager", "class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html", null ],
     [ "Display", "class_ubiquity_1_1core_1_1postinstall_1_1_display.html", null ],
+    [ "DisplayAcls", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1acls_1_1_display_acls.html", [
+      [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
+    ] ],
     [ "DocFormater", "class_ubiquity_1_1annotations_1_1parser_1_1_doc_formater.html", null ],
     [ "DocParser", "class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html", null ],
     [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", null ],
+    [ "Encryption", "class_ubiquity_1_1security_1_1data_1_1_encryption.html", null ],
+    [ "EncryptionManager", "class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html", null ],
     [ "EventListenerInterface", "interface_ubiquity_1_1events_1_1_event_listener_interface.html", null ],
     [ "EventsManager", "class_ubiquity_1_1events_1_1_events_manager.html", null ],
     [ "Exception", null, [
       [ "UbiquityException", "class_ubiquity_1_1exceptions_1_1_ubiquity_exception.html", [
+        [ "AclException", "class_ubiquity_1_1exceptions_1_1_acl_exception.html", null ],
         [ "CacheException", "class_ubiquity_1_1exceptions_1_1_cache_exception.html", null ],
         [ "DAOException", "class_ubiquity_1_1exceptions_1_1_d_a_o_exception.html", null ],
         [ "DBException", "class_ubiquity_1_1exceptions_1_1_d_b_exception.html", null ],
+        [ "DecryptException", "class_ubiquity_1_1exceptions_1_1_decrypt_exception.html", null ],
         [ "DiException", "class_ubiquity_1_1exceptions_1_1_di_exception.html", null ],
+        [ "EncryptException", "class_ubiquity_1_1exceptions_1_1_encrypt_exception.html", null ],
+        [ "EncryptionKeyException", "class_ubiquity_1_1exceptions_1_1_encryption_key_exception.html", null ],
         [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", null ],
         [ "RestException", "class_ubiquity_1_1exceptions_1_1_rest_exception.html", null ],
         [ "RouterException", "class_ubiquity_1_1exceptions_1_1_router_exception.html", null ],
@@ -220,6 +348,11 @@ var hierarchy =
       [ "ModelViewer", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html", null ]
     ] ],
     [ "Framework", "class_ubiquity_1_1core_1_1_framework.html", null ],
+    [ "GeneratorInterface", "interface_ubiquity_1_1security_1_1csrf_1_1generators_1_1_generator_interface.html", [
+      [ "Md5Selector", "class_ubiquity_1_1security_1_1csrf_1_1generators_1_1_md5_selector.html", null ],
+      [ "RandomValidator", "class_ubiquity_1_1security_1_1csrf_1_1generators_1_1_random_validator.html", null ],
+      [ "UuidSelector", "class_ubiquity_1_1security_1_1csrf_1_1generators_1_1_uuid_selector.html", null ]
+    ] ],
     [ "GitCommit", "class_ubiquity_1_1utils_1_1git_1_1_git_commit.html", null ],
     [ "GitFile", "class_ubiquity_1_1utils_1_1git_1_1_git_file.html", null ],
     [ "GitFileStatus", "class_ubiquity_1_1utils_1_1git_1_1_git_file_status.html", null ],
@@ -231,7 +364,9 @@ var hierarchy =
       [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
     ] ],
     [ "HasNotNullInterface", "interface_ubiquity_1_1contents_1_1validation_1_1validators_1_1_has_not_null_interface.html", [
-      [ "LengthValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html", null ],
+      [ "LengthValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html", [
+        [ "PasswordValidator", "class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html", null ]
+      ] ],
       [ "ValidatorMultiple", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_validator_multiple.html", [
         [ "IdValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_id_validator.html", null ],
         [ "LengthValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_length_validator.html", null ]
@@ -262,6 +397,17 @@ var hierarchy =
     [ "HasResourceInterface", "interface_ubiquity_1_1controllers_1_1rest_1_1_has_resource_interface.html", [
       [ "RestController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller.html", null ],
       [ "SimpleRestController", "class_ubiquity_1_1controllers_1_1rest_1_1_simple_rest_controller.html", null ]
+    ] ],
+    [ "HasUsesTrait", "class_ubiquity_1_1creator_1_1_has_uses_trait.html", [
+      [ "Model", "class_ubiquity_1_1orm_1_1creator_1_1_model.html", null ],
+      [ "BaseControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html", [
+        [ "AuthControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html", null ],
+        [ "CrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html", null ],
+        [ "RestControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html", null ]
+      ] ],
+      [ "ScaffoldController", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html", [
+        [ "AdminScaffoldController", "class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html", null ]
+      ] ]
     ] ],
     [ "HtmlLogFormatter", "class_ubiquity_1_1log_1_1_html_log_formatter.html", null ],
     [ "InfoMessage", "class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_info_message.html", null ],
@@ -294,7 +440,6 @@ var hierarchy =
     [ "MaintenanceTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_maintenance_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
-    [ "Maker", "class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_maker.html", null ],
     [ "ManyToManyParser", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html", null ],
     [ "Member", "class_ubiquity_1_1orm_1_1creator_1_1_member.html", null ],
     [ "MessagesCatalog", "class_ubiquity_1_1translation_1_1_messages_catalog.html", null ],
@@ -304,7 +449,6 @@ var hierarchy =
       [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
     ] ],
     [ "MessagesUpdates", "class_ubiquity_1_1translation_1_1_messages_updates.html", null ],
-    [ "Model", "class_ubiquity_1_1orm_1_1creator_1_1_model.html", null ],
     [ "ModelParser", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html", null ],
     [ "ModelsCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html", [
       [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
@@ -331,6 +475,7 @@ var hierarchy =
     ] ],
     [ "PackagistApi", "class_ubiquity_1_1controllers_1_1admin_1_1utils_1_1_packagist_api.html", null ],
     [ "PendingRelationsRequest", "class_ubiquity_1_1orm_1_1core_1_1_pending_relations_request.html", null ],
+    [ "PermissionMapObject", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html", null ],
     [ "PreloaderCacheInfo", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html", null ],
     [ "PreloaderInternalTrait", "class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html", [
       [ "Preloader", "class_ubiquity_1_1cache_1_1_preloader.html", null ]
@@ -375,9 +520,6 @@ var hierarchy =
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "ScaffoldCommand", "class_ubiquity_1_1scaffolding_1_1_scaffold_command.html", null ],
-    [ "ScaffoldController", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html", [
-      [ "AdminScaffoldController", "class_ubiquity_1_1scaffolding_1_1_admin_scaffold_controller.html", null ]
-    ] ],
     [ "SecurityTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_security_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
@@ -408,10 +550,14 @@ var hierarchy =
     [ "ThemesTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_themes_trait.html", [
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
+    [ "TokenStorageInterface", "interface_ubiquity_1_1security_1_1csrf_1_1storages_1_1_token_storage_interface.html", [
+      [ "SessionTokenStorage", "class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html", null ]
+    ] ],
     [ "TransformerFormInterface", "interface_ubiquity_1_1contents_1_1transformation_1_1_transformer_form_interface.html", [
       [ "DateTime", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_date_time.html", null ]
     ] ],
     [ "TransformerInterface", "interface_ubiquity_1_1contents_1_1transformation_1_1_transformer_interface.html", [
+      [ "Crypt", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_crypt.html", null ],
       [ "DateTime", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_date_time.html", null ]
     ] ],
     [ "TransformersManager", "class_ubiquity_1_1contents_1_1transformation_1_1_transformers_manager.html", null ],
@@ -428,28 +574,34 @@ var hierarchy =
       [ "UbiquityMyAdminBaseController", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_base_controller.html", null ]
     ] ],
     [ "Translator", "class_ubiquity_1_1translation_1_1_translator.html", null ],
-    [ "UArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html", null ],
+    [ "UArrayAsTrait", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html", [
+      [ "UArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html", null ]
+    ] ],
     [ "UbiquityMyAdminData", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_data.html", null ],
     [ "UbiquityMyAdminViewer", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_viewer.html", null ],
     [ "UbiquityUtils", "class_ubiquity_1_1utils_1_1_ubiquity_utils.html", null ],
     [ "UCookie", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html", null ],
+    [ "UCsrfHttp", "class_ubiquity_1_1security_1_1csrf_1_1_u_csrf_http.html", null ],
     [ "UDateTime", "class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html", null ],
     [ "UFileSystemWriter", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html", [
       [ "UFileSystem", "class_ubiquity_1_1utils_1_1base_1_1_u_file_system.html", null ]
     ] ],
     [ "UIntrospection", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html", null ],
-    [ "URequest", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html", null ],
+    [ "URequestTesterTrait", "class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html", [
+      [ "URequest", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html", null ]
+    ] ],
     [ "UResponse", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html", null ],
     [ "Url", "class_ubiquity_1_1seo_1_1_url.html", null ],
     [ "UrlParser", "class_ubiquity_1_1seo_1_1_url_parser.html", null ],
-    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_urls_trait.html", [
-      [ "UbiquityMyAdminFiles", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html", null ]
-    ] ],
     [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1crud_1_1traits_1_1_urls_trait.html", [
       [ "CRUDFiles", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html", null ]
     ] ],
+    [ "UrlsTrait", "class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_urls_trait.html", [
+      [ "UbiquityMyAdminFiles", "class_ubiquity_1_1controllers_1_1admin_1_1_ubiquity_my_admin_files.html", null ]
+    ] ],
     [ "USession", "class_ubiquity_1_1utils_1_1http_1_1_u_session.html", null ],
     [ "UString", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html", null ],
+    [ "UToken", "class_ubiquity_1_1security_1_1csrf_1_1_u_token.html", null ],
     [ "ValidationModelGenerator", "class_ubiquity_1_1contents_1_1validation_1_1_validation_model_generator.html", null ],
     [ "ValidationModelParser", "class_ubiquity_1_1contents_1_1validation_1_1_validation_model_parser.html", null ],
     [ "ValidatorInterface", "interface_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator_interface.html", [
@@ -475,34 +627,7 @@ var hierarchy =
     [ "Yuml", "class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html", null ],
     [ "YumlParser", "class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html", null ],
     [ "Annotation", null, [
-      [ "BaseAnnotation", "class_ubiquity_1_1annotations_1_1_base_annotation.html", [
-        [ "ColumnAnnotation", "class_ubiquity_1_1annotations_1_1_column_annotation.html", [
-          [ "JoinColumnAnnotation", "class_ubiquity_1_1annotations_1_1_join_column_annotation.html", null ]
-        ] ],
-        [ "DatabaseAnnotation", "class_ubiquity_1_1annotations_1_1_database_annotation.html", null ],
-        [ "AutowiredAnnotation", "class_ubiquity_1_1annotations_1_1di_1_1_autowired_annotation.html", null ],
-        [ "InjectedAnnotation", "class_ubiquity_1_1annotations_1_1di_1_1_injected_annotation.html", null ],
-        [ "IdAnnotation", "class_ubiquity_1_1annotations_1_1_id_annotation.html", null ],
-        [ "JoinTableAnnotation", "class_ubiquity_1_1annotations_1_1_join_table_annotation.html", null ],
-        [ "ManyToManyAnnotation", "class_ubiquity_1_1annotations_1_1_many_to_many_annotation.html", null ],
-        [ "ManyToOneAnnotation", "class_ubiquity_1_1annotations_1_1_many_to_one_annotation.html", null ],
-        [ "OneToManyAnnotation", "class_ubiquity_1_1annotations_1_1_one_to_many_annotation.html", null ],
-        [ "AuthorizationAnnotation", "class_ubiquity_1_1annotations_1_1rest_1_1_authorization_annotation.html", null ],
-        [ "RestAnnotation", "class_ubiquity_1_1annotations_1_1rest_1_1_rest_annotation.html", null ],
-        [ "RouteAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_route_annotation.html", [
-          [ "DeleteAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_delete_annotation.html", null ],
-          [ "GetAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_get_annotation.html", null ],
-          [ "OptionsAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_options_annotation.html", null ],
-          [ "PatchAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_patch_annotation.html", null ],
-          [ "PostAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_post_annotation.html", null ],
-          [ "PutAnnotation", "class_ubiquity_1_1annotations_1_1router_1_1_put_annotation.html", null ]
-        ] ],
-        [ "TableAnnotation", "class_ubiquity_1_1annotations_1_1_table_annotation.html", null ],
-        [ "TransformerAnnotation", "class_ubiquity_1_1annotations_1_1_transformer_annotation.html", null ],
-        [ "TransientAnnotation", "class_ubiquity_1_1annotations_1_1_transient_annotation.html", null ],
-        [ "ValidatorAnnotation", "class_ubiquity_1_1annotations_1_1_validator_annotation.html", null ],
-        [ "YumlAnnotation", "class_ubiquity_1_1annotations_1_1_yuml_annotation.html", null ]
-      ] ]
+      [ "BaseAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_base_annotation.html", null ]
     ] ],
     [ "GitRepository", null, [
       [ "UGitRepository", "class_ubiquity_1_1utils_1_1git_1_1_u_git_repository.html", null ]

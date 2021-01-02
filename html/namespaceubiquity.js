@@ -1,4 +1,4 @@
 var namespaceubiquity =
 [
-    [ "dev", "namespaceubiquity_1_1dev.html", null ]
+    [ "devtools", "namespaceubiquity_1_1devtools.html", null ]
 ];

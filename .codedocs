@@ -38,7 +38,7 @@ PROJECT_NAME           = Ubiquity
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 2.3.12
+PROJECT_NUMBER         = 2.4.0
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -790,10 +790,14 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = documentation/api.md \
-                         vendor/phpmv/ubiquity \
+INPUT                  = vendor/phpmv/ubiquity \
                          vendor/phpmv/ubiquity-dev \
-                         vendor/phpmv/ubiquity-webtools
+                         vendor/phpmv/ubiquity-webtools \
+                         vendor/phpmv/ubiquity-attributes \
+                         vendor/phpmv/ubiquity-annotations \
+                         documentation/api.md \
+                         vendor/phpmv/ubiquity-security \
+                         vendor/phpmv/ubiquity-acl
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -942,7 +946,7 @@ FILTER_SOURCE_PATTERNS =
 # (index.html). This can be useful if you have a project on for instance GitHub
 # and want to reuse the introduction page also for the doxygen output.
 
-USE_MDFILE_AS_MAINPAGE = api.md
+USE_MDFILE_AS_MAINPAGE = documentation/api.md
 
 #---------------------------------------------------------------------------
 # Configuration options related to source browsing

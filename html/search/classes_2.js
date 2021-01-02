@@ -12,7 +12,8 @@ var searchData=
   ['classtoyumlrelationstrait',['ClassToYumlRelationsTrait',['../class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html',1,'Ubiquity::utils::yuml::traits']]],
   ['classutils',['ClassUtils',['../class_ubiquity_1_1cache_1_1_class_utils.html',1,'Ubiquity::cache']]],
   ['codeutils',['CodeUtils',['../class_ubiquity_1_1utils_1_1base_1_1_code_utils.html',1,'Ubiquity::utils::base']]],
-  ['columnannotation',['ColumnAnnotation',['../class_ubiquity_1_1annotations_1_1_column_annotation.html',1,'Ubiquity::annotations']]],
+  ['column',['Column',['../class_ubiquity_1_1attributes_1_1items_1_1_column.html',1,'Ubiquity::attributes::items']]],
+  ['columnannotation',['ColumnAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html',1,'Ubiquity::annotations::items']]],
   ['commandlist',['CommandList',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_list.html',1,'Ubiquity::controllers::admin::popo']]],
   ['commandstrait',['CommandsTrait',['../class_ubiquity_1_1controllers_1_1admin_1_1traits_1_1_commands_trait.html',1,'Ubiquity::controllers::admin::traits']]],
   ['commandvalues',['CommandValues',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_command_values.html',1,'Ubiquity::controllers::admin::popo']]],
@@ -40,5 +41,7 @@ var searchData=
   ['crudfiles',['CRUDFiles',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html',1,'Ubiquity::controllers::crud']]],
   ['crudhelper',['CRUDHelper',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html',1,'Ubiquity::controllers::crud']]],
   ['crudmessage',['CRUDMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html',1,'Ubiquity::controllers::crud']]],
+  ['crypt',['Crypt',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_crypt.html',1,'Ubiquity::contents::transformation::transformers']]],
+  ['csrfmanager',['CsrfManager',['../class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html',1,'Ubiquity::security::csrf']]],
   ['csrftoken',['CsrfToken',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html',1,'Ubiquity::utils::http::session::protection']]]
 ];

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.3.12</span>
+   &#160;<span id="projectnumber">2.4.0</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1parser_1_1_mo
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">ModelParser Class Reference</div>  </div>
@@ -98,6 +99,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a12b8efb717cb31322bfa4d1d75146979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a7516ca30af0db3cdbf9a7739b48ce91d">__toString</a> ()</td></tr>
 <tr class="separator:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:adeaba1fa54aae4e10040c5d34a3cb381"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#adeaba1fa54aae4e10040c5d34a3cb381">initSwapClasses</a> ($className)</td></tr>
+<tr class="separator:adeaba1fa54aae4e10040c5d34a3cb381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2ad36bbe14c7b757e038c37edf45bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#aba2ad36bbe14c7b757e038c37edf45bf">swapValues</a> ($arrayOrValue)</td></tr>
+<tr class="separator:aba2ad36bbe14c7b757e038c37edf45bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21965898f384023236acbf89050ca5d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#ac21965898f384023236acbf89050ca5d">swapArrayValues</a> (array $values, $original, $replacement)</td></tr>
+<tr class="separator:ac21965898f384023236acbf89050ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a225ea342ef4c667b875b80fb775598c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a225ea342ef4c667b875b80fb775598c9">swapValue</a> ($value, $original, $replacement)</td></tr>
+<tr class="separator:a225ea342ef4c667b875b80fb775598c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -131,6 +143,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af2a5c7931f51c95db786937292c398ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a959471a7ae864ce6fa9760dacb889f53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a959471a7ae864ce6fa9760dacb889f53">$yuml</a></td></tr>
 <tr class="separator:a959471a7ae864ce6fa9760dacb889f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f1bb6637076bf4e360bb1680e00ff8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a6f1bb6637076bf4e360bb1680e00ff8a">$swapClasses</a> = []</td></tr>
+<tr class="separator:a6f1bb6637076bf4e360bb1680e00ff8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -151,7 +165,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00148">148</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00188">188</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
 
 </div>
 </div>
@@ -170,7 +184,35 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00090">90</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00130">130</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+
+</div>
+</div>
+<a id="adeaba1fa54aae4e10040c5d34a3cb381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeaba1fa54aae4e10040c5d34a3cb381">&#9670;&nbsp;</a></span>initSwapClasses()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">initSwapClasses </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$className</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00052">52</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
 
 </div>
 </div>
@@ -190,7 +232,123 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00050">50</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00087">87</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+
+</div>
+</div>
+<a id="ac21965898f384023236acbf89050ca5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21965898f384023236acbf89050ca5d">&#9670;&nbsp;</a></span>swapArrayValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">swapArrayValues </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$original</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$replacement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00071">71</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+
+</div>
+</div>
+<a id="a225ea342ef4c667b875b80fb775598c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a225ea342ef4c667b875b80fb775598c9">&#9670;&nbsp;</a></span>swapValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">swapValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$original</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$replacement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00083">83</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+
+</div>
+</div>
+<a id="aba2ad36bbe14c7b757e038c37edf45bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2ad36bbe14c7b757e038c37edf45bf">&#9670;&nbsp;</a></span>swapValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">swapValues </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$arrayOrValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00059">59</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
 
 </div>
 </div>
@@ -507,6 +665,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6f1bb6637076bf4e360bb1680e00ff8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f1bb6637076bf4e360bb1680e00ff8a">&#9670;&nbsp;</a></span>$swapClasses</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$swapClasses = []</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_parser_8php_source.html#l00050">50</a> of file <a class="el" href="_model_parser_8php_source.html">ModelParser.php</a>.</p>
+
+</div>
+</div>
 <a id="a4f8449c25b3a04780dc51ea4a64cce9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f8449c25b3a04780dc51ea4a64cce9a">&#9670;&nbsp;</a></span>$transformers</h2>
 
@@ -565,7 +747,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1parser.html">parser</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html">ModelParser</a></li>
-    <li class="footer"><small>Generated on Wed Sep 30 2020 20:20:22 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sat Jan 2 2021 02:28:38 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>
