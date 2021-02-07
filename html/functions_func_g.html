@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.0</span>
+   &#160;<span id="projectnumber">2.4.2</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -145,10 +145,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#ab52b60a6655266a1ac754173d36e30c0">TableReversor</a>
 </li>
 <li>generateRouteAnnotation()
-: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#aba99b5dec2836f8f0a2876523f595512">ScaffoldController</a>
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ad44dd2b1cec1f1e11d06d7cfc0ed8edc">ScaffoldController</a>
 </li>
 <li>generateRouteAnnotationFromMethod()
 : <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a08717e36b017c31fe1926ea18830e26b">ControllerParser</a>
+</li>
+<li>generateRouteName()
+: <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae366caef7c79a504d82204a0e88bb77b">ControllerParser</a>
+, <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ae694d79373ef74a70d166522a0281415">ScaffoldController</a>
 </li>
 <li>generateSQL()
 : <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08f4ac5bc6f5db9332925da7956b76a1">TableReversor</a>
@@ -1317,6 +1321,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getModel()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_response_formatter.html#a02aaca17a47726675223d7f98ac334a2">ResponseFormatter</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html#a0a086ca877b41192556a2de7e4a97b98">AbstractRepository</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1repositories_1_1_repository.html#a0a086ca877b41192556a2de7e4a97b98">Repository</a>
 </li>
 <li>getModelCacheKey()
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a11bb9d4cc6953ffdb3372daab0aa089f">ModelsCacheTrait</a>
@@ -1404,6 +1410,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getNamespaceFromParts()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_class_utils.html#ab60b7fb8f306ce371532369115cbeda6">ClassUtils</a>
+</li>
+<li>getNamespaceStr()
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ad3b75933c4f4d90ad591c7c99186b916">BaseControllerCreator</a>
 </li>
 <li>getNonPushedCommitHash()
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_u_git_repository.html#a1525885d37f9e9d044f4056765ca5758">UGitRepository</a>
@@ -1548,6 +1557,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getPHPExecutable()
 : <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_code_utils.html#a96189733ea6f59fcaa88bcddc247fe1c">CodeUtils</a>
+</li>
+<li>getPHPType()
+: <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a4661d3a05d59e3b05a807f569b77893b">AbstractDbWrapper</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_abstract_driver_meta_datas.html#a4661d3a05d59e3b05a807f569b77893b">AbstractDriverMetaDatas</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_mysql_driver_metas.html#a4661d3a05d59e3b05a807f569b77893b">MysqlDriverMetas</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a4661d3a05d59e3b05a807f569b77893b">PDOWrapper</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1traits_1_1_database_metadatas.html#a4661d3a05d59e3b05a807f569b77893b">DatabaseMetadatas</a>
 </li>
 <li>getPk()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#aee5a28b8bfb2ba81b1d463770a059896">ManyToManyParser</a>
@@ -2217,7 +2233,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sat Jan 2 2021 03:09:05 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Feb 7 2021 19:11:15 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

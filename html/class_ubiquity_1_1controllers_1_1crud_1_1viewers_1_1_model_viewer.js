@@ -1,6 +1,6 @@
 var class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer =
 [
-    [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a96710498205e79aba8c5e76cf3533d07", null ],
+    [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a718f6da3c932f5c2602167ec91460436", null ],
     [ "addAllButtons", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a296daa8172823029bc06310623f24256", null ],
     [ "addEditMemberFonctionality", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#aed5fec222be45a7c39a006924059b924", null ],
     [ "displayFkElementList", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a99b9e6e959856a79f8a729b604061473", null ],
@@ -26,7 +26,9 @@ var class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer =
     [ "onDisplayFkElementListDetails", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a560936e8bf7efd6de663ed714a273777", null ],
     [ "recordsPerPage", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a11669bfc19098a296c10117ccd1806cf", null ],
     [ "setDataTableAttributes", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a583355078af2e801b68468ac8a67a687", null ],
+    [ "setStyle", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a2eb89ad7681d0aa6ac549c3293c4b59a", null ],
     [ "showDetailsOnDataTableClick", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a8f4fb2be7f23f51d4f66daa3e74b7d1d", null ],
     [ "$controller", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a388ef7b1db5e6f728e63cee704ce6e23", null ],
-    [ "$jquery", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a3578a3af1e94000010593ed7989c55a9", null ]
+    [ "$jquery", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a3578a3af1e94000010593ed7989c55a9", null ],
+    [ "$style", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a4b16ebd3ba5d6cd79dd64e240aec4a58", null ]
 ];

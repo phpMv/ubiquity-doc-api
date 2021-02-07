@@ -13,5 +13,6 @@ var searchData=
   ['verifycsrftoken_2ephp',['VerifyCsrfToken.php',['../_verify_csrf_token_8php.html',1,'']]],
   ['verifysessioncsrfinterface_2ephp',['VerifySessionCsrfInterface.php',['../_verify_session_csrf_interface_8php.html',1,'']]],
   ['view_2ephp',['View.php',['../_view_8php.html',1,'']]],
-  ['viewevents_2ephp',['ViewEvents.php',['../_view_events_8php.html',1,'']]]
+  ['viewevents_2ephp',['ViewEvents.php',['../_view_events_8php.html',1,'']]],
+  ['viewrepository_2ephp',['ViewRepository.php',['../_view_repository_8php.html',1,'']]]
 ];

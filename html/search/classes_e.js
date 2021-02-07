@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['parserexception',['ParserException',['../class_ubiquity_1_1exceptions_1_1_parser_exception.html',1,'Ubiquity::exceptions']]],
   ['password',['Password',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_password.html',1,'Ubiquity::contents::transformation::transformers']]],
   ['passwordvalidator',['PasswordValidator',['../class_ubiquity_1_1security_1_1auth_1_1user_1_1_password_validator.html',1,'Ubiquity::security::auth::user']]],
   ['patch',['Patch',['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_patch.html',1,'Ubiquity::attributes::items::router']]],

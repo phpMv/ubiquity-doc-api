@@ -15,6 +15,9 @@ var dir_4c0f8c3d308d0d52c95a5f7ef9c08017 =
     [ "NormalizerException.php", "_normalizer_exception_8php.html", [
       [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", "class_ubiquity_1_1exceptions_1_1_normalizer_exception" ]
     ] ],
+    [ "ParserException.php", "_parser_exception_8php.html", [
+      [ "ParserException", "class_ubiquity_1_1exceptions_1_1_parser_exception.html", "class_ubiquity_1_1exceptions_1_1_parser_exception" ]
+    ] ],
     [ "RestException.php", "_rest_exception_8php.html", [
       [ "RestException", "class_ubiquity_1_1exceptions_1_1_rest_exception.html", "class_ubiquity_1_1exceptions_1_1_rest_exception" ]
     ] ],

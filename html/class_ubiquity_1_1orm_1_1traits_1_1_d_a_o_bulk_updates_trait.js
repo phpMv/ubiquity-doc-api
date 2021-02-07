@@ -1,5 +1,7 @@
 var class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait =
 [
+    [ "clearBulks", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a8004ed88bf6262c8f9917ddeabcac363", null ],
+    [ "countInstancesBulk", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#afc393387c012158b42babd5b11a579cb", null ],
     [ "deleteGroups", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#aa3e5296510b6a7244da074e81650dd20", null ],
     [ "flush", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a13c506fa80a40d0a161b9ee91a5db11c", null ],
     [ "flushDeletes", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a66f605bfaf55054fe842e879e5b0ed6d", null ],

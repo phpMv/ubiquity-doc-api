@@ -58,6 +58,7 @@ var searchData=
   ['prepared',['prepared',['../namespace_ubiquity_1_1orm_1_1core_1_1prepared.html',1,'Ubiquity::orm::core']]],
   ['protection',['protection',['../namespace_ubiquity_1_1utils_1_1http_1_1session_1_1protection.html',1,'Ubiquity::utils::http::session']]],
   ['providers',['providers',['../namespace_ubiquity_1_1db_1_1providers.html',1,'Ubiquity::db']]],
+  ['repositories',['repositories',['../namespace_ubiquity_1_1orm_1_1repositories.html',1,'Ubiquity::orm']]],
   ['rest',['rest',['../namespace_ubiquity_1_1annotations_1_1items_1_1rest.html',1,'Ubiquity\annotations\items\rest'],['../namespace_ubiquity_1_1attributes_1_1items_1_1rest.html',1,'Ubiquity\attributes\items\rest'],['../namespace_ubiquity_1_1controllers_1_1rest.html',1,'Ubiquity\controllers\rest']]],
   ['reverse',['reverse',['../namespace_ubiquity_1_1db_1_1reverse.html',1,'Ubiquity\db\reverse'],['../namespace_ubiquity_1_1orm_1_1reverse.html',1,'Ubiquity\orm\reverse']]],
   ['router',['router',['../namespace_ubiquity_1_1annotations_1_1items_1_1router.html',1,'Ubiquity\annotations\items\router'],['../namespace_ubiquity_1_1attributes_1_1items_1_1router.html',1,'Ubiquity\attributes\items\router']]],

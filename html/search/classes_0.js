@@ -10,6 +10,7 @@ var searchData=
   ['abstractdrivermetadatas',['AbstractDriverMetaDatas',['../class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_abstract_driver_meta_datas.html',1,'Ubiquity::db::providers::pdo::drivers']]],
   ['abstracthttp',['AbstractHttp',['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_abstract_http.html',1,'Ubiquity::utils::http::foundation']]],
   ['abstractimportation',['AbstractImportation',['../class_ubiquity_1_1translation_1_1import_1_1_abstract_importation.html',1,'Ubiquity::translation::import']]],
+  ['abstractrepository',['AbstractRepository',['../class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html',1,'Ubiquity::orm::repositories']]],
   ['abstractsession',['AbstractSession',['../class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html',1,'Ubiquity::utils::http::session']]],
   ['aclarrayprovider',['AclArrayProvider',['../class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html',1,'Ubiquity::security::acl::persistence']]],
   ['aclcacheprovider',['AclCacheProvider',['../class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html',1,'Ubiquity::security::acl::persistence']]],

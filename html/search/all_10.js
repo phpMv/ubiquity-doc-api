@@ -16,6 +16,7 @@ var searchData=
   ['ondatatablerowbutton',['onDataTableRowButton',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a75e31b532edf6f72f2fe7af146cd8e87',1,'Ubiquity::controllers::crud::viewers::ModelViewer']]],
   ['ondisplayelements',['onDisplayElements',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a58b1b551d7ad9c1bb555174a92afe04f',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['ondisplayfkelementlistdetails',['onDisplayFkElementListDetails',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a560936e8bf7efd6de663ed714a273777',1,'Ubiquity::controllers::crud::viewers::ModelViewer']]],
+  ['one',['one',['../class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html#a0a5782c251b5ac229871c54727db8000',1,'Ubiquity\orm\repositories\AbstractRepository\one()'],['../class_ubiquity_1_1orm_1_1repositories_1_1_view_repository.html#a110325ade7234fb6f7addb66735be42b',1,'Ubiquity\orm\repositories\ViewRepository\one()']]],
   ['onerror',['onError',['../class_ubiquity_1_1controllers_1_1_startup.html#ada2e24c69911a8d2a65c989412e83709',1,'Ubiquity::controllers::Startup']]],
   ['onerrordeletemessage',['onErrorDeleteMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#aee26c90e98915fe0d439d0b7b36ebcda',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['onerrordeletemultiplemessage',['onErrorDeleteMultipleMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a886c2faa88b039cef1624fded0705eb5',1,'Ubiquity::controllers::crud::CRUDEvents']]],

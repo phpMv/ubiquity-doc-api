@@ -23,5 +23,6 @@ var searchData=
   ['bulkinserts',['BulkInserts',['../class_ubiquity_1_1orm_1_1bulk_1_1_bulk_inserts.html',1,'Ubiquity::orm::bulk']]],
   ['bulkinserts_2ephp',['BulkInserts.php',['../_bulk_inserts_8php.html',1,'']]],
   ['bulkupdates',['BulkUpdates',['../class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html',1,'Ubiquity::orm::bulk']]],
-  ['bulkupdates_2ephp',['BulkUpdates.php',['../_bulk_updates_8php.html',1,'']]]
+  ['bulkupdates_2ephp',['BulkUpdates.php',['../_bulk_updates_8php.html',1,'']]],
+  ['byid',['byId',['../class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html#a1b9c40b5f5065b13eb305959c366b429',1,'Ubiquity\orm\repositories\AbstractRepository\byId()'],['../class_ubiquity_1_1orm_1_1repositories_1_1_view_repository.html#a4eba1293b48578d71dc6f497fa9f22f6',1,'Ubiquity\orm\repositories\ViewRepository\byId()']]]
 ];

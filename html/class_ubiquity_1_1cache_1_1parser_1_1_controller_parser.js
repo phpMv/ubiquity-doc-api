@@ -4,15 +4,16 @@ var class_ubiquity_1_1cache_1_1parser_1_1_controller_parser =
     [ "asArray", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a12b8efb717cb31322bfa4d1d75146979", null ],
     [ "createRouteMethod", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#abfd4a3c21222fb107edec43c2a8df755", null ],
     [ "generateRouteAnnotationFromMethod", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a08717e36b017c31fe1926ea18830e26b", null ],
+    [ "generateRouteName", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae366caef7c79a504d82204a0e88bb77b", null ],
     [ "isRest", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#acd385c67829effd7f9c6dca817c7fc40", null ],
     [ "parse", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae10e2a95818ce5924cf9c36c7943f4b3", null ],
     [ "parseAnnot", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a85c605c95de41f34994e0ba469d84f50", null ],
     [ "parseMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae04424244c5b27426f182c94799cb93d", null ],
     [ "parseRouteArray", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ad623b42e7d5bcc79f0e22b45c3a477cf", null ],
     [ "$annotsEngine", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a407eaec40c437b9c314e4489e207dada", null ],
-    [ "$controllerClass", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae59cce8aa29e170d0f225cea7d0a14fd", null ],
-    [ "$excludeds", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a8f4725709bb81392d58f6f0a35f24f6c", null ],
+    [ "$controllerClass", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a5b3c6e93e09926d6a9e97db77690c21a", null ],
+    [ "$excludeds", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a240577c5b77f8d445d4ebf71f0fdd85c", null ],
     [ "$mainRouteClass", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a87bc7051cd7d75fe273dc8b8e8808040", null ],
-    [ "$rest", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae9b43b08b84a4aa4a64f85c04c876e61", null ],
-    [ "$routesMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a56ea908ec90274a74d32a05fac04b37e", null ]
+    [ "$rest", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a1c128f478ad71165e2e581c84fca1b25", null ],
+    [ "$routesMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#af015f0b8bc50b049ac15f17b908f3f45", null ]
 ];

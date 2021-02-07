@@ -20,6 +20,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "getFieldsInfos", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a917b5cf6a9fe21878b312f137f1bd8ea", null ],
     [ "getForeignKeys", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a5227618d69384c490d4cd385adcba6ce", null ],
     [ "getNamedStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ae3c936acfcbaed1f543481c86448cc22", null ],
+    [ "getPHPType", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a4661d3a05d59e3b05a807f569b77893b", null ],
     [ "getPrimaryKeys", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ac2080ca261ce17f09273586a963b7337", null ],
     [ "getRowNum", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a915dc9c4c3511eefe0a2f8558126fbf8", null ],
     [ "getStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a5295ea6dae89c14cba88d3d6876a1721", null ],
@@ -43,6 +44,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "statementRowCount", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a95752df0e77406431f820af617a3e583", null ],
     [ "toStringOperator", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a57588deb83f8e534222f2d65c6709a25", null ],
     [ "$dbInstance", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8f58322db30fdc9ba21dc7b120e5e6b3", null ],
-    [ "$quote", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a0a8636649359826ae83b0876b814add2", null ],
-    [ "$statements", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a2cfdd68df93aed5b0f9c3fb70c56b359", null ]
+    [ "$quote", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ac1e0099ce3e8b7575cb6610f62db74df", null ],
+    [ "$statements", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a2cfdd68df93aed5b0f9c3fb70c56b359", null ],
+    [ "PHP_TYPES", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a711fb67342a71422d13fabe6a6eb3dcc", null ]
 ];

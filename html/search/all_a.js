@@ -42,7 +42,7 @@ var searchData=
   ['injected_2ephp',['Injected.php',['../_injected_8php.html',1,'']]],
   ['injectedannotation',['InjectedAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html',1,'Ubiquity::annotations::items::di']]],
   ['injectedannotation_2ephp',['InjectedAnnotation.php',['../_injected_annotation_8php.html',1,'']]],
-  ['insert',['insert',['../class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ac185fbbf7614a399696a88039fca6f1e',1,'Ubiquity::orm::traits::DAOUpdatesTrait']]],
+  ['insert',['insert',['../class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html#ac5779303bada173f62e8e1ca60494bf9',1,'Ubiquity\orm\repositories\AbstractRepository\insert()'],['../class_ubiquity_1_1orm_1_1repositories_1_1_view_repository.html#a030e39034fbd035941b4c1fe432de891',1,'Ubiquity\orm\repositories\ViewRepository\insert()'],['../class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ac185fbbf7614a399696a88039fca6f1e',1,'Ubiquity\orm\traits\DAOUpdatesTrait\insert()']]],
   ['insertgroups',['insertGroups',['../class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a37abde37ff09aba9941db16e42cef38d',1,'Ubiquity::orm::traits::DAOBulkUpdatesTrait']]],
   ['insertjquerytrait',['InsertJqueryTrait',['../class_ubiquity_1_1controllers_1_1semantic_1_1_insert_jquery_trait.html',1,'Ubiquity::controllers::semantic']]],
   ['insertjquerytrait_2ephp',['InsertJqueryTrait.php',['../_insert_jquery_trait_8php.html',1,'']]],

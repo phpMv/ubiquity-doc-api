@@ -3,6 +3,8 @@ var class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks =
     [ "__construct", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a9b3aa4f43875a1fc02f564f4a077b33a", null ],
     [ "addInstance", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a553eb411578f97d6a38ebe5fdefde4b1", null ],
     [ "addInstances", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a797e20e501ad050947a0e2dd7415ebc0", null ],
+    [ "clear", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#aa821bec12eaa7e0f649397c9675ff505", null ],
+    [ "count", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#ac751e87b3d4c4bf2feb03bee8b092755", null ],
     [ "createSQL", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a20d73521959cbe16a08b2e974df61361", null ],
     [ "execGroupTrans", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a5e3c38cc6c2e45f9482a96fb80bd9528", null ],
     [ "flush", "class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a7751f77b5263bcf940ece6e824a05b38", null ],

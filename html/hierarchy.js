@@ -42,6 +42,9 @@ var hierarchy =
       [ "PhpArrayImportation", "class_ubiquity_1_1translation_1_1import_1_1_php_array_importation.html", null ],
       [ "YamlImportation", "class_ubiquity_1_1translation_1_1import_1_1_yaml_importation.html", null ]
     ] ],
+    [ "AbstractRepository", "class_ubiquity_1_1orm_1_1repositories_1_1_abstract_repository.html", [
+      [ "Repository", "class_ubiquity_1_1orm_1_1repositories_1_1_repository.html", null ]
+    ] ],
     [ "AbstractSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html", [
       [ "MultisiteSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html", null ],
       [ "PhpSession", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html", null ]
@@ -293,6 +296,7 @@ var hierarchy =
         [ "EncryptException", "class_ubiquity_1_1exceptions_1_1_encrypt_exception.html", null ],
         [ "EncryptionKeyException", "class_ubiquity_1_1exceptions_1_1_encryption_key_exception.html", null ],
         [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", null ],
+        [ "ParserException", "class_ubiquity_1_1exceptions_1_1_parser_exception.html", null ],
         [ "RestException", "class_ubiquity_1_1exceptions_1_1_rest_exception.html", null ],
         [ "RouterException", "class_ubiquity_1_1exceptions_1_1_router_exception.html", null ],
         [ "ThemesException", "class_ubiquity_1_1exceptions_1_1_themes_exception.html", null ],
@@ -526,6 +530,7 @@ var hierarchy =
     ] ],
     [ "View", "class_ubiquity_1_1views_1_1_view.html", null ],
     [ "ViewEvents", "class_ubiquity_1_1events_1_1_view_events.html", null ],
+    [ "ViewRepository", "class_ubiquity_1_1orm_1_1repositories_1_1_view_repository.html", null ],
     [ "WithAuthTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html", null ],
     [ "Yuml", "class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html", null ],
     [ "YumlParser", "class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html", null ],
