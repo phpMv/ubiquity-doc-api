@@ -5,5 +5,6 @@ var namespace_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison =
     [ "GreaterThanValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_greater_than_validator.html", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_greater_than_validator" ],
     [ "LessThanOrEqualValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_or_equal_validator.html", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_or_equal_validator" ],
     [ "LessThanValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_validator.html", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_validator" ],
+    [ "MatchWithValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_match_with_validator.html", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_match_with_validator" ],
     [ "RangeValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator.html", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator" ]
 ];

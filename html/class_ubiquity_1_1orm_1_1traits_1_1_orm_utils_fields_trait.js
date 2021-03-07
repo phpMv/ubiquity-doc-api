@@ -12,6 +12,7 @@ var class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait =
     [ "getFormAllFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#ab9ba7767bb0320ebd4a254c212448420", null ],
     [ "getKeyFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a308b430ed1449254339e638a157ff537", null ],
     [ "getKeyMembers", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a75fd8095301676a285d97fde567ea170", null ],
+    [ "getNullableFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a7d830145a3212e6b6e3059a698188ef1", null ],
     [ "getPropKeys", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a4a39a3b69d10cb0422f7631231d0bea6", null ],
     [ "getSerializableFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a2551143ef0f5438c68f2b64f6d82335f", null ],
     [ "getSerializableMembers", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a0ecffbdd795ed61a7c6062c7a143902b", null ],

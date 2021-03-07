@@ -36,6 +36,7 @@ var searchData=
   ['dbgenerator',['DbGenerator',['../class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html',1,'Ubiquity::db::reverse']]],
   ['dbmodelscreator',['DbModelsCreator',['../class_ubiquity_1_1orm_1_1creator_1_1database_1_1_db_models_creator.html',1,'Ubiquity::orm::creator::database']]],
   ['dbtypes',['DbTypes',['../class_ubiquity_1_1db_1_1utils_1_1_db_types.html',1,'Ubiquity::db::utils']]],
+  ['debug',['Debug',['../class_ubiquity_1_1debug_1_1_debug.html',1,'Ubiquity::debug']]],
   ['decryptexception',['DecryptException',['../class_ubiquity_1_1exceptions_1_1_decrypt_exception.html',1,'Ubiquity::exceptions']]],
   ['delete',['Delete',['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_delete.html',1,'Ubiquity::attributes::items::router']]],
   ['deleteannotation',['DeleteAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1router_1_1_delete_annotation.html',1,'Ubiquity::annotations::items::router']]],
@@ -46,5 +47,6 @@ var searchData=
   ['dimanager',['DiManager',['../class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html',1,'Ubiquity::controllers::di']]],
   ['display',['Display',['../class_ubiquity_1_1core_1_1postinstall_1_1_display.html',1,'Ubiquity::core::postinstall']]],
   ['docformater',['DocFormater',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_formater.html',1,'Ubiquity::annotations::parser']]],
-  ['docparser',['DocParser',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html',1,'Ubiquity::annotations::parser']]]
+  ['docparser',['DocParser',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html',1,'Ubiquity::annotations::parser']]],
+  ['dynamicresourcetrait',['DynamicResourceTrait',['../class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_dynamic_resource_trait.html',1,'Ubiquity::controllers::rest::traits']]]
 ];

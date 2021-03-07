@@ -4,7 +4,7 @@ var class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator =
     [ "addViews", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#aac73270afa439573b2141f1c981e6849", null ],
     [ "create", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a3944cbc9c17a70438a6c731147ca6f7c", null ],
     [ "getNamespaceStr", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ad3b75933c4f4d90ad591c7c99186b916", null ],
-    [ "getRouteAnnotation", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a98e04505536270dfc78bf6340c546fae", null ],
+    [ "getRouteAnnotation", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ac28984d1a744df5bc47426936b43440b", null ],
     [ "getTemplateName", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a621a3ccd148ed8b9e937da6959c98f39", null ],
     [ "setTemplateName", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ac0260e8fbf9ac7fd39ae3268d8aecf5b", null ],
     [ "$controllerName", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a4845baceacf6ec5e204c54d91caa2f25", null ],

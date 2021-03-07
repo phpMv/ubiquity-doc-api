@@ -25,6 +25,7 @@ var class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller =
     [ "$_compileJS", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a7e3e66bccbfb787315e5d295e7a319a2", null ],
     [ "$_controller", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#aefaf43fa290523c54179f350e96f76c0", null ],
     [ "$_controllerInstance", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a4c8b91906205eb98af416a23912eec34", null ],
+    [ "$_invalid", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#ab5274184dfc342d6f95756508a11b543", null ],
     [ "$_loginCaption", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#aa5062d8afdb5caf8e1fcdb70c8eaac2e", null ],
     [ "$_noAccessMsg", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a5ab44b2fb80a315a0826f33557f6dd0a", null ],
     [ "$authFiles", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#ae7e89ec9a760b5a4a2f2d915380050a1", null ]

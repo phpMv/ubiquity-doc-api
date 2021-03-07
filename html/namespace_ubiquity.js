@@ -9,6 +9,7 @@ var namespace_ubiquity =
     [ "core", "namespace_ubiquity_1_1core.html", "namespace_ubiquity_1_1core" ],
     [ "creator", "namespace_ubiquity_1_1creator.html", "namespace_ubiquity_1_1creator" ],
     [ "db", "namespace_ubiquity_1_1db.html", "namespace_ubiquity_1_1db" ],
+    [ "debug", "namespace_ubiquity_1_1debug.html", "namespace_ubiquity_1_1debug" ],
     [ "events", "namespace_ubiquity_1_1events.html", "namespace_ubiquity_1_1events" ],
     [ "exceptions", "namespace_ubiquity_1_1exceptions.html", "namespace_ubiquity_1_1exceptions" ],
     [ "log", "namespace_ubiquity_1_1log.html", "namespace_ubiquity_1_1log" ],

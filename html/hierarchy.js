@@ -187,9 +187,9 @@ var hierarchy =
         [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
       ] ],
       [ "RestBaseController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html", [
+        [ "JsonRestController", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1json_1_1_json_rest_controller.html", null ],
         [ "JsonApiRestController", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_rest_controller.html", null ],
-        [ "RestController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller.html", null ],
-        [ "SimpleRestController", "class_ubiquity_1_1controllers_1_1rest_1_1_simple_rest_controller.html", null ]
+        [ "RestResourceController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_resource_controller.html", null ]
       ] ],
       [ "SeoController", "class_ubiquity_1_1controllers_1_1seo_1_1_seo_controller.html", null ],
       [ "SimpleViewController", "class_ubiquity_1_1controllers_1_1_simple_view_controller.html", [
@@ -269,6 +269,7 @@ var hierarchy =
     [ "DbExport", "class_ubiquity_1_1db_1_1export_1_1_db_export.html", null ],
     [ "DbGenerator", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html", null ],
     [ "DbTypes", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html", null ],
+    [ "Debug", "class_ubiquity_1_1debug_1_1_debug.html", null ],
     [ "DevCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html", [
       [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
     ] ],
@@ -280,6 +281,10 @@ var hierarchy =
     [ "Display", "class_ubiquity_1_1core_1_1postinstall_1_1_display.html", null ],
     [ "DocFormater", "class_ubiquity_1_1annotations_1_1parser_1_1_doc_formater.html", null ],
     [ "DocParser", "class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html", null ],
+    [ "DynamicResourceTrait", "class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_dynamic_resource_trait.html", [
+      [ "JsonRestController", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1json_1_1_json_rest_controller.html", null ],
+      [ "JsonApiRestController", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_rest_controller.html", null ]
+    ] ],
     [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", null ],
     [ "Encryption", "class_ubiquity_1_1security_1_1data_1_1_encryption.html", null ],
     [ "EncryptionManager", "class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html", null ],
@@ -338,6 +343,7 @@ var hierarchy =
         [ "GreaterThanValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_greater_than_validator.html", null ],
         [ "LessThanOrEqualValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_or_equal_validator.html", null ],
         [ "LessThanValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_less_than_validator.html", null ],
+        [ "MatchWithValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_match_with_validator.html", null ],
         [ "RangeValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1comparison_1_1_range_validator.html", null ],
         [ "AbstractDateTimeValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1dates_1_1_abstract_date_time_validator.html", [
           [ "DateTimeValidator", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1dates_1_1_date_time_validator.html", null ],
@@ -352,8 +358,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "HasResourceInterface", "interface_ubiquity_1_1controllers_1_1rest_1_1_has_resource_interface.html", [
-      [ "RestController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller.html", null ],
-      [ "SimpleRestController", "class_ubiquity_1_1controllers_1_1rest_1_1_simple_rest_controller.html", null ]
+      [ "RestResourceController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_resource_controller.html", null ]
     ] ],
     [ "HasUsesTrait", "class_ubiquity_1_1creator_1_1_has_uses_trait.html", [
       [ "Model", "class_ubiquity_1_1orm_1_1creator_1_1_model.html", null ],
@@ -416,14 +421,18 @@ var hierarchy =
     [ "ReflexionFieldsTrait", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html", [
       [ "Reflexion", "class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html", null ]
     ] ],
-    [ "ResponseFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1_response_formatter.html", [
-      [ "JsonApiResponseFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1jsonapi_1_1_json_api_response_formatter.html", null ]
+    [ "RequestFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_request_formatter.html", [
+      [ "JsonApiRequestFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_json_api_request_formatter.html", null ],
+      [ "JsonRequestFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_json_request_formatter.html", null ]
+    ] ],
+    [ "ResponseFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_response_formatter.html", [
+      [ "JsonApiResponseFormatter", "class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_json_api_response_formatter.html", null ]
     ] ],
     [ "RestCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html", [
       [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
     ] ],
     [ "RestControllerParser", "class_ubiquity_1_1cache_1_1parser_1_1_rest_controller_parser.html", null ],
-    [ "RestControllerUtilitiesTrait", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_controller_utilities_trait.html", [
+    [ "RestControllerUtilitiesTrait", "class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html", [
       [ "RestBaseController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html", null ]
     ] ],
     [ "RestError", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html", null ],

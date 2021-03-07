@@ -1,5 +1,17 @@
 var NAVTREEINDEX3 =
 {
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#a531e4a386aaa7f3e06d3642dc38d7e80":[2,0,0,0,2,14],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#a5daf21916222e7a5a8b4c25f35314f95":[2,0,0,0,2,6],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#a7154853fac57336a4ff288957e6adf04":[2,0,0,0,2,11],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#a9b77ccf579ed80c4d7d62110387e1c94":[2,0,0,0,2,7],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#ac7dfdccda3b9169438fbde1384111721":[2,0,0,0,2,1],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#acaa61a04989f0bbfdb4d202096f5dbd2":[2,0,0,0,2,0],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#ad54ec01e304b533c9892e029a667e2de":[2,0,0,0,2,5],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#adec7548a8bfec6ca307e727aa7811a56":[2,0,0,0,2,10],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#ae933d07570e4aa595d951b463b021f07":[2,0,0,0,2,12],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#af309e975fe4831a2e31a9e5ef6f6cb7b":[2,0,0,0,2,9],
+"class_ubiquity_1_1annotations_1_1_annotations_engine.html#af6d5b934f07783d3e349eec9afde2ac5":[2,0,0,0,2,4],
+"class_ubiquity_1_1annotations_1_1_base_annotation_trait.html":[2,0,0,0,4],
 "class_ubiquity_1_1annotations_1_1_base_annotation_trait.html#a448b36649ab596b17451aed9e30b072f":[2,0,0,0,4,2],
 "class_ubiquity_1_1annotations_1_1_base_annotation_trait.html#ad92c14b6c86304d3f1fb86b2936d3408":[2,0,0,0,4,1],
 "class_ubiquity_1_1annotations_1_1_base_annotation_trait.html#afc7285c6639730467eb4a71daae1c985":[2,0,0,0,4,0],
@@ -237,17 +249,5 @@ var NAVTREEINDEX3 =
 "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_options.html":[2,0,0,2,0,3,2],
 "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_options.html#aa68485bb2a8ef075e9404829cd7c5aaa":[2,0,0,2,0,3,2,0],
 "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_patch.html":[2,0,0,2,0,3,3],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_patch.html#aa68485bb2a8ef075e9404829cd7c5aaa":[2,0,0,2,0,3,3,0],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_post.html":[2,0,0,2,0,3,4],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_post.html#aa68485bb2a8ef075e9404829cd7c5aaa":[2,0,0,2,0,3,4,0],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_put.html":[2,0,0,2,0,3,5],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_put.html#aa68485bb2a8ef075e9404829cd7c5aaa":[2,0,0,2,0,3,5,0],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html":[2,0,0,2,0,3,6],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a13d815bac48a5e66c561b9feed6b6a8c":[2,0,0,2,0,3,6,3],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a1db32954fc2c0afda0c070da35e2b2c3":[2,0,0,2,0,3,6,9],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a4a0c560b77b7abddb6ba69f9f8ac2193":[2,0,0,2,0,3,6,4],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a4ad85710dd7459982d55a7ebbb658f5f":[2,0,0,2,0,3,6,1],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a58551b63ba97fb35b928f11f36b1fac6":[2,0,0,2,0,3,6,7],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a5dcd363a405693e0efb69bbd9cd34ab5":[2,0,0,2,0,3,6,6],
-"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a619260b7cc59d422c4adb8745be9b292":[2,0,0,2,0,3,6,10]
+"class_ubiquity_1_1attributes_1_1items_1_1router_1_1_patch.html#aa68485bb2a8ef075e9404829cd7c5aaa":[2,0,0,2,0,3,3,0]
 };

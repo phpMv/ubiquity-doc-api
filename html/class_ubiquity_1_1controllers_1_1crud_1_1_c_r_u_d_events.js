@@ -2,6 +2,8 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events =
 [
     [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#ad717f2a6a729542cf8f99500814c6cec", null ],
     [ "beforeLoadView", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a06f139d8f10a39071011570e2306b1a6", null ],
+    [ "onBeforeUpdate", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a67f77625f10260b9ee22a7e3b6e79180", null ],
+    [ "onBeforeUpdateRequest", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#adb1391d2894941f619e79241370ceb4b", null ],
     [ "onConfDeleteMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a908ba9aad596564c3b53ae76d3fb770e", null ],
     [ "onConfDeleteMultipleMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a377cda6efc333e55d310557049ea1b37", null ],
     [ "onDisplayElements", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a58b1b551d7ad9c1bb555174a92afe04f", null ],

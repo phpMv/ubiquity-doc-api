@@ -10,7 +10,6 @@ var searchData=
   ['sessioncache_2ephp',['SessionCache.php',['../_session_cache_8php.html',1,'']]],
   ['sessionobject_2ephp',['SessionObject.php',['../_session_object_8php.html',1,'']]],
   ['sessiontokenstorage_2ephp',['SessionTokenStorage.php',['../_session_token_storage_8php.html',1,'']]],
-  ['simplerestcontroller_2ephp',['SimpleRestController.php',['../_simple_rest_controller_8php.html',1,'']]],
   ['simpleviewasynccontroller_2ephp',['SimpleViewAsyncController.php',['../_simple_view_async_controller_8php.html',1,'']]],
   ['simpleviewcontroller_2ephp',['SimpleViewController.php',['../_simple_view_controller_8php.html',1,'']]],
   ['sqlexport_2ephp',['SqlExport.php',['../_sql_export_8php.html',1,'']]],

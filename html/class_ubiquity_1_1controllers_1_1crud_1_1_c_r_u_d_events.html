@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.2</span>
+   &#160;<span id="projectnumber">2.4.3</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -110,7 +110,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ada6b93ec6ebf72cb3ecae2093aa2f84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the message displayed when an error occurred when updating or inserting.  <a href="#ada6b93ec6ebf72cb3ecae2093aa2f84c">More...</a><br /></td></tr>
 <tr class="separator:ada6b93ec6ebf72cb3ecae2093aa2f84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a950bc86464fd483f12f303aae851fd67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a950bc86464fd483f12f303aae851fd67">onNotFoundMessage</a> (<a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> $message, $ids)</td></tr>
-<tr class="memdesc:a950bc86464fd483f12f303aae851fd67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the message displayed when an instance does not exists.  <a href="#a950bc86464fd483f12f303aae851fd67">More...</a><br /></td></tr>
+<tr class="memdesc:a950bc86464fd483f12f303aae851fd67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the message displayed when an instance does not exist.  <a href="#a950bc86464fd483f12f303aae851fd67">More...</a><br /></td></tr>
 <tr class="separator:a950bc86464fd483f12f303aae851fd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f139d8f10a39071011570e2306b1a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a06f139d8f10a39071011570e2306b1a6">beforeLoadView</a> ($viewName, &amp;$vars)</td></tr>
 <tr class="separator:a06f139d8f10a39071011570e2306b1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a886c2faa88b039cef1624fded0705eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a377cda6efc333e55d310557049ea1b37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a377cda6efc333e55d310557049ea1b37">onConfDeleteMultipleMessage</a> (<a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> $message, $data)</td></tr>
 <tr class="separator:a377cda6efc333e55d310557049ea1b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f77625f10260b9ee22a7e3b6e79180"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a67f77625f10260b9ee22a7e3b6e79180">onBeforeUpdate</a> (object $instance, bool $isNew)</td></tr>
+<tr class="memdesc:a67f77625f10260b9ee22a7e3b6e79180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered before the instance updating (insert or update).  <a href="#a67f77625f10260b9ee22a7e3b6e79180">More...</a><br /></td></tr>
+<tr class="separator:a67f77625f10260b9ee22a7e3b6e79180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb1391d2894941f619e79241370ceb4b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#adb1391d2894941f619e79241370ceb4b">onBeforeUpdateRequest</a> (array &amp;$requestValues, bool $isNew)</td></tr>
+<tr class="memdesc:adb1391d2894941f619e79241370ceb4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered before the instance updating, for POST values updating (insert or update).  <a href="#adb1391d2894941f619e79241370ceb4b">More...</a><br /></td></tr>
+<tr class="separator:adb1391d2894941f619e79241370ceb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -149,7 +155,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00011">11</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00010">10</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -187,7 +193,85 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00079">79</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00085">85</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+
+</div>
+</div>
+<a id="a67f77625f10260b9ee22a7e3b6e79180"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f77625f10260b9ee22a7e3b6e79180">&#9670;&nbsp;</a></span>onBeforeUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">onBeforeUpdate </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>$instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$isNew</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Triggered before the instance updating (insert or update). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">object</td><td class="paramname">$instance</td><td></td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$isNew</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00116">116</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+
+</div>
+</div>
+<a id="adb1391d2894941f619e79241370ceb4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb1391d2894941f619e79241370ceb4b">&#9670;&nbsp;</a></span>onBeforeUpdateRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">onBeforeUpdateRequest </td>
+          <td>(</td>
+          <td class="paramtype">array &amp;&#160;</td>
+          <td class="paramname"><em>$requestValues</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$isNew</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Triggered before the instance updating, for POST values updating (insert or update). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">array</td><td class="paramname">$requestValues</td><td></td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$isNew</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00125">125</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -227,7 +311,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00041">41</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00043">43</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -257,7 +341,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00101">101</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00106">106</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -303,7 +387,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00089">89</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00095">95</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -343,7 +427,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00031">31</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00032">32</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -363,7 +447,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00097">97</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00102">102</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -403,7 +487,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00061">61</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00065">65</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -433,7 +517,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the message displayed when an instance does not exists. </p>
+<p>Returns the message displayed when an instance does not exist. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a></td><td class="paramname">$message</td><td></td></tr>
@@ -443,7 +527,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00071">71</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00076">76</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -513,7 +597,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00093">93</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00098">98</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -553,7 +637,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html">CRUDMessage</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00051">51</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00054">54</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -578,7 +662,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00009">9</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_c_r_u_d_events_8php_source.html#l00008">8</a> of file <a class="el" href="_c_r_u_d_events_8php_source.html">CRUDEvents.php</a>.</p>
 
 </div>
 </div>
@@ -592,7 +676,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1controllers.html">controllers</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1controllers_1_1crud.html">crud</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html">CRUDEvents</a></li>
-    <li class="footer"><small>Generated on Sun Feb 7 2021 19:10:50 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Mar 7 2021 01:27:43 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

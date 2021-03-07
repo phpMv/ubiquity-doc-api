@@ -5,6 +5,7 @@ var class_ubiquity_1_1orm_1_1_d_a_o =
     [ "count", "class_ubiquity_1_1orm_1_1_d_a_o.html#a1eab6a63d6d9d1a0b526179756adb34b", null ],
     [ "exists", "class_ubiquity_1_1orm_1_1_d_a_o.html#a9f307e3f0be046963ab4f4344ce87092", null ],
     [ "getAll", "class_ubiquity_1_1orm_1_1_d_a_o.html#af87c07e78e13e9f1d5ddaf11245fd029", null ],
+    [ "getAllByIds", "class_ubiquity_1_1orm_1_1_d_a_o.html#a4656d5c46a38dce1cb0c1316bb092e54", null ],
     [ "getById", "class_ubiquity_1_1orm_1_1_d_a_o.html#a8b016f0dc89d73fc569bf2318e384b2d", null ],
     [ "getCache", "class_ubiquity_1_1orm_1_1_d_a_o.html#a50aa8a13306d0d908f9411f1c0fb18b0", null ],
     [ "getConditionParser", "class_ubiquity_1_1orm_1_1_d_a_o.html#a1188ef1824c74fe4060e050c08fe4327", null ],

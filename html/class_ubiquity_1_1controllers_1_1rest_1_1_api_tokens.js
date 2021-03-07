@@ -1,7 +1,7 @@
 var class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens =
 [
     [ "__construct", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a84a121e2280a0feb771928fd7f7da870", null ],
-    [ "addToken", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a721c28d09d52f1dcdf3b4b3cfc6dc282", null ],
+    [ "addToken", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#acfead8806cfbdc85f1c2607bde98a687", null ],
     [ "clearAll", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a1c40f27bdcc44f4faf3fc044ee577af2", null ],
     [ "generateToken", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a231d4fd8d99742848c95dce07ded3dc2", null ],
     [ "getDuration", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#ab46fe3d2750728c84bd71ae1bfd08ee8", null ],
