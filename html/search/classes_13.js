@@ -2,6 +2,7 @@ var searchData=
 [
   ['uarray',['UArray',['../class_ubiquity_1_1utils_1_1base_1_1_u_array.html',1,'Ubiquity::utils::base']]],
   ['uarrayastrait',['UArrayAsTrait',['../class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html',1,'Ubiquity::utils::base::traits']]],
+  ['uarraymodels',['UArrayModels',['../class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html',1,'Ubiquity::utils::models']]],
   ['ubiquityexception',['UbiquityException',['../class_ubiquity_1_1exceptions_1_1_ubiquity_exception.html',1,'Ubiquity::exceptions']]],
   ['ubiquityutils',['UbiquityUtils',['../class_ubiquity_1_1utils_1_1_ubiquity_utils.html',1,'Ubiquity::utils']]],
   ['ucookie',['UCookie',['../class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html',1,'Ubiquity::utils::http']]],
@@ -11,6 +12,7 @@ var searchData=
   ['ufilesystemwriter',['UFileSystemWriter',['../class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html',1,'Ubiquity::utils::base::traits']]],
   ['ugitrepository',['UGitRepository',['../class_ubiquity_1_1utils_1_1git_1_1_u_git_repository.html',1,'Ubiquity::utils::git']]],
   ['uintrospection',['UIntrospection',['../class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html',1,'Ubiquity::utils::base']]],
+  ['umodel',['UModel',['../class_ubiquity_1_1utils_1_1models_1_1_u_model.html',1,'Ubiquity::utils::models']]],
   ['umonolog',['UMonolog',['../class_ubiquity_1_1log_1_1libraries_1_1_u_monolog.html',1,'Ubiquity::log::libraries']]],
   ['uppercase',['UpperCase',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_upper_case.html',1,'Ubiquity::contents::transformation::transformers']]],
   ['urequest',['URequest',['../class_ubiquity_1_1utils_1_1http_1_1_u_request.html',1,'Ubiquity::utils::http']]],

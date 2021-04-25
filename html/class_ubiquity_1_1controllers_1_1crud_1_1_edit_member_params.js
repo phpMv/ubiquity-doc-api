@@ -1,9 +1,9 @@
 var class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params =
 [
-    [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ab62ccc31453d57ca4ba65ef5126b1db3", null ],
+    [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a699029d9f4e9d60b2609c3a5a5348f14", null ],
     [ "compile", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#af95f3f62a5db57444352282ff5f64d4e", null ],
     [ "dataElement", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a4cbdb74e46a56757ab72b771a9d784ae", null ],
-    [ "dataTable", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#aff4e308102429c43abd5c469b559e017", null ],
+    [ "dataTable", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a6e9f3627de6db65e8e5c3a89600a6730", null ],
     [ "getEvent", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a055bcb2a2b197f7d31e1dd99d9eb62f7", null ],
     [ "getHasButtons", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ad96fafa05e2a7796a10d9ded5e0cd110", null ],
     [ "getHasPopup", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a8905eb37b34718f966d1873b809066f1", null ],
@@ -21,6 +21,7 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params =
     [ "$hasButtons", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a13e31bc010bd4a1fe9a4b6cc91eb4137", null ],
     [ "$hasPopup", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a090eab7b1d3ffc461b928739ed82a88d", null ],
     [ "$identifierSelector", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a405d107eab89ea06ac34218ae7c2449a", null ],
+    [ "$parentId", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ae5f4667d4befa9e10a83438df3713cdd", null ],
     [ "$selector", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a3014d0a3a57985c974251f5e8496ddc1", null ],
     [ "$updateCallback", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ab69616f3dbaf1ac627e98b230acb597e", null ]
 ];

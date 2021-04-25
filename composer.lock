@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f3d0a73dbffcd59c5120c79fb4067f2",
+    "content-hash": "a0f3da11347c80b655e8670e741080a9",
     "packages": [
         {
             "name": "mindplay/annotations",
@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity.git",
-                "reference": "254b8187659e332983b9cb0bd8ee6c47fc973ca6"
+                "reference": "e3508c8c3948a3b3ca36ba7e064140bf29e1325b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/254b8187659e332983b9cb0bd8ee6c47fc973ca6",
-                "reference": "254b8187659e332983b9cb0bd8ee6c47fc973ca6",
+                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/e3508c8c3948a3b3ca36ba7e064140bf29e1325b",
+                "reference": "e3508c8c3948a3b3ca36ba7e064140bf29e1325b",
                 "shasum": ""
             },
             "require": {
@@ -115,9 +115,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpMv/ubiquity/issues",
-                "source": "https://github.com/phpMv/ubiquity/tree/master"
+                "source": "https://github.com/phpMv/ubiquity/tree/2.4.4"
             },
-            "time": "2021-03-07T00:23:43+00:00"
+            "time": "2021-04-25T01:08:34+00:00"
         },
         {
             "name": "phpmv/ubiquity-acl",
@@ -346,17 +346,72 @@
             "time": "2021-02-07T23:58:13+00:00"
         },
         {
-            "name": "phpmv/ubiquity-dev",
-            "version": "0.1.12",
+            "name": "phpmv/ubiquity-debug",
+            "version": "0.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpMv/ubiquity-dev.git",
-                "reference": "bff5b7b6d12449fd386a26a7f237e16c97be922e"
+                "url": "https://github.com/phpMv/ubiquity-debug.git",
+                "reference": "5ea5d12c8927740fbe9848ef27ee58de78845079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/bff5b7b6d12449fd386a26a7f237e16c97be922e",
-                "reference": "bff5b7b6d12449fd386a26a7f237e16c97be922e",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-debug/zipball/5ea5d12c8927740fbe9848ef27ee58de78845079",
+                "reference": "5ea5d12c8927740fbe9848ef27ee58de78845079",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "prismjs/prism": "^1.23"
+            },
+            "type": "extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ubiquity\\": "src/Ubiquity/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Christophe HERON",
+                    "email": "myaddressmail@gmail.com",
+                    "role": "Lead developer"
+                }
+            ],
+            "description": "Debugger for Ubiquity framework",
+            "keywords": [
+                "debug",
+                "framework",
+                "mvc",
+                "php",
+                "php-framework",
+                "tools"
+            ],
+            "support": {
+                "issues": "https://github.com/phpMv/ubiquity-debug/issues",
+                "source": "https://github.com/phpMv/ubiquity-debug/tree/0.0.1"
+            },
+            "time": "2021-04-24T00:20:11+00:00"
+        },
+        {
+            "name": "phpmv/ubiquity-dev",
+            "version": "0.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpMv/ubiquity-dev.git",
+                "reference": "1a2b1b1be2af2fa24bd812ac70ec47d029adf16f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/1a2b1b1be2af2fa24bd812ac70ec47d029adf16f",
+                "reference": "1a2b1b1be2af2fa24bd812ac70ec47d029adf16f",
                 "shasum": ""
             },
             "require": {
@@ -395,9 +450,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpMv/ubiquity-dev/issues",
-                "source": "https://github.com/phpMv/ubiquity-dev/tree/0.1.12"
+                "source": "https://github.com/phpMv/ubiquity-dev/tree/0.1.14"
             },
-            "time": "2021-03-02T15:16:54+00:00"
+            "time": "2021-04-25T00:59:49+00:00"
         },
         {
             "name": "phpmv/ubiquity-security",
@@ -452,6 +507,46 @@
                 "source": "https://github.com/phpMv/ubiquity-security/tree/0.0.1"
             },
             "time": "2020-12-10T11:52:08+00:00"
+        },
+        {
+            "name": "prismjs/prism",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PrismJS/prism.git",
+                "reference": "88a17b4ff586c8bbd0faf1b1524cee9e039fa580"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PrismJS/prism/zipball/88a17b4ff586c8bbd0faf1b1524cee9e039fa580",
+                "reference": "88a17b4ff586c8bbd0faf1b1524cee9e039fa580",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "prism.js"
+                    ],
+                    "styles": [
+                        "themes/prism.css"
+                    ],
+                    "files": [
+                        "themes/*",
+                        "components/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
+            "support": {
+                "issues": "https://github.com/PrismJS/prism/issues",
+                "source": "https://github.com/PrismJS/prism/tree/v1.23.0"
+            },
+            "time": "2020-12-31T18:46:45+00:00"
         }
     ],
     "packages-dev": [],

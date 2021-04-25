@@ -1,8 +1,9 @@
 var searchData=
 [
   ['dataelement',['dataElement',['../class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a4cbdb74e46a56757ab72b771a9d784ae',1,'Ubiquity::controllers::crud::EditMemberParams']]],
-  ['datatable',['dataTable',['../class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#aff4e308102429c43abd5c469b559e017',1,'Ubiquity::controllers::crud::EditMemberParams']]],
+  ['datatable',['dataTable',['../class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#a6e9f3627de6db65e8e5c3a89600a6730',1,'Ubiquity::controllers::crud::EditMemberParams']]],
   ['dec',['dec',['../class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad41236adfd9c34eb8a207c3882814154',1,'Ubiquity::utils::http::USession']]],
+  ['decproperty',['decProperty',['../class_ubiquity_1_1utils_1_1models_1_1_u_model.html#a9051d6f8d4e390fb513f4e171bbbb9d7',1,'Ubiquity::utils::models::UModel']]],
   ['decrypt',['decrypt',['../class_ubiquity_1_1security_1_1data_1_1_encryption.html#ad912c2d94379726f481293990fb5d82c',1,'Ubiquity\security\data\Encryption\decrypt()'],['../class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html#a19e65be48169b3a2d7a3e11b38fcd6d7',1,'Ubiquity\security\data\EncryptionManager\decrypt()']]],
   ['decryptstring',['decryptString',['../class_ubiquity_1_1security_1_1data_1_1_encryption.html#add2c5c300195bf8f8b7646bdc22be0bc',1,'Ubiquity\security\data\Encryption\decryptString()'],['../class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html#a1b5de7a65c213880e13d9f3117b9fb1d',1,'Ubiquity\security\data\EncryptionManager\decryptString()']]],
   ['defaulteditmemberparams',['defaultEditMemberParams',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a081f2a30c07555b50b1886e2e8c12020',1,'Ubiquity::controllers::crud::viewers::traits::FormModelViewerTrait']]],
@@ -20,6 +21,7 @@ var searchData=
   ['display',['display',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aee7a0b7c039b4e7b1e9b6369c72497c3',1,'Ubiquity::controllers::crud::CRUDController']]],
   ['displayerrors',['displayErrors',['../class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#a8a5843612b790f4588cd7f2b790d7613',1,'Ubiquity::controllers::rest::traits::RestControllerUtilitiesTrait']]],
   ['displayfkelementlist',['displayFkElementList',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a99b9e6e959856a79f8a729b604061473',1,'Ubiquity::controllers::crud::viewers::ModelViewer']]],
+  ['displayvar',['displayVar',['../class_ubiquity_1_1debug_1_1_debugger.html#a02a4e348e55e7a1e50de3ec6f30bda92',1,'Ubiquity::debug::Debugger']]],
   ['docclassparser',['docClassParser',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html#ae13563df9f86f5a88fa64bb03b9de320',1,'Ubiquity::annotations::parser::DocParser']]],
   ['docmethodparser',['docMethodParser',['../class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html#af9b45119c75854168a43ea9d73248387',1,'Ubiquity::annotations::parser::DocParser']]],
   ['doublebackslashes',['doubleBackSlashes',['../class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html#ad59158381ac66ccdb4ca95f757a426f1',1,'Ubiquity\cache\preloading\PreloaderInternalTrait\doubleBackSlashes()'],['../class_ubiquity_1_1utils_1_1base_1_1_u_array.html#ab01657c1786d64178a8a7887cc58411c',1,'Ubiquity\utils\base\UArray\doubleBackSlashes()'],['../class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a6dc706a614f58fb01fd7f1379194fbde',1,'Ubiquity\utils\base\UString\doubleBackSlashes()']]]

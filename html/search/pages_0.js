@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ubiquity_20framework_20api_20documentation',['Ubiquity framework API Documentation',['../index.html',1,'']]]
+  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]]
 ];

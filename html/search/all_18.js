@@ -8,5 +8,6 @@ var searchData=
   ['warn',['warn',['../class_ubiquity_1_1log_1_1_logger.html#a21db795c7dc2847d428e499b841a34c6',1,'Ubiquity::log::Logger']]],
   ['withauthtrait',['WithAuthTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html',1,'Ubiquity::controllers::auth']]],
   ['withauthtrait_2ephp',['WithAuthTrait.php',['../_with_auth_trait_8php.html',1,'']]],
+  ['wrapresponse',['wrapResponse',['../class_ubiquity_1_1debug_1_1_debugger.html#a7e6c93475002a1ec469c13fc60b90a51',1,'Ubiquity::debug::Debugger']]],
   ['writefile',['writeFile',['../class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html#a999da29af14653695cd931fe678af471',1,'Ubiquity::orm::creator::ModelsCreator']]]
 ];

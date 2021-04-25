@@ -270,6 +270,7 @@ var hierarchy =
     [ "DbGenerator", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html", null ],
     [ "DbTypes", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html", null ],
     [ "Debug", "class_ubiquity_1_1debug_1_1_debug.html", null ],
+    [ "Debugger", "class_ubiquity_1_1debug_1_1_debugger.html", null ],
     [ "DevCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html", [
       [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]
     ] ],
@@ -378,6 +379,7 @@ var hierarchy =
     [ "Iterator", null, [
       [ "FlashBag", "class_ubiquity_1_1utils_1_1flash_1_1_flash_bag.html", null ]
     ] ],
+    [ "LiveReload", "class_ubiquity_1_1debug_1_1_live_reload.html", null ],
     [ "LoaderInterface", "interface_ubiquity_1_1translation_1_1loader_1_1_loader_interface.html", [
       [ "ArrayLoader", "class_ubiquity_1_1translation_1_1loader_1_1_array_loader.html", null ]
     ] ],
@@ -495,9 +497,11 @@ var hierarchy =
       [ "UpperCase", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_upper_case.html", null ]
     ] ],
     [ "Translator", "class_ubiquity_1_1translation_1_1_translator.html", null ],
+    [ "TypeError", "class_ubiquity_1_1debug_1_1core_1_1_type_error.html", null ],
     [ "UArrayAsTrait", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html", [
       [ "UArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html", null ]
     ] ],
+    [ "UArrayModels", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html", null ],
     [ "UbiquityUtils", "class_ubiquity_1_1utils_1_1_ubiquity_utils.html", null ],
     [ "UCookie", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html", null ],
     [ "UCsrfHttp", "class_ubiquity_1_1security_1_1csrf_1_1_u_csrf_http.html", null ],
@@ -506,6 +510,7 @@ var hierarchy =
       [ "UFileSystem", "class_ubiquity_1_1utils_1_1base_1_1_u_file_system.html", null ]
     ] ],
     [ "UIntrospection", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html", null ],
+    [ "UModel", "class_ubiquity_1_1utils_1_1models_1_1_u_model.html", null ],
     [ "URequestTesterTrait", "class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html", [
       [ "URequest", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html", null ]
     ] ],

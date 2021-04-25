@@ -9,7 +9,7 @@ var searchData=
   ['hascapturinggroup',['hasCapturingGroup',['../class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#a66ef40c76bc1bc37aa23f48e47d6bdfb',1,'Ubiquity::cache::traits::DevRouterCacheTrait']]],
   ['haserrors',['hasErrors',['../class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#aada71735dcc56f4cae3b82c55e090e8d',1,'Ubiquity::controllers::rest::traits::RestControllerUtilitiesTrait']]],
   ['hash',['hash',['../class_ubiquity_1_1security_1_1data_1_1_encryption.html#a2ab8500c89a041149ce79ddb5a6c9842',1,'Ubiquity::security::data::Encryption']]],
-  ['haslivereload',['hasLiveReload',['../class_ubiquity_1_1debug_1_1_debug.html#a0c6726b5215ccef1be91a1046a15e898',1,'Ubiquity::debug::Debug']]],
+  ['haslivereload',['hasLiveReload',['../class_ubiquity_1_1debug_1_1_debug.html#a0c6726b5215ccef1be91a1046a15e898',1,'Ubiquity\debug\Debug\hasLiveReload()'],['../class_ubiquity_1_1debug_1_1_live_reload.html#a0c6726b5215ccef1be91a1046a15e898',1,'Ubiquity\debug\LiveReload\hasLiveReload()']]],
   ['hasparam',['hasParam',['../class_ubiquity_1_1orm_1_1core_1_1_objects_condition_parser.html#a5b7e4f6afd2b1ce9bd956065801b8784',1,'Ubiquity\orm\core\ObjectsConditionParser\hasParam()'],['../class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#a5b7e4f6afd2b1ce9bd956065801b8784',1,'Ubiquity\orm\parser\ConditionParser\hasParam()']]],
   ['hassecurity',['hasSecurity',['../class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html#aba243d8de079feb6d23b8093a2f55808',1,'Ubiquity::controllers::admin::ServicesChecker']]],
   ['hasshieldon',['hasShieldon',['../class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html#a5330507daeba76a11620b0a0d50157e3',1,'Ubiquity::controllers::admin::ServicesChecker']]],

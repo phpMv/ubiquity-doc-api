@@ -1,10 +1,14 @@
 var class_ubiquity_1_1db_1_1utils_1_1_db_types =
 [
+    [ "asPhpType", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a328120f12d4c0d7f453f4d95a6f5f91a", null ],
     [ "get_", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a5bad3c3ceb8eb0ca7ea2e49491f52392", null ],
     [ "getSize", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a0b6f35b1dae39704f1a926858d7562db", null ],
     [ "getType", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#ad7fd4d088fd10410179eb13d6d241254", null ],
+    [ "isBoolean", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#aba77829b069f22b7da99bb010ac54f23", null ],
+    [ "isFloat", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#ac03ce40b121ca6da058be3f457273ede", null ],
     [ "isInt", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a5bfc0600b7d6e92cf17beb9db657bfc3", null ],
     [ "isString", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a0cdb68b891947eeba34b9e346bb81523", null ],
+    [ "$floatMatch", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#ad2c2195c9991b8d9d6f44385e6209ffd", null ],
     [ "$intMatch", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a1ce002311fb756851675195e270cbe20", null ],
     [ "$sizeMatch", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a7b20d2aeb0982afbc6be1061ec017891", null ],
     [ "$stringMatch", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a966fc93b45806fd7a4713889de6bec8c", null ],

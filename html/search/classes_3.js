@@ -37,6 +37,7 @@ var searchData=
   ['dbmodelscreator',['DbModelsCreator',['../class_ubiquity_1_1orm_1_1creator_1_1database_1_1_db_models_creator.html',1,'Ubiquity::orm::creator::database']]],
   ['dbtypes',['DbTypes',['../class_ubiquity_1_1db_1_1utils_1_1_db_types.html',1,'Ubiquity::db::utils']]],
   ['debug',['Debug',['../class_ubiquity_1_1debug_1_1_debug.html',1,'Ubiquity::debug']]],
+  ['debugger',['Debugger',['../class_ubiquity_1_1debug_1_1_debugger.html',1,'Ubiquity::debug']]],
   ['decryptexception',['DecryptException',['../class_ubiquity_1_1exceptions_1_1_decrypt_exception.html',1,'Ubiquity::exceptions']]],
   ['delete',['Delete',['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_delete.html',1,'Ubiquity::attributes::items::router']]],
   ['deleteannotation',['DeleteAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1router_1_1_delete_annotation.html',1,'Ubiquity::annotations::items::router']]],

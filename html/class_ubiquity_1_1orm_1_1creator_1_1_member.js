@@ -15,6 +15,7 @@ var class_ubiquity_1_1orm_1_1creator_1_1_member =
     [ "getName", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#a3d0963e68bb313b163a73f2803c64600", null ],
     [ "getSetter", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#a8999bd3bd089ee88a99b9ff72840f5ae", null ],
     [ "hasAnnotations", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab1070a90a90893cfc34106c6e3d93830", null ],
+    [ "isAutoinc", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab572acf52be15b12fee077f8c2967ca6", null ],
     [ "isMany", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#afa7bbc60106201f6e46a98a5c30795f9", null ],
     [ "isManyToOne", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#a2d351e94e4188e3e24b83c4cc8fe02b6", null ],
     [ "isNullable", "class_ubiquity_1_1orm_1_1creator_1_1_member.html#ae8fae740d59f7524f81c796142d3a846", null ],

@@ -37,6 +37,7 @@ var searchData=
   ['dbmodelscreator_2ephp',['DbModelsCreator.php',['../_db_models_creator_8php.html',1,'']]],
   ['dbtypes_2ephp',['DbTypes.php',['../_db_types_8php.html',1,'']]],
   ['debug_2ephp',['Debug.php',['../_debug_8php.html',1,'']]],
+  ['debugger_2ephp',['Debugger.php',['../_debugger_8php.html',1,'']]],
   ['decryptexception_2ephp',['DecryptException.php',['../_decrypt_exception_8php.html',1,'']]],
   ['delete_2ephp',['Delete.php',['../_delete_8php.html',1,'']]],
   ['deleteannotation_2ephp',['DeleteAnnotation.php',['../_delete_annotation_8php.html',1,'']]],

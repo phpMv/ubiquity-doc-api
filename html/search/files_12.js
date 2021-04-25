@@ -22,5 +22,6 @@ var searchData=
   ['translator_2ephp',['Translator.php',['../_translator_8php.html',1,'']]],
   ['translatormanager_2ephp',['TranslatorManager.php',['../_translator_manager_8php.html',1,'']]],
   ['twig_2ephp',['Twig.php',['../_twig_8php.html',1,'']]],
+  ['typeerror_2ephp',['TypeError.php',['../_type_error_8php.html',1,'']]],
   ['typevalidator_2ephp',['TypeValidator.php',['../_type_validator_8php.html',1,'']]]
 ];

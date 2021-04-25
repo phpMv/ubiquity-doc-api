@@ -18,7 +18,6 @@ var class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper =
     [ "getDSN", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a138265ac0b677ee2fdd7c20ac5352e04", null ],
     [ "getFieldsInfos", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a917b5cf6a9fe21878b312f137f1bd8ea", null ],
     [ "getForeignKeys", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a5227618d69384c490d4cd385adcba6ce", null ],
-    [ "getPHPType", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a4661d3a05d59e3b05a807f569b77893b", null ],
     [ "getPrimaryKeys", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#ac2080ca261ce17f09273586a963b7337", null ],
     [ "getRowNum", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a915dc9c4c3511eefe0a2f8558126fbf8", null ],
     [ "getStatement", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a774f7234370bd21f8c5d1b7405feabc5", null ],

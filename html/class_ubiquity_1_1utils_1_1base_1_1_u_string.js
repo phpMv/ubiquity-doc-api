@@ -2,6 +2,7 @@ var class_ubiquity_1_1utils_1_1base_1_1_u_string =
 [
     [ "cleanAttribute", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a909912aa2fb59d3596098e730257cc3d", null ],
     [ "contains", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#aa691e93c29cfca67ec0aa070feef24af", null ],
+    [ "containsValues", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#afdec18ebfbd580a95a84868640889320", null ],
     [ "doubleBackSlashes", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a6dc706a614f58fb01fd7f1379194fbde", null ],
     [ "endswith", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a86009f13f076a325b5cfaacc59589d1d", null ],
     [ "explode", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#ab72b558847cf11987d165a76e18a68e0", null ],

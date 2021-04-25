@@ -10,6 +10,7 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller =
     [ "index", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a149eb92716c1084a935e04a8d95f7347", null ],
     [ "newModel", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aecdbe3615973e0882335d16af111760c", null ],
     [ "refresh_", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a8563034d9f1632d2f83ff49dd0104872", null ],
+    [ "refreshAsJson", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a42e3834c5ce0447b5a249ac66030dc38", null ],
     [ "refreshTable", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa75022dbfd65e526bdd393b28e6bbdbc", null ],
     [ "showDetail", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aaf28d5ac1cb666403b89871949c97a67", null ],
     [ "updateMember", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#adc9a635e10bc35ad531c68b8bc9d2f3c", null ],

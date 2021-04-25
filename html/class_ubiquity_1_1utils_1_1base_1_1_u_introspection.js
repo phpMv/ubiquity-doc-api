@@ -5,6 +5,8 @@ var class_ubiquity_1_1utils_1_1base_1_1_u_introspection =
     [ "getClassCode", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#ada8a24f0289cc380f90efee7462c35f8", null ],
     [ "getFileName", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#afd9c47e87332671db7efa56c6931ceb8", null ],
     [ "getLoadedViews", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a31ba02f3b30bccdedaa113311c1b40ac", null ],
+    [ "getMethodAtLine", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a41f0e97a6df2894a3f0d8017ffd427a2", null ],
     [ "getMethodCode", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a74247569bfd3f6516456cd85872df6ef", null ],
+    [ "getMethodEffectiveParameters", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a884081ff782b5392f07bc9e488627daa", null ],
     [ "implementsMethod", "class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a3f72b2e8fad5454ea67364e0d33be850", null ]
 ];

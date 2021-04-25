@@ -21,5 +21,6 @@ var searchData=
   ['transientannotation',['TransientAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_transient_annotation.html',1,'Ubiquity::annotations::items']]],
   ['translator',['Translator',['../class_ubiquity_1_1translation_1_1_translator.html',1,'Ubiquity::translation']]],
   ['twig',['Twig',['../class_ubiquity_1_1views_1_1engine_1_1_twig.html',1,'Ubiquity::views::engine']]],
+  ['typeerror',['TypeError',['../class_ubiquity_1_1debug_1_1core_1_1_type_error.html',1,'Ubiquity::debug::core']]],
   ['typevalidator',['TypeValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1basic_1_1_type_validator.html',1,'Ubiquity::contents::validation::validators::basic']]]
 ];
