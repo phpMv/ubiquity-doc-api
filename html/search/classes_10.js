@@ -31,5 +31,6 @@ var searchData=
   ['routercachetrait',['RouterCacheTrait',['../class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html',1,'Ubiquity::cache::traits']]],
   ['routerexception',['RouterException',['../class_ubiquity_1_1exceptions_1_1_router_exception.html',1,'Ubiquity::exceptions']]],
   ['routermodifiertrait',['RouterModifierTrait',['../class_ubiquity_1_1controllers_1_1traits_1_1_router_modifier_trait.html',1,'Ubiquity::controllers::traits']]],
+  ['routerstatus',['RouterStatus',['../class_ubiquity_1_1controllers_1_1router_1_1_router_status.html',1,'Ubiquity::controllers::router']]],
   ['routertesttrait',['RouterTestTrait',['../class_ubiquity_1_1controllers_1_1traits_1_1_router_test_trait.html',1,'Ubiquity::controllers::traits']]]
 ];

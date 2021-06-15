@@ -5,6 +5,7 @@ var namespace_ubiquity_1_1controllers =
     [ "crud", "namespace_ubiquity_1_1controllers_1_1crud.html", "namespace_ubiquity_1_1controllers_1_1crud" ],
     [ "di", "namespace_ubiquity_1_1controllers_1_1di.html", "namespace_ubiquity_1_1controllers_1_1di" ],
     [ "rest", "namespace_ubiquity_1_1controllers_1_1rest.html", "namespace_ubiquity_1_1controllers_1_1rest" ],
+    [ "router", "namespace_ubiquity_1_1controllers_1_1router.html", "namespace_ubiquity_1_1controllers_1_1router" ],
     [ "semantic", "namespace_ubiquity_1_1controllers_1_1semantic.html", "namespace_ubiquity_1_1controllers_1_1semantic" ],
     [ "seo", "namespace_ubiquity_1_1controllers_1_1seo.html", "namespace_ubiquity_1_1controllers_1_1seo" ],
     [ "traits", "namespace_ubiquity_1_1controllers_1_1traits.html", "namespace_ubiquity_1_1controllers_1_1traits" ],

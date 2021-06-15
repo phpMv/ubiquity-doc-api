@@ -1,7 +1,6 @@
 var class_ubiquity_1_1controllers_1_1_startup =
 [
     [ "_getControllerInstance", "class_ubiquity_1_1controllers_1_1_startup.html#a61bbeec19b0640331aa0cc99ef641ce7", null ],
-    [ "errorHandler", "class_ubiquity_1_1controllers_1_1_startup.html#a27ebddb24bb1d38671731a31e7d5d877", null ],
     [ "forward", "class_ubiquity_1_1controllers_1_1_startup.html#a9b46641b37bafe372aee9e3d9b9ec059", null ],
     [ "getAction", "class_ubiquity_1_1controllers_1_1_startup.html#af8b331d3ac442a1071aa9f7db3b60637", null ],
     [ "getActionParams", "class_ubiquity_1_1controllers_1_1_startup.html#ae2f6d0174208b3b5a52e4de816773c01", null ],
@@ -20,6 +19,7 @@ var class_ubiquity_1_1controllers_1_1_startup =
     [ "runAction", "class_ubiquity_1_1controllers_1_1_startup.html#a33e383e8013b9b44e53031b0b173dae5", null ],
     [ "runAsString", "class_ubiquity_1_1controllers_1_1_startup.html#a194099a5629f99f27533f917de1149a5", null ],
     [ "runCallable", "class_ubiquity_1_1controllers_1_1_startup.html#a1edfce13e91555f721c423a69f935d8a", null ],
+    [ "startDefaultTemplateEngine", "class_ubiquity_1_1controllers_1_1_startup.html#abeb6a1ae2aead29df1c6781e0bff5bdf", null ],
     [ "startTemplateEngine", "class_ubiquity_1_1controllers_1_1_startup.html#a870c4f5f23e7cbcd6cfd54a6c9c4a037", null ],
     [ "$action", "class_ubiquity_1_1controllers_1_1_startup.html#aa698a3e72116e8e778be0e95d908ee30", null ],
     [ "$actionParams", "class_ubiquity_1_1controllers_1_1_startup.html#acfa39f85a05a6dba1443751b261f4624", null ],

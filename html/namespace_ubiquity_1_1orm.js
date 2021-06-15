@@ -1,6 +1,7 @@
 var namespace_ubiquity_1_1orm =
 [
     [ "bulk", "namespace_ubiquity_1_1orm_1_1bulk.html", "namespace_ubiquity_1_1orm_1_1bulk" ],
+    [ "comparator", "namespace_ubiquity_1_1orm_1_1comparator.html", "namespace_ubiquity_1_1orm_1_1comparator" ],
     [ "core", "namespace_ubiquity_1_1orm_1_1core.html", "namespace_ubiquity_1_1orm_1_1core" ],
     [ "creator", "namespace_ubiquity_1_1orm_1_1creator.html", "namespace_ubiquity_1_1orm_1_1creator" ],
     [ "parser", "namespace_ubiquity_1_1orm_1_1parser.html", "namespace_ubiquity_1_1orm_1_1parser" ],

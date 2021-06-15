@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['rest',['REST',['../class_ubiquity_1_1log_1_1_logger_params.html#a1273e4f6dfecad5cc711360770b7d784',1,'Ubiquity::log::LoggerParams']]],
-  ['router',['ROUTER',['../class_ubiquity_1_1log_1_1_logger_params.html#ac8c67f1796228f249bd2f6cdb2e19b1d',1,'Ubiquity::log::LoggerParams']]]
+  ['ok',['OK',['../class_ubiquity_1_1controllers_1_1router_1_1_router_status.html#a662f51c007afab9ac309d177745a503f',1,'Ubiquity::controllers::router::RouterStatus']]]
 ];

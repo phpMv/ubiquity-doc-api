@@ -13,6 +13,7 @@ var class_ubiquity_1_1scaffolding_1_1_scaffold_controller =
     [ "createAuthCrudView", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#aca23dcadf0bb0988ee5ad43f1f1956aa", null ],
     [ "generateRouteAnnotation", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ad44dd2b1cec1f1e11d06d7cfc0ed8edc", null ],
     [ "generateRouteName", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ae694d79373ef74a70d166522a0281415", null ],
+    [ "generateRoutePath", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a873cf00d14f65200f25085158f3529e1", null ],
     [ "getTemplateDir", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ac3fb4d72b37431b8ad3b0c28af888473", null ],
     [ "initRestCache", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a18334470dee3cb89eb8e8c00a5fc4577", null ],
     [ "setConfig", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#afbdb41bfc6dd8dc9b0b56b062fe04477", null ],

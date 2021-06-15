@@ -28,6 +28,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "groupConcat", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a60af46f4f1b3e29cda5fc82eb0c46a83", null ],
     [ "inTransaction", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#aaf34a959f7c26d1f97713adab5a6c429", null ],
     [ "lastInsertId", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a9f9cb8ca720d7bbcb03869def521336e", null ],
+    [ "migrateOperation", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a5178774453995aab3ec49977528b0ebd", null ],
     [ "nestable", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8079e2b820824635195923cf46bc571e", null ],
     [ "ping", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a6dad377f74b0ce6f21b485ba11052746", null ],
     [ "prepareNamedStatement", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#afecc41da860fd528f9f7b32e954f0eb4", null ],
@@ -44,6 +45,7 @@ var class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper =
     [ "statementRowCount", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a95752df0e77406431f820af617a3e583", null ],
     [ "toStringOperator", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a57588deb83f8e534222f2d65c6709a25", null ],
     [ "$dbInstance", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a8f58322db30fdc9ba21dc7b120e5e6b3", null ],
+    [ "$operations", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a3f662373ff81db09eed5649d07f1931c", null ],
     [ "$quote", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#ac1e0099ce3e8b7575cb6610f62db74df", null ],
     [ "$statements", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a2cfdd68df93aed5b0f9c3fb70c56b359", null ],
     [ "PHP_TYPES", "class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a711fb67342a71422d13fabe6a6eb3dcc", null ]

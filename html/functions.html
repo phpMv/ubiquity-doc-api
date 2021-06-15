@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.4</span>
+   &#160;<span id="projectnumber">2.4.5</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -225,6 +225,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$arrayMap
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a8ec7c2e7acbb9896e9c17252e6d21ff7">PermissionsMap</a>
 </li>
+<li>$assetsFolder
+: <a class="el" href="class_ubiquity_1_1assets_1_1_assets_manager.html#a3a57868daec73fc6e87545dd19a36bce">AssetsManager</a>
+</li>
 <li>$authController
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_with_auth_trait.html#a87e69fcb2a04409b4b3b5ea174ef00f7">WithAuthTrait</a>
 </li>
@@ -300,7 +303,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$class
 : <a class="el" href="class_ubiquity_1_1orm_1_1bulk_1_1_abstract_bulks.html#a252ba022809910ea710a068fc1bab657">AbstractBulks</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a252ba022809910ea710a068fc1bab657">ClassMerger</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html#a252ba022809910ea710a068fc1bab657">MemberComparator</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a252ba022809910ea710a068fc1bab657">ClassToYuml</a>
+</li>
+<li>$classCode
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a7cb00c4ad9a0b22a3fd057d59017b365">ClassMerger</a>
 </li>
 <li>$classes
 : <a class="el" href="class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html#a4212f1eca3e4faf764728d56bc13dfd3">PreloaderInternalTrait</a>
@@ -308,6 +316,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$classMask
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a93171e1d94193af66b03f68638684f17">Yuml</a>
+</li>
+<li>$classMerger
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#adba41c387258ba19d4ffea6a84e9357e">Model</a>
 </li>
 <li>$className
 : <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_join_column_annotation.html#acd6a475a6eeb092f4eea3e19e502d67d">JoinColumnAnnotation</a>
@@ -374,6 +385,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$controller
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a388ef7b1db5e6f728e63cee704ce6e23">Route</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a388ef7b1db5e6f728e63cee704ce6e23">CRUDDatas</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a388ef7b1db5e6f728e63cee704ce6e23">CRUDEvents</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a388ef7b1db5e6f728e63cee704ce6e23">ModelViewer</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a388ef7b1db5e6f728e63cee704ce6e23">Startup</a>
@@ -541,6 +553,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$expires
 : <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#aa41bb802080b20a3965a21a8cb3d9696">AbstractAuthtokens</a>
+</li>
+<li>$extCode
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a846374b8e8e1286a670c29af9d4c5664">ClassMerger</a>
 </li>
 <li>$extManyToManys
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a886efb531e1006339e7747d39c3e3dc7">ClassToYumlRelationsTrait</a>
@@ -849,6 +864,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$member
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#a5e1c849c6148a8732eee400fcee0d044">ConstraintViolation</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator.html#a5e1c849c6148a8732eee400fcee0d044">Validator</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html#a5e1c849c6148a8732eee400fcee0d044">MemberComparator</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a5e1c849c6148a8732eee400fcee0d044">ManyToManyParser</a>
 </li>
 <li>$memberAccess
@@ -871,6 +887,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$memoryCache
 : <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_db_cache.html#a7dc2621d819a3da733c748af53474ff4">DbCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_memory_cache.html#a7dc2621d819a3da733c748af53474ff4">MemoryCache</a>
+</li>
+<li>$merged
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#aa41e4643d93927ab23015063be9df9a1">ClassMerger</a>
 </li>
 <li>$message
 : <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1_validator_annotation.html#abf17cb2dba2ed17cb28aa5f37deb5293">ValidatorAnnotation</a>
@@ -907,6 +926,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a08fdd91bde255dbe3e2d15a22d9663e8">CRUDController</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html#a08fdd91bde255dbe3e2d15a22d9663e8">RestBaseController</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_table_export.html#a08fdd91bde255dbe3e2d15a22d9663e8">TableExport</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a786c5130ed428dd35227fde85c921f49">ClassMerger</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1repositories_1_1_repository.html#a444f61508445c06bb484d3010b125cdb">Repository</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1repositories_1_1_view_repository.html#a444f61508445c06bb484d3010b125cdb">ViewRepository</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08fdd91bde255dbe3e2d15a22d9663e8">TableReversor</a>
@@ -981,6 +1001,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$newKeys
 : <a class="el" href="class_ubiquity_1_1translation_1_1_messages_updates.html#acc0f1ac770816d35eca226ff40ddf5b8">MessagesUpdates</a>
 </li>
+<li>$newMember
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html#a923b411f8fb241dd3d4190d286263be0">MemberComparator</a>
+</li>
 <li>$NONE
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_file_status.html#a8342e941f5c9475685264600f9128211">GitFileStatus</a>
 </li>
@@ -1024,6 +1047,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$oneToManys
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a73abd7bf4fd9ca69ef7e0274f082181f">ClassToYumlRelationsTrait</a>
+</li>
+<li>$operations
+: <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a3f662373ff81db09eed5649d07f1931c">AbstractDbWrapper</a>
 </li>
 <li>$options
 : <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a011800c63ece4cbbfa77136a20607023">Database</a>
@@ -1358,6 +1384,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html#a58391ea75f2d29d5d708d7050b641c33">RestError</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_file.html#a58391ea75f2d29d5d708d7050b641c33">GitFile</a>
 </li>
+<li>$statusCode
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#a284cc112f82dd96d28c4b7ad338a8f3d">Router</a>
+</li>
 <li>$stereotypes
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a72107766f07a4cf689c0248ed8001116">YumlParser</a>
 </li>
@@ -1468,6 +1497,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1contents_1_1transformation_1_1_transformers_manager.html#a4f8449c25b3a04780dc51ea4a64cce9a">TransformersManager</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a4f8449c25b3a04780dc51ea4a64cce9a">DAOPreparedQuery</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a4f8449c25b3a04780dc51ea4a64cce9a">ModelParser</a>
+</li>
+<li>$transient
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a9f5e1523dba4609d86758e148a570be9">Member</a>
 </li>
 <li>$twig
 : <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#a95b22cf97ae99a402854f5f45a9871bf">Twig</a>
@@ -1615,7 +1647,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sun Apr 25 2021 03:21:02 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:17 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

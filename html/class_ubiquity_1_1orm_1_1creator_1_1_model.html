@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.4</span>
+   &#160;<span id="projectnumber">2.4.5</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1creator_1_1_m
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
@@ -106,10 +107,16 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1creator_1_1_m
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af3ced7055301242d2e7f4b4d4c6dafb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#af3ced7055301242d2e7f4b4d4c6dafb6">__construct</a> ($annotsEngine, $name, $namespace='models', $memberAccess='private')</td></tr>
 <tr class="separator:af3ced7055301242d2e7f4b4d4c6dafb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a444942af76b6d7ac63d34ef5d522c253"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a444942af76b6d7ac63d34ef5d522c253">addMember</a> (<a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html">Member</a> $member)</td></tr>
-<tr class="separator:a444942af76b6d7ac63d34ef5d522c253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2dddf0257aaab570a03557d68352929"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae2dddf0257aaab570a03557d68352929">getMembers</a> ()</td></tr>
+<tr class="separator:ae2dddf0257aaab570a03557d68352929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8fcebfba8c498f2190941f7ebf62da8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab8fcebfba8c498f2190941f7ebf62da8">getMethods</a> ()</td></tr>
+<tr class="separator:ab8fcebfba8c498f2190941f7ebf62da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813c14b8e78a6d6914525bf4fcb54def"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a813c14b8e78a6d6914525bf4fcb54def">getAnnotsEngine</a> ()</td></tr>
+<tr class="separator:a813c14b8e78a6d6914525bf4fcb54def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbbbc3cfb44cc8aff49a8e48dd7a62ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#adbbbc3cfb44cc8aff49a8e48dd7a62ff">addManyToOne</a> ($member, $name, $className, $alternateName)</td></tr>
 <tr class="separator:adbbbc3cfb44cc8aff49a8e48dd7a62ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444942af76b6d7ac63d34ef5d522c253"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a444942af76b6d7ac63d34ef5d522c253">addMember</a> (<a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html">Member</a> $member)</td></tr>
+<tr class="separator:a444942af76b6d7ac63d34ef5d522c253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76decc4ba2e783a2a47451c662cf2195"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a76decc4ba2e783a2a47451c662cf2195">removeMember</a> ($memberName)</td></tr>
 <tr class="separator:a76decc4ba2e783a2a47451c662cf2195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea61dedfc355d4934870a60419ea97d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#aea61dedfc355d4934870a60419ea97d2">removeOneToManyMemberByClassAssociation</a> ($className)</td></tr>
@@ -124,24 +131,26 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d0963e68bb313b163a73f2803c64600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a3d0963e68bb313b163a73f2803c64600">getName</a> ()</td></tr>
 <tr class="separator:a3d0963e68bb313b163a73f2803c64600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d1032e08a46b4448df02d422e1121d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a10d1032e08a46b4448df02d422e1121d">getConstructor</a> ()</td></tr>
+<tr class="separator:a10d1032e08a46b4448df02d422e1121d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac53a05153ee5fbec7e6f5e30dd7222c1">getToString</a> ()</td></tr>
+<tr class="separator:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0abe972064d47a43060fca486b5052db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a0abe972064d47a43060fca486b5052db">getPkName</a> ()</td></tr>
+<tr class="separator:a0abe972064d47a43060fca486b5052db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec14e8ec3cff8883cd8ca176af2807c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a7ec14e8ec3cff8883cd8ca176af2807c">getPrimaryKey</a> ()</td></tr>
+<tr class="separator:a7ec14e8ec3cff8883cd8ca176af2807c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a287627b42f973635f17842bd1e2e8024"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a287627b42f973635f17842bd1e2e8024">getSimpleName</a> ()</td></tr>
 <tr class="separator:a287627b42f973635f17842bd1e2e8024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1e7e0b28b4e5495060b1119fd2d539"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8b1e7e0b28b4e5495060b1119fd2d539">setDatabase</a> ($database)</td></tr>
 <tr class="separator:a8b1e7e0b28b4e5495060b1119fd2d539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63362f1ba83b9706c4e53d717d327b57"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a63362f1ba83b9706c4e53d717d327b57">isAssociation</a> ()</td></tr>
 <tr class="separator:a63362f1ba83b9706c4e53d717d327b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec14e8ec3cff8883cd8ca176af2807c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a7ec14e8ec3cff8883cd8ca176af2807c">getPrimaryKey</a> ()</td></tr>
-<tr class="separator:a7ec14e8ec3cff8883cd8ca176af2807c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0abe972064d47a43060fca486b5052db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a0abe972064d47a43060fca486b5052db">getPkName</a> ()</td></tr>
-<tr class="separator:a0abe972064d47a43060fca486b5052db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6dca9adfbdf73915ac670519a48808f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad6dca9adfbdf73915ac670519a48808f">getDefaultFk</a> ()</td></tr>
 <tr class="separator:ad6dca9adfbdf73915ac670519a48808f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1f88b85b3dea277cb87b2fd81ff52fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab1f88b85b3dea277cb87b2fd81ff52fa">getManyToOneMembers</a> ()</td></tr>
 <tr class="separator:ab1f88b85b3dea277cb87b2fd81ff52fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8596c2e7b4f9b7b6be64a7fbd20d1505"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8596c2e7b4f9b7b6be64a7fbd20d1505">setSimpleMembers</a> ($members)</td></tr>
 <tr class="separator:a8596c2e7b4f9b7b6be64a7fbd20d1505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac53a05153ee5fbec7e6f5e30dd7222c1">getToString</a> ()</td></tr>
-<tr class="separator:ac53a05153ee5fbec7e6f5e30dd7222c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_ubiquity_1_1creator_1_1_has_uses_trait.html">HasUsesTrait</a></td></tr>
 <tr class="memitem:a5daf21916222e7a5a8b4c25f35314f95 inherit pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1creator_1_1_has_uses_trait.html#a5daf21916222e7a5a8b4c25f35314f95">getUses</a> ()</td></tr>
 <tr class="separator:a5daf21916222e7a5a8b4c25f35314f95 inherit pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,12 +161,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40aa0896dc6c51dc914fe8c44323bcba inherit pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1creator_1_1_has_uses_trait.html#a40aa0896dc6c51dc914fe8c44323bcba">getUsesStr</a> ()</td></tr>
 <tr class="separator:a40aa0896dc6c51dc914fe8c44323bcba inherit pub_methods_class_ubiquity_1_1creator_1_1_has_uses_trait"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac919e32ee866dba68882ad2031dca989"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac919e32ee866dba68882ad2031dca989">getClassMerger</a> ()</td></tr>
+<tr class="separator:ac919e32ee866dba68882ad2031dca989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7880c18c79ffacc994ab1b95d1fb9fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae7880c18c79ffacc994ab1b95d1fb9fe">generateMethods</a> (array $members,?<a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html">ClassMerger</a> $classMerger)</td></tr>
+<tr class="separator:ae7880c18c79ffacc994ab1b95d1fb9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f">generateUniqName</a> ($member)</td></tr>
-<tr class="separator:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991395c8813da5ef38090a78b7524bfd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a991395c8813da5ef38090a78b7524bfd">hasConstructor</a> ()</td></tr>
+<tr class="separator:a991395c8813da5ef38090a78b7524bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7090ca93785bfdbb00d52746a6bd109"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad7090ca93785bfdbb00d52746a6bd109">checkForUniqName</a> (&amp;$member, $alternateName)</td></tr>
 <tr class="separator:ad7090ca93785bfdbb00d52746a6bd109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f">generateUniqName</a> ($member)</td></tr>
+<tr class="separator:a9c1508cd0c60fd5df3269cc82ce1537f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad73ff864b4d882ae80d4002ca30af921"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad73ff864b4d882ae80d4002ca30af921">getToStringField</a> ()</td></tr>
 <tr class="separator:ad73ff864b4d882ae80d4002ca30af921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -181,6 +199,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a407eaec40c437b9c314e4489e207dada"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa537e13e3036228e1389c11f08422666"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#aa537e13e3036228e1389c11f08422666">$annots</a></td></tr>
 <tr class="separator:aa537e13e3036228e1389c11f08422666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba41c387258ba19d4ffea6a84e9357e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#adba41c387258ba19d4ffea6a84e9357e">$classMerger</a></td></tr>
+<tr class="separator:adba41c387258ba19d4ffea6a84e9357e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -190,7 +210,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00016">16</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00018">18</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af3ced7055301242d2e7f4b4d4c6dafb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3ced7055301242d2e7f4b4d4c6dafb6">&#9670;&nbsp;</a></span>__construct()</h2>
@@ -230,7 +250,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00056">56</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00040">40</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -250,7 +270,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00135">135</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00173">173</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -269,7 +289,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00124">124</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00162">162</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -329,7 +349,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00115">115</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00153">153</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -371,7 +391,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00071">71</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00084">84</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -391,7 +411,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00066">66</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00117">117</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -433,7 +453,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00107">107</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00145">145</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -471,7 +491,53 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00045">45</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00097">97</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="ae7880c18c79ffacc994ab1b95d1fb9fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7880c18c79ffacc994ab1b95d1fb9fe">&#9670;&nbsp;</a></span>generateMethods()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">generateMethods </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$members</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">?<a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html">ClassMerger</a>&#160;</td>
+          <td class="paramname"><em>$classMerger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Member[]</td><td>$members </td></tr>
+    <tr><td class="paramname">?ClassMerger</td><td>$classMerger </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00222">222</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -499,7 +565,73 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00036">36</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00108">108</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a813c14b8e78a6d6914525bf4fcb54def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a813c14b8e78a6d6914525bf4fcb54def">&#9670;&nbsp;</a></span>getAnnotsEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getAnnotsEngine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>AnnotationsEngineInterface </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00080">80</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="ac919e32ee866dba68882ad2031dca989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac919e32ee866dba68882ad2031dca989">&#9670;&nbsp;</a></span>getClassMerger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">getClassMerger </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00199">199</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a10d1032e08a46b4448df02d422e1121d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d1032e08a46b4448df02d422e1121d">&#9670;&nbsp;</a></span>getConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getConstructor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00259">259</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -518,7 +650,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00209">209</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00340">340</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -537,7 +669,46 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00213">213</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00344">344</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="ae2dddf0257aaab570a03557d68352929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2dddf0257aaab570a03557d68352929">&#9670;&nbsp;</a></span>getMembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getMembers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>array </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00053">53</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="ab8fcebfba8c498f2190941f7ebf62da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8fcebfba8c498f2190941f7ebf62da8">&#9670;&nbsp;</a></span>getMethods()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">getMethods </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00057">57</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -556,7 +727,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00167">167</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00210">210</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -575,7 +746,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00201">201</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00305">305</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -594,7 +765,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00192">192</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00313">313</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -613,7 +784,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00174">174</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00322">322</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -632,7 +803,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00241">241</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00276">276</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -659,7 +830,34 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00223">223</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00291">291</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="a991395c8813da5ef38090a78b7524bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991395c8813da5ef38090a78b7524bfd">&#9670;&nbsp;</a></span>hasConstructor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">hasConstructor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00068">68</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -678,7 +876,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00182">182</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00330">330</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -698,7 +896,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00084">84</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00122">122</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -718,7 +916,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00089">89</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00127">127</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -738,7 +936,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00178">178</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00326">326</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -758,7 +956,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00237">237</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00354">354</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -783,7 +981,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00034">34</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00036">36</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -807,7 +1005,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00032">32</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00034">34</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+
+</div>
+</div>
+<a id="adba41c387258ba19d4ffea6a84e9357e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adba41c387258ba19d4ffea6a84e9357e">&#9670;&nbsp;</a></span>$classMerger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$classMerger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00038">38</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -831,7 +1053,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00028">28</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00030">30</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -855,7 +1077,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00030">30</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00032">32</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -879,7 +1101,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00020">20</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00022">22</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -903,7 +1125,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00022">22</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00024">24</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -927,7 +1149,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00026">26</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00028">28</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -951,7 +1173,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00018">18</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00020">20</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -975,7 +1197,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00024">24</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_model_8php_source.html#l00026">26</a> of file <a class="el" href="_model_8php_source.html">Model.php</a>.</p>
 
 </div>
 </div>
@@ -989,7 +1211,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1creator.html">creator</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html">Model</a></li>
-    <li class="footer"><small>Generated on Sun Apr 25 2021 03:21:00 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:14 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

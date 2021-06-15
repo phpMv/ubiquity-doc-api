@@ -1,5 +1,6 @@
 var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas =
 [
+    [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#ad717f2a6a729542cf8f99500814c6cec", null ],
     [ "_getInstancesFilter", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#ad45dd0b8db78b8892028cef02f5b44d3", null ],
     [ "getElementFieldNames", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a48fd857d848a25e729b13c7bed9ce69f", null ],
     [ "getFieldNames", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#aad7dfd1ff04fe04ad477157f9fe9073a", null ],
@@ -12,5 +13,6 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas =
     [ "getUpdateManyToManyInForm", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a404c7762f28bc1f350f5782d381822c8", null ],
     [ "getUpdateManyToOneInForm", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a433f98ec0d5088d33585edafbd63e615", null ],
     [ "getUpdateOneToManyInForm", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a75c77feef89350a7338ae8cbdd33c919", null ],
-    [ "refreshPartialInstance", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a8359f0267b5cf871f6e03dacb5608c0e", null ]
+    [ "refreshPartialInstance", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a8359f0267b5cf871f6e03dacb5608c0e", null ],
+    [ "$controller", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a388ef7b1db5e6f728e63cee704ce6e23", null ]
 ];

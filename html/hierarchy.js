@@ -173,6 +173,7 @@ var hierarchy =
     [ "CacheFile", "class_ubiquity_1_1cache_1_1_cache_file.html", null ],
     [ "CallableParser", "class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html", null ],
     [ "ClassesToYuml", "class_ubiquity_1_1utils_1_1yuml_1_1_classes_to_yuml.html", null ],
+    [ "ClassMerger", "class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html", null ],
     [ "ClassToYumlRelationsTrait", "class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html", [
       [ "ClassToYuml", "class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html", null ]
     ] ],
@@ -390,6 +391,7 @@ var hierarchy =
     [ "LogMessage", "class_ubiquity_1_1log_1_1_log_message.html", null ],
     [ "ManyToManyParser", "class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html", null ],
     [ "Member", "class_ubiquity_1_1orm_1_1creator_1_1_member.html", null ],
+    [ "MemberComparator", "class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html", null ],
     [ "MessagesCatalog", "class_ubiquity_1_1translation_1_1_messages_catalog.html", null ],
     [ "MessagesDomain", "class_ubiquity_1_1translation_1_1_messages_domain.html", null ],
     [ "MessagesTrait", "class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html", [
@@ -452,6 +454,7 @@ var hierarchy =
     [ "RouterModifierTrait", "class_ubiquity_1_1controllers_1_1traits_1_1_router_modifier_trait.html", [
       [ "Router", "class_ubiquity_1_1controllers_1_1_router.html", null ]
     ] ],
+    [ "RouterStatus", "class_ubiquity_1_1controllers_1_1router_1_1_router_status.html", null ],
     [ "RouterTestTrait", "class_ubiquity_1_1controllers_1_1traits_1_1_router_test_trait.html", [
       [ "Router", "class_ubiquity_1_1controllers_1_1_router.html", null ]
     ] ],

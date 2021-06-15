@@ -10,5 +10,6 @@ var class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait =
     [ "removeByKey_", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ad0287564a333505e42ba11761f718c11", null ],
     [ "save", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ad952f3b4f904dd608b7339e586500d9c", null ],
     [ "update", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a5654ab9c25622bc8f03b855c4b2d14eb", null ],
+    [ "updateAll", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a58343eaefdde68de0b872e95cfef2859", null ],
     [ "updateGroup", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a072d8192f0a2eecf611b5348e121666a", null ]
 ];

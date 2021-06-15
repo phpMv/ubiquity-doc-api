@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.4</span>
+   &#160;<span id="projectnumber">2.4.5</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -135,6 +135,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>generateManyToManys()
 : <a class="el" href="class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a94b00e1bcd977e60879c4a9f4e3b81f7">DbGenerator</a>
 </li>
+<li>generateMethods()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae7880c18c79ffacc994ab1b95d1fb9fe">Model</a>
+</li>
 <li>generateOneInsert()
 : <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_data_export.html#a2aefd0437ea66849228e28b03c39827e">DataExport</a>
 </li>
@@ -153,6 +156,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>generateRouteName()
 : <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae366caef7c79a504d82204a0e88bb77b">ControllerParser</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ae694d79373ef74a70d166522a0281415">ScaffoldController</a>
+</li>
+<li>generateRoutePath()
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a873cf00d14f65200f25085158f3529e1">ScaffoldController</a>
 </li>
 <li>generateSQL()
 : <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08f4ac5bc6f5db9332925da7956b76a1">TableReversor</a>
@@ -199,6 +205,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a0983134fad1d3281a471fd1cdeb252be">DAOPreparedQuery</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a42ccaf53987edef7e9c39f26f371535e">OrmUtils</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#aa31109f72a8a3e7399821d140b2d75a3">OrmUtilsFieldsTrait</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a1ba47ea7c17b2339f47f51783ecceff6">UArrayModels</a>
 </li>
 <li>getAclById_()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#ad4aca48ebdd7f662d7b8154c20a0f773">AclList</a>
@@ -236,8 +243,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getActiveThemeUrl()
 : <a class="el" href="class_ubiquity_1_1assets_1_1_assets_manager.html#ad7c0f201b56e84ab8e8a6678d529b060">AssetsManager</a>
 </li>
-<li>getAddInManyMember()
-: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a1ba3b3f602b57ee849271a462dc66a11">Member</a>
+<li>getAddInManyToManyMember()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a2ec693ae70c02377b2ec5359e64f7689">Member</a>
+</li>
+<li>getAddInOneToManyMember()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a41ccc6eadc5113ce3fb29de63d47b0ed">Member</a>
 </li>
 <li>getAdminData()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a378f38cff59451fa95efc4ae3e7fcf08">CRUDControllerUtilitiesTrait</a>
@@ -318,6 +328,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getAnnotations()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_router_admin_trait.html#ae682e43d526d437614255a0d1d39c3a5">RouterAdminTrait</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html#a42da68eed934fd49a31a42111143e71c">MemberComparator</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab416dfeda14d1f887d24d7633a502501">Member</a>
 </li>
 <li>getAnnotationsEngine()
@@ -343,7 +354,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a8c6896c3c75b18ef32df01874ac4bb31">OrmUtilsRelationsTrait</a>
 </li>
 <li>getAnnotsEngine()
-: <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a2df347bd82a7c43e0cb8e7bc3e151cb4">Reflexion</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a813c14b8e78a6d6914525bf4fcb54def">Model</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a2df347bd82a7c43e0cb8e7bc3e151cb4">Reflexion</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#a2df347bd82a7c43e0cb8e7bc3e151cb4">ReflexionFieldsTrait</a>
 </li>
 <li>getAnnotsOfClass()
@@ -529,6 +541,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1_class_utils.html#a0e5b697a34c023387a4e7b4650f2033d">ClassUtils</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html#a1ed3fbb160b714530f144eeaa5ee5855">PreloaderInternalTrait</a>
 </li>
+<li>getClassMerger()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac919e32ee866dba68882ad2031dca989">Model</a>
+</li>
 <li>getClassname()
 : <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_object_cache.html#a7d13c7dc42dd271f5c57a6d8d35f0060">ObjectCache</a>
 </li>
@@ -591,6 +606,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getConfig()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ab402833ec5328f4157f81902000af368">StartupConfigTrait</a>
 , <a class="el" href="class_ubiquity_1_1seo_1_1_url_parser.html#a628300eb8464467d9344c7c59cc8770b">UrlParser</a>
+</li>
+<li>getConstructor()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a10d1032e08a46b4448df02d422e1121d">Model</a>
 </li>
 <li>getContent()
 : <a class="el" href="class_ubiquity_1_1utils_1_1flash_1_1_flash_message.html#a58e43f09a06ce4e29b192c4e17ce7915">FlashMessage</a>
@@ -829,6 +847,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getExpires()
 : <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#ae49c82f460cbe6981fe680be668d0b1c">AbstractAuthtokens</a>
 </li>
+<li>getExtCode()
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a7f013a5ad40a0b1ac392cb60d74834d5">ClassMerger</a>
+</li>
 <li>getExtManyToManys()
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a69553f87297bdbabae612460bcebc6bb">ClassToYumlRelationsTrait</a>
 </li>
@@ -990,6 +1011,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getFormFieldNames()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a3791e13431cbb3ea9e7bae90cb356874">CRUDDatas</a>
 </li>
+<li>getFormModalTitle()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a61bd5bbca2320d732a35328718c36d4e">FormModelViewerTrait</a>
+</li>
 <li>getFormTitle()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a85ab7e7866d74dea3514b6a31bee361f">FormModelViewerTrait</a>
 </li>
@@ -1007,6 +1031,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getGetter()
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ad8b0113c0d18c9b4ccb81529b5aa1acb">Member</a>
+</li>
+<li>getGetterName()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ac59acafe4a67a71ca8fad7cf02bbd207">Member</a>
 </li>
 <li>getGlobales()
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#af3c4e26ecd68de77d8a5cf1bce829251">Debugger</a>
@@ -1080,6 +1107,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getInjections()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1di_1_1_di_controller_parser.html#a3ba86439f4ab082c446e4ab327dfd0e2">DiControllerParser</a>
+</li>
+<li>getInManyToManyMemberName()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a72c7d37e0c34fb7567bda968344a0b5e">Member</a>
+</li>
+<li>getInOneToManyMemberName()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a805f350484aa4e883fb8bf82729da6ab">Member</a>
 </li>
 <li>getInput()
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_abstract_http.html#a4380f30ae9202fa49ebd2439572f9cdb">AbstractHttp</a>
@@ -1272,7 +1305,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a09cc2b2abc5bc105668639b8f966ece0">DAOPreparedQuery</a>
 </li>
 <li>getMembers()
-: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a108d5113b9263a61e5a369bd7b6a86e1">OrmUtils</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae2dddf0257aaab570a03557d68352929">Model</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a108d5113b9263a61e5a369bd7b6a86e1">OrmUtils</a>
 </li>
 <li>getMembersAndValues()
 : <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#aa23b8fdb7ae011283a12b57c745a7506">OrmUtils</a>
@@ -1323,7 +1357,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a41f0e97a6df2894a3f0d8017ffd427a2">UIntrospection</a>
 </li>
 <li>getMethodCode()
-: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a74247569bfd3f6516456cd85872df6ef">UIntrospection</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#aa9d609c6f5cf28f93d6fb314f8ca224e">ClassMerger</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a74247569bfd3f6516456cd85872df6ef">UIntrospection</a>
 </li>
 <li>getMethodEffectiveParameters()
 : <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_introspection.html#a884081ff782b5392f07bc9e488627daa">UIntrospection</a>
@@ -1355,6 +1390,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getMethods()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#ab8fcebfba8c498f2190941f7ebf62da8">Route</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab8fcebfba8c498f2190941f7ebf62da8">Member</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#ab8fcebfba8c498f2190941f7ebf62da8">Model</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a9385d2df01752200421e07d76813c90d">Reflexion</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption.html#ae40cd583f4902145470fd1295b3c1d31">Encryption</a>
 </li>
@@ -1487,7 +1524,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_dynamic_resource_trait.html#a00862459ec1d266c47c66707eb9b7fe9">DynamicResourceTrait</a>
 </li>
 <li>getOneToMany()
-: <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a513674cd74e67bc44a80ca32ce83b0d8">DAORelationsTrait</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a1c00c341adc40b0e1421024ea0d8acce">Member</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a513674cd74e67bc44a80ca32ce83b0d8">DAORelationsTrait</a>
 </li>
 <li>getOneToManyDatas()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a8d020d0c49d48bf76f5c0da15d993d39">CRUDDatas</a>
@@ -1924,6 +1962,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getSetter()
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a8999bd3bd089ee88a99b9ff72840f5ae">Member</a>
 </li>
+<li>getSetterName()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a14e8fadfab2d210adad07935f7b4228f">Member</a>
+</li>
 <li>getSeverity()
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#a27b228ddd4c5ce55bded047380a3cc3d">ConstraintViolation</a>
 </li>
@@ -1934,7 +1975,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a287627b42f973635f17842bd1e2e8024">Model</a>
 </li>
 <li>getSingleton()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ad7975cac6ad37f5b551d0db0c71e1d97">CRUDControllerUtilitiesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#abe05c14f32e765260bbf1d8ab490e4b1">CRUDControllerUtilitiesTrait</a>
 </li>
 <li>getSiteMapTemplate()
 : <a class="el" href="class_ubiquity_1_1seo_1_1_controller_seo.html#aca687ade7e6b2852da24396041c4fcab">ControllerSeo</a>
@@ -1967,6 +2008,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html#a91023f4929a767b86bb9df3971516a4a">PreloaderCacheInfo</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html#a9d21636071f529e2154051d3ea6e5921">RestError</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_file.html#a9d21636071f529e2154051d3ea6e5921">GitFile</a>
+</li>
+<li>getStatusCode()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#ad34b3d1e17876673dca826b4f7c69756">Router</a>
 </li>
 <li>getStorageClass()
 : <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_csrf_manager.html#a5ace2b66790d20ced1102aa047967383">CsrfManager</a>
@@ -2297,7 +2341,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sun Apr 25 2021 03:21:03 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:17 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

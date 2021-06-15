@@ -22,7 +22,7 @@ var class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer =
     [ "getModelDataTable", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a937ff644ac91bde60b1dcaf7a8c3c5bb", null ],
     [ "getTransition", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#acaf5f5d7a496885a338a21e1dbd26d33", null ],
     [ "onConfirmButtons", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#ab65fb1564bc164130f437ae15d670513", null ],
-    [ "onDataTableRowButton", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a75e31b532edf6f72f2fe7af146cd8e87", null ],
+    [ "onDataTableRowButton", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a9e82a3840d0c9dd405d5bc1569d68ff9", null ],
     [ "onDisplayFkElementListDetails", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a560936e8bf7efd6de663ed714a273777", null ],
     [ "recordsPerPage", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a11669bfc19098a296c10117ccd1806cf", null ],
     [ "setDataTableAttributes", "class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a583355078af2e801b68468ac8a67a687", null ],

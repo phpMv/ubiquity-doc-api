@@ -8,7 +8,9 @@ var interface_ubiquity_1_1annotations_1_1_annotations_engine_interface =
     [ "getAnnotsOfProperty", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#ad54ec01e304b533c9892e029a667e2de", null ],
     [ "is", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#a9b77ccf579ed80c4d7d62110387e1c94", null ],
     [ "isMany", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#a407a5c7d098b0eb9e3161a324cf6737a", null ],
+    [ "isManyToMany", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#abb916a0d04af84dd9df1e35ea50c9aa3", null ],
     [ "isManyToOne", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#af309e975fe4831a2e31a9e5ef6f6cb7b", null ],
+    [ "isOneToMany", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#a3476ff3f271d1421a247c8f1d42679f6", null ],
     [ "registerAcls", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#a7154853fac57336a4ff288957e6adf04", null ],
     [ "registerAnnotations", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#ae933d07570e4aa595d951b463b021f07", null ],
     [ "start", "interface_ubiquity_1_1annotations_1_1_annotations_engine_interface.html#a4b36f18c64806846cdca95e531cd0767", null ]

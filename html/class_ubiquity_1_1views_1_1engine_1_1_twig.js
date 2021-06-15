@@ -1,7 +1,8 @@
 var class_ubiquity_1_1views_1_1engine_1_1_twig =
 [
-    [ "__construct", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#aa7f5a18682ecb8e0dc450e26cebfaa37", null ],
+    [ "__construct", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#ac1c029ba212384eea6a7130ab1fa39fd", null ],
     [ "addFunction", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#adbab19f4739c48c7777588b5b2c1592d", null ],
+    [ "addHelpers", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#aa30818fce48c95051192f059f7eff3d5", null ],
     [ "addPath", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a70eca9506d6e08dd2720f7c475f9e5f7", null ],
     [ "exists", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a0909de156d39accf2e3c52f4bce3765f", null ],
     [ "getBlockNames", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#aa92fe90859ac040f55e668f6be8afad0", null ],

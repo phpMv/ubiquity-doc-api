@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.4</span>
+   &#160;<span id="projectnumber">2.4.5</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -110,6 +110,9 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#a8fb87d3678cf352dfc6a9b78602a667a">AclManager</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_operations_trait.html#a419132507351b69f6d521294fae1cc70">AclListOperationsTrait</a>
 </li>
+<li>addAnnotations()
+: <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#abc623d9e5908b4027c6cd89de3378065">Member</a>
+</li>
 <li>addApplicationCache()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_preloader.html#ade6b47e928e862aef777f07a16af31da">Preloader</a>
 </li>
@@ -166,6 +169,9 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 </li>
 <li>addFunction()
 : <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#adbab19f4739c48c7777588b5b2c1592d">Twig</a>
+</li>
+<li>addHelpers()
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#aa30818fce48c95051192f059f7eff3d5">Twig</a>
 </li>
 <li>addInArray()
 : <a class="el" href="class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html#a807643260f7a6d26fe515c5cf8fa7d59">DocParser</a>
@@ -457,6 +463,12 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_rest_controller_parser.html#a12b8efb717cb31322bfa4d1d75146979">RestControllerParser</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_error.html#a12b8efb717cb31322bfa4d1d75146979">RestError</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#a12b8efb717cb31322bfa4d1d75146979">ModelParser</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#acd320de3152668d6e7e04498522cf666">UArrayModels</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_model.html#a0561e8845f77f197c286909f7a81edbd">UModel</a>
+</li>
+<li>asArrayProperties()
+: <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#aaba41f99cf4e742b7e053365e53b68b2">UArrayModels</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_model.html#a05efa5239c33b6a121c3679e107299fe">UModel</a>
 </li>
 <li>asHtml()
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a054d8193e22284350bb547c383b9a2a1">UResponse</a>
@@ -464,6 +476,14 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>asJSON()
 : <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#a69507b0a7cdbf04c416618ad5e440176">UArrayAsTrait</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_response.html#ae0d871a40774726593981d86ac419e28">UResponse</a>
+</li>
+<li>asJson()
+: <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a817e01b23d54f7bbe3fa05148e3610a2">UArrayModels</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_model.html#a924b0efdf5505db72e0c4460c3b784d9">UModel</a>
+</li>
+<li>asJsonProperties()
+: <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#ab1fc4ed0d04027613728ef68edf7a1f3">UArrayModels</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_model.html#a119036e4c5adf9c4d133bd62d724179d">UModel</a>
 </li>
 <li>asKeyValues()
 : <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a360fcc5772a1cd2eb5b5e46df12be331">UArrayModels</a>
@@ -539,7 +559,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sun Apr 25 2021 03:21:03 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:17 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

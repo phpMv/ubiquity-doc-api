@@ -31,5 +31,6 @@ var searchData=
   ['routercachetrait_2ephp',['RouterCacheTrait.php',['../_router_cache_trait_8php.html',1,'']]],
   ['routerexception_2ephp',['RouterException.php',['../_router_exception_8php.html',1,'']]],
   ['routermodifiertrait_2ephp',['RouterModifierTrait.php',['../_router_modifier_trait_8php.html',1,'']]],
+  ['routerstatus_2ephp',['RouterStatus.php',['../_router_status_8php.html',1,'']]],
   ['routertesttrait_2ephp',['RouterTestTrait.php',['../_router_test_trait_8php.html',1,'']]]
 ];

@@ -4,6 +4,7 @@ var dir_18efef5af3001e04c339c409cc1f7049 =
     [ "crud", "dir_62a9fafd6f5cdffe2acf3dd52af506c5.html", "dir_62a9fafd6f5cdffe2acf3dd52af506c5" ],
     [ "di", "dir_348d55180423fa16936e4ae642bf8d40.html", "dir_348d55180423fa16936e4ae642bf8d40" ],
     [ "rest", "dir_ad43a7b9f4dcbca88e99b100050b74ca.html", "dir_ad43a7b9f4dcbca88e99b100050b74ca" ],
+    [ "router", "dir_2f49b1764ca44ce27636c2e805231f39.html", "dir_2f49b1764ca44ce27636c2e805231f39" ],
     [ "semantic", "dir_f2da51f62cbf21e7339e0b76b3b77e95.html", "dir_f2da51f62cbf21e7339e0b76b3b77e95" ],
     [ "seo", "dir_ca1af66aca283007bac2a42ca7206d03.html", "dir_ca1af66aca283007bac2a42ca7206d03" ],
     [ "traits", "dir_1e459e7468369b61d5e52e56c6be5130.html", "dir_1e459e7468369b61d5e52e56c6be5130" ],

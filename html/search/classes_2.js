@@ -5,6 +5,7 @@ var searchData=
   ['cachemanager',['CacheManager',['../class_ubiquity_1_1cache_1_1_cache_manager.html',1,'Ubiquity::cache']]],
   ['callableparser',['CallableParser',['../class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html',1,'Ubiquity::cache::parser']]],
   ['classestoyuml',['ClassesToYuml',['../class_ubiquity_1_1utils_1_1yuml_1_1_classes_to_yuml.html',1,'Ubiquity::utils::yuml']]],
+  ['classmerger',['ClassMerger',['../class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html',1,'Ubiquity::orm::comparator']]],
   ['classtoyuml',['ClassToYuml',['../class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html',1,'Ubiquity::utils::yuml']]],
   ['classtoyumlrelationstrait',['ClassToYumlRelationsTrait',['../class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html',1,'Ubiquity::utils::yuml::traits']]],
   ['classutils',['ClassUtils',['../class_ubiquity_1_1cache_1_1_class_utils.html',1,'Ubiquity::cache']]],

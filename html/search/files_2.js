@@ -5,6 +5,7 @@ var searchData=
   ['cachemanager_2ephp',['CacheManager.php',['../_cache_manager_8php.html',1,'']]],
   ['callableparser_2ephp',['CallableParser.php',['../_callable_parser_8php.html',1,'']]],
   ['classestoyuml_2ephp',['ClassesToYuml.php',['../_classes_to_yuml_8php.html',1,'']]],
+  ['classmerger_2ephp',['ClassMerger.php',['../_class_merger_8php.html',1,'']]],
   ['classtoyuml_2ephp',['ClassToYuml.php',['../_class_to_yuml_8php.html',1,'']]],
   ['classtoyumlrelationstrait_2ephp',['ClassToYumlRelationsTrait.php',['../_class_to_yuml_relations_trait_8php.html',1,'']]],
   ['classutils_2ephp',['ClassUtils.php',['../_class_utils_8php.html',1,'']]],

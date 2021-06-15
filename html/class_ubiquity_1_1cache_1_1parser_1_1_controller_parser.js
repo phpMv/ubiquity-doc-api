@@ -15,5 +15,6 @@ var class_ubiquity_1_1cache_1_1parser_1_1_controller_parser =
     [ "$excludeds", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a240577c5b77f8d445d4ebf71f0fdd85c", null ],
     [ "$mainRouteClass", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a87bc7051cd7d75fe273dc8b8e8808040", null ],
     [ "$rest", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a1c128f478ad71165e2e581c84fca1b25", null ],
-    [ "$routesMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#af015f0b8bc50b049ac15f17b908f3f45", null ]
+    [ "$routesMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#af015f0b8bc50b049ac15f17b908f3f45", null ],
+    [ "HTTP_METHODS", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#aea93008f5fc95929aad0f050eb599995", null ]
 ];

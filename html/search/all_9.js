@@ -7,6 +7,7 @@ var searchData=
   ['hasannotations',['hasAnnotations',['../class_ubiquity_1_1orm_1_1creator_1_1_member.html#ab1070a90a90893cfc34106c6e3d93830',1,'Ubiquity::orm::creator::Member']]],
   ['hascache',['hasCache',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a00112527c0561b8e27419c75a9c6f46f',1,'Ubiquity::security::acl::models::AclList']]],
   ['hascapturinggroup',['hasCapturingGroup',['../class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#a66ef40c76bc1bc37aa23f48e47d6bdfb',1,'Ubiquity::cache::traits::DevRouterCacheTrait']]],
+  ['hasconstructor',['hasConstructor',['../class_ubiquity_1_1orm_1_1creator_1_1_model.html#a991395c8813da5ef38090a78b7524bfd',1,'Ubiquity::orm::creator::Model']]],
   ['haserrors',['hasErrors',['../class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#aada71735dcc56f4cae3b82c55e090e8d',1,'Ubiquity::controllers::rest::traits::RestControllerUtilitiesTrait']]],
   ['hash',['hash',['../class_ubiquity_1_1security_1_1data_1_1_encryption.html#a2ab8500c89a041149ce79ddb5a6c9842',1,'Ubiquity::security::data::Encryption']]],
   ['haslivereload',['hasLiveReload',['../class_ubiquity_1_1debug_1_1_debug.html#a0c6726b5215ccef1be91a1046a15e898',1,'Ubiquity\debug\Debug\hasLiveReload()'],['../class_ubiquity_1_1debug_1_1_live_reload.html#a0c6726b5215ccef1be91a1046a15e898',1,'Ubiquity\debug\LiveReload\hasLiveReload()']]],
@@ -27,5 +28,6 @@ var searchData=
   ['header',['header',['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_abstract_http.html#aeaf5e0253560603437cf7167a172e3eb',1,'Ubiquity\utils\http\foundation\AbstractHttp\header()'],['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_php_http.html#aeaf5e0253560603437cf7167a172e3eb',1,'Ubiquity\utils\http\foundation\PhpHttp\header()'],['../class_ubiquity_1_1utils_1_1http_1_1_u_response.html#af6b56565ded02230c6cfd69c482aef12',1,'Ubiquity\utils\http\UResponse\header()']]],
   ['headerssent',['headersSent',['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_abstract_http.html#a65d82c9a2c9e4e74ee87674dfd16e2a9',1,'Ubiquity\utils\http\foundation\AbstractHttp\headersSent()'],['../class_ubiquity_1_1utils_1_1http_1_1foundation_1_1_php_http.html#a65d82c9a2c9e4e74ee87674dfd16e2a9',1,'Ubiquity\utils\http\foundation\PhpHttp\headersSent()']]],
   ['htmllogformatter',['HtmlLogFormatter',['../class_ubiquity_1_1log_1_1_html_log_formatter.html',1,'Ubiquity::log']]],
-  ['htmllogformatter_2ephp',['HtmlLogFormatter.php',['../_html_log_formatter_8php.html',1,'']]]
+  ['htmllogformatter_2ephp',['HtmlLogFormatter.php',['../_html_log_formatter_8php.html',1,'']]],
+  ['http_5fmethods',['HTTP_METHODS',['../class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#aea93008f5fc95929aad0f050eb599995',1,'Ubiquity::cache::parser::ControllerParser']]]
 ];

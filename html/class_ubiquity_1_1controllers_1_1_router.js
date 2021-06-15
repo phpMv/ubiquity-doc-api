@@ -9,6 +9,7 @@ var class_ubiquity_1_1controllers_1_1_router =
     [ "getRouteInfoByName", "class_ubiquity_1_1controllers_1_1_router.html#a573a3185d7a60c5241ca35cb8bad96ae", null ],
     [ "getRoutes", "class_ubiquity_1_1controllers_1_1_router.html#a5ee75c365fa519c6bf61c9ae28672a7d", null ],
     [ "getRouteUrlParts", "class_ubiquity_1_1controllers_1_1_router.html#ad239727e844c3a4f2f1d5cb102b91dd6", null ],
+    [ "getStatusCode", "class_ubiquity_1_1controllers_1_1_router.html#ad34b3d1e17876673dca826b4f7c69756", null ],
     [ "path", "class_ubiquity_1_1controllers_1_1_router.html#a5e67f063c95cd06fdf6d461cb602f14e", null ],
     [ "setExpired", "class_ubiquity_1_1controllers_1_1_router.html#ade720ce56472fc2553ae04e5af436625", null ],
     [ "setParamsInOrder", "class_ubiquity_1_1controllers_1_1_router.html#a91f1b774aa852481e719603fcdbf6be9", null ],
@@ -17,5 +18,6 @@ var class_ubiquity_1_1controllers_1_1_router =
     [ "startAll", "class_ubiquity_1_1controllers_1_1_router.html#ab942bbe8e907e1291820e4d37779df14", null ],
     [ "startRest", "class_ubiquity_1_1controllers_1_1_router.html#aec244f547413490d078f991a67ab7ad9", null ],
     [ "url", "class_ubiquity_1_1controllers_1_1_router.html#ac73e4a016facd771344cb62df08cdca4", null ],
-    [ "$routes", "class_ubiquity_1_1controllers_1_1_router.html#a8f7eb04a54e0f0bfc0cedeb9899ce4a8", null ]
+    [ "$routes", "class_ubiquity_1_1controllers_1_1_router.html#a8f7eb04a54e0f0bfc0cedeb9899ce4a8", null ],
+    [ "$statusCode", "class_ubiquity_1_1controllers_1_1_router.html#a284cc112f82dd96d28c4b7ad338a8f3d", null ]
 ];
