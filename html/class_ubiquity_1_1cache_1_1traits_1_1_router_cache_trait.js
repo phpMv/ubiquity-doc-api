@@ -8,6 +8,7 @@ var class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait =
     [ "controllerCacheUpdated", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a5705fd49fe3961635f3e9f38b0693a30", null ],
     [ "expired", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a2c1127a01a222557ddc0c0225fd7c5c1", null ],
     [ "getControllerCache", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a1b76cf2460c5596848726839850ec375", null ],
+    [ "getControllerCacheByDomain", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#ab80b01879f2d9010937145f9a4551f94", null ],
     [ "getControllerCacheIndex", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a5f341b8f8ae76f6b3048c698b16857b7", null ],
     [ "getControllerRoutes", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a6fad84358d8ca93d34cda1f29dd56a40", null ],
     [ "getControllers", "class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#af58e87569bd9aad3e116be65358c2823", null ],

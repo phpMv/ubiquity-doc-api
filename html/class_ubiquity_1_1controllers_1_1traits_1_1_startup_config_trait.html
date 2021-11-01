@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.5</span>
+   &#160;<span id="projectnumber">2.4.7</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -142,6 +142,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a28d9386f0e449cf8b7da15284d040b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a129d4150f23b3a860cfa56d04663bd1c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a129d4150f23b3a860cfa56d04663bd1c">isValidUrl</a> (string $url)</td></tr>
 <tr class="separator:a129d4150f23b3a860cfa56d04663bd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae515dec2783febfcd2c81e800ee86ccc"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ae515dec2783febfcd2c81e800ee86ccc">setActiveDomainBase</a> (string $domain, string $base='domains')</td></tr>
+<tr class="memdesc:ae515dec2783febfcd2c81e800ee86ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the active domain for a Domain Driven Design approach.  <a href="#ae515dec2783febfcd2c81e800ee86ccc">More...</a><br /></td></tr>
+<tr class="separator:ae515dec2783febfcd2c81e800ee86ccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c7a5043e54c40a4a7e61e28d975021"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a02c7a5043e54c40a4a7e61e28d975021">getActiveDomainBase</a> ()</td></tr>
+<tr class="separator:a02c7a5043e54c40a4a7e61e28d975021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c6c46ebdc96f1f0ac4745e962a4f64"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a44c6c46ebdc96f1f0ac4745e962a4f64">resetActiveDomainBase</a> ()</td></tr>
+<tr class="separator:a44c6c46ebdc96f1f0ac4745e962a4f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -163,6 +170,8 @@ Static Protected Attributes</h2></td></tr>
 <tr class="separator:a6b1c03371d7eab78af44cb9d7c1969fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb64257b549fcdc4cfea7ee2ab0c105f"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#acb64257b549fcdc4cfea7ee2ab0c105f">$sessionInstance</a></td></tr>
 <tr class="separator:acb64257b549fcdc4cfea7ee2ab0c105f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073f0af02d8a1885cf5f0120566014f0"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a073f0af02d8a1885cf5f0120566014f0">$activeDomainBase</a> =''</td></tr>
+<tr class="separator:a073f0af02d8a1885cf5f0120566014f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -172,7 +181,7 @@ Static Private Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_ubiquity.html">Ubiquity</a>$StartupConfigTrait This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a>. </p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.1.5 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.1.6 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00024">24</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -231,6 +240,33 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a02c7a5043e54c40a4a7e61e28d975021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c7a5043e54c40a4a7e61e28d975021">&#9670;&nbsp;</a></span>getActiveDomainBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static getActiveDomainBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00180">180</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+
+</div>
+</div>
 <a id="ab402833ec5328f4157f81902000af368"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab402833ec5328f4157f81902000af368">&#9670;&nbsp;</a></span>getConfig()</h2>
 
@@ -254,7 +290,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00030">30</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00031">31</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -308,7 +344,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00042">42</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00043">43</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -335,7 +371,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00038">38</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00039">39</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -363,7 +399,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00054">54</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00055">55</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -500,7 +536,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00046">46</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00047">47</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -558,6 +594,33 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a44c6c46ebdc96f1f0ac4745e962a4f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c6c46ebdc96f1f0ac4745e962a4f64">&#9670;&nbsp;</a></span>resetActiveDomainBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static resetActiveDomainBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00184">184</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+
+</div>
+</div>
 <a id="a180ec54bb024dbb237ec93ad614cddd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a180ec54bb024dbb237ec93ad614cddd3">&#9670;&nbsp;</a></span>saveConfig()</h2>
 
@@ -586,6 +649,53 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae515dec2783febfcd2c81e800ee86ccc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae515dec2783febfcd2c81e800ee86ccc">&#9670;&nbsp;</a></span>setActiveDomainBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static setActiveDomainBase </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$domain</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$base</em> = <code>'domains'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the active domain for a Domain Driven Design approach. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$domain</td><td>The new active domain name </td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$base</td><td>The base folder for domains </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00172">172</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+
+</div>
+</div>
 <a id="a3a9b032d0cd01dba8ae681a0c94f009d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a9b032d0cd01dba8ae681a0c94f009d">&#9670;&nbsp;</a></span>setConfig()</h2>
 
@@ -610,7 +720,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00034">34</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00035">35</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
 
 </div>
 </div>
@@ -726,6 +836,30 @@ Static Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a073f0af02d8a1885cf5f0120566014f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073f0af02d8a1885cf5f0120566014f0">&#9670;&nbsp;</a></span>$activeDomainBase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$activeDomainBase =''</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_startup_config_trait_8php_source.html#l00029">29</a> of file <a class="el" href="_startup_config_trait_8php_source.html">StartupConfigTrait.php</a>.</p>
+
+</div>
+</div>
 <a id="a49c7011be9c979d9174c52a8b83e5d8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49c7011be9c979d9174c52a8b83e5d8e">&#9670;&nbsp;</a></span>$config</h2>
 
@@ -832,7 +966,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1controllers.html">controllers</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1controllers_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html">StartupConfigTrait</a></li>
-    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:13 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Mon Nov 1 2021 20:01:19 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

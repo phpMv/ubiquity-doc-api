@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.5</span>
+   &#160;<span id="projectnumber">2.4.7</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -84,7 +84,8 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1utils_1_1http_1_1_u_
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a>  </div>
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">URequest Class Reference</div>  </div>
 </div><!--header-->
@@ -166,6 +167,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a8f7e6b24b9405e806abce82923f82c82"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a8f7e6b24b9405e806abce82923f82c82">password_verify</a> (string $passwordKey, string $hash)</td></tr>
 <tr class="memdesc:a8f7e6b24b9405e806abce82923f82c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verifies that a posted password matches a hash at $passwordKey position.  <a href="#a8f7e6b24b9405e806abce82923f82c82">More...</a><br /></td></tr>
 <tr class="separator:a8f7e6b24b9405e806abce82923f82c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3158019cdf06305c1941c19f159720"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a6e3158019cdf06305c1941c19f159720">parseURI</a> (string $uri, string $basedir)</td></tr>
+<tr class="memdesc:a6e3158019cdf06305c1941c19f159720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal use for async servers (Swoole and Workerman).  <a href="#a6e3158019cdf06305c1941c19f159720">More...</a><br /></td></tr>
+<tr class="separator:a6e3158019cdf06305c1941c19f159720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html">URequestTesterTrait</a></td></tr>
 <tr class="memitem:a92f3ad5dbd85a08f7bfab8a9fa109d3f inherit pub_static_methods_class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html#a92f3ad5dbd85a08f7bfab8a9fa109d3f">filled</a> ($key)</td></tr>
 <tr class="memdesc:a92f3ad5dbd85a08f7bfab8a9fa109d3f inherit pub_static_methods_class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if a value is present on the request and is not empty.  <a href="class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html#a92f3ad5dbd85a08f7bfab8a9fa109d3f">More...</a><br /></td></tr>
@@ -193,6 +197,13 @@ Static Public Member Functions</h2></td></tr>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:a396085dc189069b7ddf05e5beb71d8b4"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a396085dc189069b7ddf05e5beb71d8b4">parseDefaultLanguage</a> ($http_accept, $deflang='en')</td></tr>
 <tr class="separator:a396085dc189069b7ddf05e5beb71d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045b0c498406e8a0bfe19fcc3ca5665d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a045b0c498406e8a0bfe19fcc3ca5665d">_parseURI</a> (string $uri, string $basedir)</td></tr>
+<tr class="separator:a045b0c498406e8a0bfe19fcc3ca5665d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a76d6e4c3be7a280d20b305fc6012a859"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a76d6e4c3be7a280d20b305fc6012a859">$uriInfos</a></td></tr>
+<tr class="separator:a76d6e4c3be7a280d20b305fc6012a859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Http Request utilities, wrapper for accessing to $_GET, $_POST and php://input. </p>
@@ -202,6 +213,44 @@ Static Private Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00018">18</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a045b0c498406e8a0bfe19fcc3ca5665d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045b0c498406e8a0bfe19fcc3ca5665d">&#9670;&nbsp;</a></span>_parseURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static _parseURI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$uri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$basedir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00310">310</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+
+</div>
+</div>
 <a id="abc8991a1e329238d86cc546116fa2fc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc8991a1e329238d86cc546116fa2fc8">&#9670;&nbsp;</a></span>cleanUrl()</h2>
 
@@ -226,7 +275,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00232">232</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00237">237</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -274,7 +323,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00162">162</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00167">167</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -311,7 +360,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00172">172</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00177">177</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -341,7 +390,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Returns the query data, regardless of the method. </p>
 <dl class="section return"><dt>Returns</dt><dd>array </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00081">81</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00086">86</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -371,7 +420,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Copyright © 2008 Darrin Yeager <a href="https://www.dyeager.org/">https://www.dyeager.org/</a> Licensed under BSD license. </p>
 <p><a href="https://www.dyeager.org/downloads/license-bsd.txt">https://www.dyeager.org/downloads/license-bsd.txt</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00115">115</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00120">120</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -400,7 +449,7 @@ Static Private Member Functions</h2></td></tr>
 
 <p>Returns the query data, for PUT, DELETE PATCH methods. </p>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00072">72</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00077">77</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -430,7 +479,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Returns the http method. </p>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00209">209</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00214">214</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -460,7 +509,7 @@ Static Private Member Functions</h2></td></tr>
 <p>Returns the request origin. </p>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00218">218</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00223">223</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -497,7 +546,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00065">65</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00070">70</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -524,7 +573,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00257">257</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00262">262</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -563,7 +612,7 @@ Static Private Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>string[] </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://stackoverflow.com/questions/68651/can-i-get-php-to-stop-replacing-characters-in-get-or-post-arrays#68667">https://stackoverflow.com/questions/68651/can-i-get-php-to-stop-replacing-characters-in-get-or-post-arrays#68667</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00245">245</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00250">250</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -590,7 +639,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00261">261</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00266">266</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -618,7 +667,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00191">191</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00196">196</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -645,7 +694,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00200">200</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00205">205</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -683,7 +732,55 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00122">122</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00127">127</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+
+</div>
+</div>
+<a id="a6e3158019cdf06305c1941c19f159720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3158019cdf06305c1941c19f159720">&#9670;&nbsp;</a></span>parseURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static parseURI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$uri</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$basedir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Internal use for async servers (Swoole and Workerman). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$uri</td><td></td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$basedir</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>array </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00306">306</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -731,7 +828,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string|boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00272">272</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00277">277</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -780,7 +877,7 @@ Static Private Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
 <dl class="section since"><dt>Since</dt><dd>2.4.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00288">288</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00293">293</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -828,7 +925,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>mixed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00187">187</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00192">192</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -876,7 +973,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>mixed </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00105">105</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00110">110</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -912,7 +1009,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00045">45</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00050">50</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -940,7 +1037,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00144">144</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00149">149</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -976,7 +1073,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00055">55</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00060">60</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -1018,12 +1115,37 @@ Static Private Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">object</td><td class="paramname">$object</td><td></td></tr>
-    <tr><td class="paramtype"></td><td class="paramname">associative</td><td>array $values </td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$values</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00026">26</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00031">31</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="a76d6e4c3be7a280d20b305fc6012a859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d6e4c3be7a280d20b305fc6012a859">&#9670;&nbsp;</a></span>$uriInfos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$uriInfos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_request_8php_source.html#l00023">23</a> of file <a class="el" href="_u_request_8php_source.html">URequest.php</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1159,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils_1_1http.html">http</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html">URequest</a></li>
-    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:16 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Mon Nov 1 2021 20:01:21 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

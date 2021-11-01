@@ -8,7 +8,7 @@ var class_ubiquity_1_1orm_1_1creator_1_1_model =
     [ "addMember", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a444942af76b6d7ac63d34ef5d522c253", null ],
     [ "addOneToMany", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aad6d05d53aa06145fab3110305e1af03", null ],
     [ "checkForUniqName", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ad7090ca93785bfdbb00d52746a6bd109", null ],
-    [ "generateMethods", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ae7880c18c79ffacc994ab1b95d1fb9fe", null ],
+    [ "generateMethods", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#abca5319adcfb299d5b19f93a5528340d", null ],
     [ "generateUniqName", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f", null ],
     [ "getAnnotsEngine", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a813c14b8e78a6d6914525bf4fcb54def", null ],
     [ "getClassMerger", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#ac919e32ee866dba68882ad2031dca989", null ],

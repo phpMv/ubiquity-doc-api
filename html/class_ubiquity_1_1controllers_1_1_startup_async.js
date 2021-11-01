@@ -1,9 +1,10 @@
 var class_ubiquity_1_1controllers_1_1_startup_async =
 [
-    [ "forward", "class_ubiquity_1_1controllers_1_1_startup_async.html#a9b46641b37bafe372aee9e3d9b9ec059", null ],
-    [ "getControllerInstance", "class_ubiquity_1_1controllers_1_1_startup_async.html#a12a975fb016771071f7cbea9581aeeff", null ],
-    [ "runAction", "class_ubiquity_1_1controllers_1_1_startup_async.html#a33e383e8013b9b44e53031b0b173dae5", null ],
-    [ "warmupAction", "class_ubiquity_1_1controllers_1_1_startup_async.html#aac35ffa18bfd45e595bf473a0527ea55", null ],
+    [ "forward", "class_ubiquity_1_1controllers_1_1_startup_async.html#a2c689c0e6adaee57d5c6f00d9b8a111c", null ],
+    [ "getControllerInstance", "class_ubiquity_1_1controllers_1_1_startup_async.html#a0d51388af22be6eaf66b860417b7999c", null ],
+    [ "runAction", "class_ubiquity_1_1controllers_1_1_startup_async.html#a3d88c74b1a8138775c2a6a5f98329e43", null ],
+    [ "warmupAction", "class_ubiquity_1_1controllers_1_1_startup_async.html#adb470dd8319642d168b673a02344cb40", null ],
+    [ "warmupForward", "class_ubiquity_1_1controllers_1_1_startup_async.html#a645e904e15ddd76f7c768e35aa0489e1", null ],
     [ "$controllers", "class_ubiquity_1_1controllers_1_1_startup_async.html#a08663f6ed9bbc9798229d7f4546cc9c8", null ],
     [ "$routes", "class_ubiquity_1_1controllers_1_1_startup_async.html#a8f7eb04a54e0f0bfc0cedeb9899ce4a8", null ],
     [ "FINALIZE", "class_ubiquity_1_1controllers_1_1_startup_async.html#a53bf31f2fc99e17738cd5b68ef3e9965", null ],

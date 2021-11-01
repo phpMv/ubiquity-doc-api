@@ -12,7 +12,7 @@ var class_ubiquity_1_1controllers_1_1_router =
     [ "getStatusCode", "class_ubiquity_1_1controllers_1_1_router.html#ad34b3d1e17876673dca826b4f7c69756", null ],
     [ "path", "class_ubiquity_1_1controllers_1_1_router.html#a5e67f063c95cd06fdf6d461cb602f14e", null ],
     [ "setExpired", "class_ubiquity_1_1controllers_1_1_router.html#ade720ce56472fc2553ae04e5af436625", null ],
-    [ "setParamsInOrder", "class_ubiquity_1_1controllers_1_1_router.html#a91f1b774aa852481e719603fcdbf6be9", null ],
+    [ "setParamsInOrder", "class_ubiquity_1_1controllers_1_1_router.html#ad3e82e964ce604df391af63ae7b47ae5", null ],
     [ "slashPath", "class_ubiquity_1_1controllers_1_1_router.html#a2c50bb1b56ba15dfffdb87fc89be7313", null ],
     [ "start", "class_ubiquity_1_1controllers_1_1_router.html#a146085d0f3a9d17bdcd7f3d4081d8c0d", null ],
     [ "startAll", "class_ubiquity_1_1controllers_1_1_router.html#ab942bbe8e907e1291820e4d37779df14", null ],

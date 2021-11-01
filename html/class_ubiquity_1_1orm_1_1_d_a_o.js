@@ -14,6 +14,7 @@ var class_ubiquity_1_1orm_1_1_d_a_o =
     [ "getDb", "class_ubiquity_1_1orm_1_1_d_a_o.html#acceb84fb4c9cac30677a3e4240bc23ce", null ],
     [ "getDbCacheInstance", "class_ubiquity_1_1orm_1_1_d_a_o.html#adb3cbb2a2813c71ab8d2792648486637", null ],
     [ "getDbOffset", "class_ubiquity_1_1orm_1_1_d_a_o.html#a3e21dd34038c5cc57afc782eee01aa9f", null ],
+    [ "getModelsDatabase", "class_ubiquity_1_1orm_1_1_d_a_o.html#ac79e32c66205c7a29b46b17bc06400ce", null ],
     [ "getOne", "class_ubiquity_1_1orm_1_1_d_a_o.html#a449309169ca3c735db65d2089d935615", null ],
     [ "getRownum", "class_ubiquity_1_1orm_1_1_d_a_o.html#ac0fa7351394a79677854651452dfa31f", null ],
     [ "isConnected", "class_ubiquity_1_1orm_1_1_d_a_o.html#ad51a58629e16337da6fad7aa5b050532", null ],

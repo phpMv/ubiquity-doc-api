@@ -7,7 +7,7 @@ var class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor =
     [ "generateForeignKeys", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#af5d01b1d54030e1a5a77da181c479ddc", null ],
     [ "generatePks", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#ab52b60a6655266a1ac754173d36e30c0", null ],
     [ "generateSQL", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08f4ac5bc6f5db9332925da7956b76a1", null ],
-    [ "getFieldAttributes", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a84b81212fef1b0e013ba34d0c9fd2fee", null ],
+    [ "getFieldAttributes", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a559ce06b08c042120492864cd5e968f5", null ],
     [ "getSerializableFields", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a5881ff5e15019edeb5039caebdab6ecd", null ],
     [ "init", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a2facc6abaca94a599fca1d94a1a73314", null ],
     [ "initFromClass", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a252b2f5062987e8c6335cd6912ac621d", null ],

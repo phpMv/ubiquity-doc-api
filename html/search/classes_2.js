@@ -4,6 +4,7 @@ var searchData=
   ['cachefile',['CacheFile',['../class_ubiquity_1_1cache_1_1_cache_file.html',1,'Ubiquity::cache']]],
   ['cachemanager',['CacheManager',['../class_ubiquity_1_1cache_1_1_cache_manager.html',1,'Ubiquity::cache']]],
   ['callableparser',['CallableParser',['../class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html',1,'Ubiquity::cache::parser']]],
+  ['classcreator',['ClassCreator',['../class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html',1,'Ubiquity::scaffolding::creators']]],
   ['classestoyuml',['ClassesToYuml',['../class_ubiquity_1_1utils_1_1yuml_1_1_classes_to_yuml.html',1,'Ubiquity::utils::yuml']]],
   ['classmerger',['ClassMerger',['../class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html',1,'Ubiquity::orm::comparator']]],
   ['classtoyuml',['ClassToYuml',['../class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html',1,'Ubiquity::utils::yuml']]],

@@ -22,6 +22,7 @@ var searchData=
   ['modelscachetrait_2ephp',['ModelsCacheTrait.php',['../_models_cache_trait_8php.html',1,'']]],
   ['modelscreator_2ephp',['ModelsCreator.php',['../_models_creator_8php.html',1,'']]],
   ['modelviewer_2ephp',['ModelViewer.php',['../_model_viewer_8php.html',1,'']]],
+  ['multiresourcecrudcontroller_2ephp',['MultiResourceCRUDController.php',['../_multi_resource_c_r_u_d_controller_8php.html',1,'']]],
   ['multisitesession_2ephp',['MultisiteSession.php',['../_multisite_session_8php.html',1,'']]],
   ['mysqldrivermetas_2ephp',['MysqlDriverMetas.php',['../_mysql_driver_metas_8php.html',1,'']]]
 ];

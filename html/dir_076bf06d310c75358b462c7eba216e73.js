@@ -7,6 +7,7 @@ var dir_076bf06d310c75358b462c7eba216e73 =
     [ "controllers", "dir_18efef5af3001e04c339c409cc1f7049.html", "dir_18efef5af3001e04c339c409cc1f7049" ],
     [ "core", "dir_bc66ce74ef0ac1a0cb435a5e2133fad9.html", "dir_bc66ce74ef0ac1a0cb435a5e2133fad9" ],
     [ "db", "dir_ed6cd31333d8e3f73eeccf586c89ecd5.html", "dir_ed6cd31333d8e3f73eeccf586c89ecd5" ],
+    [ "domains", "dir_19a07912e2c2655c4dbe49007f591cce.html", "dir_19a07912e2c2655c4dbe49007f591cce" ],
     [ "events", "dir_b6fa34e3554b17f94b5aa6353004669e.html", "dir_b6fa34e3554b17f94b5aa6353004669e" ],
     [ "exceptions", "dir_4c0f8c3d308d0d52c95a5f7ef9c08017.html", "dir_4c0f8c3d308d0d52c95a5f7ef9c08017" ],
     [ "log", "dir_01988d52c7380ba135bedb8766e9ab1e.html", "dir_01988d52c7380ba135bedb8766e9ab1e" ],

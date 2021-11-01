@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.5</span>
+   &#160;<span id="projectnumber">2.4.7</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -209,6 +209,12 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setActive()
 : <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_db_cache.html#a2a581194bcd2244763847984b54bc5d5">DbCache</a>
 </li>
+<li>setActiveDb()
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#ad65c4cfab5c3704e3c737ce6a4e0aa74">ScaffoldController</a>
+</li>
+<li>setActiveDomainBase()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ae515dec2783febfcd2c81e800ee86ccc">StartupConfigTrait</a>
+</li>
 <li>setActiveTheme()
 : <a class="el" href="class_ubiquity_1_1themes_1_1_themes_manager.html#abb041f097d0c94bb1ccbaf4b4b33f4aa">ThemesManager</a>
 </li>
@@ -222,13 +228,16 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a7221a68152123fd43d511ad1a8c5c7da">RestServer</a>
 </li>
 <li>setAssetsFolder()
-: <a class="el" href="class_ubiquity_1_1assets_1_1_assets_manager.html#ae398feced2740ab75cb3968c9be3a4ba">AssetsManager</a>
+: <a class="el" href="class_ubiquity_1_1assets_1_1_assets_manager.html#af3f17006585555dc40b221387533166c">AssetsManager</a>
 </li>
 <li>setAuthor()
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_commit.html#afde85a369fc83b442db3cf5c6ac31d4a">GitCommit</a>
 </li>
 <li>setAuthorization()
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_response.html#abb0fd41fe106996cf0ca3d5f4cbc6b47">UResponse</a>
+</li>
+<li>setBase()
+: <a class="el" href="class_ubiquity_1_1domains_1_1_d_d_d_manager.html#aa97fa49efaa91a0199fbde80bdc8984d">DDDManager</a>
 </li>
 <li>setBoolean()
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a6a259dc113bdbb6acc242792207a7514">USession</a>
@@ -317,6 +326,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setDisplayProperties()
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a05514cca70b27a047e84ebddde09bd98">ClassToYuml</a>
 </li>
+<li>setDomain()
+: <a class="el" href="class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a7e2efe64bee73dbc5b0d4b34dbb86c60">DDDManager</a>
+</li>
 <li>setDuration()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a4d67bc7722e9feb8af0df6ba2125d184">Route</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#a4d67bc7722e9feb8af0df6ba2125d184">AbstractAuthtokens</a>
@@ -390,6 +402,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setIdentifierSelector()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html#ad25ae18f8fdf9168903179002a332d8f">EditMemberParams</a>
 </li>
+<li>setInputValues()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html#ad27cf9cde7060897ecfe47c669d02597">CRUDHelper</a>
+</li>
 <li>setInRobots()
 : <a class="el" href="class_ubiquity_1_1seo_1_1_controller_seo.html#a21394902e4fc13c397b9bdc5201ff745">ControllerSeo</a>
 </li>
@@ -423,6 +438,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>setLocation()
 : <a class="el" href="class_ubiquity_1_1seo_1_1_url.html#a4d5de0b69040330eba15a59e5993442a">Url</a>
+</li>
+<li>setMainParams()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#ab025efae2cf931f94790ff76c5c973ae">Startup</a>
 </li>
 <li>setMember()
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#a0d29a2cad95805452186fd56da2431a1">ConstraintViolation</a>
@@ -484,7 +502,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#a99452a2ee9dfa3243a205c61d8f728cc">ConditionParser</a>
 </li>
 <li>setParamsInOrder()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#a91f1b774aa852481e719603fcdbf6be9">Router</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#ad3e82e964ce604df391af63ae7b47ae5">Router</a>
 </li>
 <li>setParents()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_role.html#a59f659a2b3ddc413d653c9dd3225a56b">Role</a>
@@ -497,6 +515,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>setPath()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a5d101758b135bd36ba8992cc3bb67a24">Route</a>
+</li>
+<li>setPaths()
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#a6012c100cdac3e22008b7bc9a1e18137">Twig</a>
 </li>
 <li>setPermission()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#a8210ae206debf14f7d4e61c0b7efbf79">PermissionMapObject</a>
@@ -580,6 +601,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setSeverity()
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation.html#ae3c7ea5eb3fdd24e036e2750b7e60593">ConstraintViolation</a>
 </li>
+<li>setSilent()
+: <a class="el" href="class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a7c295565faf33eb179069d4bff3b3a52">ControllerParser</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html#a7c295565faf33eb179069d4bff3b3a52">ModelsCreator</a>
+</li>
 <li>setSimpleMembers()
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8596c2e7b4f9b7b6be64a7fbd20d1505">Model</a>
 </li>
@@ -610,6 +635,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>setTargetEntityTable()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a65c64e5c66abcc8ccf7fb0ba39cc38a7">ManyToManyParser</a>
+</li>
+<li>setTemplate()
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html#a30bd23795f307541c79fd2332dcf4af1">ClassCreator</a>
 </li>
 <li>setTemplateName()
 : <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ac0260e8fbf9ac7fd39ae3268d8aecf5b">BaseControllerCreator</a>
@@ -713,11 +741,13 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>showAllVariables()
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#a036a08daf3d6440aa5a1e61dee1054bd">Debugger</a>
 </li>
-<li>showConfMessage()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html#a4b79eb8dc929a4fca7da4c8e2f17dd1b">MessagesTrait</a>
+<li>showConfMessage_()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ad98a1fb7acf34522a01ea4c6cc11aa6b">CRUDControllerUtilitiesTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html#ad98a1fb7acf34522a01ea4c6cc11aa6b">MessagesTrait</a>
 </li>
 <li>showDetail()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aaf28d5ac1cb666403b89871949c97a67">CRUDController</a>
+, <a class="el" href="classubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html#aaf28d5ac1cb666403b89871949c97a67">MultiResourceCRUDController</a>
 </li>
 <li>showDetailsOnDataTableClick()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a8f4fb2be7f23f51d4f66daa3e74b7d1d">ModelViewer</a>
@@ -725,9 +755,15 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>showException()
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#a939a48d7d2eb8ac62f1dc44943fd7646">Debugger</a>
 </li>
+<li>showModelClick()
+: <a class="el" href="classubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html#a1e721f96dc13dd0136afc0325c0b4325">MultiResourceCRUDController</a>
+</li>
 <li>showSimpleMessage()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html#a2222f35d5e8cda505ca556e5c1108fd4">MessagesTrait</a>
-, <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a4f264bde41669e90f8df8627b7444788">ScaffoldController</a>
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a4f264bde41669e90f8df8627b7444788">ScaffoldController</a>
+</li>
+<li>showSimpleMessage_()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ab6ab5aa014e000ad7c5e50cd2a3b118b">CRUDControllerUtilitiesTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html#aa4b631cc9c364721bef54fc6f4a32848">MessagesTrait</a>
 </li>
 <li>showTrace()
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#ada8140397f9e786e563c6a78bd43caca">Debugger</a>
@@ -770,6 +806,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a5cdc511320aadaed929de83e141b9c19">Database</a>
 , <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#ac1853d8d590591f59dc08f80a46c28f0">Debugger</a>
 , <a class="el" href="class_ubiquity_1_1debug_1_1_live_reload.html#a33a651160b8928db692e2d5bac30300d">LiveReload</a>
+, <a class="el" href="class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a146085d0f3a9d17bdcd7f3d4081d8c0d">DDDManager</a>
 , <a class="el" href="class_ubiquity_1_1events_1_1_events_manager.html#a146085d0f3a9d17bdcd7f3d4081d8c0d">EventsManager</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html#a146085d0f3a9d17bdcd7f3d4081d8c0d">DAO</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#a146085d0f3a9d17bdcd7f3d4081d8c0d">AclManager</a>
@@ -808,7 +845,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a341f878795fe17896d77e1e4277a3f50">UString</a>
 </li>
 <li>startTemplateEngine()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a870c4f5f23e7cbcd6cfd54a6c9c4a037">Startup</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a2f0346813c80dfe3e1ca12cf5debb417">Startup</a>
 </li>
 <li>STARTUP
 : <a class="el" href="class_ubiquity_1_1log_1_1_logger_params.html#a978e9b6891eb28d32249009087573ef9">LoggerParams</a>
@@ -835,7 +872,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver.html#ad60cb2f5d93c954f425af996ac54323b">RedisCacheDriver</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1normalizers_1_1_normalizers_manager.html#a329e7409ded5676e45610da6fd20d826">NormalizersManager</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1transformation_1_1_transformers_manager.html#a329e7409ded5676e45610da6fd20d826">TransformersManager</a>
-, <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html#a3d0fe1dbdd35b3817cebc4b4d29c8467">ValidatorsManager</a>
+, <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1traits_1_1_validators_manager_cache_trait.html#a3d0fe1dbdd35b3817cebc4b4d29c8467">ValidatorsManagerCacheTrait</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html#a97a947b6f768c5b9884af1b1095e565e">DiManager</a>
 , <a class="el" href="class_ubiquity_1_1events_1_1_events_manager.html#a329e7409ded5676e45610da6fd20d826">EventsManager</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1_messages_domain.html#a98e4b7b7529a9a5f6d7e96909cba8bfe">MessagesDomain</a>
@@ -861,6 +898,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>storeDynamicRoutes()
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#af1bcf4593c50127d7b45cc7ea91ef7a5">RouterCacheTrait</a>
+</li>
+<li>storeModelsDatabases()
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#ad715889f2370a2c815dfb009b0fad732">ModelsCacheTrait</a>
 </li>
 <li>storeRouteResponse()
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a90633aff7ba9f5e89368db85ad6ae632">RouterCacheTrait</a>
@@ -890,7 +930,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:17 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Mon Nov 1 2021 20:01:23 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

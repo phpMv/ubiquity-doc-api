@@ -3,7 +3,7 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller =
     [ "__construct", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a095c5d389db211932136b53f25f39685", null ],
     [ "_setStyle", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#ac35b681c8c37cfaa172e976cb086f1b1", null ],
     [ "delete", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a2d7f897ac0256b7a90c46716cf939281", null ],
-    [ "detailClick", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa906108cfd3c16703cc7c0c61690940f", null ],
+    [ "detailClick", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a637c3ef38bcd024b136355378363e53e", null ],
     [ "display", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aee7a0b7c039b4e7b1e9b6369c72497c3", null ],
     [ "edit", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#a649f51672eea883602ee239e5d3a5997", null ],
     [ "editMember", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html#aa79caf3934e4b7fa0efe087357259e3d", null ],

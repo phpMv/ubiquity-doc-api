@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.5</span>
+   &#160;<span id="projectnumber">2.4.7</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1orm_1_1traits_1_1_d_
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">DAOUpdatesTrait Class Reference</div>  </div>
@@ -110,12 +111,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acd7a737908fcfb28c89ff89bd62b27f5"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#acd7a737908fcfb28c89ff89bd62b27f5">deleteAll</a> ($modelName, $where, $params=[])</td></tr>
 <tr class="memdesc:acd7a737908fcfb28c89ff89bd62b27f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all instances from $modelName matching the condition $where.  <a href="#acd7a737908fcfb28c89ff89bd62b27f5">More...</a><br /></td></tr>
 <tr class="separator:acd7a737908fcfb28c89ff89bd62b27f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a279f22aa7d60f0959cbf4f11418e25a8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a279f22aa7d60f0959cbf4f11418e25a8">deleteAllChildren</a> (object $instance)</td></tr>
+<tr class="separator:a279f22aa7d60f0959cbf4f11418e25a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58343eaefdde68de0b872e95cfef2859"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a58343eaefdde68de0b872e95cfef2859">updateAll</a> (string $modelName, array $values, string $condition, array $params)</td></tr>
 <tr class="memdesc:a58343eaefdde68de0b872e95cfef2859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mass update for $modelName matching the condition $where, with an associative array of $values.  <a href="#a58343eaefdde68de0b872e95cfef2859">More...</a><br /></td></tr>
 <tr class="separator:a58343eaefdde68de0b872e95cfef2859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43051d671cf48325266d37fd89304847"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a43051d671cf48325266d37fd89304847">delete</a> ($modelName, $ids)</td></tr>
 <tr class="memdesc:a43051d671cf48325266d37fd89304847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all instances from $modelName corresponding to $ids.  <a href="#a43051d671cf48325266d37fd89304847">More...</a><br /></td></tr>
 <tr class="separator:a43051d671cf48325266d37fd89304847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd8ddf4eff582316c559d791ef10d33"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#a0bd8ddf4eff582316c559d791ef10d33">deleteById</a> ($modelName, $id)</td></tr>
+<tr class="separator:a0bd8ddf4eff582316c559d791ef10d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac185fbbf7614a399696a88039fca6f1e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ac185fbbf7614a399696a88039fca6f1e">insert</a> ($instance, $insertMany=false)</td></tr>
 <tr class="memdesc:ac185fbbf7614a399696a88039fca6f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new instance $instance into the database.  <a href="#ac185fbbf7614a399696a88039fca6f1e">More...</a><br /></td></tr>
 <tr class="separator:ac185fbbf7614a399696a88039fca6f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +138,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a072d8192f0a2eecf611b5348e121666a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad952f3b4f904dd608b7339e586500d9c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#ad952f3b4f904dd608b7339e586500d9c">save</a> ($instance, $updateMany=false)</td></tr>
 <tr class="separator:ad952f3b4f904dd608b7339e586500d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:aad68a9695ce580e4035b3598af5e1628"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#aad68a9695ce580e4035b3598af5e1628">deleteManyToManyChildren</a> (object $instance, string $memberName)</td></tr>
+<tr class="separator:aad68a9695ce580e4035b3598af5e1628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aced346888510184c39bf4472de81b064"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html#aced346888510184c39bf4472de81b064">deleteOneToManyChildren</a> (object $instance, string $memberName)</td></tr>
+<tr class="separator:aced346888510184c39bf4472de81b064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -189,7 +201,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int|boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00135">135</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00177">177</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -244,7 +256,149 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int|boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00092">92</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00093">93</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="a279f22aa7d60f0959cbf4f11418e25a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a279f22aa7d60f0959cbf4f11418e25a8">&#9670;&nbsp;</a></span>deleteAllChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static deleteAllChildren </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>$instance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00121">121</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="a0bd8ddf4eff582316c559d791ef10d33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd8ddf4eff582316c559d791ef10d33">&#9670;&nbsp;</a></span>deleteById()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static deleteById </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$modelName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00190">190</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="aad68a9695ce580e4035b3598af5e1628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad68a9695ce580e4035b3598af5e1628">&#9670;&nbsp;</a></span>deleteManyToManyChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static deleteManyToManyChildren </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>$instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$memberName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00100">100</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="aced346888510184c39bf4472de81b064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aced346888510184c39bf4472de81b064">&#9670;&nbsp;</a></span>deleteOneToManyChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static deleteOneToManyChildren </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>$instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$memberName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00112">112</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -291,7 +445,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00154">154</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00204">204</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -327,7 +481,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00208">208</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00258">258</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -374,7 +528,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00224">224</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00274">274</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -471,7 +625,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean|int the number of rows that were modified or deleted by the SQL statement you issued </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00070">70</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00071">71</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -524,7 +678,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int the number of rows that were modified or deleted by the SQL statement you issued </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00045">45</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00046">46</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -570,7 +724,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean|int </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00345">345</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00395">395</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -618,7 +772,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00265">265</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00315">315</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -679,7 +833,7 @@ Static Private Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00107">107</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00149">149</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -728,7 +882,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00301">301</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_d_a_o_updates_trait_8php_source.html#l00351">351</a> of file <a class="el" href="_d_a_o_updates_trait_8php_source.html">DAOUpdatesTrait.php</a>.</p>
 
 </div>
 </div>
@@ -742,7 +896,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_updates_trait.html">DAOUpdatesTrait</a></li>
-    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:15 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Mon Nov 1 2021 20:01:20 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

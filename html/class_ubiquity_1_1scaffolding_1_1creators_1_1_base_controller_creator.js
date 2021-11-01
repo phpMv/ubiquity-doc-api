@@ -3,6 +3,7 @@ var class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator =
     [ "__construct", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a7e2cb76d4b01ffce1af6f5fd49a23570", null ],
     [ "addViews", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#aac73270afa439573b2141f1c981e6849", null ],
     [ "create", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a3944cbc9c17a70438a6c731147ca6f7c", null ],
+    [ "getAnnotation", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#acc88c32fa4a6b29d38463b6d9fc3f6d4", null ],
     [ "getNamespaceStr", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ad3b75933c4f4d90ad591c7c99186b916", null ],
     [ "getRouteAnnotation", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#ac28984d1a744df5bc47426936b43440b", null ],
     [ "getTemplateName", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html#a621a3ccd148ed8b9e937da6959c98f39", null ],

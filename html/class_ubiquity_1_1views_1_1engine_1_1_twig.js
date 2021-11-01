@@ -9,6 +9,7 @@ var class_ubiquity_1_1views_1_1engine_1_1_twig =
     [ "getCode", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#ae00bb089543ff18ca275c5d44cfa1ec7", null ],
     [ "hasThemeResource", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a0fc748647c0873ca7441479c5309758d", null ],
     [ "render", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a4d4bce0fb20cf02560c827af8644b84f", null ],
+    [ "setPaths", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a6012c100cdac3e22008b7bc9a1e18137", null ],
     [ "setTheme", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a4ff2722bb9b9f5a32b722ddff3b08914", null ],
     [ "$loader", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#ab832f4c463ee1c9ba2e9464265f7ea3b", null ],
     [ "$twig", "class_ubiquity_1_1views_1_1engine_1_1_twig.html#a95b22cf97ae99a402854f5f45a9871bf", null ]

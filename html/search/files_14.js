@@ -9,6 +9,7 @@ var searchData=
   ['validatorinterface_2ephp',['ValidatorInterface.php',['../_validator_interface_8php.html',1,'']]],
   ['validatormultiple_2ephp',['ValidatorMultiple.php',['../_validator_multiple_8php.html',1,'']]],
   ['validatorsmanager_2ephp',['ValidatorsManager.php',['../_validators_manager_8php.html',1,'']]],
+  ['validatorsmanagercachetrait_2ephp',['ValidatorsManagerCacheTrait.php',['../_validators_manager_cache_trait_8php.html',1,'']]],
   ['validatorsmanagerinittrait_2ephp',['ValidatorsManagerInitTrait.php',['../_validators_manager_init_trait_8php.html',1,'']]],
   ['verifycsrftoken_2ephp',['VerifyCsrfToken.php',['../_verify_csrf_token_8php.html',1,'']]],
   ['verifysessioncsrfinterface_2ephp',['VerifySessionCsrfInterface.php',['../_verify_session_csrf_interface_8php.html',1,'']]],

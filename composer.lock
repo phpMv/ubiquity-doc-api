@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity.git",
-                "reference": "1d736bb0bab3cef40f5d0f639b3c8c00e863390f"
+                "reference": "9f47686151a9e2aa0824c7452ce1ef8d963ffbe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/1d736bb0bab3cef40f5d0f639b3c8c00e863390f",
-                "reference": "1d736bb0bab3cef40f5d0f639b3c8c00e863390f",
+                "url": "https://api.github.com/repos/phpMv/ubiquity/zipball/9f47686151a9e2aa0824c7452ce1ef8d963ffbe7",
+                "reference": "9f47686151a9e2aa0824c7452ce1ef8d963ffbe7",
                 "shasum": ""
             },
             "require": {
@@ -115,9 +115,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpMv/ubiquity/issues",
-                "source": "https://github.com/phpMv/ubiquity/tree/2.4.5"
+                "source": "https://github.com/phpMv/ubiquity/tree/2.4.7"
             },
-            "time": "2021-06-14T23:44:33+00:00"
+            "time": "2021-11-01T15:11:48+00:00"
         },
         {
             "name": "phpmv/ubiquity-acl",
@@ -295,12 +295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity-commands.git",
-                "reference": "ff6a042f6301ab2c16f9b0469bd75cbf6db102e7"
+                "reference": "e00043da434f75fb8ffd037109b5431f6cadd3a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-commands/zipball/ff6a042f6301ab2c16f9b0469bd75cbf6db102e7",
-                "reference": "ff6a042f6301ab2c16f9b0469bd75cbf6db102e7",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-commands/zipball/e00043da434f75fb8ffd037109b5431f6cadd3a3",
+                "reference": "e00043da434f75fb8ffd037109b5431f6cadd3a3",
                 "shasum": ""
             },
             "require": {
@@ -341,9 +341,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpMv/ubiquity-commands/issues",
-                "source": "https://github.com/phpMv/ubiquity-commands/tree/0.0.22"
+                "source": "https://github.com/phpMv/ubiquity-commands/tree/0.0.25"
             },
-            "time": "2021-02-07T23:58:13+00:00"
+            "time": "2021-11-01T15:05:29+00:00"
         },
         {
             "name": "phpmv/ubiquity-debug",
@@ -402,16 +402,16 @@
         },
         {
             "name": "phpmv/ubiquity-dev",
-            "version": "0.1.16",
+            "version": "0.1.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpMv/ubiquity-dev.git",
-                "reference": "457f138bd54ba33b86ba1feef17424cd744469b5"
+                "reference": "2b2874f45eed05568126d12a1dc702e66b370f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/457f138bd54ba33b86ba1feef17424cd744469b5",
-                "reference": "457f138bd54ba33b86ba1feef17424cd744469b5",
+                "url": "https://api.github.com/repos/phpMv/ubiquity-dev/zipball/2b2874f45eed05568126d12a1dc702e66b370f21",
+                "reference": "2b2874f45eed05568126d12a1dc702e66b370f21",
                 "shasum": ""
             },
             "require": {
@@ -450,9 +450,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpMv/ubiquity-dev/issues",
-                "source": "https://github.com/phpMv/ubiquity-dev/tree/0.1.16"
+                "source": "https://github.com/phpMv/ubiquity-dev/tree/0.1.24"
             },
-            "time": "2021-06-14T23:47:43+00:00"
+            "time": "2021-10-31T01:11:35+00:00"
         },
         {
             "name": "phpmv/ubiquity-security",
@@ -510,16 +510,16 @@
         },
         {
             "name": "prismjs/prism",
-            "version": "v1.23.0",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PrismJS/prism.git",
-                "reference": "88a17b4ff586c8bbd0faf1b1524cee9e039fa580"
+                "reference": "99d94fa7c39d5aabee38ae0e729c330146820b4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrismJS/prism/zipball/88a17b4ff586c8bbd0faf1b1524cee9e039fa580",
-                "reference": "88a17b4ff586c8bbd0faf1b1524cee9e039fa580",
+                "url": "https://api.github.com/repos/PrismJS/prism/zipball/99d94fa7c39d5aabee38ae0e729c330146820b4d",
+                "reference": "99d94fa7c39d5aabee38ae0e729c330146820b4d",
                 "shasum": ""
             },
             "type": "component",
@@ -544,9 +544,9 @@
             "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
             "support": {
                 "issues": "https://github.com/PrismJS/prism/issues",
-                "source": "https://github.com/PrismJS/prism/tree/v1.23.0"
+                "source": "https://github.com/PrismJS/prism/tree/v1.25.0"
             },
-            "time": "2020-12-31T18:46:45+00:00"
+            "time": "2021-09-16T16:17:23+00:00"
         }
     ],
     "packages-dev": [],
@@ -560,5 +560,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

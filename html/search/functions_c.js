@@ -23,7 +23,7 @@ var searchData=
   ['loadmanytoone',['loadManyToOne',['../class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a19af5568579534eec338d921bf38b256',1,'Ubiquity::utils::yuml::traits::ClassToYumlRelationsTrait']]],
   ['loadonetomanys',['loadOneToManys',['../class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html#a57073712d534343b5e982bc22a5c10ed',1,'Ubiquity::utils::yuml::traits::ClassToYumlRelationsTrait']]],
   ['loadpermissions',['loadPermissions',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#ae99081606d290f5bcc7840e35a56c86d',1,'Ubiquity::security::acl::models::AclList']]],
-  ['loadrelationshipsdatas',['loadRelationshipsDatas',['../class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_json_api_request_formatter.html#aebc72fa2fbc8a323bfec5c26b96d93c2',1,'Ubiquity::controllers::rest::formatters::JsonApiRequestFormatter']]],
+  ['loadrelationshipsdatas',['loadRelationshipsDatas',['../class_ubiquity_1_1controllers_1_1rest_1_1formatters_1_1_json_api_request_formatter.html#a19072eeb3f1d1bb2c82f0c8c30786389',1,'Ubiquity::controllers::rest::formatters::JsonApiRequestFormatter']]],
   ['loadresources',['loadResources',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a3c0a4275c5c594c2f23a98a6b098c23a',1,'Ubiquity::security::acl::models::AclList']]],
   ['loadroles',['loadRoles',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#a46da0f26d5c36dfed3a59a52a7cda682',1,'Ubiquity::security::acl::models::AclList']]],
   ['loadservices',['loadServices',['../class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html#a842bb1fe3ed940c9cd7a3b6695e6ae6f',1,'Ubiquity::scaffolding::starter::ServiceStarter']]],

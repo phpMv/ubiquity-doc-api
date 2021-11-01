@@ -172,6 +172,7 @@ var hierarchy =
     ] ],
     [ "CacheFile", "class_ubiquity_1_1cache_1_1_cache_file.html", null ],
     [ "CallableParser", "class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html", null ],
+    [ "ClassCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html", null ],
     [ "ClassesToYuml", "class_ubiquity_1_1utils_1_1yuml_1_1_classes_to_yuml.html", null ],
     [ "ClassMerger", "class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html", null ],
     [ "ClassToYumlRelationsTrait", "class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html", [
@@ -185,7 +186,9 @@ var hierarchy =
     [ "Controller", "class_ubiquity_1_1controllers_1_1_controller.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ],
       [ "ControllerBase", "class_ubiquity_1_1controllers_1_1_controller_base.html", [
-        [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
+        [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", [
+          [ "MultiResourceCRUDController", "classubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html", null ]
+        ] ]
       ] ],
       [ "RestBaseController", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_base_controller.html", [
         [ "JsonRestController", "class_ubiquity_1_1controllers_1_1rest_1_1api_1_1json_1_1_json_rest_controller.html", null ],
@@ -270,6 +273,7 @@ var hierarchy =
     [ "DbExport", "class_ubiquity_1_1db_1_1export_1_1_db_export.html", null ],
     [ "DbGenerator", "class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html", null ],
     [ "DbTypes", "class_ubiquity_1_1db_1_1utils_1_1_db_types.html", null ],
+    [ "DDDManager", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html", null ],
     [ "Debug", "class_ubiquity_1_1debug_1_1_debug.html", null ],
     [ "Debugger", "class_ubiquity_1_1debug_1_1_debugger.html", null ],
     [ "DevCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html", [
@@ -366,7 +370,9 @@ var hierarchy =
       [ "Model", "class_ubiquity_1_1orm_1_1creator_1_1_model.html", null ],
       [ "BaseControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_base_controller_creator.html", [
         [ "AuthControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html", null ],
-        [ "CrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html", null ],
+        [ "CrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_crud_controller_creator.html", [
+          [ "IndexCrudControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_index_crud_controller_creator.html", null ]
+        ] ],
         [ "RestControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html", null ]
       ] ],
       [ "ScaffoldController", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html", null ]
@@ -492,6 +498,7 @@ var hierarchy =
     ] ],
     [ "TransformersManager", "class_ubiquity_1_1contents_1_1transformation_1_1_transformers_manager.html", null ],
     [ "TransformerViewInterface", "interface_ubiquity_1_1contents_1_1transformation_1_1_transformer_view_interface.html", [
+      [ "Boolean", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_boolean.html", null ],
       [ "DateTime", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_date_time.html", null ],
       [ "FirstUpperCase", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_first_upper_case.html", null ],
       [ "LowerCase", "class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_lower_case.html", null ],
@@ -538,7 +545,10 @@ var hierarchy =
         [ "ValidatorHasNotNull", "class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_validator_has_not_null.html", null ]
       ] ]
     ] ],
-    [ "ValidatorsManagerInitTrait", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager_init_trait.html", [
+    [ "ValidatorsManagerCacheTrait", "class_ubiquity_1_1contents_1_1validation_1_1traits_1_1_validators_manager_cache_trait.html", [
+      [ "ValidatorsManager", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html", null ]
+    ] ],
+    [ "ValidatorsManagerInitTrait", "class_ubiquity_1_1contents_1_1validation_1_1traits_1_1_validators_manager_init_trait.html", [
       [ "ValidatorsManager", "class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html", null ]
     ] ],
     [ "VerifySessionCsrfInterface", "interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html", [

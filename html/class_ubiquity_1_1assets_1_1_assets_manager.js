@@ -9,7 +9,7 @@ var class_ubiquity_1_1assets_1_1_assets_manager =
     [ "js", "class_ubiquity_1_1assets_1_1_assets_manager.html#a9ce04097f51cabdf4672ce72c75b17f5", null ],
     [ "js_", "class_ubiquity_1_1assets_1_1_assets_manager.html#a0544913cac141baa1d5ba70028b69b91", null ],
     [ "script", "class_ubiquity_1_1assets_1_1_assets_manager.html#ac0bdb87b8e04100ed9b8beb2fe4d7582", null ],
-    [ "setAssetsFolder", "class_ubiquity_1_1assets_1_1_assets_manager.html#ae398feced2740ab75cb3968c9be3a4ba", null ],
+    [ "setAssetsFolder", "class_ubiquity_1_1assets_1_1_assets_manager.html#af3f17006585555dc40b221387533166c", null ],
     [ "start", "class_ubiquity_1_1assets_1_1_assets_manager.html#a8995d16c88b039b595208294475c4325", null ],
     [ "stylesheet", "class_ubiquity_1_1assets_1_1_assets_manager.html#af5ac6fd399c3ea33c39ee018bc75973a", null ],
     [ "$assetsFolder", "class_ubiquity_1_1assets_1_1_assets_manager.html#a3a57868daec73fc6e87545dd19a36bce", null ],

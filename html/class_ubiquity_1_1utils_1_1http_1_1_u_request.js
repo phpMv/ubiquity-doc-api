@@ -1,5 +1,6 @@
 var class_ubiquity_1_1utils_1_1http_1_1_u_request =
 [
+    [ "_parseURI", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a045b0c498406e8a0bfe19fcc3ca5665d", null ],
     [ "cleanUrl", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#abc8991a1e329238d86cc546116fa2fc8", null ],
     [ "get", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a0162aaba3c7b1a86682b248d02d93d9f", null ],
     [ "getBoolean", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a0bf9dd0f7aa34bbebde52536c44b888c", null ],
@@ -15,6 +16,7 @@ var class_ubiquity_1_1utils_1_1http_1_1_u_request =
     [ "getUrl", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a6049c0748e9a4528b65ae97004d61390", null ],
     [ "getUrlParts", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a9990c073261c3558f0b03c454054c280", null ],
     [ "parseDefaultLanguage", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a396085dc189069b7ddf05e5beb71d8b4", null ],
+    [ "parseURI", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a6e3158019cdf06305c1941c19f159720", null ],
     [ "password_hash", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a6663c56036e109921c40f4daa89a02c8", null ],
     [ "password_verify", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a8f7e6b24b9405e806abce82923f82c82", null ],
     [ "post", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a9b79df46c695b9a1418515618a8e5de9", null ],
@@ -22,5 +24,6 @@ var class_ubiquity_1_1utils_1_1http_1_1_u_request =
     [ "setGetValuesToObject", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a9f77f6c4d715211ab0e942c55523b5c4", null ],
     [ "setLocale", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#aac66f874078bfe98bc54dcd7441a0ad1", null ],
     [ "setPostValuesToObject", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a556a0931d5527e43f436102aa6d7d3fc", null ],
-    [ "setValuesToObject", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a3484ab1ca1afd5cb73bb3268a921c3a7", null ]
+    [ "setValuesToObject", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a3484ab1ca1afd5cb73bb3268a921c3a7", null ],
+    [ "$uriInfos", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a76d6e4c3be7a280d20b305fc6012a859", null ]
 ];

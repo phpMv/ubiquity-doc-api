@@ -13,6 +13,7 @@ var class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait =
     [ "getDb", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#acceb84fb4c9cac30677a3e4240bc23ce", null ],
     [ "getFirstKeyValue_", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a676c30ed2c9d47a2a72963e1657e7d51", null ],
     [ "getInstance_", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a863139fd7a6045823f0d989321a7862c", null ],
+    [ "getModels", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa37c055376ee0b5bdd2be08b78f13a15", null ],
     [ "getValue_", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa115581b40e2a41d84787dac06ef6b5a", null ],
     [ "loadManys", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#ad779dd03478eb05d20e6a390185e6246", null ],
     [ "parseKey", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#add62abe6b7e58712f92621a988989250", null ],

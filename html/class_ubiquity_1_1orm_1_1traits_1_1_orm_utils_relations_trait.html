@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.5</span>
+   &#160;<span id="projectnumber">2.4.7</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -136,6 +136,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a491a87a84c1874510b032fa02a2f0a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cfe396c496a5d58f74e452c34ff1404"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a4cfe396c496a5d58f74e452c34ff1404">getOneToManyFields</a> ($class)</td></tr>
 <tr class="separator:a4cfe396c496a5d58f74e452c34ff1404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08b5746b6a9672bbc3e2caff429d5552"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a08b5746b6a9672bbc3e2caff429d5552">getRemoveCascadeFields</a> ($class, $keyAnnotation='#oneToMany')</td></tr>
+<tr class="separator:a08b5746b6a9672bbc3e2caff429d5552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad11094559136954f76b8a7c675fe543c"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#ad11094559136954f76b8a7c675fe543c">getManyToOneFields</a> ($class)</td></tr>
 <tr class="separator:ad11094559136954f76b8a7c675fe543c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cf9f35aab70b2ec2fe13ed9975ef5ac"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a6cf9f35aab70b2ec2fe13ed9975ef5ac">getManyToManyFields</a> ($class)</td></tr>
@@ -148,6 +150,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a023d5ef1e8bc2be014f80c8cd7c128f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93324c5339869b43df3eb9b538380c87"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a93324c5339869b43df3eb9b538380c87">getJoinColumnName</a> ($class, $member)</td></tr>
 <tr class="separator:a93324c5339869b43df3eb9b538380c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b55381eb28c75a0f87244648a9e216a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a6b55381eb28c75a0f87244648a9e216a">isManyToMany</a> ($class)</td></tr>
+<tr class="separator:a6b55381eb28c75a0f87244648a9e216a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b077269c7cf1c1ab0c70eca8af09a45"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a7b077269c7cf1c1ab0c70eca8af09a45">getManyToManyFieldsDt</a> ($class, $manyClass)</td></tr>
+<tr class="separator:a7b077269c7cf1c1ab0c70eca8af09a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
@@ -158,7 +164,7 @@ Static Private Member Functions</h2></td></tr>
 <div class="textblock"><p>Trait for <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html" title="Gateway class between database and object model. ">DAO</a> relations. </p>
 <p><a class="el" href="namespace_ubiquity.html">Ubiquity</a>$OrmUtilsRelationsTrait This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a></p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0.5 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.8 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00016">16</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -320,7 +326,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00190">190</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00203">203</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -506,7 +512,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00242">242</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00260">260</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -588,7 +594,45 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00183">183</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00196">196</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="a7b077269c7cf1c1ab0c70eca8af09a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b077269c7cf1c1ab0c70eca8af09a45">&#9670;&nbsp;</a></span>getManyToManyFieldsDt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static getManyToManyFieldsDt </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$manyClass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00290">290</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -616,7 +660,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00179">179</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00192">192</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -651,7 +695,7 @@ Static Private Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>mixed[] </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00217">217</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00230">230</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -695,7 +739,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00194">194</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00207">207</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -778,6 +822,44 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00065">65</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+
+</div>
+</div>
+<a id="a08b5746b6a9672bbc3e2caff429d5552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b5746b6a9672bbc3e2caff429d5552">&#9670;&nbsp;</a></span>getRemoveCascadeFields()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static getRemoveCascadeFields </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$keyAnnotation</em> = <code>'#oneToMany'</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00179">179</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
 
 </div>
 </div>
@@ -869,6 +951,34 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6b55381eb28c75a0f87244648a9e216a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b55381eb28c75a0f87244648a9e216a">&#9670;&nbsp;</a></span>isManyToMany()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static isManyToMany </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$class</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_orm_utils_relations_trait_8php_source.html#l00270">270</a> of file <a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>phpmv/ubiquity/src/Ubiquity/orm/traits/<a class="el" href="_orm_utils_relations_trait_8php_source.html">OrmUtilsRelationsTrait.php</a></li>
 </ul>
@@ -879,7 +989,7 @@ Static Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm.html">orm</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1orm_1_1traits.html">traits</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html">OrmUtilsRelationsTrait</a></li>
-    <li class="footer"><small>Generated on Tue Jun 15 2021 02:07:15 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Mon Nov 1 2021 20:01:20 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

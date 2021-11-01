@@ -14,12 +14,15 @@ var class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait =
     [ "getJoinTables", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a2892725d91b8af74260446b6daa5cd69", null ],
     [ "getKeyFieldsAndValues", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#ab776e77721f5743a6115071f3f9cdf54", null ],
     [ "getManyToManyFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a6cf9f35aab70b2ec2fe13ed9975ef5ac", null ],
+    [ "getManyToManyFieldsDt", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a7b077269c7cf1c1ab0c70eca8af09a45", null ],
     [ "getManyToOneFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#ad11094559136954f76b8a7c675fe543c", null ],
     [ "getManyToOneMembersAndValues", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a023d5ef1e8bc2be014f80c8cd7c128f3", null ],
     [ "getMemberJoinColumns", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a425ed559272ca921bbb858712f85b719", null ],
     [ "getModelMetadata", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#abed50222ca942aa8a1adefa4010f4ab6", null ],
     [ "getOneToManyFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a4cfe396c496a5d58f74e452c34ff1404", null ],
     [ "getRelationInfos", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a87d7303355db05288c39c49b95f797ec", null ],
+    [ "getRemoveCascadeFields", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a08b5746b6a9672bbc3e2caff429d5552", null ],
     [ "getTableName", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a2bee06da346de815972e178d0f643ee4", null ],
-    [ "getUJoinSQL", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a491a87a84c1874510b032fa02a2f0a61", null ]
+    [ "getUJoinSQL", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a491a87a84c1874510b032fa02a2f0a61", null ],
+    [ "isManyToMany", "class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#a6b55381eb28c75a0f87244648a9e216a", null ]
 ];
