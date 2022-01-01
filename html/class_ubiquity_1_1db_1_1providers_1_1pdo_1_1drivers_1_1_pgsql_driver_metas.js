@@ -1,5 +1,6 @@
 var class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas =
 [
+    [ "__construct", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas.html#a513e473710605770013ee908fdf864c0", null ],
     [ "getFieldsInfos", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas.html#a917b5cf6a9fe21878b312f137f1bd8ea", null ],
     [ "getForeignKeys", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas.html#a5227618d69384c490d4cd385adcba6ce", null ],
     [ "getPrimaryKeys", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_pgsql_driver_metas.html#ac2080ca261ce17f09273586a963b7337", null ],

@@ -8,5 +8,5 @@ var searchData=
   ['warmupmodels',['warmUpModels',['../class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a781be744205f75608cfc640614dd8e3d',1,'Ubiquity::cache::traits::ModelsCacheTrait']]],
   ['warn',['warn',['../class_ubiquity_1_1log_1_1_logger.html#a21db795c7dc2847d428e499b841a34c6',1,'Ubiquity::log::Logger']]],
   ['wrapresponse',['wrapResponse',['../class_ubiquity_1_1debug_1_1_debugger.html#a7e6c93475002a1ec469c13fc60b90a51',1,'Ubiquity::debug::Debugger']]],
-  ['writefile',['writeFile',['../class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html#a00d3d480e1e511051462794ce6d5ab7d',1,'Ubiquity::orm::creator::ModelsCreator']]]
+  ['writefile',['writeFile',['../class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#ad7fe827eb957ed61e9d145288a2d1c41',1,'Ubiquity\devtools\utils\FileUtils\writeFile()'],['../class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html#a00d3d480e1e511051462794ce6d5ab7d',1,'Ubiquity\orm\creator\ModelsCreator\writeFile()']]]
 ];

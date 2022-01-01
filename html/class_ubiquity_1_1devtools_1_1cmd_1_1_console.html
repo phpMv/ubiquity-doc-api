@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.0</span>
+   &#160;<span id="projectnumber">2.4.8</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -97,9 +97,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a4dec4a9d080c0534acf8a2548aa671"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#a7a4dec4a9d080c0534acf8a2548aa671">readline</a> ()</td></tr>
 <tr class="memdesc:a7a4dec4a9d080c0534acf8a2548aa671"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read a line from the user input.  <a href="#a7a4dec4a9d080c0534acf8a2548aa671">More...</a><br /></td></tr>
 <tr class="separator:a7a4dec4a9d080c0534acf8a2548aa671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c873eaa4395ca9a9f2945ab2e0a9689"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#a5c873eaa4395ca9a9f2945ab2e0a9689">question</a> ($prompt, array $propositions=null)</td></tr>
-<tr class="memdesc:a5c873eaa4395ca9a9f2945ab2e0a9689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask the user a question and return the answer.  <a href="#a5c873eaa4395ca9a9f2945ab2e0a9689">More...</a><br /></td></tr>
-<tr class="separator:a5c873eaa4395ca9a9f2945ab2e0a9689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7780d2c1d23b29ae1a2d4eb5cf8c26e6"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#a7780d2c1d23b29ae1a2d4eb5cf8c26e6">question</a> ($prompt, array $propositions=null, array $options=[])</td></tr>
+<tr class="memdesc:a7780d2c1d23b29ae1a2d4eb5cf8c26e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask the user a question and return the answer.  <a href="#a7780d2c1d23b29ae1a2d4eb5cf8c26e6">More...</a><br /></td></tr>
+<tr class="separator:a7780d2c1d23b29ae1a2d4eb5cf8c26e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b80812e7e9bfcc29525a74d32108120"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#a1b80812e7e9bfcc29525a74d32108120">yesNoQuestion</a> ($prompt, array $propositions=[ 'yes', 'no'], array $options=[])</td></tr>
+<tr class="separator:a1b80812e7e9bfcc29525a74d32108120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17974932e19b5ace4e7b4e1cc741822"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#af17974932e19b5ace4e7b4e1cc741822">explodeResponse</a> (string $response, $callback='trim', string $separator=',')</td></tr>
+<tr class="separator:af17974932e19b5ace4e7b4e1cc741822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac393a10f8de8ebf18736a4763db6b118"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html#ac393a10f8de8ebf18736a4763db6b118">isYes</a> ($answer)</td></tr>
 <tr class="memdesc:ac393a10f8de8ebf18736a4763db6b118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the answer is yes or y.  <a href="#ac393a10f8de8ebf18736a4763db6b118">More...</a><br /></td></tr>
 <tr class="separator:ac393a10f8de8ebf18736a4763db6b118"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +121,50 @@ Static Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00012">12</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af17974932e19b5ace4e7b4e1cc741822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af17974932e19b5ace4e7b4e1cc741822">&#9670;&nbsp;</a></span>explodeResponse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static explodeResponse </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$response</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$callback</em> = <code>'trim'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$separator</em> = <code>','</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00086">86</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
+
+</div>
+</div>
 <a id="a6c7398d225edcad3eb1c8a8ea8cb80b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c7398d225edcad3eb1c8a8ea8cb80b2">&#9670;&nbsp;</a></span>isCancel()</h2>
 
@@ -150,7 +198,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00088">88</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00122">122</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
 
 </div>
 </div>
@@ -187,7 +235,7 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00075">75</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00109">109</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
 
 </div>
 </div>
@@ -224,12 +272,12 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00062">62</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00096">96</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
 
 </div>
 </div>
-<a id="a5c873eaa4395ca9a9f2945ab2e0a9689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c873eaa4395ca9a9f2945ab2e0a9689">&#9670;&nbsp;</a></span>question()</h2>
+<a id="a7780d2c1d23b29ae1a2d4eb5cf8c26e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7780d2c1d23b29ae1a2d4eb5cf8c26e6">&#9670;&nbsp;</a></span>question()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,7 +295,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">array&#160;</td>
-          <td class="paramname"><em>$propositions</em> = <code>null</code>&#160;</td>
+          <td class="paramname"><em>$propositions</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$options</em> = <code>[]</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -306,6 +360,56 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1b80812e7e9bfcc29525a74d32108120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b80812e7e9bfcc29525a74d32108120">&#9670;&nbsp;</a></span>yesNoQuestion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static yesNoQuestion </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$prompt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$propositions</em> = <code>[&#160;'yes'</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'no']&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$options</em> = <code>[]</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_console_8php_source.html#l00073">73</a> of file <a class="el" href="_console_8php_source.html">Console.php</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>phpmv/ubiquity-commands/src/Ubiquity/devtools/cmd/<a class="el" href="_console_8php_source.html">Console.php</a></li>
 </ul>
@@ -316,7 +420,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1devtools.html">devtools</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1devtools_1_1cmd.html">cmd</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console.html">Console</a></li>
-    <li class="footer"><small>Generated on Sat Jan 2 2021 00:57:55 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Wed Dec 29 2021 03:39:13 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

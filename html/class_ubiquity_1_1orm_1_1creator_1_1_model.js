@@ -29,6 +29,7 @@ var class_ubiquity_1_1orm_1_1creator_1_1_model =
     [ "removeOneToManyMemberByClassAssociation", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aea61dedfc355d4934870a60419ea97d2", null ],
     [ "setDatabase", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8b1e7e0b28b4e5495060b1119fd2d539", null ],
     [ "setSimpleMembers", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a8596c2e7b4f9b7b6be64a7fbd20d1505", null ],
+    [ "setTable", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aa845c297fed99536c5c6768a469ddfb7", null ],
     [ "$annots", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#aa537e13e3036228e1389c11f08422666", null ],
     [ "$annotsEngine", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#a407eaec40c437b9c314e4489e207dada", null ],
     [ "$classMerger", "class_ubiquity_1_1orm_1_1creator_1_1_model.html#adba41c387258ba19d4ffea6a84e9357e", null ],

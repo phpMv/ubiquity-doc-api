@@ -28,6 +28,6 @@ var dir_62a9fafd6f5cdffe2acf3dd52af506c5 =
       [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params" ]
     ] ],
     [ "MultiResourceCRUDController.php", "_multi_resource_c_r_u_d_controller_8php.html", [
-      [ "MultiResourceCRUDController", "classubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html", "classubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller" ]
+      [ "MultiResourceCRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html", "class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller" ]
     ] ]
 ];

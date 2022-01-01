@@ -10,5 +10,6 @@ var namespace_ubiquity_1_1controllers_1_1crud =
     [ "CRUDFiles", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files" ],
     [ "CRUDHelper", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper.html", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_helper" ],
     [ "CRUDMessage", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message" ],
-    [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params" ]
+    [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params" ],
+    [ "MultiResourceCRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html", "class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller" ]
 ];

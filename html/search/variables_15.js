@@ -1,23 +1,5 @@
 var searchData=
 [
-  ['uae',['UAE',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#abcbe90f8cd55b4e8af63ce4cd247b06c',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['uganda',['UGANDA',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a3b643c243898542bf7356bdfd536985c',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['ukraine',['UKRAINE',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a86299ef49fce7fc08822b025bc09115e',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['undo',['UNDO',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_user_actions.html#a177eca22885ce70033d4dac929fc75d8',1,'Ajax::semantic::html::base::constants::icons::UserActions']]],
-  ['unhide',['UNHIDE',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_user_actions.html#acd3574bda512f83096c172c67a6cae68',1,'Ajax::semantic::html::base::constants::icons::UserActions']]],
-  ['united_5fkingdom',['UNITED_KINGDOM',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#ae7cb703bf6477f96123c955b9effe4f8',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['united_5fstates',['UNITED_STATES',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a9b44637498927158fcb53009bfd2b8e7',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['university',['UNIVERSITY',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_map.html#a197c82d5cc90a60658b6e866390dc856',1,'Ajax::semantic::html::base::constants::icons::Map']]],
-  ['unlock',['UNLOCK',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_user_actions.html#a815af95380819deb60454ff9c52a5baa',1,'Ajax::semantic::html::base::constants::icons::UserActions']]],
-  ['unlock_5falternate',['UNLOCK_ALTERNATE',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_user_actions.html#a96aa9c0608e58740a5833bb0b5e741e5',1,'Ajax::semantic::html::base::constants::icons::UserActions']]],
-  ['unmute',['UNMUTE',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_audio.html#a66b189c9ef2ff665878b8c268b7ccd5d',1,'Ajax::semantic::html::base::constants::icons::Audio']]],
-  ['up',['UP',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_direction.html#adbafd104ed891ca2bc12a42e1a9f3ec8',1,'Ajax::semantic::html::base::constants::Direction']]],
-  ['upload',['UPLOAD',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_user_actions.html#af0edf2fc7d3c998d9752ebdb97721857',1,'Ajax::semantic::html::base::constants::icons::UserActions']]],
-  ['uruguay',['URUGUAY',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a4ba44043b5e615618aa5ce93dd9b794b',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['us_5fminor_5fislands',['US_MINOR_ISLANDS',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a9d3614bd5869029b0ec28274a071958e',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['us_5fvirgin_5fislands',['US_VIRGIN_ISLANDS',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a03b547fc08abb67ae623b8480331a56b',1,'Ajax::semantic::html::base::constants::Country']]],
-  ['user',['USER',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_message.html#a1bbff5b87a1e3a8d402d50c9fdb4e6e9',1,'Ajax::semantic::html::base::constants::icons::Message']]],
-  ['users',['USERS',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1icons_1_1_message.html#a0e5d4312d57925812396012d0f140054',1,'Ajax::semantic::html::base::constants::icons::Message']]],
-  ['utf',['UTF',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#acbdefcc7db83ebb789f0de822e98dfaa',1,'Ubiquity::utils::base::UDateTime']]],
-  ['uzbekistan',['UZBEKISTAN',['../class_ajax_1_1semantic_1_1html_1_1base_1_1constants_1_1_country.html#a390b2fe2750eea1194cb62ce4cf4e9c2',1,'Ajax::semantic::html::base::constants::Country']]]
+  ['white',['WHITE',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#aaa8cefff8a3133ca2aee0310bb0c64fa',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['worker_5fsrc',['WORKER_SRC',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#a49f43b8fd3c267e088efb817fffcecb1',1,'Ubiquity::security::csp::CspDirectives']]]
 ];

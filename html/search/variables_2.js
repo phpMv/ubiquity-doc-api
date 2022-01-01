@@ -1,6 +1,22 @@
 var searchData=
 [
+  ['base_5furi',['BASE_URI',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#aaf30b9071de6f6b736f6dbf054a34846',1,'Ubiquity::security::csp::CspDirectives']]],
   ['before_5finsert',['BEFORE_INSERT',['../class_ubiquity_1_1events_1_1_d_a_o_events.html#aab6d5a48a4a78ba44c7c3f028aabecad',1,'Ubiquity\events\DAOEvents\BEFORE_INSERT()'],['../class_ubiquity_1_1events_1_1_rest_events.html#aab6d5a48a4a78ba44c7c3f028aabecad',1,'Ubiquity\events\RestEvents\BEFORE_INSERT()']]],
   ['before_5frender',['BEFORE_RENDER',['../class_ubiquity_1_1events_1_1_view_events.html#af569355f6f67f70e1f99b129dad6b044',1,'Ubiquity::events::ViewEvents']]],
-  ['before_5fupdate',['BEFORE_UPDATE',['../class_ubiquity_1_1events_1_1_d_a_o_events.html#a7bcc5ed6747c0fd437e2523bee18fc39',1,'Ubiquity\events\DAOEvents\BEFORE_UPDATE()'],['../class_ubiquity_1_1events_1_1_rest_events.html#a7bcc5ed6747c0fd437e2523bee18fc39',1,'Ubiquity\events\RestEvents\BEFORE_UPDATE()']]]
+  ['before_5fupdate',['BEFORE_UPDATE',['../class_ubiquity_1_1events_1_1_d_a_o_events.html#a7bcc5ed6747c0fd437e2523bee18fc39',1,'Ubiquity\events\DAOEvents\BEFORE_UPDATE()'],['../class_ubiquity_1_1events_1_1_rest_events.html#a7bcc5ed6747c0fd437e2523bee18fc39',1,'Ubiquity\events\RestEvents\BEFORE_UPDATE()']]],
+  ['bg_5fblack',['BG_BLACK',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#ac2624981a5dfb08cb168bff188ebb202',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fblue',['BG_BLUE',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a40dd1e5b937c321c8c5f882d9e746f32',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fcyan',['BG_CYAN',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a881fd40ac3af19baf6731745c15cd1a4',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fgreen',['BG_GREEN',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a8cef60318549631a4ae2e40b3bafa3bc',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5flight_5fgray',['BG_LIGHT_GRAY',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#ab6c62e586873f832f3e04ecfca49cfcb',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fmagenta',['BG_MAGENTA',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#af6973ff2e7c0a1f890e7065ad67249ef',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fred',['BG_RED',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a670a101d8640115db847cb3251c28ddc',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bg_5fyellow',['BG_YELLOW',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#afcab42cf2ff876c492fffe0510a9dacd',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['binary_5fvalues',['BINARY_VALUES',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#aff17ba15fb151bb10e380e7b049b2647',1,'Ubiquity::devtools::cmd::ConsoleTable']]],
+  ['black',['BLACK',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#ae012cd5e8838892bc7953dff9caa0c04',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['blue',['BLUE',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a06d515ff061ff38051d7e99f892ffc09',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bold',['BOLD',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a466dec8fb20c0821e6bfb70cf0c8e672',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['bottom_5fleft',['BOTTOM_LEFT',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#a08f5ceca2e85bef99447df355774491b',1,'Ubiquity::devtools::cmd::ConsoleTable']]],
+  ['bottom_5fright',['BOTTOM_RIGHT',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#a5ccf2d6b9c5017367a57d3f60e562bda',1,'Ubiquity::devtools::cmd::ConsoleTable']]],
+  ['brown',['BROWN',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a2af76f1c2ac068903b91fe8b2d9b4ef8',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]]
 ];

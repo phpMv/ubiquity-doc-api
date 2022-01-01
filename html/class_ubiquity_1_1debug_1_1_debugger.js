@@ -11,6 +11,7 @@ var class_ubiquity_1_1debug_1_1_debugger =
     [ "getHeader", "class_ubiquity_1_1debug_1_1_debugger.html#aa3e43e9f07fdb0e68b0641ef6b99de92", null ],
     [ "getLocales", "class_ubiquity_1_1debug_1_1_debugger.html#a6000ca91e94ebfe9c4333c07b71decbe", null ],
     [ "getMethodParametersTable", "class_ubiquity_1_1debug_1_1_debugger.html#a56e02ece425a9d35dfac4d6725ed300c", null ],
+    [ "isRecursive", "class_ubiquity_1_1debug_1_1_debugger.html#ab3551b79957a450199ebdf0b5c7517dc", null ],
     [ "loadView", "class_ubiquity_1_1debug_1_1_debugger.html#ac8fb5da6fbf0bd5cc694b08e919eab62", null ],
     [ "setErrorLevel", "class_ubiquity_1_1debug_1_1_debugger.html#afc4e991ff9c10b4857bfd3f5fd0cc1d8", null ],
     [ "showAllVariables", "class_ubiquity_1_1debug_1_1_debugger.html#a036a08daf3d6440aa5a1e61dee1054bd", null ],

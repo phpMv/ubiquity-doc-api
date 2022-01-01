@@ -5,6 +5,7 @@ var class_ubiquity_1_1devtools_1_1utils_1_1_file_utils =
     [ "delTree", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#a78cb10996a32b7cac911a07422d1a63e", null ],
     [ "openFile", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#a04715e98e61ffe546f87345a1ae92929", null ],
     [ "safeMkdir", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#a906edb7c4c19c31e0bbabf81b406e251", null ],
+    [ "systemCommandExists", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#abf176bf9a3b9309012ee3382403f337e", null ],
     [ "writeFile", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#ad7fe827eb957ed61e9d145288a2d1c41", null ],
     [ "xcopy", "class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#ac99c25b701937e74a1521233aeb29ffd", null ]
 ];

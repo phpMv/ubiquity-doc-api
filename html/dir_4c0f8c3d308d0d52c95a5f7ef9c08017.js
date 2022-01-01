@@ -12,6 +12,9 @@ var dir_4c0f8c3d308d0d52c95a5f7ef9c08017 =
     [ "DiException.php", "_di_exception_8php.html", [
       [ "DiException", "class_ubiquity_1_1exceptions_1_1_di_exception.html", "class_ubiquity_1_1exceptions_1_1_di_exception" ]
     ] ],
+    [ "FileUploadException.php", "_file_upload_exception_8php.html", [
+      [ "FileUploadException", "class_ubiquity_1_1exceptions_1_1_file_upload_exception.html", "class_ubiquity_1_1exceptions_1_1_file_upload_exception" ]
+    ] ],
     [ "NormalizerException.php", "_normalizer_exception_8php.html", [
       [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", "class_ubiquity_1_1exceptions_1_1_normalizer_exception" ]
     ] ],

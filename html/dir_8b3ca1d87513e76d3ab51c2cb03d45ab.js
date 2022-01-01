@@ -16,5 +16,8 @@ var dir_8b3ca1d87513e76d3ab51c2cb03d45ab =
     ] ],
     [ "Parameter.php", "_parameter_8php.html", [
       [ "Parameter", "class_ubiquity_1_1devtools_1_1cmd_1_1_parameter.html", "class_ubiquity_1_1devtools_1_1cmd_1_1_parameter" ]
+    ] ],
+    [ "Screen.php", "_screen_8php.html", [
+      [ "Screen", "class_ubiquity_1_1devtools_1_1cmd_1_1_screen.html", "class_ubiquity_1_1devtools_1_1cmd_1_1_screen" ]
     ] ]
 ];

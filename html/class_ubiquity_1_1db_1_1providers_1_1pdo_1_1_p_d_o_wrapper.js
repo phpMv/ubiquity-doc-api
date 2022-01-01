@@ -25,6 +25,7 @@ var class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper =
     [ "groupConcat", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a60af46f4f1b3e29cda5fc82eb0c46a83", null ],
     [ "inTransaction", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#aaf34a959f7c26d1f97713adab5a6c429", null ],
     [ "lastInsertId", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a9f9cb8ca720d7bbcb03869def521336e", null ],
+    [ "migrateOperation", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a5178774453995aab3ec49977528b0ebd", null ],
     [ "nestable", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a8079e2b820824635195923cf46bc571e", null ],
     [ "ping", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a6dad377f74b0ce6f21b485ba11052746", null ],
     [ "prepareStatement", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a787fa278f45e0064ffb55d077c111639", null ],

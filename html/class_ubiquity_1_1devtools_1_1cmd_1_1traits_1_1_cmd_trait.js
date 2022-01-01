@@ -7,5 +7,6 @@ var class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait =
     [ "getOptionArray", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#ab0841202f253e9a0bbc5c56d2acfaf6b", null ],
     [ "getSelectedModels", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#a9283d79467cf6cddd299f96875fef048", null ],
     [ "parseArguments", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#a67b977ccb0558afd01ddfb4dc8ecc20b", null ],
-    [ "requiredParam", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#ad8bf7f7c1d3cde793e6f4b5586a162d8", null ]
+    [ "requiredParam", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#ad8bf7f7c1d3cde793e6f4b5586a162d8", null ],
+    [ "updateDomain", "class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#a8235085fa77c2763735823a34350e371", null ]
 ];

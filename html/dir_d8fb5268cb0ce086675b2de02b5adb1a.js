@@ -6,6 +6,9 @@ var dir_d8fb5268cb0ce086675b2de02b5adb1a =
     [ "UCookie.php", "_u_cookie_8php.html", [
       [ "UCookie", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie" ]
     ] ],
+    [ "UFilesUpload.php", "_u_files_upload_8php.html", [
+      [ "UFilesUpload", "class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html", "class_ubiquity_1_1utils_1_1http_1_1_u_files_upload" ]
+    ] ],
     [ "URequest.php", "_u_request_8php.html", [
       [ "URequest", "class_ubiquity_1_1utils_1_1http_1_1_u_request.html", "class_ubiquity_1_1utils_1_1http_1_1_u_request" ]
     ] ],

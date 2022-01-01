@@ -8,6 +8,7 @@ var searchData=
   ['ucookie',['UCookie',['../class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html',1,'Ubiquity::utils::http']]],
   ['ucsrfhttp',['UCsrfHttp',['../class_ubiquity_1_1security_1_1csrf_1_1_u_csrf_http.html',1,'Ubiquity::security::csrf']]],
   ['udatetime',['UDateTime',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html',1,'Ubiquity::utils::base']]],
+  ['ufilesupload',['UFilesUpload',['../class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html',1,'Ubiquity::utils::http']]],
   ['ufilesystem',['UFileSystem',['../class_ubiquity_1_1utils_1_1base_1_1_u_file_system.html',1,'Ubiquity::utils::base']]],
   ['ufilesystemwriter',['UFileSystemWriter',['../class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html',1,'Ubiquity::utils::base::traits']]],
   ['ugitrepository',['UGitRepository',['../class_ubiquity_1_1utils_1_1git_1_1_u_git_repository.html',1,'Ubiquity::utils::git']]],
