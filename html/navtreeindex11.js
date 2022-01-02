@@ -226,8 +226,9 @@ var NAVTREEINDEX11 =
 "class_ubiquity_1_1debug_1_1_debugger.html#af3c4e26ecd68de77d8a5cf1bce829251":[3,0,0,9,2,7],
 "class_ubiquity_1_1debug_1_1_debugger.html#afc4e991ff9c10b4857bfd3f5fd0cc1d8":[3,0,0,9,2,13],
 "class_ubiquity_1_1debug_1_1_live_reload.html":[3,0,0,9,3],
-"class_ubiquity_1_1debug_1_1_live_reload.html#a0c6726b5215ccef1be91a1046a15e898":[3,0,0,9,3,0],
-"class_ubiquity_1_1debug_1_1_live_reload.html#a33a651160b8928db692e2d5bac30300d":[3,0,0,9,3,1],
+"class_ubiquity_1_1debug_1_1_live_reload.html#a0c6726b5215ccef1be91a1046a15e898":[3,0,0,9,3,1],
+"class_ubiquity_1_1debug_1_1_live_reload.html#a33a651160b8928db692e2d5bac30300d":[3,0,0,9,3,2],
+"class_ubiquity_1_1debug_1_1_live_reload.html#a988c740eeb0179b70dd3d76bca353b1c":[3,0,0,9,3,0],
 "class_ubiquity_1_1debug_1_1core_1_1_type_error.html":[3,0,0,9,0,0],
 "class_ubiquity_1_1debug_1_1core_1_1_type_error.html#a3bc14e27e81dc67ee10bb88792abddb1":[3,0,0,9,0,0,1],
 "class_ubiquity_1_1debug_1_1core_1_1_type_error.html#a787b486000c5589faa2dd27fe52d00ca":[3,0,0,9,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a2e7bb35c71bf1824456ceb944cb7a845":[3,0,0,10,0,2,23],
 "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a309475f82c8fca1a84f96f802f05a5fb":[3,0,0,10,0,2,62],
 "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a3139ae0e4f18f1baf6b9d915392d8838":[3,0,0,10,0,2,44],
-"class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a38b31af91e1e4b928d489171f838a55d":[3,0,0,10,0,2,32],
-"class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a3ac79e21aa2b46f8dfa94c89363a333a":[3,0,0,10,0,2,48]
+"class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a38b31af91e1e4b928d489171f838a55d":[3,0,0,10,0,2,32]
 };

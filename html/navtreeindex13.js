@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"class_ubiquity_1_1domains_1_1_d_d_d_manager.html#aad33f53ddab33e5a11f57afdb5a2b2ec":[3,0,0,11,0,3],
 "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#ac78df45419614d6db964d0bd9e542c63":[3,0,0,11,0,18],
 "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#ac8ac76ef32c53d2b83bcf086bd4e6a55":[3,0,0,11,0,5],
 "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#acd96805177b6df73bc266096d2d21c45":[3,0,0,11,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#a9b3aa4f43875a1fc02f564f4a077b33a":[3,0,0,15,0,3,0],
 "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#aa97fdd5fe37dcd7931b4d034a149b51b":[3,0,0,15,0,3,4],
 "class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#ab74832cde260da5a4be2aec83f72114a":[3,0,0,15,0,3,1],
-"class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#ab95ea16b1d52b065c4649d1374a3ebac":[3,0,0,15,0,3,7],
-"class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html":[3,0,0,15,1,0]
+"class_ubiquity_1_1orm_1_1bulk_1_1_bulk_updates.html#ab95ea16b1d52b065c4649d1374a3ebac":[3,0,0,15,0,3,7]
 };

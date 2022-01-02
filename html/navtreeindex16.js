@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#a863139fd7a6045823f0d989321a7862c":[3,0,0,15,7,1,12],
 "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa115581b40e2a41d84787dac06ef6b5a":[3,0,0,15,7,1,14],
 "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa364a3a5afe1895370937ede8a104f03":[3,0,0,15,7,1,1],
 "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa37c055376ee0b5bdd2be08b78f13a15":[3,0,0,15,7,1,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#aac73270afa439573b2141f1c981e6849":[3,0,0,16,0,5,2],
 "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#aaf85ac52d8778365852926b742be6c8c":[3,0,0,16,0,5,1],
 "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#abd4c7b8b084214b8d2533ba07fce6b83":[3,0,0,16,0,5,5],
-"class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html":[3,0,0,16,1,0],
-"class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html#a5ced19d130a1a840bc27f811bac7cb48":[3,0,0,16,1,0,2]
+"class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html":[3,0,0,16,1,0]
 };

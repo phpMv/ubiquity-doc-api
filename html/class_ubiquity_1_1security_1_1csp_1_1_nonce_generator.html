@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.8</span>
+   &#160;<span id="projectnumber">2.4.9</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -96,7 +96,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8439fa98ffc7743fc935ed6f502a84f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#a8439fa98ffc7743fc935ed6f502a84f5">__construct</a> (?callable $onNonce)</td></tr>
 <tr class="separator:a8439fa98ffc7743fc935ed6f502a84f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af188ed713b976be145fa53c811d68785"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#af188ed713b976be145fa53c811d68785">getNonce</a> (string $name, int $size=32)</td></tr>
+<tr class="memdesc:af188ed713b976be145fa53c811d68785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new or an existing nonce value.  <a href="#af188ed713b976be145fa53c811d68785">More...</a><br /></td></tr>
 <tr class="separator:af188ed713b976be145fa53c811d68785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6527438d2d26ae4f984c59ac5e3981d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#a6527438d2d26ae4f984c59ac5e3981d2">hasNonce</a> (string $name)</td></tr>
+<tr class="separator:a6527438d2d26ae4f984c59ac5e3981d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#a7516ca30af0db3cdbf9a7739b48ce91d">__toString</a> ()</td></tr>
 <tr class="separator:a7516ca30af0db3cdbf9a7739b48ce91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -151,8 +154,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_nonce_generator_8php_source.html#l00030">30</a> of file <a class="el" href="_nonce_generator_8php_source.html">NonceGenerator.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_nonce_generator_8php_source.html#l00050">50</a> of file <a class="el" href="_nonce_generator_8php_source.html">NonceGenerator.php</a>.</p>
 
 </div>
 </div>
@@ -220,7 +224,44 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_nonce_generator_8php_source.html#l00026">26</a> of file <a class="el" href="_nonce_generator_8php_source.html">NonceGenerator.php</a>.</p>
+<p>Returns a new or an existing nonce value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
+    <tr><td class="paramtype">int</td><td class="paramname">$size</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_nonce_generator_8php_source.html#l00033">33</a> of file <a class="el" href="_nonce_generator_8php_source.html">NonceGenerator.php</a>.</p>
+
+</div>
+</div>
+<a id="a6527438d2d26ae4f984c59ac5e3981d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6527438d2d26ae4f984c59ac5e3981d2">&#9670;&nbsp;</a></span>hasNonce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">hasNonce </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_nonce_generator_8php_source.html#l00042">42</a> of file <a class="el" href="_nonce_generator_8php_source.html">NonceGenerator.php</a>.</p>
 
 </div>
 </div>
@@ -283,7 +324,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1security.html">security</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1security_1_1csp.html">csp</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html">NonceGenerator</a></li>
-    <li class="footer"><small>Generated on Wed Dec 29 2021 03:39:15 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Jan 2 2022 02:37:38 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>
