@@ -93,6 +93,7 @@ var searchData=
   ['decryptexception',['DecryptException',['../class_ubiquity_1_1exceptions_1_1_decrypt_exception.html',1,'Ubiquity::exceptions']]],
   ['decryptexception_2ephp',['DecryptException.php',['../_decrypt_exception_8php.html',1,'']]],
   ['decryptstring',['decryptString',['../class_ubiquity_1_1security_1_1data_1_1_encryption.html#add2c5c300195bf8f8b7646bdc22be0bc',1,'Ubiquity\security\data\Encryption\decryptString()'],['../class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html#a1b5de7a65c213880e13d9f3117b9fb1d',1,'Ubiquity\security\data\EncryptionManager\decryptString()']]],
+  ['default_5fmime_5ftype',['DEFAULT_MIME_TYPE',['../class_ubiquity_1_1utils_1_1base_1_1_mime_type.html#a5a4523d9a892b41758e1fb851a781b54',1,'Ubiquity::utils::base::MimeType']]],
   ['default_5fsrc',['DEFAULT_SRC',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#a8bb64a2a307e3a48ac13f9a88fde704c',1,'Ubiquity::security::csp::CspDirectives']]],
   ['default_5ftype',['DEFAULT_TYPE',['../class_ubiquity_1_1db_1_1utils_1_1_db_types.html#a164a12986561944a8efa7f89ea3e2742',1,'Ubiquity::db::utils::DbTypes']]],
   ['defaulteditmemberparams',['defaultEditMemberParams',['../class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a081f2a30c07555b50b1886e2e8c12020',1,'Ubiquity::controllers::crud::viewers::traits::FormModelViewerTrait']]],

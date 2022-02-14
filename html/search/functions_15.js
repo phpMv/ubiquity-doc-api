@@ -39,5 +39,6 @@ var searchData=
   ['upload',['upload',['../class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html#a2196a874b9f85845df96faa6829f755e',1,'Ubiquity::utils::http::UFilesUpload']]],
   ['url',['url',['../class_ubiquity_1_1controllers_1_1_router.html#ac73e4a016facd771344cb62df08cdca4',1,'Ubiquity::controllers::Router']]],
   ['urlexists',['urlExists',['../class_ubiquity_1_1seo_1_1_controller_seo.html#a94ee47f5b962d64fa0a8708a1d9507d3',1,'Ubiquity::seo::ControllerSeo']]],
+  ['useajax',['useAjax',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a0c2519d204cecfedcae78003aa010f5d',1,'Ubiquity\controllers\auth\AuthControllerCoreTrait\useAjax()'],['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#a0c2519d204cecfedcae78003aa010f5d',1,'Ubiquity\controllers\auth\AuthControllerValidationTrait\useAjax()']]],
   ['usumgroupby',['uSumGroupBy',['../class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_u_queries.html#a6fae168c6cb47486db76a2e76e5f6720',1,'Ubiquity::orm::traits::DAOUQueries']]]
 ];

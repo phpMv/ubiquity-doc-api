@@ -1,6 +1,8 @@
 var searchData=
 [
   ['add_5f',['add_',['../class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_dynamic_resource_trait.html#a75f15df6e6e8c04e9f8f08df9ddb3c59',1,'Ubiquity::controllers::rest::traits::DynamicResourceTrait']]],
+  ['addaccount',['addAccount',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#a110671eb73c9504f1b1bcd2616b0af9b',1,'Ubiquity::controllers::auth::AuthController']]],
+  ['addaccountcreationviewdata',['addAccountCreationViewData',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a5d0a9004bf4472c4b25a359eac841dcf',1,'Ubiquity::controllers::auth::AuthControllerCoreTrait']]],
   ['addaction',['addAction',['../class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a130cb55513d460bc523eae9c110c2d70',1,'Ubiquity::security::acl::cache::PermissionsMap']]],
   ['addaditionnalmembers',['addAditionnalMembers',['../class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#ad11cd36894f8b837fc34da0fa3c520fd',1,'Ubiquity::orm::core::prepared::DAOPreparedQuery']]],
   ['addadminroutes',['addAdminRoutes',['../class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#aef1e3f6ab59f029b42c73065987cc60f',1,'Ubiquity::cache::traits::RouterCacheTrait']]],
@@ -157,5 +159,5 @@ var searchData=
   ['attemptstimeout',['attemptsTimeout',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a88a87900fcac7c59b0e82606742afef2',1,'Ubiquity\controllers\auth\AuthControllerCoreTrait\attemptsTimeout()'],['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#a88a87900fcac7c59b0e82606742afef2',1,'Ubiquity\controllers\auth\AuthControllerVariablesTrait\attemptsTimeout()']]],
   ['attributesnewinstances',['attributesNewInstances',['../class_ubiquity_1_1attributes_1_1_attributes_engine.html#a66de48e63025872629ea0b263a3ed3b1',1,'Ubiquity::attributes::AttributesEngine']]],
   ['authcontroller',['authController',['../class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a4166e47a7df809fa99c66a10ac68e155',1,'Ubiquity::devtools::cmd::Command']]],
-  ['authloadview',['authLoadView',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a5f5440dda1be4579f6ae6ad61356de62',1,'Ubiquity::controllers::auth::AuthControllerCoreTrait']]]
+  ['authloadview',['authLoadView',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a5f5440dda1be4579f6ae6ad61356de62',1,'Ubiquity\controllers\auth\AuthControllerCoreTrait\authLoadView()'],['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#a5f5440dda1be4579f6ae6ad61356de62',1,'Ubiquity\controllers\auth\AuthControllerValidationTrait\authLoadView()']]]
 ];

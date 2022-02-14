@@ -51,8 +51,8 @@ var searchData=
   ['loginlabel',['loginLabel',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#ab687352f8b187794853a2fc4d29eefd8',1,'Ubiquity::controllers::auth::AuthControllerVariablesTrait']]],
   ['logmessage',['LogMessage',['../class_ubiquity_1_1log_1_1_log_message.html',1,'Ubiquity::log']]],
   ['logmessage_2ephp',['LogMessage.php',['../_log_message_8php.html',1,'']]],
-  ['longdate',['longDate',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#a61df175a355727b7e05db4284ad07110',1,'Ubiquity::utils::base::UDateTime']]],
-  ['longdatetime',['longDatetime',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#af8adf4772d4337edde8c5d623533e924',1,'Ubiquity::utils::base::UDateTime']]],
+  ['longdate',['longDate',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#aa968477d68181d1be4234b2b4d878e57',1,'Ubiquity::utils::base::UDateTime']]],
+  ['longdatetime',['longDatetime',['../class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html#a69d5e9abe4f7155aeeacf1acb1913f08',1,'Ubiquity::utils::base::UDateTime']]],
   ['longstring',['longString',['../class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#ae22ae9c17cb20c3b2e38377474304983',1,'Ubiquity::devtools::cmd::Command']]],
   ['lowercase',['LowerCase',['../class_ubiquity_1_1contents_1_1transformation_1_1transformers_1_1_lower_case.html',1,'Ubiquity::contents::transformation::transformers']]],
   ['lowercase_2ephp',['LowerCase.php',['../_lower_case_8php.html',1,'']]]

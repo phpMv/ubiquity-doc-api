@@ -4,7 +4,7 @@ var class_ubiquity_1_1controllers_1_1rest_1_1_rest_server =
     [ "_addHeaderToken", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a6275573a5647b8deb92eedeeee07e2d1", null ],
     [ "_getHeader", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a35058f7fd8388739b627d59b4a6f36ec", null ],
     [ "_getHeaderToken", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#aa943266ef36754999b4a34952b7d2173", null ],
-    [ "_header", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a23d71dfc419d9f8f70f6ca2bbbaa67c0", null ],
+    [ "_header", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#acb4bca4175542b419ce302c0638ceb94", null ],
     [ "_loadApiTokens", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a08c193ec78a66fe64eb0ac6680db70e9", null ],
     [ "_setContentType", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#aa5abffad75db388859a9107ae67c8968", null ],
     [ "addAllowedOrigin", "class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a51a0289961d661288c9a45af6926c8ff", null ],

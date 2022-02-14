@@ -9,6 +9,9 @@ var dir_8d03caf9302eb159d4906470699c45eb =
     [ "AuthControllerOverrideTrait.php", "_auth_controller_override_trait_8php.html", [
       [ "AuthControllerOverrideTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait" ]
     ] ],
+    [ "AuthControllerValidationTrait.php", "_auth_controller_validation_trait_8php.html", [
+      [ "AuthControllerValidationTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait" ]
+    ] ],
     [ "AuthControllerVariablesTrait.php", "_auth_controller_variables_trait_8php.html", [
       [ "AuthControllerVariablesTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait" ]
     ] ],

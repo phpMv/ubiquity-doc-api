@@ -43,6 +43,7 @@ var searchData=
   ['authcontrollercoretrait',['AuthControllerCoreTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html',1,'Ubiquity::controllers::auth']]],
   ['authcontrollercreator',['AuthControllerCreator',['../class_ubiquity_1_1scaffolding_1_1creators_1_1_auth_controller_creator.html',1,'Ubiquity::scaffolding::creators']]],
   ['authcontrolleroverridetrait',['AuthControllerOverrideTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html',1,'Ubiquity::controllers::auth']]],
+  ['authcontrollervalidationtrait',['AuthControllerValidationTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html',1,'Ubiquity::controllers::auth']]],
   ['authcontrollervariablestrait',['AuthControllerVariablesTrait',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html',1,'Ubiquity::controllers::auth']]],
   ['authfiles',['AuthFiles',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html',1,'Ubiquity::controllers::auth']]],
   ['authorization',['Authorization',['../class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_authorization.html',1,'Ubiquity::attributes::items::rest']]],

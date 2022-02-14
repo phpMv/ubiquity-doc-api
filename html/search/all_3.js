@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['bad2facode',['bad2FACode',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html#a38a8700fa205bebe8a253ac89591e98e',1,'Ubiquity\controllers\auth\AuthControllerOverrideTrait\bad2FACode()'],['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#a38a8700fa205bebe8a253ac89591e98e',1,'Ubiquity\controllers\auth\AuthControllerValidationTrait\bad2FACode()']]],
   ['badlogin',['badLogin',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html#ae7439a439f39f9d8115526c24e580783',1,'Ubiquity\controllers\auth\AuthController\badLogin()'],['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html#ae7439a439f39f9d8115526c24e580783',1,'Ubiquity\controllers\auth\AuthControllerOverrideTrait\badLogin()']]],
   ['badloginmessage',['badLoginMessage',['../class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#ac776999cc8f49219b6e6936d94958873',1,'Ubiquity::controllers::auth::AuthControllerVariablesTrait']]],
   ['base_5furi',['BASE_URI',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#aaf30b9071de6f6b736f6dbf054a34846',1,'Ubiquity::security::csp::CspDirectives']]],

@@ -86,10 +86,12 @@ var NAVTREEINDEX0 =
 "_auth_controller_creator_8php_source.html":[4,0,0,6,0,0,6,0,0],
 "_auth_controller_override_trait_8php.html":[4,0,0,0,0,0,4,0,2],
 "_auth_controller_override_trait_8php_source.html":[4,0,0,0,0,0,4,0,2],
-"_auth_controller_variables_trait_8php.html":[4,0,0,0,0,0,4,0,3],
-"_auth_controller_variables_trait_8php_source.html":[4,0,0,0,0,0,4,0,3],
-"_auth_files_8php.html":[4,0,0,0,0,0,4,0,4],
-"_auth_files_8php_source.html":[4,0,0,0,0,0,4,0,4],
+"_auth_controller_validation_trait_8php.html":[4,0,0,0,0,0,4,0,3],
+"_auth_controller_validation_trait_8php_source.html":[4,0,0,0,0,0,4,0,3],
+"_auth_controller_variables_trait_8php.html":[4,0,0,0,0,0,4,0,4],
+"_auth_controller_variables_trait_8php_source.html":[4,0,0,0,0,0,4,0,4],
+"_auth_files_8php.html":[4,0,0,0,0,0,4,0,5],
+"_auth_files_8php_source.html":[4,0,0,0,0,0,4,0,5],
 "_authorization_8php.html":[4,0,0,3,0,0,0,0,2,0],
 "_authorization_8php_source.html":[4,0,0,3,0,0,0,0,2,0],
 "_authorization_annotation_8php.html":[4,0,0,2,0,0,0,0,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "_data_export_8php.html":[4,0,0,6,0,0,3,0,0],
 "_data_export_8php_source.html":[4,0,0,6,0,0,3,0,0],
 "_database_annotation_8php.html":[4,0,0,2,0,0,0,0,6],
-"_database_annotation_8php_source.html":[4,0,0,2,0,0,0,0,6],
-"_database_checker_8php.html":[4,0,0,6,0,0,5,3,0],
-"_database_checker_8php_source.html":[4,0,0,6,0,0,5,3,0]
+"_database_annotation_8php_source.html":[4,0,0,2,0,0,0,0,6]
 };

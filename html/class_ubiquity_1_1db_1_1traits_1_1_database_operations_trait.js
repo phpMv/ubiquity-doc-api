@@ -22,7 +22,7 @@ var class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait =
     [ "prepareAndExecuteUpdate", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a251d7235c1947ea39bc3ec9154179897", null ],
     [ "prepareAndFetchAll", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#ad7cab21b1c3cd5770bebec37fa5ee82c", null ],
     [ "prepareAndFetchAllColumn", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#aff4564cb603a37a17b23b8eac39b554c", null ],
-    [ "prepareAndFetchColumn", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a96a0df818722ed5ff9d82fc4299bc875", null ],
+    [ "prepareAndFetchColumn", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a5535a67847ded9cbfa33a394fb04475b", null ],
     [ "prepareAndFetchOne", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#af357c97c5e4a1ddcc9b726158d09858d", null ],
     [ "prepareNamedStatement", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#afecc41da860fd528f9f7b32e954f0eb4", null ],
     [ "prepareStatement", "class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#a6d3ef255f671ba13598b6df13a21112b", null ],

@@ -44,6 +44,7 @@ var searchData=
   ['authcontrollercoretrait_2ephp',['AuthControllerCoreTrait.php',['../_auth_controller_core_trait_8php.html',1,'']]],
   ['authcontrollercreator_2ephp',['AuthControllerCreator.php',['../_auth_controller_creator_8php.html',1,'']]],
   ['authcontrolleroverridetrait_2ephp',['AuthControllerOverrideTrait.php',['../_auth_controller_override_trait_8php.html',1,'']]],
+  ['authcontrollervalidationtrait_2ephp',['AuthControllerValidationTrait.php',['../_auth_controller_validation_trait_8php.html',1,'']]],
   ['authcontrollervariablestrait_2ephp',['AuthControllerVariablesTrait.php',['../_auth_controller_variables_trait_8php.html',1,'']]],
   ['authfiles_2ephp',['AuthFiles.php',['../_auth_files_8php.html',1,'']]],
   ['authorization_2ephp',['Authorization.php',['../_authorization_8php.html',1,'']]],

@@ -25,7 +25,7 @@ var searchData=
   ['restresourcecontroller',['RestResourceController',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_resource_controller.html',1,'Ubiquity::controllers::rest']]],
   ['restserver',['RestServer',['../class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html',1,'Ubiquity::controllers::rest']]],
   ['role',['Role',['../class_ubiquity_1_1security_1_1acl_1_1models_1_1_role.html',1,'Ubiquity::security::acl::models']]],
-  ['route',['Route',['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html',1,'Route'],['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html',1,'Route']]],
+  ['route',['Route',['../class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html',1,'Route'],['../class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html',1,'Route']]],
   ['routeannotation',['RouteAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html',1,'Ubiquity::annotations::items::router']]],
   ['router',['Router',['../class_ubiquity_1_1controllers_1_1_router.html',1,'Ubiquity::controllers']]],
   ['routeradmintrait',['RouterAdminTrait',['../class_ubiquity_1_1controllers_1_1traits_1_1_router_admin_trait.html',1,'Ubiquity::controllers::traits']]],

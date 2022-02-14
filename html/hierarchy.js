@@ -82,6 +82,9 @@ var hierarchy =
     [ "AuthControllerOverrideTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
+    [ "AuthControllerValidationTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html", [
+      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
+    ] ],
     [ "AuthControllerVariablesTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
@@ -425,6 +428,7 @@ var hierarchy =
       [ "CRUDController", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller.html", null ]
     ] ],
     [ "MessagesUpdates", "class_ubiquity_1_1translation_1_1_messages_updates.html", null ],
+    [ "MimeType", "class_ubiquity_1_1utils_1_1base_1_1_mime_type.html", null ],
     [ "ModelParser", "class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html", null ],
     [ "ModelsCacheTrait", "class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html", [
       [ "CacheManager", "class_ubiquity_1_1cache_1_1_cache_manager.html", null ]

@@ -17,6 +17,7 @@ var searchData=
   ['messagestrait',['MessagesTrait',['../class_ubiquity_1_1controllers_1_1semantic_1_1_messages_trait.html',1,'Ubiquity::controllers::semantic']]],
   ['messagesupdates',['MessagesUpdates',['../class_ubiquity_1_1translation_1_1_messages_updates.html',1,'Ubiquity::translation']]],
   ['microtemplateengine',['MicroTemplateEngine',['../class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html',1,'Ubiquity::views::engine::micro']]],
+  ['mimetype',['MimeType',['../class_ubiquity_1_1utils_1_1base_1_1_mime_type.html',1,'Ubiquity::utils::base']]],
   ['model',['Model',['../class_ubiquity_1_1orm_1_1creator_1_1_model.html',1,'Ubiquity::orm::creator']]],
   ['modelparser',['ModelParser',['../class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html',1,'Ubiquity::orm::parser']]],
   ['modelscachetrait',['ModelsCacheTrait',['../class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html',1,'Ubiquity::cache::traits']]],

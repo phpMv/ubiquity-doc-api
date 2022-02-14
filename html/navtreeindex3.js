@@ -1,9 +1,13 @@
 var NAVTREEINDEX3 =
 {
+"_u_request_tester_trait_8php.html":[4,0,0,0,0,0,15,3,2,0],
+"_u_request_tester_trait_8php_source.html":[4,0,0,0,0,0,15,3,2,0],
+"_u_response_8php.html":[4,0,0,0,0,0,15,3,6],
+"_u_response_8php_source.html":[4,0,0,0,0,0,15,3,6],
 "_u_session_8php.html":[4,0,0,0,0,0,15,3,7],
 "_u_session_8php_source.html":[4,0,0,0,0,0,15,3,7],
-"_u_string_8php.html":[4,0,0,0,0,0,15,0,6],
-"_u_string_8php_source.html":[4,0,0,0,0,0,15,0,6],
+"_u_string_8php.html":[4,0,0,0,0,0,15,0,7],
+"_u_string_8php_source.html":[4,0,0,0,0,0,15,0,7],
 "_u_token_8php.html":[4,0,0,7,0,0,2,2,4],
 "_u_token_8php_source.html":[4,0,0,7,0,0,2,2,4],
 "_ubiquity_exception_8php.html":[4,0,0,0,0,0,9,11],
@@ -52,8 +56,8 @@ var NAVTREEINDEX3 =
 "_view_events_8php_source.html":[4,0,0,0,0,0,8,4],
 "_view_repository_8php.html":[4,0,0,0,0,0,11,3,2],
 "_view_repository_8php_source.html":[4,0,0,0,0,0,11,3,2],
-"_with_auth_trait_8php.html":[4,0,0,0,0,0,4,0,5],
-"_with_auth_trait_8php_source.html":[4,0,0,0,0,0,4,0,5],
+"_with_auth_trait_8php.html":[4,0,0,0,0,0,4,0,6],
+"_with_auth_trait_8php_source.html":[4,0,0,0,0,0,4,0,6],
 "_yaml_importation_8php.html":[4,0,0,0,0,0,14,0,3],
 "_yaml_importation_8php_source.html":[4,0,0,0,0,0,14,0,3],
 "_yuml_annotation_8php.html":[4,0,0,2,0,0,0,0,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX3 =
 "class_ubiquity_1_1attributes_1_1_attributes_engine.html#a66de48e63025872629ea0b263a3ed3b1":[3,0,0,2,1,0],
 "class_ubiquity_1_1attributes_1_1_attributes_engine.html#a7154853fac57336a4ff288957e6adf04":[3,0,0,2,1,13],
 "class_ubiquity_1_1attributes_1_1_attributes_engine.html#a9b77ccf579ed80c4d7d62110387e1c94":[3,0,0,2,1,8],
-"class_ubiquity_1_1attributes_1_1_attributes_engine.html#a9b81ef735542224d6e8ed0d869d2008b":[3,0,0,2,1,16],
-"class_ubiquity_1_1attributes_1_1_attributes_engine.html#ab5c56abba4fe0bd267af4af10b7f93d8":[3,0,0,2,1,4],
-"class_ubiquity_1_1attributes_1_1_attributes_engine.html#abb916a0d04af84dd9df1e35ea50c9aa3":[3,0,0,2,1,10],
-"class_ubiquity_1_1attributes_1_1_attributes_engine.html#ac7dfdccda3b9169438fbde1384111721":[3,0,0,2,1,2],
-"class_ubiquity_1_1attributes_1_1_attributes_engine.html#acaa61a04989f0bbfdb4d202096f5dbd2":[3,0,0,2,1,1]
+"class_ubiquity_1_1attributes_1_1_attributes_engine.html#a9b81ef735542224d6e8ed0d869d2008b":[3,0,0,2,1,16]
 };
