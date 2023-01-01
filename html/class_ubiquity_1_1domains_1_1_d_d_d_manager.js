@@ -17,6 +17,6 @@ var class_ubiquity_1_1domains_1_1_d_d_d_manager =
     [ "setDomain", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a7e2efe64bee73dbc5b0d4b34dbb86c60", null ],
     [ "start", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a146085d0f3a9d17bdcd7f3d4081d8c0d", null ],
     [ "updateClassesNamespace", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a1bcb381ed5899356363abde47d20ad13", null ],
-    [ "$activeDomain", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#ae138ffb5f5cc39ce7b0b28a92a6cef74", null ],
-    [ "$base", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#ac78df45419614d6db964d0bd9e542c63", null ]
+    [ "$activeDomain", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#aa02818d7899f3011554806ea7ae85014", null ],
+    [ "$base", "class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a7377e17e76e70ecd7660e8039bd0b3e7", null ]
 ];

@@ -4,5 +4,6 @@ var namespace_ubiquity_1_1security_1_1acl =
     [ "controllers", "namespace_ubiquity_1_1security_1_1acl_1_1controllers.html", "namespace_ubiquity_1_1security_1_1acl_1_1controllers" ],
     [ "models", "namespace_ubiquity_1_1security_1_1acl_1_1models.html", "namespace_ubiquity_1_1security_1_1acl_1_1models" ],
     [ "persistence", "namespace_ubiquity_1_1security_1_1acl_1_1persistence.html", "namespace_ubiquity_1_1security_1_1acl_1_1persistence" ],
+    [ "traits", "namespace_ubiquity_1_1security_1_1acl_1_1traits.html", "namespace_ubiquity_1_1security_1_1acl_1_1traits" ],
     [ "AclManager", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager" ]
 ];

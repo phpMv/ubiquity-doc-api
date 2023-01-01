@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.10</span>
+   &#160;<span id="projectnumber">2.5.1</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1log_1_1_logger.html'
 </div><!--header-->
 <div class="contents">
 
-<p>Abstract class for logging <a class="el" href="namespace_ubiquity.html">Ubiquity</a>$Logger This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a>.  
+<p>Abstract class for logging <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>$Logger This class is part of <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>.  
  <a href="class_ubiquity_1_1log_1_1_logger.html#details">More...</a></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for Logger:</div>
@@ -135,8 +135,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0df09aea3ec889ba23fa459d44f439e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f5ae49c0bfa3b640f3208fa13985d1"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a24f5ae49c0bfa3b640f3208fa13985d1">inContext</a> ($contexts, $context)</td></tr>
 <tr class="separator:a24f5ae49c0bfa3b640f3208fa13985d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b67ac7179398e39bf909d067e38c1bf"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a9b67ac7179398e39bf909d067e38c1bf">init</a> (&amp;$config)</td></tr>
-<tr class="separator:a9b67ac7179398e39bf909d067e38c1bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e00345ff570cca6c37731e3122ca7a5"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a6e00345ff570cca6c37731e3122ca7a5">init</a> (&amp;$config, $application=false)</td></tr>
+<tr class="separator:a6e00345ff570cca6c37731e3122ca7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3208ccc7b9a6076b7a34a216610e4e7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#af3208ccc7b9a6076b7a34a216610e4e7">log</a> ($level, $context, $message, $part=null, $extra=null)</td></tr>
 <tr class="separator:af3208ccc7b9a6076b7a34a216610e4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c8d434f89e5ce783d6a0e754474e60"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#af5c8d434f89e5ce783d6a0e754474e60">info</a> ($context, $message, $part=null, $extra=null)</td></tr>
@@ -149,6 +149,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5ef34add54ccdaaf40c4541b99009eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b94d21604af4b9c4be9448349514b0b"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a9b94d21604af4b9c4be9448349514b0b">alert</a> ($context, $message, $part=null, $extra=null)</td></tr>
 <tr class="separator:a9b94d21604af4b9c4be9448349514b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28479ae80de6bbfdc2057ac034f04a43"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a28479ae80de6bbfdc2057ac034f04a43">appLog</a> ($level, $context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:a28479ae80de6bbfdc2057ac034f04a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b8658ca54e6fe447a44d75296701d59"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a0b8658ca54e6fe447a44d75296701d59">appInfo</a> ($context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:a0b8658ca54e6fe447a44d75296701d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafeac76a997258e097bb11a42246266a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#aafeac76a997258e097bb11a42246266a">appWarn</a> ($context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:aafeac76a997258e097bb11a42246266a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3725d85c1a76537960d5104be4c839"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#abe3725d85c1a76537960d5104be4c839">appError</a> ($context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:abe3725d85c1a76537960d5104be4c839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bab3ae54409e59602c85706f3dd5810"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a2bab3ae54409e59602c85706f3dd5810">appCritical</a> ($context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:a2bab3ae54409e59602c85706f3dd5810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4acbcfaca62e75acb443b39f7fee596"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#ad4acbcfaca62e75acb443b39f7fee596">appAlert</a> ($context, $message, $part=null, $extra=null)</td></tr>
+<tr class="separator:ad4acbcfaca62e75acb443b39f7fee596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abacc1fa1b51d6d1986e51191ba77bf34"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#abacc1fa1b51d6d1986e51191ba77bf34">asObjects</a> ($reverse=true, $maxlines=10, $contexts=null)</td></tr>
 <tr class="separator:abacc1fa1b51d6d1986e51191ba77bf34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa669d52ef3bdabf2fddfe85f8bfdc7ba"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#aa669d52ef3bdabf2fddfe85f8bfdc7ba">clearAll</a> ()</td></tr>
@@ -167,11 +179,11 @@ Static Private Member Functions</h2></td></tr>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ad9d7ce33ebb142b70e58b68052ca0ea8"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#ad9d7ce33ebb142b70e58b68052ca0ea8">$instance</a></td></tr>
 <tr class="separator:ad9d7ce33ebb142b70e58b68052ca0ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31daebf88fc668f410293e2c70cea3fc"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#a31daebf88fc668f410293e2c70cea3fc">$test</a></td></tr>
-<tr class="separator:a31daebf88fc668f410293e2c70cea3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacd1fa47b7ea59451aff98beca4360ae"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html#aacd1fa47b7ea59451aff98beca4360ae">$active</a></td></tr>
+<tr class="separator:aacd1fa47b7ea59451aff98beca4360ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Abstract class for logging <a class="el" href="namespace_ubiquity.html">Ubiquity</a>$Logger This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a>. </p>
+<div class="textblock"><p>Abstract class for logging <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>$Logger This class is part of <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>. </p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0.3 </dd></dl>
 
@@ -634,7 +646,313 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00077">77</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00082">82</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="ad4acbcfaca62e75acb443b39f7fee596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4acbcfaca62e75acb443b39f7fee596">&#9670;&nbsp;</a></span>appAlert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appAlert </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00108">108</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="a2bab3ae54409e59602c85706f3dd5810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bab3ae54409e59602c85706f3dd5810">&#9670;&nbsp;</a></span>appCritical()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appCritical </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00104">104</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="abe3725d85c1a76537960d5104be4c839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3725d85c1a76537960d5104be4c839">&#9670;&nbsp;</a></span>appError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appError </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00100">100</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="a0b8658ca54e6fe447a44d75296701d59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b8658ca54e6fe447a44d75296701d59">&#9670;&nbsp;</a></span>appInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appInfo </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00092">92</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="a28479ae80de6bbfdc2057ac034f04a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28479ae80de6bbfdc2057ac034f04a43">&#9670;&nbsp;</a></span>appLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appLog </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00088">88</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
+<a id="aafeac76a997258e097bb11a42246266a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafeac76a997258e097bb11a42246266a">&#9670;&nbsp;</a></span>appWarn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static appWarn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$part</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extra</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00096">96</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -678,7 +996,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00082">82</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00112">112</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -705,7 +1023,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00088">88</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00119">119</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -732,7 +1050,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00094">94</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00125">125</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -810,7 +1128,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00072">72</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00076">76</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -860,7 +1178,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00067">67</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00070">70</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -948,12 +1266,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00057">57</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00058">58</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
-<a id="a9b67ac7179398e39bf909d067e38c1bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b67ac7179398e39bf909d067e38c1bf">&#9670;&nbsp;</a></span>init()</h2>
+<a id="a6e00345ff570cca6c37731e3122ca7a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e00345ff570cca6c37731e3122ca7a5">&#9670;&nbsp;</a></span>init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,8 +1283,18 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">static init </td>
           <td>(</td>
           <td class="paramtype">&amp;&#160;</td>
-          <td class="paramname"><em>$config</em></td><td>)</td>
+          <td class="paramname"><em>$config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$application</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1003,7 +1331,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00118">118</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00149">149</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
@@ -1136,11 +1464,35 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00062">62</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00064">64</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="aacd1fa47b7ea59451aff98beca4360ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacd1fa47b7ea59451aff98beca4360ae">&#9670;&nbsp;</a></span>$active</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">$active</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00020">20</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
+
+</div>
+</div>
 <a id="ad9d7ce33ebb142b70e58b68052ca0ea8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9d7ce33ebb142b70e58b68052ca0ea8">&#9670;&nbsp;</a></span>$instance</h2>
 
@@ -1165,30 +1517,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a31daebf88fc668f410293e2c70cea3fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31daebf88fc668f410293e2c70cea3fc">&#9670;&nbsp;</a></span>$test</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">$test</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_logger_8php_source.html#l00020">20</a> of file <a class="el" href="_logger_8php_source.html">Logger.php</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>phpmv/ubiquity/src/Ubiquity/log/<a class="el" href="_logger_8php_source.html">Logger.php</a></li>
 </ul>
@@ -1199,7 +1527,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1log.html">log</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1log_1_1_logger.html">Logger</a></li>
-    <li class="footer"><small>Generated on Mon Feb 14 2022 02:57:53 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:32 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

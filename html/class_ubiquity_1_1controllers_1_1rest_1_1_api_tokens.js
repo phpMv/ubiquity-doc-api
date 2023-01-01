@@ -9,6 +9,7 @@ var class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens =
     [ "getToken", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#ad6b0b338ca3d95eb90baed61d51ddbcb", null ],
     [ "getTokens", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#acf2f05f60b57bd67020d2259a2cf9982", null ],
     [ "isExpired", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a6ba3605bafa091a0fd6b5ed6cd8b2f13", null ],
+    [ "refreshToken", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#ae06b390c6da85b37150a184f912bfa32", null ],
     [ "remove", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a95483af4e2c07dc9893fe058b026bd5d", null ],
     [ "removeExpireds", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a47e8956d182a00b9ccfc7631a30c25d4", null ],
     [ "storeToCache", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#accca87e1a4b0c20eeac294a352d88518", null ],

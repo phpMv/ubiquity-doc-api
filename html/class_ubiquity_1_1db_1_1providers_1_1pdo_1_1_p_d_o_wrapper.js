@@ -37,6 +37,7 @@ var class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper =
     [ "rollBack", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#aebaea4cae21e0e75ec1489c1648caeb3", null ],
     [ "rollbackPoint", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a09853e1d946d5f29db384cff02501b68", null ],
     [ "savePoint", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#aa3cdcfa05c7c8474a4952fc152be3200", null ],
+    [ "setIsolationLevel", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a19ebcda6f5636705b93df61b183ea391", null ],
     [ "statementRowCount", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a95752df0e77406431f820af617a3e583", null ],
     [ "toStringOperator", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a57588deb83f8e534222f2d65c6709a25", null ],
     [ "$dbType", "class_ubiquity_1_1db_1_1providers_1_1pdo_1_1_p_d_o_wrapper.html#a63b68daf124fa00e6bcfce64fabbdbe1", null ],

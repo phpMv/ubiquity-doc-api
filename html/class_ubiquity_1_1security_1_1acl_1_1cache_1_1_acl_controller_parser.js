@@ -2,6 +2,7 @@ var class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser =
 [
     [ "__construct", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a095c5d389db211932136b53f25f39685", null ],
     [ "addAllows", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a09d3bb7a85b902fb5b20240cb421733a", null ],
+    [ "cacheUpdated", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a9c89f4a8b7590ce979f0c52d5f8ab34b", null ],
     [ "init", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#a4be4055f3361d4800e16bc2e2e38cda6", null ],
     [ "parse", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#ae10e2a95818ce5924cf9c36c7943f4b3", null ],
     [ "parseMethod", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_acl_controller_parser.html#aae0e5eb057d096c387431005ca87f6f5", null ],

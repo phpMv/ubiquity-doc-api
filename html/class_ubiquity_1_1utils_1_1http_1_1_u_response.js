@@ -6,6 +6,7 @@ var class_ubiquity_1_1utils_1_1http_1_1_u_response =
     [ "asText", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a5f1344e06b0eb07bc93e6f291616e12c", null ],
     [ "asXml", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#ab93ec40575cba783fd80b2ed5dcf41c0", null ],
     [ "enableCors", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a0bf09609e1ad3b157e76b9da54051815", null ],
+    [ "forward", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a2440ce4a4d1ee3299a75a48c7bf62b45", null ],
     [ "getResponseCode", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a758dc824e039c375aceb42c30e69fc81", null ],
     [ "header", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#aa42f712b130252cbf675649ccbe54162", null ],
     [ "isJSON", "class_ubiquity_1_1utils_1_1http_1_1_u_response.html#a00f299982df69fd390bb7d0bd1969d5e", null ],

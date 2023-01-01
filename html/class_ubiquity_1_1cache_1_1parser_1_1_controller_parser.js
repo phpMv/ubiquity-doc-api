@@ -6,6 +6,7 @@ var class_ubiquity_1_1cache_1_1parser_1_1_controller_parser =
     [ "generateRouteAnnotationFromMethod", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a08717e36b017c31fe1926ea18830e26b", null ],
     [ "generateRouteName", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae366caef7c79a504d82204a0e88bb77b", null ],
     [ "isRest", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#acd385c67829effd7f9c6dca817c7fc40", null ],
+    [ "isRoutable", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#aaabfe39040a6faa46b35ac36be28f24f", null ],
     [ "parse", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae10e2a95818ce5924cf9c36c7943f4b3", null ],
     [ "parseAnnot", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#a85c605c95de41f34994e0ba469d84f50", null ],
     [ "parseMethods", "class_ubiquity_1_1cache_1_1parser_1_1_controller_parser.html#ae04424244c5b27426f182c94799cb93d", null ],

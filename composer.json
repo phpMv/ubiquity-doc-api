@@ -4,7 +4,7 @@
 		"phpmv/ubiquity-commands": "dev-master",
         "phpmv/ubiquity-attributes": "^0.0",
         "phpmv/ubiquity-annotations": "^0.0",
-        "phpmv/ubiquity-acl": "^0.0.3",
+        "phpmv/ubiquity-acl": "^0.0",
         "phpmv/ubiquity-security": "^0.0",
         "phpmv/ubiquity-dev": "^0.1",
 		"phpmv/ubiquity-debug" : "^0.0"

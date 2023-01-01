@@ -2,8 +2,8 @@ var class_ubiquity_1_1utils_1_1models_1_1_u_array_models =
 [
     [ "asArray", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#acd320de3152668d6e7e04498522cf666", null ],
     [ "asArrayProperties", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#aaba41f99cf4e742b7e053365e53b68b2", null ],
-    [ "asJson", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a817e01b23d54f7bbe3fa05148e3610a2", null ],
-    [ "asJsonProperties", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#ab1fc4ed0d04027613728ef68edf7a1f3", null ],
+    [ "asJson", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#ad558d49f31f83484c9d5ed1b4ed6ba81", null ],
+    [ "asJsonProperties", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#ac47a6ca021bb9789275a3271d960b12e", null ],
     [ "asKeyValues", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a360fcc5772a1cd2eb5b5e46df12be331", null ],
     [ "callFunction", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a53fb59cd0b2d622d5400b43dfabb8346", null ],
     [ "compute", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#ad0185d69a61ce0d0eecafa43865a19e8", null ],

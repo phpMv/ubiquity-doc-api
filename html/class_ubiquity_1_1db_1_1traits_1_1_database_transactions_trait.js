@@ -10,5 +10,6 @@ var class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait =
     [ "rollBack", "class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#aebaea4cae21e0e75ec1489c1648caeb3", null ],
     [ "rollBackAll", "class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#aa56159db0d78c12eba71602eb8d3519b", null ],
     [ "rollBackToLevel", "class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#a4e5576d9a42d887a09c242819cf65de5", null ],
+    [ "setIsolationLevel", "class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#a19ebcda6f5636705b93df61b183ea391", null ],
     [ "$transactionLevel", "class_ubiquity_1_1db_1_1traits_1_1_database_transactions_trait.html#a296ace5ae8742a29e72b579811893cde", null ]
 ];

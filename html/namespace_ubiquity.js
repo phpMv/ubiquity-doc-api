@@ -4,6 +4,7 @@ var namespace_ubiquity =
     [ "assets", "namespace_ubiquity_1_1assets.html", "namespace_ubiquity_1_1assets" ],
     [ "attributes", "namespace_ubiquity_1_1attributes.html", "namespace_ubiquity_1_1attributes" ],
     [ "cache", "namespace_ubiquity_1_1cache.html", "namespace_ubiquity_1_1cache" ],
+    [ "config", "namespace_ubiquity_1_1config.html", "namespace_ubiquity_1_1config" ],
     [ "contents", "namespace_ubiquity_1_1contents.html", "namespace_ubiquity_1_1contents" ],
     [ "controllers", "namespace_ubiquity_1_1controllers.html", "namespace_ubiquity_1_1controllers" ],
     [ "core", "namespace_ubiquity_1_1core.html", "namespace_ubiquity_1_1core" ],

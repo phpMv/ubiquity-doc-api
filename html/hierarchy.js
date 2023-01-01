@@ -62,7 +62,12 @@ var hierarchy =
     [ "AclListQueryTrait", "class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_query_trait.html", [
       [ "AclList", "class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html", null ]
     ] ],
-    [ "AclManager", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html", null ],
+    [ "AclManagerInit", "class_ubiquity_1_1security_1_1acl_1_1traits_1_1_acl_manager_init.html", [
+      [ "AclManager", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html", null ]
+    ] ],
+    [ "AclManagerTester", "class_ubiquity_1_1security_1_1acl_1_1traits_1_1_acl_manager_tester.html", [
+      [ "AclManager", "class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html", null ]
+    ] ],
     [ "AclProviderInterface", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html", [
       [ "AclArrayProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html", [
         [ "AclCacheProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html", null ]
@@ -76,19 +81,28 @@ var hierarchy =
     [ "ApiTokens", "class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html", null ],
     [ "ApplicationStorage", "class_ubiquity_1_1utils_1_1store_1_1_application_storage.html", null ],
     [ "AssetsManager", "class_ubiquity_1_1assets_1_1_assets_manager.html", null ],
+    [ "Auth2FATrait", "class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html", [
+      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", [
+        [ "AuthControllerConfig", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_config.html", null ]
+      ] ]
+    ] ],
+    [ "AuthAccountCreationTrait", "class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html", [
+      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
+    ] ],
+    [ "AuthAccountRecoveryTrait", "class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html", [
+      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
+    ] ],
     [ "AuthControllerCoreTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
     [ "AuthControllerOverrideTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
-    [ "AuthControllerValidationTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html", [
-      [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
-    ] ],
     [ "AuthControllerVariablesTrait", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html", [
       [ "AuthController", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller.html", null ]
     ] ],
     [ "AuthFiles", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html", null ],
+    [ "AuthTokens", "class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html", null ],
     [ "BaseAnnotationTrait", "class_ubiquity_1_1annotations_1_1_base_annotation_trait.html", [
       [ "BaseAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_base_annotation.html", [
         [ "AllowAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1acl_1_1_allow_annotation.html", null ],
@@ -107,6 +121,7 @@ var hierarchy =
         [ "OneToManyAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1_one_to_many_annotation.html", null ],
         [ "AuthorizationAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1rest_1_1_authorization_annotation.html", null ],
         [ "RestAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1rest_1_1_rest_annotation.html", null ],
+        [ "NoRouteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_no_route_annotation.html", null ],
         [ "RouteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_route_annotation.html", [
           [ "DeleteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_delete_annotation.html", null ],
           [ "GetAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_get_annotation.html", null ],
@@ -141,6 +156,7 @@ var hierarchy =
         [ "OneToMany", "class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html", null ],
         [ "Authorization", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_authorization.html", null ],
         [ "Rest", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_rest.html", null ],
+        [ "NoRoute", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_no_route.html", null ],
         [ "Route", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html", [
           [ "Delete", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_delete.html", null ],
           [ "Get", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_get.html", null ],
@@ -166,6 +182,7 @@ var hierarchy =
       [ "OneToMany", "class_ubiquity_1_1attributes_1_1items_1_1_one_to_many.html", null ],
       [ "Authorization", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_authorization.html", null ],
       [ "Rest", "class_ubiquity_1_1attributes_1_1items_1_1rest_1_1_rest.html", null ],
+      [ "NoRoute", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_no_route.html", null ],
       [ "Route", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html", null ],
       [ "Table", "class_ubiquity_1_1attributes_1_1items_1_1_table.html", null ],
       [ "Transformer", "class_ubiquity_1_1attributes_1_1items_1_1_transformer.html", null ],
@@ -194,6 +211,7 @@ var hierarchy =
     [ "CodeUtils", "class_ubiquity_1_1utils_1_1base_1_1_code_utils.html", null ],
     [ "Command", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html", null ],
     [ "ConditionParser", "class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html", null ],
+    [ "Configuration", "class_ubiquity_1_1config_1_1_configuration.html", null ],
     [ "Console", "class_ubiquity_1_1devtools_1_1cmd_1_1_console.html", null ],
     [ "ConsoleFormatter", "class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html", null ],
     [ "ConsoleTable", "class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html", null ],
@@ -316,6 +334,7 @@ var hierarchy =
     [ "EditMemberParams", "class_ubiquity_1_1controllers_1_1crud_1_1_edit_member_params.html", null ],
     [ "Encryption", "class_ubiquity_1_1security_1_1data_1_1_encryption.html", null ],
     [ "EncryptionManager", "class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html", null ],
+    [ "EnvFile", "class_ubiquity_1_1config_1_1_env_file.html", null ],
     [ "EventListenerInterface", "interface_ubiquity_1_1events_1_1_event_listener_interface.html", null ],
     [ "EventsManager", "class_ubiquity_1_1events_1_1_events_manager.html", null ],
     [ "Exception", null, [
@@ -329,6 +348,7 @@ var hierarchy =
         [ "EncryptException", "class_ubiquity_1_1exceptions_1_1_encrypt_exception.html", null ],
         [ "EncryptionKeyException", "class_ubiquity_1_1exceptions_1_1_encryption_key_exception.html", null ],
         [ "FileUploadException", "class_ubiquity_1_1exceptions_1_1_file_upload_exception.html", null ],
+        [ "InvalidCodeException", "class_ubiquity_1_1exceptions_1_1_invalid_code_exception.html", null ],
         [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", null ],
         [ "ParserException", "class_ubiquity_1_1exceptions_1_1_parser_exception.html", null ],
         [ "RestException", "class_ubiquity_1_1exceptions_1_1_rest_exception.html", null ],
@@ -502,6 +522,7 @@ var hierarchy =
     [ "SessionCache", "class_ubiquity_1_1cache_1_1objects_1_1_session_cache.html", null ],
     [ "SessionObject", "class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html", null ],
     [ "ShieldonManager", "class_ubiquity_1_1security_1_1shieldon_1_1_shieldon_manager.html", null ],
+    [ "SqlCommand", "class_ubiquity_1_1db_1_1_sql_command.html", null ],
     [ "SqlUtils", "class_ubiquity_1_1db_1_1_sql_utils.html", null ],
     [ "StartupConfigTrait", "class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html", [
       [ "Startup", "class_ubiquity_1_1controllers_1_1_startup.html", [
@@ -541,7 +562,9 @@ var hierarchy =
       [ "UArray", "class_ubiquity_1_1utils_1_1base_1_1_u_array.html", null ]
     ] ],
     [ "UArrayModels", "class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html", null ],
+    [ "UASystem", "class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html", null ],
     [ "UbiquityUtils", "class_ubiquity_1_1utils_1_1_ubiquity_utils.html", null ],
+    [ "UConfigFile", "class_ubiquity_1_1utils_1_1base_1_1_u_config_file.html", null ],
     [ "UCookie", "class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html", null ],
     [ "UCsrfHttp", "class_ubiquity_1_1security_1_1csrf_1_1_u_csrf_http.html", null ],
     [ "UDateTime", "class_ubiquity_1_1utils_1_1base_1_1_u_date_time.html", null ],

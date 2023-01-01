@@ -9,6 +9,7 @@ var namespace_ubiquity_1_1exceptions =
     [ "EncryptException", "class_ubiquity_1_1exceptions_1_1_encrypt_exception.html", "class_ubiquity_1_1exceptions_1_1_encrypt_exception" ],
     [ "EncryptionKeyException", "class_ubiquity_1_1exceptions_1_1_encryption_key_exception.html", "class_ubiquity_1_1exceptions_1_1_encryption_key_exception" ],
     [ "FileUploadException", "class_ubiquity_1_1exceptions_1_1_file_upload_exception.html", "class_ubiquity_1_1exceptions_1_1_file_upload_exception" ],
+    [ "InvalidCodeException", "class_ubiquity_1_1exceptions_1_1_invalid_code_exception.html", "class_ubiquity_1_1exceptions_1_1_invalid_code_exception" ],
     [ "NormalizerException", "class_ubiquity_1_1exceptions_1_1_normalizer_exception.html", "class_ubiquity_1_1exceptions_1_1_normalizer_exception" ],
     [ "ParserException", "class_ubiquity_1_1exceptions_1_1_parser_exception.html", "class_ubiquity_1_1exceptions_1_1_parser_exception" ],
     [ "RestException", "class_ubiquity_1_1exceptions_1_1_rest_exception.html", "class_ubiquity_1_1exceptions_1_1_rest_exception" ],

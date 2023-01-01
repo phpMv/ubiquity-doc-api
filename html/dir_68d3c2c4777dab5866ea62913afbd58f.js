@@ -6,6 +6,9 @@ var dir_68d3c2c4777dab5866ea62913afbd58f =
     [ "Get.php", "_get_8php.html", [
       [ "Get", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_get.html", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_get" ]
     ] ],
+    [ "NoRoute.php", "_no_route_8php.html", [
+      [ "NoRoute", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_no_route.html", null ]
+    ] ],
     [ "Options.php", "_options_8php.html", [
       [ "Options", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_options.html", "class_ubiquity_1_1attributes_1_1items_1_1router_1_1_options" ]
     ] ],

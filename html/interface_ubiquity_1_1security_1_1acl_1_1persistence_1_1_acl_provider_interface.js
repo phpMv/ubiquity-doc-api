@@ -1,5 +1,6 @@
 var interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface =
 [
+    [ "cacheUpdated", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#a9c89f4a8b7590ce979f0c52d5f8ab34b", null ],
     [ "clearAll", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#a1c40f27bdcc44f4faf3fc044ee577af2", null ],
     [ "existAcl", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#affaec14f72d6b47b957d1fef4a93c192", null ],
     [ "existPart", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#a1323c54e10b5f4cad5e3bbd3eaff4eb3", null ],
@@ -15,5 +16,5 @@ var interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interf
     [ "saveAcl", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#aef84b003e5bb20fdf9c8aa4be59db548", null ],
     [ "saveAll", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#ae23aae6b3675fbf40118b23071a12984", null ],
     [ "savePart", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#a3214b70843cc5f18ad13c61451e352b9", null ],
-    [ "updatePart", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#aa26c85b2e3416f28f2371d12e1b2e388", null ]
+    [ "updatePart", "interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#a237c8850083775b6049649a1c621afbf", null ]
 ];

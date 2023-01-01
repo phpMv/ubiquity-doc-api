@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.10</span>
+   &#160;<span id="projectnumber">2.5.1</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -107,10 +107,13 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1utils_1_1http_1_1ses
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a4be4055f3361d4800e16bc2e2e38cda6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html#a4be4055f3361d4800e16bc2e2e38cda6">init</a> ()</td></tr>
+<tr class="memdesc:a4be4055f3361d4800e16bc2e2e38cda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the Csrf token and adds it to the session.  <a href="#a4be4055f3361d4800e16bc2e2e38cda6">More...</a><br /></td></tr>
 <tr class="separator:a4be4055f3361d4800e16bc2e2e38cda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8fa59992209e36dccb3eefb0f75531f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html#af8fa59992209e36dccb3eefb0f75531f">start</a> ()</td></tr>
+<tr class="memdesc:af8fa59992209e36dccb3eefb0f75531f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called wjen the session is started.  <a href="#af8fa59992209e36dccb3eefb0f75531f">More...</a><br /></td></tr>
 <tr class="separator:af8fa59992209e36dccb3eefb0f75531f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa821bec12eaa7e0f649397c9675ff505"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html#aa821bec12eaa7e0f649397c9675ff505">clear</a> ()</td></tr>
+<tr class="memdesc:aa821bec12eaa7e0f649397c9675ff505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the actual csrftoken.  <a href="#aa821bec12eaa7e0f649397c9675ff505">More...</a><br /></td></tr>
 <tr class="separator:aa821bec12eaa7e0f649397c9675ff505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -121,9 +124,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>To be Used only if no Csrf protection of the session is required. </p>
-<p>with <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a28d9386f0e449cf8b7da15284d040b63">Startup::setSessionInstance</a>(new PhpSession(new NoCsrfProtection())); in services.php <a class="el" href="namespace_ubiquity.html">Ubiquity</a>$NoCsrfProtection This class is part of <a class="el" href="namespace_ubiquity.html">Ubiquity</a></p>
+<p>with <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a28d9386f0e449cf8b7da15284d040b63">Startup::setSessionInstance</a>(new PhpSession(new NoCsrfProtection())); in services.php <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>$NoCsrfProtection This class is part of <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a></p>
 <dl class="section author"><dt>Author</dt><dd>jc </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0.2 </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00015">15</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -142,9 +145,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Removes the actual csrftoken. </p>
+
 <p>Implements <a class="el" href="interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html#aa821bec12eaa7e0f649397c9675ff505">VerifySessionCsrfInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00023">23</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00021">21</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
 
 </div>
 </div>
@@ -172,10 +177,11 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get security level. </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
 
 <p>Implements <a class="el" href="interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html#ac9dd54247fca2b10952ee9601570ff3d">VerifySessionCsrfInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00026">26</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00023">23</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
 
 </div>
 </div>
@@ -193,6 +199,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates the Csrf token and adds it to the session. </p>
 
 <p>Implements <a class="el" href="interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html#a4be4055f3361d4800e16bc2e2e38cda6">VerifySessionCsrfInterface</a>.</p>
 
@@ -215,9 +223,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Called wjen the session is started. </p>
+
 <p>Implements <a class="el" href="interface_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_verify_session_csrf_interface.html#af8fa59992209e36dccb3eefb0f75531f">VerifySessionCsrfInterface</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00020">20</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_no_csrf_protection_8php_source.html#l00019">19</a> of file <a class="el" href="_no_csrf_protection_8php_source.html">NoCsrfProtection.php</a>.</p>
 
 </div>
 </div>
@@ -231,7 +241,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils_1_1http.html">http</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils_1_1http_1_1session.html">session</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1utils_1_1http_1_1session_1_1protection.html">protection</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_no_csrf_protection.html">NoCsrfProtection</a></li>
-    <li class="footer"><small>Generated on Mon Feb 14 2022 02:57:55 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:35 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

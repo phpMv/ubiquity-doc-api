@@ -20,7 +20,7 @@ var class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait
     [ "getModelViewer", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a585deaa86f8c550f1c2826c6d4820ae6", null ],
     [ "getSingleton", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#abe05c14f32e765260bbf1d8ab490e4b1", null ],
     [ "index", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a149eb92716c1084a935e04a8d95f7347", null ],
-    [ "loadView", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a80a71e60aa536de9b98b7b773fb54bec", null ],
+    [ "loadView", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#a1187d6c0fc53c29a2bf87a467699152d", null ],
     [ "refreshInstance", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#adef734655684377251fa2c5a125f576b", null ],
     [ "search", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#afce08894c25d78aa0fa63f14fa9c2886", null ],
     [ "showConfMessage_", "class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_controller_utilities_trait.html#ad98a1fb7acf34522a01ea4c6cc11aa6b", null ],

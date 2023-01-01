@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.10</span>
+   &#160;<span id="projectnumber">2.5.1</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -92,11 +92,17 @@ $(document).ready(function(){initNavTree('functions_h.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1traits_1_1_u_request_tester_trait.html#a8f660283f72e0f3c5f00b4f98563a79b">URequestTesterTrait</a>
 </li>
 <li>has2FA()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#a076397759ba93ac7193ffb0e11367b02">AuthControllerVariablesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html#a076397759ba93ac7193ffb0e11367b02">Auth2FATrait</a>
 </li>
 <li>hasAccountCreation()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a149ecadc901a27804fe7b9a477862c0c">AuthControllerCoreTrait</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#a149ecadc901a27804fe7b9a477862c0c">AuthControllerVariablesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_config.html#a149ecadc901a27804fe7b9a477862c0c">AuthControllerConfig</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a149ecadc901a27804fe7b9a477862c0c">AuthControllerCoreTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#a149ecadc901a27804fe7b9a477862c0c">AuthAccountCreationTrait</a>
+</li>
+<li>hasAccountRecovery()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_config.html#ab2e4815365dc8502327adb7f694fbf87">AuthControllerConfig</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#ab2e4815365dc8502327adb7f694fbf87">AuthControllerCoreTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html#ab2e4815365dc8502327adb7f694fbf87">AuthAccountRecoveryTrait</a>
 </li>
 <li>hasAcl()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html#af55bfbd2ec32cdaa3d131807a29cb96b">ServicesChecker</a>
@@ -123,7 +129,10 @@ $(document).ready(function(){initNavTree('functions_h.html','');});
 : <a class="el" href="class_ubiquity_1_1domains_1_1_d_d_d_manager.html#a90c4259474421fd07bc3d9fd30da70e0">DDDManager</a>
 </li>
 <li>hasEmailValidation()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#a085f521179af189fb6ba24db4ade63bc">AuthControllerVariablesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#a085f521179af189fb6ba24db4ade63bc">AuthAccountCreationTrait</a>
+</li>
+<li>hasEnvChanged()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#a563a3caa1c4b763d48eef41bfb994479">Configuration</a>
 </li>
 <li>hasErrors()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_dynamic_resource_trait.html#aada71735dcc56f4cae3b82c55e090e8d">DynamicResourceTrait</a>
@@ -147,6 +156,9 @@ $(document).ready(function(){initNavTree('functions_h.html','');});
 <li>hasNonce()
 : <a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_content_security_manager.html#a4f4eb3c0d36e7168689091931b0504db">ContentSecurityManager</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#a6527438d2d26ae4f984c59ac5e3981d2">NonceGenerator</a>
+</li>
+<li>hasOption()
+: <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#a165a0865fdeb82d0d840234851692e7a">CmdTrait</a>
 </li>
 <li>hasParam()
 : <a class="el" href="class_ubiquity_1_1orm_1_1core_1_1_objects_condition_parser.html#a5b7e4f6afd2b1ce9bd956065801b8784">ObjectsConditionParser</a>
@@ -216,7 +228,7 @@ $(document).ready(function(){initNavTree('functions_h.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Mon Feb 14 2022 02:57:58 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:36 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

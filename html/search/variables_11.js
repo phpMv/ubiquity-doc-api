@@ -13,5 +13,6 @@ var searchData=
   ['style_5fsrc',['STYLE_SRC',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#a9f9e4f818372127b994295d79ce6d60f',1,'Ubiquity::security::csp::CspDirectives']]],
   ['style_5fsrc_5fattr',['STYLE_SRC_ATTR',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#afde8ae90c605a3b413e5e6e7bcb4c18c',1,'Ubiquity::security::csp::CspDirectives']]],
   ['style_5fsrc_5felm',['STYLE_SRC_ELM',['../class_ubiquity_1_1security_1_1csp_1_1_csp_directives.html#aa53fc50b9f05851f37112ce24e326f46',1,'Ubiquity::security::csp::CspDirectives']]],
-  ['success_5fmessage',['SUCCESS_MESSAGE',['../class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html#aa629db4e672ead36176d401613c3977a',1,'Ubiquity::utils::http::UFilesUpload']]]
+  ['success_5fmessage',['SUCCESS_MESSAGE',['../class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html#aa629db4e672ead36176d401613c3977a',1,'Ubiquity::utils::http::UFilesUpload']]],
+  ['systems',['SYSTEMS',['../class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#ae08cd3ac12e7a5a880153d8805833906',1,'Ubiquity::utils::base::UASystem']]]
 ];

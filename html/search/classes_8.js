@@ -7,6 +7,7 @@ var searchData=
   ['injected',['Injected',['../class_ubiquity_1_1attributes_1_1items_1_1di_1_1_injected.html',1,'Ubiquity::attributes::items::di']]],
   ['injectedannotation',['InjectedAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html',1,'Ubiquity::annotations::items::di']]],
   ['insertjquerytrait',['InsertJqueryTrait',['../class_ubiquity_1_1controllers_1_1semantic_1_1_insert_jquery_trait.html',1,'Ubiquity::controllers::semantic']]],
+  ['invalidcodeexception',['InvalidCodeException',['../class_ubiquity_1_1exceptions_1_1_invalid_code_exception.html',1,'Ubiquity::exceptions']]],
   ['ip',['Ip',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_ip.html',1,'Ubiquity::contents::validation::validators::strings']]],
   ['ipvalidator',['IpValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1strings_1_1_ip_validator.html',1,'Ubiquity::contents::validation::validators::strings']]],
   ['isbooleanvalidator',['IsBooleanValidator',['../class_ubiquity_1_1contents_1_1validation_1_1validators_1_1basic_1_1_is_boolean_validator.html',1,'Ubiquity::contents::validation::validators::basic']]],

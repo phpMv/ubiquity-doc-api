@@ -6,5 +6,6 @@ var class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait =
     [ "asPhpArray_", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#a8aa7500c5d9269b0a3746af1e5914b3d", null ],
     [ "asPhpAttribute", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#a5953a7c29c96a1624096eb45fb660532", null ],
     [ "asPhpClass", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#adbd59f1c096547a7cc951d944b9fb7b7", null ],
+    [ "isExpression", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#ab3306e1271f8fa09da9020919bcb211e", null ],
     [ "parseValue", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_array_as_trait.html#a1251ab6414797e6f2aa9f837fef8d228", null ]
 ];

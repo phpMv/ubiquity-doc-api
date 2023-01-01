@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.4.10</span>
+   &#160;<span id="projectnumber">2.5.1</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -95,8 +95,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1protection_1_1_csrf_token.html#ab399070a08638d5a787d05133ddfed16">CsrfToken</a>
 </li>
 <li>generate2FACode()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#aee09be732e860489f94b389c47dc9ba2">AuthControllerValidationTrait</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_variables_trait.html#aee09be732e860489f94b389c47dc9ba2">AuthControllerVariablesTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html#aee09be732e860489f94b389c47dc9ba2">Auth2FATrait</a>
+</li>
+<li>generateCache()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#ad7bfdf80e5903a7e1a93dff6b77b5aaa">Configuration</a>
 </li>
 <li>generateClassesFiles()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_preloader.html#a6a9954e99afbd1a045fae428f60987f9">Preloader</a>
@@ -107,8 +109,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>generateConcatSQL()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#adf5f4a885446c4613a79f645e3c7e0f9">ManyToManyParser</a>
 </li>
+<li>generateConfig()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#a0f0b0720793db8ab0ba6a61fe9b80673">Configuration</a>
+</li>
+<li>generateDbTables()
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a47f485f73d5b69dac9321634cf64a7d2">AclDAOProvider</a>
+</li>
+<li>generateEmailAccountRecoveryUrl()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html#ab84702c5e5a14ac1808f3750ff68698d">AuthAccountRecoveryTrait</a>
+</li>
 <li>generateEmailValidationUrl()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#a0b406f55e2f9e4824d543d379a2761c2">AuthControllerValidationTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#a0b406f55e2f9e4824d543d379a2761c2">AuthAccountCreationTrait</a>
 </li>
 <li>generateField()
 : <a class="el" href="class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a5fd2ff6ac249df2ce82d536a58ef3dbf">DbGenerator</a>
@@ -150,6 +161,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>generateOneInsert()
 : <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_data_export.html#a2aefd0437ea66849228e28b03c39827e">DataExport</a>
 </li>
+<li>generateOrigin()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html#a4d7e937e4d8dfe5635c50be0a9b2bda0">AuthTokens</a>
+</li>
 <li>generatePagination()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#a43422b810b606bd14c7d74924f8b3be9">RestControllerUtilitiesTrait</a>
 </li>
@@ -172,11 +186,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>generateSQL()
 : <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html#a08f4ac5bc6f5db9332925da7956b76a1">TableReversor</a>
 </li>
+<li>generateTablesForModels()
+: <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_database_reversor.html#af8fa150e4f595871fcc86a66ae7ea3b9">DatabaseReversor</a>
+</li>
 <li>generateToFile()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_preloader.html#acfd837d1913206f58b032dcff3f11355">Preloader</a>
 </li>
 <li>generateToken()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a231d4fd8d99742848c95dce07ded3dc2">ApiTokens</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html#a231d4fd8d99742848c95dce07ded3dc2">AuthTokens</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#a231d4fd8d99742848c95dce07ded3dc2">ApiTokens</a>
 </li>
 <li>generateUniqName()
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a9c1508cd0c60fd5df3269cc82ce1537f">Model</a>
@@ -193,12 +211,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_router_modifier_trait.html#aa0e61abf72f2431a7a1776a42f73dd01">RouterModifierTrait</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html#a5ac35cd9b27eb36bb68f58f665b440e5">SessionTokenStorage</a>
 , <a class="el" href="interface_ubiquity_1_1security_1_1csrf_1_1storages_1_1_token_storage_interface.html#a5ac35cd9b27eb36bb68f58f665b440e5">TokenStorageInterface</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html#a499d39d1876a05b20e1ca8e8a1c2b466">AbstractSession</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#a499d39d1876a05b20e1ca8e8a1c2b466">MultisiteSession</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#a499d39d1876a05b20e1ca8e8a1c2b466">PhpSession</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_config_file.html#a0cf528a9877eb7b5aa22e841a0c81669">UConfigFile</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_abstract_session.html#a0cf528a9877eb7b5aa22e841a0c81669">AbstractSession</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_multisite_session.html#a0cf528a9877eb7b5aa22e841a0c81669">MultisiteSession</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_php_session.html#a0cf528a9877eb7b5aa22e841a0c81669">PhpSession</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_cookie.html#a79cc5a3f7cbf2064e03df1b4b79bc00e">UCookie</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a0162aaba3c7b1a86682b248d02d93d9f">URequest</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a0162aaba3c7b1a86682b248d02d93d9f">USession</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#af2a1898b2996b41892be696714673ed8">URequest</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#af2a1898b2996b41892be696714673ed8">USession</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1store_1_1_application_storage.html#aee8f9583a96f73523ea6d5b010d9a94b">ApplicationStorage</a>
 </li>
 <li>get_()
@@ -218,6 +237,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a42ccaf53987edef7e9c39f26f371535e">OrmUtils</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#aa31109f72a8a3e7399821d140b2d75a3">OrmUtilsFieldsTrait</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1models_1_1_u_array_models.html#a1ba47ea7c17b2339f47f51783ecceff6">UArrayModels</a>
+</li>
+<li>getAccountRecoveryLink()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a39e6ce2125db7e29a931b88df2893a3a">AuthControllerCoreTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html#a39e6ce2125db7e29a931b88df2893a3a">AuthAccountRecoveryTrait</a>
 </li>
 <li>getAclById_()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#ad4aca48ebdd7f662d7b8154c20a0f773">AclList</a>
@@ -296,7 +319,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html#a4656d5c46a38dce1cb0c1316bb092e54">DAO</a>
 </li>
 <li>getAllControllersFiles()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#a1a255dc2a4d7cc31c30a655d706cec89">DevRouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#ac6f40b1bb4a5fe092ab771129173f6b2">DevRouterCacheTrait</a>
 </li>
 <li>getAllEntries()
 : <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_apcu_cache.html#abaf756f1c91682bfb0006e6d0b83deb0">ApcuCache</a>
@@ -316,7 +339,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1store_1_1_application_storage.html#ac44f0be4e5d4afe7ae2fdce7e4465895">ApplicationStorage</a>
 </li>
 <li>getAllModelsFiles()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a1dad469be112afb812eac2483dc897ba">ModelsCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a153f0fb86918a3902c81a417e928736d">ModelsCacheTrait</a>
 </li>
 <li>getAllowedMimeTypes()
 : <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html#a550e7c720f013184a1df07629ac2d585">UFilesUpload</a>
@@ -427,7 +450,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#ab62e7f52cb3527b3b268fb11f217f891">Startup</a>
 </li>
 <li>getArray()
-: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a5cefdd7868c3b60bd1109d1200ca97ac">USession</a>
+: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad0338c9a796de8e18b014f99b808ac0e">USession</a>
 </li>
 <li>getAssets()
 : <a class="el" href="class_ubiquity_1_1core_1_1_framework.html#a6b309673ee86ee4bfc87bdd2b84fcdaf">Framework</a>
@@ -440,6 +463,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getAuthor()
 : <a class="el" href="class_ubiquity_1_1utils_1_1git_1_1_git_commit.html#a5286e30390ae3e1b274940286493dd24">GitCommit</a>
+</li>
+<li>getAuthTokensAccountRecovery()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html#af92d2f8999e0ea58b6133077aadcd51e">AuthAccountRecoveryTrait</a>
+</li>
+<li>getAuthTokensEmailValidation()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#aeaec9b42c60c243926527d23c0adc569">AuthAccountCreationTrait</a>
 </li>
 <li>getAvailableDrivers()
 : <a class="el" href="class_ubiquity_1_1db_1_1_database.html#ae8d5af4a0ec9c381a6ddb193987a0ab2">Database</a>
@@ -461,7 +490,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getBaseUrl()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#ae1ca0d2444e3cca6b147445348f686de">AuthControllerCoreTrait</a>
-, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_validation_trait.html#ae1ca0d2444e3cca6b147445348f686de">AuthControllerValidationTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html#ae1ca0d2444e3cca6b147445348f686de">Auth2FATrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#ae1ca0d2444e3cca6b147445348f686de">AuthAccountCreationTrait</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_recovery_trait.html#ae1ca0d2444e3cca6b147445348f686de">AuthAccountRecoveryTrait</a>
 </li>
 <li>getBlockNames()
 : <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html#aa92fe90859ac040f55e668f6be8afad0">MicroTemplateEngine</a>
@@ -470,8 +501,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1views_1_1_view.html#aa92fe90859ac040f55e668f6be8afad0">View</a>
 </li>
 <li>getBoolean()
-: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#a0bf9dd0f7aa34bbebde52536c44b888c">URequest</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a0bf9dd0f7aa34bbebde52536c44b888c">USession</a>
+: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#aa5a2b01b8642daa4637aacc0f8328505">URequest</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#aa5a2b01b8642daa4637aacc0f8328505">USession</a>
 </li>
 <li>getBooleanOption()
 : <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1traits_1_1_cmd_trait.html#aa2f72b3227e2b032a588e8bbcf5cee91">CmdTrait</a>
@@ -481,6 +512,18 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getBorderValue()
 : <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#aeae035a9b4fd3abb9868f7744498c5d0">ConsoleTable</a>
+</li>
+<li>getBrowserComplete()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#ae6d5be6bb24bda1ea5874181b7549315">UASystem</a>
+</li>
+<li>getBrowserInfos()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#a905dca82891804f692e4f97fb152ff64">UASystem</a>
+</li>
+<li>getBrowserName()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#a8ca09efa475570e035c6f98229696b57">UASystem</a>
+</li>
+<li>getBrowserVersion()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#aee501f55cf0b57943fc61c01c489ac0c">UASystem</a>
 </li>
 <li>getBulk()
 : <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_bulk_updates_trait.html#a0132c1452a17b4350df40a6f90140b17">DAOBulkUpdatesTrait</a>
@@ -493,7 +536,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html#a50aa8a13306d0d908f9411f1c0fb18b0">DAO</a>
 </li>
 <li>getCacheDirectories()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html#a8c15e35c13c3f1e64d6141e6f522547f">DevCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html#a2d082fc6beeaee9916fd1c335d265a83">DevCacheTrait</a>
 </li>
 <li>getCacheDirectory()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#ab702308623f96f243020067a5c8d3050">CacheManager</a>
@@ -521,15 +564,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1_validators_manager.html#ae349e5adc2ca7e671ef9e7bf75870a3e">ValidatorsManager</a>
 </li>
 <li>getCacheInstance()
-: <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#a1a411f748de9a16c88c965e799be9b58">CacheManager</a>
-, <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html#a1a411f748de9a16c88c965e799be9b58">DevCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#a08ab3d62b46a50985eecb226c99f3208">CacheManager</a>
+, <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_cache_trait.html#a08ab3d62b46a50985eecb226c99f3208">DevCacheTrait</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#abaed02ffd5ea5de9468e30eac53653d4">Database</a>
 </li>
 <li>getCacheKeys()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html#a785ecd6ffb51342305646ab98e8f86c2">AclCacheProvider</a>
 </li>
 <li>getCacheSubDirectory()
-: <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#adbdaec9e17e59153ca1f830457dd4823">CacheManager</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1_cache_manager.html#a65a386513bc2705a200dbb3b5bdc5350">CacheManager</a>
 </li>
 <li>getCacheSystem()
 : <a class="el" href="class_ubiquity_1_1core_1_1_framework.html#ad37aa22a9dbd0011c2ec4863e12232f4">Framework</a>
@@ -663,7 +706,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getCondition()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#aa6b759d9a434ff803b7a2b7f515a57c5">RestControllerUtilitiesTrait</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1_database.html#acd0df1761c6900a772428f74ac9fa6f8">Database</a>
-, <a class="el" href="class_ubiquity_1_1db_1_1_sql_utils.html#a4f9439392836ec1af231d8da2e1cb3a8">SqlUtils</a>
+, <a class="el" href="class_ubiquity_1_1db_1_1_sql_utils.html#a1b4f30f199819feb78d0462e52913995">SqlUtils</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html#a380b2641a3cbac6bf2bb0f51eb3733dd">ConditionParser</a>
 </li>
 <li>getConditionParser()
@@ -674,6 +717,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getConfig()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#ab402833ec5328f4157f81902000af368">StartupConfigTrait</a>
 , <a class="el" href="class_ubiquity_1_1seo_1_1_url_parser.html#a628300eb8464467d9344c7c59cc8770b">UrlParser</a>
+</li>
+<li>getConfigFilename()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_config.html#a39198f96f9a0880ba6f843a3af10981b">AuthControllerConfig</a>
+</li>
+<li>getConfigFiles()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#a20fccbe261acca3310d0fb732a394232">Configuration</a>
 </li>
 <li>getConsoleMode()
 : <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_screen.html#ae38c1ae91c2141315b9b9fdc81bd35d8">Screen</a>
@@ -699,13 +748,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#af77e96abfd7e50122a3cf9a60f67cca6">PermissionMapObject</a>
 </li>
 <li>getControllerCache()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a1b76cf2460c5596848726839850ec375">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a9ec7d58b0ce7330a7459658b4930db49">RouterCacheTrait</a>
 </li>
 <li>getControllerCacheByDomain()
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#ab80b01879f2d9010937145f9a4551f94">RouterCacheTrait</a>
 </li>
 <li>getControllerCacheIndex()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a5f341b8f8ae76f6b3048c698b16857b7">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a1fa105ac1b3c1969c31523d32f92d4ca">RouterCacheTrait</a>
 </li>
 <li>getControllerCacheKey()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1di_1_1_di_manager.html#a4d6fe5d1d2e3413de3c898c03df87974">DiManager</a>
@@ -717,14 +766,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1_ubiquity_utils.html#a90fa2590049dbcad57a0ee720233c9cf">UbiquityUtils</a>
 </li>
 <li>getControllerRoutes()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a6fad84358d8ca93d34cda1f29dd56a40">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a83e13d0525ba1c58f4f1226b4cf29c56">RouterCacheTrait</a>
 </li>
 <li>getControllers()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#af58e87569bd9aad3e116be65358c2823">DevRouterCacheTrait</a>
-, <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#af58e87569bd9aad3e116be65358c2823">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#a616227b26de6ab5dc2fca0ce8abb3e34">DevRouterCacheTrait</a>
+, <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a616227b26de6ab5dc2fca0ce8abb3e34">RouterCacheTrait</a>
 </li>
 <li>getControllersFiles()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#a353a7d4f94388ecb60d535fcb38ce7c2">DevRouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_dev_router_cache_trait.html#ad0aa1da028e9197cd07a3ac91c7d38c7">DevRouterCacheTrait</a>
 </li>
 <li>getControllerSimpleName()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_startup.html#a22e067a1ccc62011b6262a6945d474d0">Startup</a>
@@ -758,6 +807,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getDaoPreparedStatement()
 : <a class="el" href="class_ubiquity_1_1db_1_1traits_1_1_database_operations_trait.html#afa86124d75f96cf3dbe3d9ba12994461">DatabaseOperationsTrait</a>
+</li>
+<li>getData()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_config_file.html#a81a67162a6288d78fc4c55283325f0b4">UConfigFile</a>
 </li>
 <li>getDatabase()
 : <a class="el" href="class_ubiquity_1_1orm_1_1_d_a_o.html#a8e02bd30be7a78741f6eb017c078bb7b">DAO</a>
@@ -914,7 +966,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#a9f091c63dec88e6fbd62745992f410f6">ModelViewer</a>
 </li>
 <li>getElementFieldNames()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a48fd857d848a25e729b13c7bed9ce69f">CRUDDatas</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a1c7bc9e2c96810704c7e28859abfa852">CRUDDatas</a>
 </li>
 <li>getElementsAsHtml()
 : <a class="el" href="class_ubiquity_1_1annotations_1_1parser_1_1_doc_parser.html#ad22eba9c04bfa2dd177bd7bec1d41609">DocParser</a>
@@ -923,7 +975,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#ad431f22faf611014076c357d1a98b723">AclList</a>
 </li>
 <li>getEmailFromNewAccount()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_override_trait.html#a130cb3bc3a7f08dc1d7ab704276cd393">AuthControllerOverrideTrait</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth_account_creation_trait.html#a130cb3bc3a7f08dc1d7ab704276cd393">AuthAccountCreationTrait</a>
 </li>
 <li>getEncryptionInstance()
 : <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption_manager.html#a5c8773d64cb33cd62d9d4a9088862d54">EncryptionManager</a>
@@ -937,6 +989,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_object_cache.html#ac97e94d37deeb951293028c85dbfb0db">ObjectCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_php_fast_cache_driver.html#ac97e94d37deeb951293028c85dbfb0db">PhpFastCacheDriver</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1system_1_1_redis_cache_driver.html#ac97e94d37deeb951293028c85dbfb0db">RedisCacheDriver</a>
+</li>
+<li>getEnv()
+: <a class="el" href="class_ubiquity_1_1core_1_1_framework.html#a2294acb68a094cabd5d5bfa61bc3a6d5">Framework</a>
+</li>
+<li>getEnvFiles()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#ab0da9bc2cd765a695a751b01151b99b0">Configuration</a>
 </li>
 <li>getErrorFromValues()
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#abad29ea75ac235d6b2b3900577e44b6f">Debugger</a>
@@ -984,7 +1042,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#a95699659593fb841414238574bf4c822">ReflexionFieldsTrait</a>
 </li>
 <li>getFieldNames()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#aad7dfd1ff04fe04ad477157f9fe9073a">CRUDDatas</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a108eeb7ab199d37a280d2ff2d69ea0b3">CRUDDatas</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#adabd22757181702a431265191bf9de4a">OrmUtilsFieldsTrait</a>
 </li>
 <li>getFields()
@@ -992,7 +1050,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a4e625d4888bf9afc7c8513931540f859">YumlParser</a>
 </li>
 <li>getFieldsAndValues_()
-: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a2f28d332d4472656f1ab6d512dc44e13">OrmUtils</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#aa500d7f1cf2fea8a4af5337ad9db5cac">OrmUtils</a>
 </li>
 <li>getFieldsInfos()
 : <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a917b5cf6a9fe21878b312f137f1bd8ea">AbstractDbWrapper</a>
@@ -1132,7 +1190,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a88496922366d4aff09feb81d21363564">FormModelViewerTrait</a>
 </li>
 <li>getFormFieldNames()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#a3791e13431cbb3ea9e7bae90cb356874">CRUDDatas</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#aedbbf20a4bcf658bd5a556dff9de2dce">CRUDDatas</a>
 </li>
 <li>getFormModalTitle()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1traits_1_1_form_model_viewer_trait.html#a61bd5bbca2320d732a35328718c36d4e">FormModelViewerTrait</a>
@@ -1206,7 +1264,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getId()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a12251d0c022e9e21c137a105ff683f13">Route</a>
-, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_abstract_acl_part.html#a12251d0c022e9e21c137a105ff683f13">AbstractAclPart</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#a12251d0c022e9e21c137a105ff683f13">AclElement</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1auth_1_1models_1_1_abstract_authtokens.html#a12251d0c022e9e21c137a105ff683f13">AbstractAuthtokens</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1_u_token.html#a12251d0c022e9e21c137a105ff683f13">UToken</a>
@@ -1345,6 +1402,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_cache.html#a951bc257c033cda078fdc980df79abe2">DAOCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1dao_1_1_d_a_o_serial_cache.html#a951bc257c033cda078fdc980df79abe2">DAOSerialCache</a>
 , <a class="el" href="class_ubiquity_1_1cache_1_1database_1_1_db_cache.html#a29d7ebfa9d4d75188fb290baa8abbb17">DbCache</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html#ae06dede0f76fa2ded5f834ca8f5f13be">AuthTokens</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a8b33fbd838112b9017914c8a7d421831">PermissionsMap</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html#a7c6c25d9edf72304715addf59375c761">SessionTokenStorage</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1data_1_1_encryption.html#ad40c766ec8aced9770fe6ae269a1e781">Encryption</a>
@@ -1357,7 +1415,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_fields_trait.html#a308b430ed1449254339e638a157ff537">OrmUtilsFieldsTrait</a>
 </li>
 <li>getKeyFieldsAndValues()
-: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#ab776e77721f5743a6115071f3f9cdf54">OrmUtils</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a9b3da54368ddc6ec9589cbf6be2ad39a">OrmUtils</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_orm_utils_relations_trait.html#ab776e77721f5743a6115071f3f9cdf54">OrmUtilsRelationsTrait</a>
 </li>
 <li>getKeyMembers()
@@ -1480,7 +1538,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a108d5113b9263a61e5a369bd7b6a86e1">OrmUtils</a>
 </li>
 <li>getMembersAndValues()
-: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#aa23b8fdb7ae011283a12b57c745a7506">OrmUtils</a>
+: <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#adeeca24f7a90af80e6fc1fad3cb2ae85">OrmUtils</a>
 </li>
 <li>getMembersAnnotationWithAnnotation()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a04b554d689caa16c229e79765cb0de49">Reflexion</a>
@@ -1513,7 +1571,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1admin_1_1popo_1_1_route.html#a7347b0b89cca1d7604e93f5b5e896fc4">Route</a>
 , <a class="el" href="class_ubiquity_1_1devtools_1_1utils_1_1arrays_1_1_base_array.html#a7347b0b89cca1d7604e93f5b5e896fc4">BaseArray</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1_messages_domain.html#a7347b0b89cca1d7604e93f5b5e896fc4">MessagesDomain</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1flash_1_1_flash_bag.html#af69c94004450a89a499632b8c710237d">FlashBag</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1flash_1_1_flash_bag.html#aa9b7266a8a263a4d9073d51d0d54f2f7">FlashBag</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_files_upload.html#a7347b0b89cca1d7604e93f5b5e896fc4">UFilesUpload</a>
 </li>
 <li>getMessagesDomains()
@@ -1583,17 +1641,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1repositories_1_1_repository.html#a0a086ca877b41192556a2de7e4a97b98">Repository</a>
 </li>
 <li>getModelCacheKey()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a11bb9d4cc6953ffdb3372daab0aa089f">ModelsCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a33e021cdec4ca367e6a924be620351a4">ModelsCacheTrait</a>
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1traits_1_1_validators_manager_cache_trait.html#a11bb9d4cc6953ffdb3372daab0aa089f">ValidatorsManagerCacheTrait</a>
 </li>
 <li>getModelClasses()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af66fccde3660751e8325a3a1a64f2d1e">AclDAOProvider</a>
 </li>
 <li>getModelClassesSwap()
-: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#a5d3d5cc9e7bdf70715a089ccb2e87011">AclManager</a>
-, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#af5ab3744c00b137ea489510d8e291f59">AclArrayProvider</a>
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#af5ab3744c00b137ea489510d8e291f59">AclArrayProvider</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af5ab3744c00b137ea489510d8e291f59">AclDAOProvider</a>
 , <a class="el" href="interface_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_provider_interface.html#af5ab3744c00b137ea489510d8e291f59">AclProviderInterface</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1traits_1_1_acl_manager_init.html#a5d3d5cc9e7bdf70715a089ccb2e87011">AclManagerInit</a>
 </li>
 <li>getModelDataElement()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1viewers_1_1_model_viewer.html#ad49e9beeb11bccbbcb2fde4e11591ded">ModelViewer</a>
@@ -1612,7 +1670,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html#a7cd2e13f50fbc61e846e5980f02371f8">MultiResourceCRUDController</a>
 </li>
 <li>getModels()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a9ee25ea05e5dae21af73be940c029260">ModelsCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a918dcf547de3fe1048e567bc7cb933a2">ModelsCacheTrait</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_core_trait.html#aa37c055376ee0b5bdd2be08b78f13a15">DAOCoreTrait</a>
 </li>
 <li>getModelsCompletePath()
@@ -1628,7 +1686,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1traits_1_1_startup_config_trait.html#a2b53bb4100dd39b06dbc3f63212e5a5b">StartupConfigTrait</a>
 </li>
 <li>getModelsFiles()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#a50b53263eaa58d3953007a7b9eb35a12">ModelsCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#ae540c159ac28c0d802fcd97368d2d51a">ModelsCacheTrait</a>
 </li>
 <li>getModelsName()
 : <a class="el" href="class_ubiquity_1_1utils_1_1_ubiquity_utils.html#a589c60e82e71f3e55671c087295b45bc">UbiquityUtils</a>
@@ -1754,7 +1812,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1db_1_1_database.html#a1a49b8dded6e91a52e2fd07195d334da">Database</a>
 </li>
 <li>getOrigin()
-: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#aef10b9fe9b4eea559a874d56142e1736">URequest</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html#ace359404a4a0a42d342fd96f2f3e1a3f">AuthTokens</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_request.html#aef10b9fe9b4eea559a874d56142e1736">URequest</a>
 </li>
 <li>getOriginalURL()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_core_trait.html#a0ac57dfbf35eec8ffba0be74815ffc55">AuthControllerCoreTrait</a>
@@ -1763,7 +1822,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1core_1_1_framework.html#add772ecf36dc5bc42a0f5bb85a545b72">Framework</a>
 </li>
 <li>getOrmModelCache()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#af65b7dffb9f0b623ee5314edd88e7d8b">ModelsCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_models_cache_trait.html#af3f3ce16e72c637ac3f5b431f78bee4a">ModelsCacheTrait</a>
 </li>
 <li>getPageInfos()
 : <a class="el" href="class_ubiquity_1_1core_1_1postinstall_1_1_display.html#a53f7edf347268cb15cead71d8f63741e">Display</a>
@@ -1867,6 +1926,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getPkName()
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_model.html#a0abe972064d47a43060fca486b5052db">Model</a>
 </li>
+<li>getPlatform()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#a267b6591d2be5f3dc98135fc18c1fe14">UASystem</a>
+</li>
+<li>getPlatformFromUserAgent()
+: <a class="el" href="class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#afa946a0336703b0fe1a5a607b9d21f88">UASystem</a>
+</li>
 <li>getPolicies()
 : <a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_content_security.html#a3102cd4819454c9f0385b7a2c9a98255">ContentSecurity</a>
 </li>
@@ -1894,6 +1959,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_models_creator.html#ac2080ca261ce17f09273586a963b7337">ModelsCreator</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_models_creator.html#ac2080ca261ce17f09273586a963b7337">YumlModelsCreator</a>
 , <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1yuml_1_1_yuml_parser.html#a39981d085211fa36fd6ee3e408c4f005">YumlParser</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1_orm_utils.html#a84076443355eb9cf9d90c2962d316547">OrmUtils</a>
 </li>
 <li>getPrimaryKeysFromDatas()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1traits_1_1_rest_controller_utilities_trait.html#a37d38a114cc313677745e6c45d38fd41">RestControllerUtilitiesTrait</a>
@@ -1909,7 +1975,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getPropertiesAndValues()
 : <a class="el" href="class_ubiquity_1_1annotations_1_1_base_annotation_trait.html#a448b36649ab596b17451aed9e30b072f">BaseAnnotationTrait</a>
 , <a class="el" href="class_ubiquity_1_1attributes_1_1items_1_1router_1_1_route.html#a4ad85710dd7459982d55a7ebbb658f5f">Route</a>
-, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a7bc78a1b440422d38e602403031b12aa">Reflexion</a>
+, <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a76abbcca34d4267cb253c26a1bd1181f">Reflexion</a>
 </li>
 <li>getProperty()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion_fields_trait.html#aa06487af5f948c77ce255d965debcc19">ReflexionFieldsTrait</a>
@@ -1930,9 +1996,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_reflexion.html#a157964b1df34ca41b727fd4ceb2cbf83">Reflexion</a>
 </li>
 <li>getProvider()
-: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1_acl_manager.html#a3e5cb8d5962a5fe7542ef557d03ab3bb">AclManager</a>
-, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#aa782afa1ddd53989b0c0d0255b41be8d">AclList</a>
+: <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#aa782afa1ddd53989b0c0d0255b41be8d">AclList</a>
 , <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1traits_1_1_acl_list_query_trait.html#aa782afa1ddd53989b0c0d0255b41be8d">AclListQueryTrait</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1traits_1_1_acl_manager_init.html#a3e5cb8d5962a5fe7542ef557d03ab3bb">AclManagerInit</a>
 </li>
 <li>getProviderClasses()
 : <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_list.html#aefb77f8f2a2ef47ed9eb3335e2787d6b">AclList</a>
@@ -2025,13 +2091,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#af7e268f6f4beed52b4c0e5ebe044a0c8">RestCacheTrait</a>
 </li>
 <li>getRestCacheController()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#a8172c338c31e45d40f6b9aa8d4f237f7">RestCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#a91ca778eec78089055a04e65db5bffed">RestCacheTrait</a>
 </li>
 <li>getRestNamespace()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_rest_server.html#a81c41ea609e8ccc42247b8bce3a3a7f7">RestServer</a>
 </li>
 <li>getRestResource()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#a4aa143cf73ab1a79670466538509fdb3">RestCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#af524ec349614568ecb5660b3ebf15feb">RestCacheTrait</a>
 </li>
 <li>getRestRoutes()
 : <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_rest_cache_trait.html#aa04e4bc9794861e4805c93ba3d31512a">RestCacheTrait</a>
@@ -2104,7 +2170,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#a97a6be67a3be78d02bbc1f47fdc1ee39">Router</a>
 </li>
 <li>getRouteCache()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a481c926fda2df465bfcb0ded46b14ddb">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a1c0116e479714ed00bf12b9d32d31315">RouterCacheTrait</a>
 </li>
 <li>getRouteDelete()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1traits_1_1_urls_trait.html#acbd670e790d029de79a01299c6306133">UrlsTrait</a>
@@ -2131,7 +2197,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1controllers_1_1_router.html#a573a3185d7a60c5241ca35cb8bad96ae">Router</a>
 </li>
 <li>getRouteKey()
-: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#af93ed880557422282a08cc744e6c1dbc">RouterCacheTrait</a>
+: <a class="el" href="class_ubiquity_1_1cache_1_1traits_1_1_router_cache_trait.html#a32d4a432e370c4eb37d56770e016e683">RouterCacheTrait</a>
 </li>
 <li>getRouteNamePrefix()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_multi_resource_c_r_u_d_controller.html#ad3e121b646ae73cdf5c4c44ccafd0145">MultiResourceCRUDController</a>
@@ -2178,7 +2244,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1preloading_1_1_preloader_cache_info.html#a06a80aabf8a13e8fe37df9b69c34ac74">PreloaderCacheInfo</a>
 </li>
 <li>getSearchFieldNames()
-: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#ab1128f618b1a83ed10075107e76cd1c4">CRUDDatas</a>
+: <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_datas.html#aefafc8d6012342013223a69f5f1d74ee">CRUDDatas</a>
 </li>
 <li>getSearchWhere()
 : <a class="el" href="class_ubiquity_1_1db_1_1_sql_utils.html#a921c26a5a205ed83489438391ee76566">SqlUtils</a>
@@ -2341,10 +2407,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getThemeUrl()
 : <a class="el" href="class_ubiquity_1_1assets_1_1_assets_manager.html#ada096c278d7017016851af9f3b852cf8">AssetsManager</a>
 </li>
+<li>getTheoreticalLoadedConfigFiles()
+: <a class="el" href="class_ubiquity_1_1config_1_1_configuration.html#a9b024338d555df47e194f1f679e51fe5">Configuration</a>
+</li>
 <li>getTimeout()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html#abac5019c5daf3a27d739aa3a249fdb31">CRUDMessage</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1session_1_1_session_object.html#abac5019c5daf3a27d739aa3a249fdb31">SessionObject</a>
-, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a0579cc6f9496fb1dc4d70d9c042f2352">USession</a>
+, <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a1668b1b213c589d9be88db4049ac2fbb">USession</a>
 </li>
 <li>getTimestamp()
 : <a class="el" href="class_ubiquity_1_1cache_1_1_cache_file.html#a92aa1d82129ec8cd803d64c28efcb30f">CacheFile</a>
@@ -2362,7 +2431,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1utils_1_1flash_1_1_flash_message.html#a95e859a4588a39a1824b717378a84c29">FlashMessage</a>
 </li>
 <li>getTmp()
-: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#ad7fe55d7821ff6fffe1a6f489fbc9d03">USession</a>
+: <a class="el" href="class_ubiquity_1_1utils_1_1http_1_1_u_session.html#a7c24cfb37e2b3d8a08b11580b5774202">USession</a>
 </li>
 <li>getToken()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#ad6b0b338ca3d95eb90baed61d51ddbcb">ApiTokens</a>
@@ -2376,6 +2445,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getTokens()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1rest_1_1_api_tokens.html#acf2f05f60b57bd67020d2259a2cf9982">ApiTokens</a>
+</li>
+<li>getTokenSize()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_controller_config.html#a7ccad9f15e8c0c02c7216f382888fb56">AuthControllerConfig</a>
+, <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html#a7ccad9f15e8c0c02c7216f382888fb56">Auth2FATrait</a>
 </li>
 <li>getToManyFields()
 : <a class="el" href="class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_relations_trait.html#a092c01cf8fd991f8ee0c767c17598062">DAORelationsTrait</a>
@@ -2405,6 +2478,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 , <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1_constraint_violation_viewer.html#aecf7de66d4368dcd0a1d8b7d822ca54b">ConstraintViolationViewer</a>
 , <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_message.html#a830b5c75df72b32396701bc563fbe3c7">CRUDMessage</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1utils_1_1_db_types.html#ad7fd4d088fd10410179eb13d6d241254">DbTypes</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permission_map_object.html#a830b5c75df72b32396701bc563fbe3c7">PermissionMapObject</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_abstract_acl_part.html#a830b5c75df72b32396701bc563fbe3c7">AbstractAclPart</a>
+, <a class="el" href="class_ubiquity_1_1security_1_1acl_1_1models_1_1_acl_element.html#a830b5c75df72b32396701bc563fbe3c7">AclElement</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1flash_1_1_flash_message.html#a830b5c75df72b32396701bc563fbe3c7">FlashMessage</a>
 </li>
 <li>getTypesRegex()
@@ -2569,6 +2645,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getViewInfo()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html#a1ef33a0ebba2b7b1a7105d8a3f5a56b4">AuthFiles</a>
 </li>
+<li>getViewInitRecovery()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html#ae0a044bd004bc1ae152b174fa1707271">AuthFiles</a>
+</li>
 <li>getViewItemHome()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_files.html#ad5cc1278609d322537ba1e2d082c1421">CRUDFiles</a>
 </li>
@@ -2587,6 +2666,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>getViewNoAccess()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html#a4e16a9a5c4b00f7b8ef176841f2a94e2">AuthFiles</a>
 </li>
+<li>getViewRecovery()
+: <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html#a3a0c999fe33618d6c6d14c3b175a462d">AuthFiles</a>
+</li>
 <li>getViewStepTwo()
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_files.html#a942665199ded37293f4e609b14d413a4">AuthFiles</a>
 </li>
@@ -2601,6 +2683,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>getWhere()
 : <a class="el" href="class_ubiquity_1_1db_1_1_sql_utils.html#ac739f951006fdf543eabc99db854fb40">SqlUtils</a>
+</li>
+<li>getWherePK()
+: <a class="el" href="class_ubiquity_1_1db_1_1_sql_utils.html#a9a06f10737e8a1232430b7c3d5be3ccf">SqlUtils</a>
 </li>
 <li>getWhereValues()
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_many_to_many_parser.html#a108a9e85032affe4a714ff2d18a406d0">ManyToManyParser</a>
@@ -2647,7 +2732,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Mon Feb 14 2022 02:57:59 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:37 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

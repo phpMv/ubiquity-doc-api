@@ -6,6 +6,9 @@ var dir_ccb2babb23882bad7bd33e0c4cd4767b =
     [ "GetAnnotation.php", "_get_annotation_8php.html", [
       [ "GetAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_get_annotation.html", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_get_annotation" ]
     ] ],
+    [ "NoRouteAnnotation.php", "_no_route_annotation_8php.html", [
+      [ "NoRouteAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_no_route_annotation.html", null ]
+    ] ],
     [ "OptionsAnnotation.php", "_options_annotation_8php.html", [
       [ "OptionsAnnotation", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_options_annotation.html", "class_ubiquity_1_1annotations_1_1items_1_1router_1_1_options_annotation" ]
     ] ],

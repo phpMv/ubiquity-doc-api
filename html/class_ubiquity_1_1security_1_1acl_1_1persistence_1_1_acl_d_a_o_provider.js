@@ -1,13 +1,19 @@
 var class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider =
 [
-    [ "__construct", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a7e48e646613ff1fab98537ebfe979c3f", null ],
+    [ "__construct", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1d52000610ef9948adc904d7fc8188d7", null ],
+    [ "cacheUpdated", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a9c89f4a8b7590ce979f0c52d5f8ab34b", null ],
     [ "castElement", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#afcae3f413f739edceadbf68171cd5bed", null ],
     [ "clearAll", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1c40f27bdcc44f4faf3fc044ee577af2", null ],
+    [ "createModel", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a53c8fe017e3bc35359cdadd91197a564", null ],
+    [ "createModels", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a01a3ef989a3558c83753f4f5293e1988", null ],
     [ "existAcl", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#affaec14f72d6b47b957d1fef4a93c192", null ],
     [ "existPart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1323c54e10b5f4cad5e3bbd3eaff4eb3", null ],
+    [ "generateDbTables", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a47f485f73d5b69dac9321634cf64a7d2", null ],
     [ "getDetails", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a67bcdf2ca053bbc348983454239ea980", null ],
     [ "getModelClasses", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af66fccde3660751e8325a3a1a64f2d1e", null ],
     [ "getModelClassesSwap", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af5ab3744c00b137ea489510d8e291f59", null ],
+    [ "initializeProvider", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a8f4cd06ad26b17309244ddd616b642e8", null ],
+    [ "initModelsCache", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a2814d529934e4c24ad37aac106bd33c8", null ],
     [ "isAutosave", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a60ac1e23c5b8d87c017a560a005d32b7", null ],
     [ "loadAllAcls", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a2132aa92df061fdc17b814355289d165", null ],
     [ "loadAllPermissions", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#ae7179da3fdb7d3fbc1cc059cf1e030ba", null ],
@@ -19,10 +25,11 @@ var class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider =
     [ "saveAcl", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#aef84b003e5bb20fdf9c8aa4be59db548", null ],
     [ "saveAll", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#ae23aae6b3675fbf40118b23071a12984", null ],
     [ "savePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af1e923801c89a9e8a1bbaff93a3c4859", null ],
-    [ "setDbOffset", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a4c1ce2937d160dea331e2cd32b01b25c", null ],
-    [ "updatePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#abebd5ca03cd6fbd5c900d8c4de51a448", null ],
-    [ "$aclClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1c29dffbebe945d89da7b236dfcae8be", null ],
-    [ "$permissionClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a6e4bd8b8245b72c0ec4ef44596c85631", null ],
-    [ "$resourceClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a282e44d4c374c72f8787f07b66ea99b1", null ],
-    [ "$roleClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a92f6108407092347155c702b8e3079be", null ]
+    [ "setClasses", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#af8cef12b1859d160cf2df461ff670460", null ],
+    [ "setDbOffset", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#ac70e31fbfaa832d1010252a444850180", null ],
+    [ "updatePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#aaad222488db0c4f82ab0693e0c9394b4", null ],
+    [ "$aclClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a7feb1b4a83f9fb3a6f6207bf7ce86aca", null ],
+    [ "$permissionClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a559315684a21b149057704912e8ea9ff", null ],
+    [ "$resourceClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#ae3b213eeb655cb04dce3e36449673c8d", null ],
+    [ "$roleClass", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a15e579fe345392a717935bb93cc48d83", null ]
 ];

@@ -8,5 +8,6 @@ var class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait =
     [ "getDatabase", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#a8e02bd30be7a78741f6eb017c078bb7b", null ],
     [ "rollBack", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#a4b9f8e96448c4c8958e013598805753f", null ],
     [ "rollBackAll", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#a6c476dc9a96f3de8fb2a22fe34e5a31b", null ],
-    [ "rollBackToLevel", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#afc739b69154db2493ebe4d716557bd25", null ]
+    [ "rollBackToLevel", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#afc739b69154db2493ebe4d716557bd25", null ],
+    [ "setIsolationLevel", "class_ubiquity_1_1orm_1_1traits_1_1_d_a_o_transactions_trait.html#adad9c176a756cd6ba73a10bfa03ddaac", null ]
 ];

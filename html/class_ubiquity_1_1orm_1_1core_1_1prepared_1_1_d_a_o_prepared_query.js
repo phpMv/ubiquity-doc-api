@@ -44,6 +44,7 @@ var class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query =
     [ "$memberList", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#ad523cac7ca2ca5b32cc5d92119235197", null ],
     [ "$oneToManyFields", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a059a21044a1ef23e7396733f52cc7a92", null ],
     [ "$preparedCondition", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aa21f842058986af44cfba6b317ec047c", null ],
+    [ "$primaryKeys", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#afb862c909f6c212baaa9738672214eef", null ],
     [ "$propsKeys", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#aa674f9e5ccaba48e695a66215738117c", null ],
     [ "$sqlAdditionalMembers", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a1687dabc772b3a7e58657aee0d1fb1fb", null ],
     [ "$statement", "class_ubiquity_1_1orm_1_1core_1_1prepared_1_1_d_a_o_prepared_query.html#a776dc234d8e2b257550d9444ddf5d399", null ],

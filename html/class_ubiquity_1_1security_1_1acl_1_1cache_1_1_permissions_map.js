@@ -1,7 +1,9 @@
 var class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map =
 [
     [ "__construct", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a095c5d389db211932136b53f25f39685", null ],
+    [ "_getRessourcePermission", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a693f04748a92122495e7489864c6ec86", null ],
     [ "addAction", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a130cb55513d460bc523eae9c110c2d70", null ],
+    [ "cacheUpdated", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a9c89f4a8b7590ce979f0c52d5f8ab34b", null ],
     [ "getKey", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a8b33fbd838112b9017914c8a7d421831", null ],
     [ "getMap", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a831bfd2e8f3f041f518f9815cb503bda", null ],
     [ "getObjectMap", "class_ubiquity_1_1security_1_1acl_1_1cache_1_1_permissions_map.html#a7176852e33b220b5c57754f2d6ce5557", null ],

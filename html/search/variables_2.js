@@ -18,5 +18,6 @@ var searchData=
   ['bold',['BOLD',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a466dec8fb20c0821e6bfb70cf0c8e672',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
   ['bottom_5fleft',['BOTTOM_LEFT',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#a08f5ceca2e85bef99447df355774491b',1,'Ubiquity::devtools::cmd::ConsoleTable']]],
   ['bottom_5fright',['BOTTOM_RIGHT',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#a5ccf2d6b9c5017367a57d3f60e562bda',1,'Ubiquity::devtools::cmd::ConsoleTable']]],
-  ['brown',['BROWN',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a2af76f1c2ac068903b91fe8b2d9b4ef8',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]]
+  ['brown',['BROWN',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html#a2af76f1c2ac068903b91fe8b2d9b4ef8',1,'Ubiquity::devtools::cmd::ConsoleFormatter']]],
+  ['browsers',['BROWSERS',['../class_ubiquity_1_1utils_1_1base_1_1_u_a_system.html#addc273d18b651ffd54c38285172c98e2',1,'Ubiquity::utils::base::UASystem']]]
 ];

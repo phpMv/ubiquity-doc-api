@@ -17,6 +17,7 @@ var searchData=
   ['columnannotation_2ephp',['ColumnAnnotation.php',['../_column_annotation_8php.html',1,'']]],
   ['command_2ephp',['Command.php',['../_command_8php.html',1,'']]],
   ['conditionparser_2ephp',['ConditionParser.php',['../_condition_parser_8php.html',1,'']]],
+  ['configuration_2ephp',['Configuration.php',['../_configuration_8php.html',1,'']]],
   ['console_2ephp',['Console.php',['../_console_8php.html',1,'']]],
   ['consoleformatter_2ephp',['ConsoleFormatter.php',['../_console_formatter_8php.html',1,'']]],
   ['consoletable_2ephp',['ConsoleTable.php',['../_console_table_8php.html',1,'']]],

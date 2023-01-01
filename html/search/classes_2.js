@@ -17,6 +17,7 @@ var searchData=
   ['columnannotation',['ColumnAnnotation',['../class_ubiquity_1_1annotations_1_1items_1_1_column_annotation.html',1,'Ubiquity::annotations::items']]],
   ['command',['Command',['../class_ubiquity_1_1devtools_1_1cmd_1_1_command.html',1,'Ubiquity::devtools::cmd']]],
   ['conditionparser',['ConditionParser',['../class_ubiquity_1_1orm_1_1parser_1_1_condition_parser.html',1,'Ubiquity::orm::parser']]],
+  ['configuration',['Configuration',['../class_ubiquity_1_1config_1_1_configuration.html',1,'Ubiquity::config']]],
   ['console',['Console',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console.html',1,'Ubiquity::devtools::cmd']]],
   ['consoleformatter',['ConsoleFormatter',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_formatter.html',1,'Ubiquity::devtools::cmd']]],
   ['consoletable',['ConsoleTable',['../class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html',1,'Ubiquity::devtools::cmd']]],

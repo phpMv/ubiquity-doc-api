@@ -14,7 +14,7 @@ var class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider =
     [ "removePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#a71be3bed3e6ba908914662c0b38e3237", null ],
     [ "saveAcl", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#aef84b003e5bb20fdf9c8aa4be59db548", null ],
     [ "savePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#af1e923801c89a9e8a1bbaff93a3c4859", null ],
-    [ "updatePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#abebd5ca03cd6fbd5c900d8c4de51a448", null ],
+    [ "updatePart", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#aaad222488db0c4f82ab0693e0c9394b4", null ],
     [ "$aclsArray", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#ae6ddf7e2a059844b9a8f8ef7ea83e35a", null ],
     [ "$parts", "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_array_provider.html#aa8dfa90e1feaffe49fc70696cc75c2f3", null ]
 ];

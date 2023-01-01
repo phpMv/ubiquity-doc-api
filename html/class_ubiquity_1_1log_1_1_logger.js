@@ -11,6 +11,12 @@ var class_ubiquity_1_1log_1_1_logger =
     [ "_registerError", "class_ubiquity_1_1log_1_1_logger.html#aa7d543528439fe4f8e3c8b094dc58674", null ],
     [ "_warn", "class_ubiquity_1_1log_1_1_logger.html#a11332896940452a5815c87ba8a2c49c9", null ],
     [ "alert", "class_ubiquity_1_1log_1_1_logger.html#a9b94d21604af4b9c4be9448349514b0b", null ],
+    [ "appAlert", "class_ubiquity_1_1log_1_1_logger.html#ad4acbcfaca62e75acb443b39f7fee596", null ],
+    [ "appCritical", "class_ubiquity_1_1log_1_1_logger.html#a2bab3ae54409e59602c85706f3dd5810", null ],
+    [ "appError", "class_ubiquity_1_1log_1_1_logger.html#abe3725d85c1a76537960d5104be4c839", null ],
+    [ "appInfo", "class_ubiquity_1_1log_1_1_logger.html#a0b8658ca54e6fe447a44d75296701d59", null ],
+    [ "appLog", "class_ubiquity_1_1log_1_1_logger.html#a28479ae80de6bbfdc2057ac034f04a43", null ],
+    [ "appWarn", "class_ubiquity_1_1log_1_1_logger.html#aafeac76a997258e097bb11a42246266a", null ],
     [ "asObjects", "class_ubiquity_1_1log_1_1_logger.html#abacc1fa1b51d6d1986e51191ba77bf34", null ],
     [ "clearAll", "class_ubiquity_1_1log_1_1_logger.html#aa669d52ef3bdabf2fddfe85f8bfdc7ba", null ],
     [ "close", "class_ubiquity_1_1log_1_1_logger.html#a1d68d0d72e16e18dfe327f39868b8fb5", null ],
@@ -19,11 +25,11 @@ var class_ubiquity_1_1log_1_1_logger =
     [ "error", "class_ubiquity_1_1log_1_1_logger.html#af43fdd328dfcb0a52286a6086292c211", null ],
     [ "inContext", "class_ubiquity_1_1log_1_1_logger.html#a24f5ae49c0bfa3b640f3208fa13985d1", null ],
     [ "info", "class_ubiquity_1_1log_1_1_logger.html#af5c8d434f89e5ce783d6a0e754474e60", null ],
-    [ "init", "class_ubiquity_1_1log_1_1_logger.html#a9b67ac7179398e39bf909d067e38c1bf", null ],
+    [ "init", "class_ubiquity_1_1log_1_1_logger.html#a6e00345ff570cca6c37731e3122ca7a5", null ],
     [ "isActive", "class_ubiquity_1_1log_1_1_logger.html#ad4046a3f867bfe5fb530650863884194", null ],
     [ "log", "class_ubiquity_1_1log_1_1_logger.html#af3208ccc7b9a6076b7a34a216610e4e7", null ],
     [ "registerError", "class_ubiquity_1_1log_1_1_logger.html#a0df09aea3ec889ba23fa459d44f439e9", null ],
     [ "warn", "class_ubiquity_1_1log_1_1_logger.html#a21db795c7dc2847d428e499b841a34c6", null ],
-    [ "$instance", "class_ubiquity_1_1log_1_1_logger.html#ad9d7ce33ebb142b70e58b68052ca0ea8", null ],
-    [ "$test", "class_ubiquity_1_1log_1_1_logger.html#a31daebf88fc668f410293e2c70cea3fc", null ]
+    [ "$active", "class_ubiquity_1_1log_1_1_logger.html#aacd1fa47b7ea59451aff98beca4360ae", null ],
+    [ "$instance", "class_ubiquity_1_1log_1_1_logger.html#ad9d7ce33ebb142b70e58b68052ca0ea8", null ]
 ];

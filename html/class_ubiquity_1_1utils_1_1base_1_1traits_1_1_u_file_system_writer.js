@@ -5,5 +5,6 @@ var class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer =
     [ "replaceFromTemplate", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#a4fa6b94ace3b7140a362baa20312a27a", null ],
     [ "replaceWriteFromContent", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#a8b52401963f4b7e090b0be8da9b7739e", null ],
     [ "save", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#ab393b03d2852296b16521feb4c323127", null ],
-    [ "xcopy", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#ac99c25b701937e74a1521233aeb29ffd", null ]
+    [ "xcopy", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#ac99c25b701937e74a1521233aeb29ffd", null ],
+    [ "xmove", "class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#a4eb489fd294cf04bfd5cbc09dc643946", null ]
 ];
