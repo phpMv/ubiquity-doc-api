@@ -27,7 +27,7 @@ var searchData=
   ['hassecurity',['hasSecurity',['../class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html#aba243d8de079feb6d23b8093a2f55808',1,'Ubiquity::controllers::admin::ServicesChecker']]],
   ['hasshieldon',['hasShieldon',['../class_ubiquity_1_1controllers_1_1admin_1_1_services_checker.html#a5330507daeba76a11620b0a0d50157e3',1,'Ubiquity::controllers::admin::ServicesChecker']]],
   ['hassttyavailable',['hasSttyAvailable',['../class_ubiquity_1_1devtools_1_1cmd_1_1_screen.html#a0efbaa11b142dcb987f2da8e8dea4b55',1,'Ubiquity::devtools::cmd::Screen']]],
-  ['hasthemeresource',['hasThemeResource',['../class_ubiquity_1_1views_1_1engine_1_1_twig.html#a0fc748647c0873ca7441479c5309758d',1,'Ubiquity::views::engine::Twig']]],
+  ['hasthemeresource',['hasThemeResource',['../class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a0fc748647c0873ca7441479c5309758d',1,'Ubiquity::views::engine::TemplateEngine']]],
   ['hastocreatetable',['hasToCreateTable',['../class_ubiquity_1_1db_1_1reverse_1_1_db_generator.html#a9d457d040ec211c8ca8f73174816b010',1,'Ubiquity::db::reverse::DbGenerator']]],
   ['hasupdates',['hasUpdates',['../class_ubiquity_1_1translation_1_1_messages_updates.html#ae2d4d75ba4ea42ed00bb37826ebf4223',1,'Ubiquity::translation::MessagesUpdates']]],
   ['hasvalue',['hasValue',['../class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#ad76fb8e0382a40904e3d3d058262f20e',1,'Ubiquity::devtools::cmd::Command']]],

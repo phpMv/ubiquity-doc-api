@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.5.1</span>
+   &#160;<span id="projectnumber">2.5.2</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -286,6 +286,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$batchSize
 : <a class="el" href="class_ubiquity_1_1db_1_1export_1_1_data_export.html#aca95f569480c222954dbf1a755bdcc97">DataExport</a>
 </li>
+<li>$blockPattern
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_template_parser.html#a01b541ee56ac2928f2c62333a799e928">TemplateParser</a>
+</li>
 <li>$borderColor
 : <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#ac5ec9f81a9744338be8c3ae48bb31fb0">ConsoleTable</a>
 </li>
@@ -351,6 +354,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_member_comparator.html#a252ba022809910ea710a068fc1bab657">MemberComparator</a>
 , <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a252ba022809910ea710a068fc1bab657">ClassToYuml</a>
 </li>
+<li>$classAttributes
+: <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html#a91579791b4cbb63976560ac5cc66d432">ClassCreator</a>
+</li>
 <li>$classCode
 : <a class="el" href="class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html#a7cb00c4ad9a0b22a3fd057d59017b365">ClassMerger</a>
 </li>
@@ -382,6 +388,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$classSeparator
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_yuml.html#a54479fbe576555bd11cf5a4cc2f0cc7a">Yuml</a>
+</li>
+<li>$closeExpressionTag
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#ab4d651c91f804c2dd88b8e655712b646">TemplateGenerator</a>
+</li>
+<li>$closeVarTag
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#afdb8fb58ba975c01b7655f74c8f3f5d1">TemplateGenerator</a>
 </li>
 <li>$code
 : <a class="el" href="class_ubiquity_1_1annotations_1_1items_1_1di_1_1_injected_annotation.html#a7949acdaecc70b9f035c12a7069db132">InjectedAnnotation</a>
@@ -743,8 +755,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$frequencies
 : <a class="el" href="class_ubiquity_1_1seo_1_1_url_parser.html#a1678a26ee27839fdb0833198dd72bd8e">UrlParser</a>
 </li>
+<li>$fw
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a7ace10e1b25539c9abc6805319db5f57">TemplateEngine</a>
+</li>
 <li>$generator
 : <a class="el" href="class_ubiquity_1_1orm_1_1reverse_1_1_database_reversor.html#ab328ac5b606185b5e1706aa41380cc76">DatabaseReversor</a>
+, <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_template_parser.html#a53914c44f8d16988bececdc16550b7d1">TemplateParser</a>
 </li>
 <li>$global
 : <a class="el" href="class_ubiquity_1_1orm_1_1parser_1_1_model_parser.html#aad844777d9d6beb4ca7c92d97afe7d27">ModelParser</a>
@@ -922,7 +938,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1cache_1_1preloading_1_1_preloader_internal_trait.html#ab832f4c463ee1c9ba2e9464265f7ea3b">PreloaderInternalTrait</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1_messages_catalog.html#ab832f4c463ee1c9ba2e9464265f7ea3b">MessagesCatalog</a>
 , <a class="el" href="class_ubiquity_1_1translation_1_1_messages_domain.html#ab832f4c463ee1c9ba2e9464265f7ea3b">MessagesDomain</a>
-, <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#ab832f4c463ee1c9ba2e9464265f7ea3b">Twig</a>
+, <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_twig.html#ab832f4c463ee1c9ba2e9464265f7ea3b">Twig</a>
 </li>
 <li>$locale
 : <a class="el" href="class_ubiquity_1_1translation_1_1_messages_catalog.html#a3b392f5a691b803e728f1fb42b35f6e1">MessagesCatalog</a>
@@ -1213,6 +1229,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$onNonce
 : <a class="el" href="class_ubiquity_1_1security_1_1csp_1_1_nonce_generator.html#afb5540ed0186ef13efb65d60a83d5605">NonceGenerator</a>
 </li>
+<li>$openExpressionTag
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#aaac74e897eace5aa92ad8cc804c9ad9e">TemplateGenerator</a>
+</li>
+<li>$openVarTag
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#a08ed56d813c7da05187a62cafa0c9f13">TemplateGenerator</a>
+</li>
 <li>$operations
 : <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1_abstract_db_wrapper.html#a3f662373ff81db09eed5649d07f1931c">AbstractDbWrapper</a>
 , <a class="el" href="class_ubiquity_1_1db_1_1providers_1_1pdo_1_1drivers_1_1_abstract_driver_meta_datas.html#a3f662373ff81db09eed5649d07f1931c">AbstractDriverMetaDatas</a>
@@ -1257,7 +1279,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1utils_1_1yuml_1_1_class_to_yuml.html#a4703a88cfca81bce28e4cb14a9959877">ClassToYuml</a>
 </li>
 <li>$parsers
-: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html#ae7df9b3add8c1b302615fc85fbd27de0">MicroTemplateEngine</a>
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html#a7bce55fb53487056d024f1253bd97caa">MicroTemplateEngine</a>
 </li>
 <li>$part
 : <a class="el" href="class_ubiquity_1_1log_1_1_log_message.html#a9926d99c406076259bb8aded88ac85ce">LogMessage</a>
@@ -1486,6 +1508,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$rowHeight
 : <a class="el" href="class_ubiquity_1_1devtools_1_1cmd_1_1_console_table.html#a7d245759663b6c9701e903a5d72d7b88">ConsoleTable</a>
 </li>
+<li>$safeFilter
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#a33fe4fe12fdb82a3a7efcb84aa194c9f">TemplateGenerator</a>
+</li>
 <li>$sameOrigin
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1_auth_tokens.html#aead2f8b656bd34089062d42bb6c31f94">AuthTokens</a>
 </li>
@@ -1712,7 +1737,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="class_ubiquity_1_1orm_1_1creator_1_1_member.html#a9f5e1523dba4609d86758e148a570be9">Member</a>
 </li>
 <li>$twig
-: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_twig.html#a95b22cf97ae99a402854f5f45a9871bf">Twig</a>
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_twig.html#a95b22cf97ae99a402854f5f45a9871bf">Twig</a>
 </li>
 <li>$TWO_FA_KEY
 : <a class="el" href="class_ubiquity_1_1controllers_1_1auth_1_1traits_1_1_auth2_f_a_trait.html#a214daa4d8477afb2d7edb171c921937c">Auth2FATrait</a>
@@ -1769,7 +1794,6 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$uses
 : <a class="el" href="class_ubiquity_1_1creator_1_1_has_uses_trait.html#af050f1d6cfed92e5511909eba5754516">HasUsesTrait</a>
-, <a class="el" href="class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html#ab24c603e59962e3f386525167122d191">ClassCreator</a>
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_command.html#af050f1d6cfed92e5511909eba5754516">ScaffoldCommand</a>
 </li>
 <li>$useTransformer
@@ -1819,6 +1843,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>$variables
 : <a class="el" href="class_ubiquity_1_1debug_1_1_debugger.html#a36e3c1723152e5362500928dc802c4bb">Debugger</a>
 </li>
+<li>$varPattern
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_template_parser.html#aec44fed29f7c128717ea79f3ab805de5">TemplateParser</a>
+</li>
 <li>$vars
 : <a class="el" href="class_ubiquity_1_1views_1_1_view.html#a09f2c833c130b4443725fb576d9d5269">View</a>
 </li>
@@ -1845,7 +1872,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html#a2bc32a57c3a42b3b411c76e457481767">ScaffoldController</a>
 </li>
 <li>$viewsFolder
-: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html#a6099872bd12ea9162d336596ba11eac0">MicroTemplateEngine</a>
+: <a class="el" href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html#a12839291a037278294d73d5e793e9aa2">MicroTemplateEngine</a>
 </li>
 <li>$violation
 : <a class="el" href="class_ubiquity_1_1contents_1_1validation_1_1validators_1_1multiples_1_1_validator_multiple.html#a68b86cd8c6904e9d0c70fb5912025777">ValidatorMultiple</a>
@@ -1878,7 +1905,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:36 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Feb 12 2023 13:15:11 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

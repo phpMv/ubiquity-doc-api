@@ -196,7 +196,6 @@ var hierarchy =
     ] ],
     [ "CacheFile", "class_ubiquity_1_1cache_1_1_cache_file.html", null ],
     [ "CallableParser", "class_ubiquity_1_1cache_1_1parser_1_1_callable_parser.html", null ],
-    [ "ClassCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html", null ],
     [ "ClassesToYuml", "class_ubiquity_1_1utils_1_1yuml_1_1_classes_to_yuml.html", null ],
     [ "ClassMerger", "class_ubiquity_1_1orm_1_1comparator_1_1_class_merger.html", null ],
     [ "ClassToYumlRelationsTrait", "class_ubiquity_1_1utils_1_1yuml_1_1traits_1_1_class_to_yuml_relations_trait.html", [
@@ -419,6 +418,7 @@ var hierarchy =
         ] ],
         [ "RestControllerCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html", null ]
       ] ],
+      [ "ClassCreator", "class_ubiquity_1_1scaffolding_1_1creators_1_1_class_creator.html", null ],
       [ "ScaffoldController", "class_ubiquity_1_1scaffolding_1_1_scaffold_controller.html", null ]
     ] ],
     [ "HtmlLogFormatter", "class_ubiquity_1_1log_1_1_html_log_formatter.html", null ],
@@ -532,9 +532,11 @@ var hierarchy =
     [ "TableReversor", "class_ubiquity_1_1orm_1_1reverse_1_1_table_reversor.html", null ],
     [ "TemplateEngine", "class_ubiquity_1_1views_1_1engine_1_1_template_engine.html", [
       [ "MicroTemplateEngine", "class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html", null ],
-      [ "Twig", "class_ubiquity_1_1views_1_1engine_1_1_twig.html", null ]
+      [ "Twig", "class_ubiquity_1_1views_1_1engine_1_1twig_1_1_twig.html", null ]
     ] ],
+    [ "TemplateGenerator", "class_ubiquity_1_1views_1_1engine_1_1_template_generator.html", null ],
     [ "TemplateParser", "class_ubiquity_1_1views_1_1engine_1_1micro_1_1_template_parser.html", null ],
+    [ "TemplateParser", "class_ubiquity_1_1views_1_1engine_1_1twig_1_1_template_parser.html", null ],
     [ "ThemesManager", "class_ubiquity_1_1themes_1_1_themes_manager.html", null ],
     [ "TokenStorageInterface", "interface_ubiquity_1_1security_1_1csrf_1_1storages_1_1_token_storage_interface.html", [
       [ "SessionTokenStorage", "class_ubiquity_1_1security_1_1csrf_1_1storages_1_1_session_token_storage.html", null ]

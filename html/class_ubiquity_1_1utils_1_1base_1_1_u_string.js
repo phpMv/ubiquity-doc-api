@@ -12,6 +12,7 @@ var class_ubiquity_1_1utils_1_1base_1_1_u_string =
     [ "isBooleanFalse", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#ab2f818e0f4090ea26e459464f045266c", null ],
     [ "isBooleanStr", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a07ab93bf0e5bfd574426efd134b81fcb", null ],
     [ "isBooleanTrue", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a853ebbe24f3849e46fbaef45831a2dda", null ],
+    [ "isExpression", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#ab3306e1271f8fa09da9020919bcb211e", null ],
     [ "isJson", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a389e3f96c05b0266bff20783df176c78", null ],
     [ "isNotNull", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#a869a811132ab25fc1154c6898dc4ff49", null ],
     [ "isNull", "class_ubiquity_1_1utils_1_1base_1_1_u_string.html#add570fc728a427d79bfe307a9fe68eb1", null ],

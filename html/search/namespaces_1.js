@@ -90,6 +90,7 @@ var searchData=
   ['transformation',['transformation',['../namespace_ubiquity_1_1contents_1_1transformation.html',1,'Ubiquity::contents']]],
   ['transformers',['transformers',['../namespace_ubiquity_1_1contents_1_1transformation_1_1transformers.html',1,'Ubiquity::contents::transformation']]],
   ['translation',['translation',['../namespace_ubiquity_1_1translation.html',1,'Ubiquity']]],
+  ['twig',['twig',['../namespace_ubiquity_1_1views_1_1engine_1_1twig.html',1,'Ubiquity::views::engine']]],
   ['ubiquity',['Ubiquity',['../namespace_ubiquity.html',1,'']]],
   ['user',['user',['../namespace_ubiquity_1_1security_1_1auth_1_1user.html',1,'Ubiquity::security::auth']]],
   ['utils',['utils',['../namespace_ubiquity_1_1db_1_1utils.html',1,'Ubiquity\db\utils'],['../namespace_ubiquity_1_1devtools_1_1utils.html',1,'Ubiquity\devtools\utils'],['../namespace_ubiquity_1_1utils.html',1,'Ubiquity\utils']]],

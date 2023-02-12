@@ -8,8 +8,8 @@ var class_ubiquity_1_1controllers_1_1_controller =
     [ "index", "class_ubiquity_1_1controllers_1_1_controller.html#a149eb92716c1084a935e04a8d95f7347", null ],
     [ "initialize", "class_ubiquity_1_1controllers_1_1_controller.html#a91098fa7d1917ce4833f284bbef12627", null ],
     [ "isValid", "class_ubiquity_1_1controllers_1_1_controller.html#ad1d410c5fc522dc8cc9ddbd5752b00ad", null ],
-    [ "loadDefaultView", "class_ubiquity_1_1controllers_1_1_controller.html#aba4d27429b457c5c4beac5dbcd8328c8", null ],
-    [ "loadView", "class_ubiquity_1_1controllers_1_1_controller.html#a1187d6c0fc53c29a2bf87a467699152d", null ],
+    [ "loadDefaultView", "class_ubiquity_1_1controllers_1_1_controller.html#a327fde87fb860c3508d3ad82d2cb1a7e", null ],
+    [ "loadView", "class_ubiquity_1_1controllers_1_1_controller.html#afc87a0a673b2864e202d85bd4a325cec", null ],
     [ "onInvalidControl", "class_ubiquity_1_1controllers_1_1_controller.html#ac2051a426b1e66a8f0124acc49d0d059", null ],
     [ "redirectToRoute", "class_ubiquity_1_1controllers_1_1_controller.html#ac8a2fc0c9aa677ae795838cdff2fa739", null ],
     [ "$view", "class_ubiquity_1_1controllers_1_1_controller.html#ad857a1a016767ce3fd06db1a447d5c67", null ]

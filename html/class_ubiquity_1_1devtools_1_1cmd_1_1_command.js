@@ -64,6 +64,7 @@ var class_ubiquity_1_1devtools_1_1cmd_1_1_command =
     [ "serve", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a3b4c269b1b93dcf46e109c72df07ad08", null ],
     [ "setCategory", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a309475f82c8fca1a84f96f802f05a5fb", null ],
     [ "simpleString", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#ad5eb508afa695910c3c99f9da741dfac", null ],
+    [ "templateParser", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a2dd27081b9cbf2eb69a27a6f6458d3d6", null ],
     [ "version", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#ae9fc081909827f837b06e14a249714c0", null ],
     [ "$aliases", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a7e6d29edbd9ec5d8ec9d478cf98fba03", null ],
     [ "$category", "class_ubiquity_1_1devtools_1_1cmd_1_1_command.html#a18b2a8d133fa7733bf34abcc6ca2ef5b", null ],

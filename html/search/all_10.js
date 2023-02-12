@@ -42,6 +42,7 @@ var searchData=
   ['onsuccessdeletemessage',['onSuccessDeleteMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#aa22f14b8a8abd2234b5c84a6a6dfc945',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['onsuccessdeletemultiplemessage',['onSuccessDeleteMultipleMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#aac12bd52833034412af2eec9b2250ea9',1,'Ubiquity::controllers::crud::CRUDEvents']]],
   ['onsuccessupdatemessage',['onSuccessUpdateMessage',['../class_ubiquity_1_1controllers_1_1crud_1_1_c_r_u_d_events.html#a54daa29f56b3e0d3a418e54f75deaa59',1,'Ubiquity::controllers::crud::CRUDEvents']]],
+  ['openblock',['openBlock',['../class_ubiquity_1_1views_1_1engine_1_1_template_generator.html#ae4f08c9af089041f5a47035dda68d088',1,'Ubiquity::views::engine::TemplateGenerator']]],
   ['openfile',['openFile',['../class_ubiquity_1_1devtools_1_1utils_1_1_file_utils.html#a04715e98e61ffe546f87345a1ae92929',1,'Ubiquity::devtools::utils::FileUtils']]],
   ['openreplaceintemplatefile',['openReplaceInTemplateFile',['../class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#a762592e25f1026f1f5dd08b9aaa84357',1,'Ubiquity::utils::base::traits::UFileSystemWriter']]],
   ['openreplacewritefromtemplatefile',['openReplaceWriteFromTemplateFile',['../class_ubiquity_1_1utils_1_1base_1_1traits_1_1_u_file_system_writer.html#ae1dc23eed43ab65c46d41ba7892839fc',1,'Ubiquity::utils::base::traits::UFileSystemWriter']]],

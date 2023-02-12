@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ubiquity
-   &#160;<span id="projectnumber">2.5.1</span>
+   &#160;<span id="projectnumber">2.5.2</span>
    </div>
    <div id="projectbrief">php rapid development framework</div>
   </td>
@@ -83,7 +83,9 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1views_1_1engine_1_1_
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">TemplateEngine Class Reference</div>  </div>
 </div><!--header-->
@@ -100,32 +102,304 @@ $(document).ready(function(){initNavTree('class_ubiquity_1_1views_1_1engine_1_1_
   <img src="class_ubiquity_1_1views_1_1engine_1_1_template_engine.png" usemap="#TemplateEngine_map" alt=""/>
   <map id="TemplateEngine_map" name="TemplateEngine_map">
 <area href="class_ubiquity_1_1views_1_1engine_1_1micro_1_1_micro_template_engine.html" alt="MicroTemplateEngine" shape="rect" coords="0,56,134,80"/>
-<area href="class_ubiquity_1_1views_1_1engine_1_1_twig.html" title="Ubiquity Twig template engine. " alt="Twig" shape="rect" coords="144,56,278,80"/>
+<area href="class_ubiquity_1_1views_1_1engine_1_1twig_1_1_twig.html" title="Ubiquity Twig template engine. " alt="Twig" shape="rect" coords="144,56,278,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1788bed08f032d78d2e05f64c37fb5eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a1788bed08f032d78d2e05f64c37fb5eb">render</a> ($fileName, $pData, $asString)</td></tr>
-<tr class="memdesc:a1788bed08f032d78d2e05f64c37fb5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders a view.  <a href="#a1788bed08f032d78d2e05f64c37fb5eb">More...</a><br /></td></tr>
-<tr class="separator:a1788bed08f032d78d2e05f64c37fb5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92fe90859ac040f55e668f6be8afad0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#aa92fe90859ac040f55e668f6be8afad0">getBlockNames</a> ($templateName)</td></tr>
-<tr class="memdesc:aa92fe90859ac040f55e668f6be8afad0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the defined block names.  <a href="#aa92fe90859ac040f55e668f6be8afad0">More...</a><br /></td></tr>
-<tr class="separator:aa92fe90859ac040f55e668f6be8afad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae00bb089543ff18ca275c5d44cfa1ec7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#ae00bb089543ff18ca275c5d44cfa1ec7">getCode</a> ($templateName)</td></tr>
-<tr class="memdesc:ae00bb089543ff18ca275c5d44cfa1ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the source code of the template.  <a href="#ae00bb089543ff18ca275c5d44cfa1ec7">More...</a><br /></td></tr>
-<tr class="separator:ae00bb089543ff18ca275c5d44cfa1ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c4f3433c82ba8078440a2cf914b439"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#aa3c4f3433c82ba8078440a2cf914b439">render</a> (string $viewName, ?array $pData=[], bool $asString=false)</td></tr>
+<tr class="memdesc:aa3c4f3433c82ba8078440a2cf914b439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders a view.  <a href="#aa3c4f3433c82ba8078440a2cf914b439">More...</a><br /></td></tr>
+<tr class="separator:aa3c4f3433c82ba8078440a2cf914b439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e449d4f0f15adf73b3bd2a8f494a59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a90e449d4f0f15adf73b3bd2a8f494a59">getBlockNames</a> (string $templateName)</td></tr>
+<tr class="memdesc:a90e449d4f0f15adf73b3bd2a8f494a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the defined block names.  <a href="#a90e449d4f0f15adf73b3bd2a8f494a59">More...</a><br /></td></tr>
+<tr class="separator:a90e449d4f0f15adf73b3bd2a8f494a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cad7348af7fe141c826be63e2a6165f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a9cad7348af7fe141c826be63e2a6165f">getCode</a> (string $templateName)</td></tr>
+<tr class="memdesc:a9cad7348af7fe141c826be63e2a6165f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the source code of the template.  <a href="#a9cad7348af7fe141c826be63e2a6165f">More...</a><br /></td></tr>
+<tr class="separator:a9cad7348af7fe141c826be63e2a6165f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f07ef9937076373fec1a87230588c7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a9f07ef9937076373fec1a87230588c7d">addFunction</a> (string $name, $callback, array $options=[])</td></tr>
+<tr class="separator:a9f07ef9937076373fec1a87230588c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf4047bd8411d1720781784a49c3818"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#acaf4047bd8411d1720781784a49c3818">exists</a> (string $name)</td></tr>
+<tr class="memdesc:acaf4047bd8411d1720781784a49c3818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if we have the source code of a template, given its name.  <a href="#acaf4047bd8411d1720781784a49c3818">More...</a><br /></td></tr>
+<tr class="separator:acaf4047bd8411d1720781784a49c3818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0632a438a1f042c5efd5b6b81074a12f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a0632a438a1f042c5efd5b6b81074a12f">setTheme</a> (string $theme, string $themeFolder=<a class="el" href="class_ubiquity_1_1themes_1_1_themes_manager.html#a993bdbe1f0e98cdd384c81c81f6d82f3">ThemesManager::THEMES_FOLDER</a>)</td></tr>
+<tr class="memdesc:a0632a438a1f042c5efd5b6b81074a12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the activeTheme.  <a href="#a0632a438a1f042c5efd5b6b81074a12f">More...</a><br /></td></tr>
+<tr class="separator:a0632a438a1f042c5efd5b6b81074a12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e98a96b414107bd324ff5cc4f6eb539"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a1e98a96b414107bd324ff5cc4f6eb539">getGenerator</a> ()</td></tr>
+<tr class="separator:a1e98a96b414107bd324ff5cc4f6eb539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf14ac420ff092e18225b2f6ad14597e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#aaf14ac420ff092e18225b2f6ad14597e">generateTemplateSourceFromFile</a> (string $templateName)</td></tr>
+<tr class="memdesc:aaf14ac420ff092e18225b2f6ad14597e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the source for this engine from a twig model template.  <a href="#aaf14ac420ff092e18225b2f6ad14597e">More...</a><br /></td></tr>
+<tr class="separator:aaf14ac420ff092e18225b2f6ad14597e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f42fe427b57a44706db55c15e225283"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a2f42fe427b57a44706db55c15e225283">generateTemplateSource</a> (string $source)</td></tr>
+<tr class="separator:a2f42fe427b57a44706db55c15e225283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a97a3a2d96a00b6470bf4f1f37626076d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a97a3a2d96a00b6470bf4f1f37626076d">addFilter</a> (string $name, $callback, array $options=[])</td></tr>
+<tr class="separator:a97a3a2d96a00b6470bf4f1f37626076d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5e86f5ed648ea7b13beff8d0697063c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#ae5e86f5ed648ea7b13beff8d0697063c">addExtension</a> ($extension)</td></tr>
+<tr class="separator:ae5e86f5ed648ea7b13beff8d0697063c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc748647c0873ca7441479c5309758d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a0fc748647c0873ca7441479c5309758d">hasThemeResource</a> (&amp;$resource)</td></tr>
+<tr class="separator:a0fc748647c0873ca7441479c5309758d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad948534a3a04844b2e5e987b55ed1d62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#ad948534a3a04844b2e5e987b55ed1d62">addFunctions</a> ()</td></tr>
+<tr class="separator:ad948534a3a04844b2e5e987b55ed1d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e26889d6c3f671e9b1c020b2e6aafce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a5e26889d6c3f671e9b1c020b2e6aafce">safeString</a> (string $str)</td></tr>
+<tr class="separator:a5e26889d6c3f671e9b1c020b2e6aafce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a7ace10e1b25539c9abc6805319db5f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ubiquity_1_1core_1_1_framework.html">Framework</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html#a7ace10e1b25539c9abc6805319db5f57">$fw</a></td></tr>
+<tr class="separator:a7ace10e1b25539c9abc6805319db5f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract template engine. </p>
 <p><a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a>$TemplateEngine This class is part of <a class="el" href="namespace_ubiquity.html" title="Class Configuration . ">Ubiquity</a></p>
 <dl class="section author"><dt>Author</dt><dd>jcheron <a href="#" onclick="location.href='mai'+'lto:'+'mya'+'dd'+'res'+'sm'+'ail'+'@g'+'mai'+'l.'+'com'; return false;">myadd<span style="display: none;">.nosp@m.</span>ress<span style="display: none;">.nosp@m.</span>mail@<span style="display: none;">.nosp@m.</span>gmai<span style="display: none;">.nosp@m.</span>l.com</a> </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0.0 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.1.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00014">14</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00021">21</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa92fe90859ac040f55e668f6be8afad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa92fe90859ac040f55e668f6be8afad0">&#9670;&nbsp;</a></span>getBlockNames()</h2>
+<a id="ae5e86f5ed648ea7b13beff8d0697063c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5e86f5ed648ea7b13beff8d0697063c">&#9670;&nbsp;</a></span>addExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">addExtension </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$extension</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97a3a2d96a00b6470bf4f1f37626076d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a3a2d96a00b6470bf4f1f37626076d">&#9670;&nbsp;</a></span>addFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">addFilter </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$options</em> = <code>[]</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
+    <tr><td class="paramtype"></td><td class="paramname">$callback</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$options</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a9f07ef9937076373fec1a87230588c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f07ef9937076373fec1a87230588c7d">&#9670;&nbsp;</a></span>addFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">addFunction </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname"><em>$options</em> = <code>[]</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
+    <tr><td class="paramtype"></td><td class="paramname">$callback</td><td></td></tr>
+    <tr><td class="paramtype">array</td><td class="paramname">$options</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="ad948534a3a04844b2e5e987b55ed1d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad948534a3a04844b2e5e987b55ed1d62">&#9670;&nbsp;</a></span>addFunctions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">addFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00099">99</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<a id="acaf4047bd8411d1720781784a49c3818"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaf4047bd8411d1720781784a49c3818">&#9670;&nbsp;</a></span>exists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">exists </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if we have the source code of a template, given its name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$name</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>boolean </dd></dl>
+
+</div>
+</div>
+<a id="a2f42fe427b57a44706db55c15e225283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f42fe427b57a44706db55c15e225283">&#9670;&nbsp;</a></span>generateTemplateSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">generateTemplateSource </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00163">163</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<a id="aaf14ac420ff092e18225b2f6ad14597e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf14ac420ff092e18225b2f6ad14597e">&#9670;&nbsp;</a></span>generateTemplateSourceFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">generateTemplateSourceFromFile </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$templateName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generates the source for this engine from a twig model template. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$templateName</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00158">158</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<a id="a90e449d4f0f15adf73b3bd2a8f494a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e449d4f0f15adf73b3bd2a8f494a59">&#9670;&nbsp;</a></span>getBlockNames()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +410,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">getBlockNames </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>$templateName</em></td><td>)</td>
           <td></td>
         </tr>
@@ -158,8 +432,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae00bb089543ff18ca275c5d44cfa1ec7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae00bb089543ff18ca275c5d44cfa1ec7">&#9670;&nbsp;</a></span>getCode()</h2>
+<a id="a9cad7348af7fe141c826be63e2a6165f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cad7348af7fe141c826be63e2a6165f">&#9670;&nbsp;</a></span>getCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,7 +444,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">getCode </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>$templateName</em></td><td>)</td>
           <td></td>
         </tr>
@@ -192,8 +466,61 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1788bed08f032d78d2e05f64c37fb5eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1788bed08f032d78d2e05f64c37fb5eb">&#9670;&nbsp;</a></span>render()</h2>
+<a id="a1e98a96b414107bd324ff5cc4f6eb539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e98a96b414107bd324ff5cc4f6eb539">&#9670;&nbsp;</a></span>getGenerator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">getGenerator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fc748647c0873ca7441479c5309758d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc748647c0873ca7441479c5309758d">&#9670;&nbsp;</a></span>hasThemeResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">hasThemeResource </td>
+          <td>(</td>
+          <td class="paramtype">&amp;&#160;</td>
+          <td class="paramname"><em>$resource</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00074">74</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<a id="aa3c4f3433c82ba8078440a2cf914b439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c4f3433c82ba8078440a2cf914b439">&#9670;&nbsp;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,20 +531,20 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">render </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$fileName</em>, </td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$viewName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$pData</em>, </td>
+          <td class="paramtype">?array&#160;</td>
+          <td class="paramname"><em>$pData</em> = <code>[]</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$asString</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>$asString</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -235,12 +562,111 @@ Public Member Functions</h2></td></tr>
 <p>Renders a view. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramtype">string</td><td class="paramname">$fileName</td><td></td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$viewName</td><td></td></tr>
     <tr><td class="paramtype">array&#160;|&#160;null</td><td class="paramname">$pData</td><td></td></tr>
     <tr><td class="paramtype">boolean</td><td class="paramname">$asString</td><td></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5e26889d6c3f671e9b1c020b2e6aafce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e26889d6c3f671e9b1c020b2e6aafce">&#9670;&nbsp;</a></span>safeString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">safeString </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00147">147</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<a id="a0632a438a1f042c5efd5b6b81074a12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0632a438a1f042c5efd5b6b81074a12f">&#9670;&nbsp;</a></span>setTheme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">setTheme </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$theme</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>$themeFolder</em> = <code><a class="el" href="class_ubiquity_1_1themes_1_1_themes_manager.html#a993bdbe1f0e98cdd384c81c81f6d82f3">ThemesManager::THEMES_FOLDER</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines the activeTheme. </p>
+<p><b>activeTheme</b> namespace is </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">string</td><td class="paramname">$theme</td><td></td></tr>
+    <tr><td class="paramtype">string</td><td class="paramname">$themeFolder</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ThemesException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00087">87</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Field Documentation</h2>
+<a id="a7ace10e1b25539c9abc6805319db5f57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ace10e1b25539c9abc6805319db5f57">&#9670;&nbsp;</a></span>$fw</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ubiquity_1_1core_1_1_framework.html">Framework</a> $fw</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_template_engine_8php_source.html#l00023">23</a> of file <a class="el" href="_template_engine_8php_source.html">TemplateEngine.php</a>.</p>
 
 </div>
 </div>
@@ -254,7 +680,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_ubiquity.html">Ubiquity</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1views.html">views</a></li><li class="navelem"><a class="el" href="namespace_ubiquity_1_1views_1_1engine.html">engine</a></li><li class="navelem"><a class="el" href="class_ubiquity_1_1views_1_1engine_1_1_template_engine.html">TemplateEngine</a></li>
-    <li class="footer"><small>Generated on Sun Jan 1 2023 03:44:35 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
+    <li class="footer"><small>Generated on Sun Feb 12 2023 13:15:05 for <a href="https://ubiquity.kobject.net/">Ubiquity</a>
  by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.13
 </small></li>
   </ul>

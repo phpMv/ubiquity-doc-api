@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_ubiquity_1_1scaffolding_1_1creators_1_1_rest_controller_creator.html#abd4c7b8b084214b8d2533ba07fce6b83":[3,0,0,17,0,5,5],
+"class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html":[3,0,0,17,1,0],
 "class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html#a5ced19d130a1a840bc27f811bac7cb48":[3,0,0,17,1,0,2],
 "class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html#a64e86390a222cf666bb8f245d3f1fee6":[3,0,0,17,1,0,3],
 "class_ubiquity_1_1scaffolding_1_1starter_1_1_service_starter.html#a69dc299b6e38db0fe84f32c16086c198":[3,0,0,17,1,0,7],
@@ -241,13 +243,11 @@ var NAVTREEINDEX18 =
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html#a9c89f4a8b7590ce979f0c52d5f8ab34b":[3,0,0,18,0,3,1,1],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_cache_provider.html#ae23aae6b3675fbf40118b23071a12984":[3,0,0,18,0,3,1,7],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html":[3,0,0,18,0,3,2],
-"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a01a3ef989a3558c83753f4f5293e1988":[3,0,0,18,0,3,2,5],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a067bcc791ec72a30cb2b144aeef731a1":[3,0,0,18,0,3,2,20],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1323c54e10b5f4cad5e3bbd3eaff4eb3":[3,0,0,18,0,3,2,7],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a13842e58b6f1f20d8b06ed2f260fe823":[3,0,0,18,0,3,2,17],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a14ac524d41f332ecee96daeb224de9a7":[3,0,0,18,0,3,2,18],
 "class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a15e579fe345392a717935bb93cc48d83":[3,0,0,18,0,3,2,31],
-"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1c40f27bdcc44f4faf3fc044ee577af2":[3,0,0,18,0,3,2,3],
-"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1d52000610ef9948adc904d7fc8188d7":[3,0,0,18,0,3,2,0],
-"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a2132aa92df061fdc17b814355289d165":[3,0,0,18,0,3,2,15]
+"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1b68a3d7b7d64154a6eecff20916a6b2":[3,0,0,18,0,3,2,5],
+"class_ubiquity_1_1security_1_1acl_1_1persistence_1_1_acl_d_a_o_provider.html#a1c40f27bdcc44f4faf3fc044ee577af2":[3,0,0,18,0,3,2,3]
 };

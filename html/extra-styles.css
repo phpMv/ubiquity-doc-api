@@ -11,7 +11,7 @@ body, table, div:not(.fragment):not(.line), p, dl {
 }
 #projectname
 {
-    color: #1e3f45;
+	color: #333;
     margin: 0;
     font-size: 40px!important;
     letter-spacing: 0.02em;
@@ -208,11 +208,4 @@ div.ah, span.ah{
 
 a.qindex {
     padding: 0px 5px;
-}
-
-.sm-dox ul a:hover {
-    color: #555;
-    text-shadow: none!important;
-	font-weight: bold;
-	text-decoration: underline;
 }
